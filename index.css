@@ -1,0 +1,1422 @@
+/* Premium CSS System for Bilingual Bible App */
+
+/* Design Tokens & Theme Variables */
+:root {
+    --transition-speed: 0.3s;
+    --font-sans: 'Inter', sans-serif;
+    --font-serif: 'Nanum Myeongjo', serif;
+    --font-title: 'Outfit', sans-serif;
+
+    /* Elegant Muted Accent Colors (Sage, Slate, Taupe, Dusty Rose) */
+    --accent-teal: #789078;     /* Sage Green: Calm & Warm */
+    --accent-indigo: #788590;   /* Slate Blue: Intelligent & Soft */
+    --accent-gold: #b3997e;     /* Taupe Sand: Classic & Warm */
+    --accent-rose: #b0888b;     /* Dusty Rose: Deep & Elegant */
+    
+    /* Default Accent: Sage Green */
+    --accent: var(--accent-teal);
+    --accent-rgb: 120, 144, 120;
+    
+    /* Base font size multiplier managed by JS */
+    --font-scale: 1.0;
+}
+
+/* Dark Theme (Warm Charcoal & Matte Feel) */
+[data-theme="dark"] {
+    --bg-gradient: none;
+    --bg-color: #171615;
+    --glass-bg: #201f1d;
+    --glass-border: rgba(255, 255, 255, 0.04);
+    --text-primary: #e6e3dd;
+    --text-secondary: #999690;
+    --text-muted: #6b6965;
+    --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.18);
+    --header-bg: rgba(23, 22, 21, 0.95);
+    --accent-dim: rgba(var(--accent-rgb), 0.08); /* Sophisticated light highlight */
+    --accent-border: rgba(var(--accent-rgb), 0.25);
+    --card-active-bg: rgba(var(--accent-rgb), 0.04);
+    --panel-bg: #1e1d1b;
+    --modal-bg-rgb: 30, 29, 27;
+}
+
+/* Light Theme (Ecru / Soft Ivory paper page feel) */
+[data-theme="light"] {
+    --bg-gradient: none;
+    --bg-color: #f7f5f0;
+    --glass-bg: #ffffff;
+    --glass-border: rgba(42, 40, 37, 0.05);
+    --text-primary: #2b2927;
+    --text-secondary: #6c6964;
+    --text-muted: #9f9b95;
+    --card-shadow: 0 4px 20px rgba(42, 40, 37, 0.03);
+    --header-bg: rgba(247, 245, 240, 0.95);
+    --accent-dim: rgba(var(--accent-rgb), 0.06); /* Sophisticated light highlight */
+    --accent-border: rgba(var(--accent-rgb), 0.25);
+    --card-active-bg: rgba(var(--accent-rgb), 0.03);
+    --panel-bg: #ffffff;
+    --modal-bg-rgb: 255, 255, 255;
+}
+
+/* CSS Reset & Defaults */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    font-family: var(--font-sans);
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    overflow-x: hidden;
+    min-height: 100vh;
+    line-height: 1.6;
+    transition: background-color var(--transition-speed), color var(--transition-speed);
+}
+
+/* Ambient Background Glimmer */
+.ambient-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: var(--bg-gradient);
+    z-index: -2;
+    transition: background var(--transition-speed);
+}
+
+.ambient-bg::before {
+    content: '';
+    position: absolute;
+    top: -20%;
+    left: -20%;
+    width: 60%;
+    height: 60%;
+    background: radial-gradient(circle, rgba(var(--accent-rgb), 0.04) 0%, rgba(0,0,0,0) 70%);
+    filter: blur(80px);
+    pointer-events: none;
+    transition: background 0.5s ease;
+    animation: pulseGlow 15s infinite alternate ease-in-out;
+}
+
+@keyframes pulseGlow {
+    0% { transform: scale(1) translate(0, 0); }
+    100% { transform: scale(1.2) translate(10%, 10%); }
+}
+
+/* App Containers */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 1024px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* Floating Premium Header */
+.app-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--header-bg);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-bottom: 1px solid var(--glass-border);
+    transition: background var(--transition-speed), border-color var(--transition-speed);
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px 8px 20px;
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-sub {
+    font-family: var(--font-title);
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--text-muted);
+    font-weight: 700;
+}
+
+/* Bible Picker Trigger Button (Brand Title) */
+.picker-trigger-btn {
+    border: none;
+    background: transparent;
+    padding: 2px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--font-title);
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--text-primary);
+    cursor: pointer;
+    text-align: left;
+    transition: color 0.2s ease;
+}
+
+.picker-trigger-btn:hover {
+    color: var(--accent);
+}
+
+.picker-trigger-btn #header-chapter-num {
+    color: var(--accent);
+    margin-left: 4px;
+    transition: color var(--transition-speed);
+}
+
+.trigger-arrow {
+    font-size: 14px;
+    color: var(--text-muted);
+    transition: transform 0.2s ease;
+}
+
+.picker-trigger-btn:hover .trigger-arrow {
+    color: var(--accent);
+    transform: translateY(2px);
+}
+
+.header-actions {
+    display: flex;
+    gap: 8px;
+}
+
+/* Layout Options Bar */
+.layout-selector-bar {
+    padding: 4px 20px 14px 20px;
+}
+
+.segment-container {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.layout-toggle-container,
+.lang-toggle-container {
+    flex: 1;
+    display: flex;
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    padding: 4px;
+    gap: 2px;
+}
+
+.layout-btn,
+.lang-btn-quick {
+    flex: 1;
+    border: none;
+    background: transparent;
+    padding: 9px 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    color: var(--text-secondary);
+    font-size: 12.5px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.layout-btn i,
+.lang-btn-quick i {
+    font-size: 13.5px;
+}
+
+.layout-btn.active,
+.lang-btn-quick.active {
+    background: var(--accent);
+    color: #000;
+}
+
+/* Button & UI styling */
+.icon-btn {
+    border: none;
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    color: var(--text-primary);
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    transition: all 0.2s ease;
+}
+
+.icon-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+/* Slide-out Settings Panel */
+.settings-panel {
+    position: fixed;
+    top: 0;
+    right: -320px;
+    width: 300px;
+    height: 100vh;
+    background: var(--panel-bg);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    box-shadow: -10px 0 30px rgba(0,0,0,0.25);
+    z-index: 1000;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    transition: right 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    border-left: 1px solid var(--glass-border);
+}
+
+.settings-panel.open {
+    right: 0;
+}
+
+.settings-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    border-bottom: 1px solid var(--glass-border);
+    padding-bottom: 12px;
+}
+
+.settings-header h3 {
+    font-family: var(--font-title);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.close-btn {
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    color: var(--text-secondary);
+    cursor: pointer;
+}
+
+.settings-body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.setting-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.setting-label {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.font-size-controls {
+    display: flex;
+    align-items: center;
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    padding: 6px;
+    justify-content: space-between;
+}
+
+.ctrl-btn {
+    border: none;
+    background: transparent;
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    color: var(--text-primary);
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+}
+
+.ctrl-btn:hover {
+    background: rgba(255,255,255,0.08);
+}
+
+.size-val {
+    font-weight: 700;
+    font-size: 14px;
+    font-family: var(--font-title);
+}
+
+.font-family-controls {
+    display: flex;
+    gap: 8px;
+}
+
+.family-btn {
+    flex-grow: 1;
+    border: 1px solid var(--glass-border);
+    background: var(--glass-bg);
+    color: var(--text-primary);
+    padding: 8px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.family-btn.active {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: var(--accent-dim);
+}
+
+.sub-lang-controls {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+}
+
+.lang-btn {
+    flex-grow: 1;
+    border: 1px solid var(--glass-border);
+    background: var(--glass-bg);
+    color: var(--text-primary);
+    padding: 8.5px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.lang-btn.active {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: var(--accent-dim);
+}
+
+.accent-color-pickers {
+    display: flex;
+    gap: 12px;
+    padding: 4px 0;
+}
+
+.color-dot {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.color-dot:hover {
+    transform: scale(1.1);
+}
+
+.color-dot.active {
+    border-color: var(--text-primary);
+    transform: scale(1.15);
+}
+
+.color-dot.teal { background-color: var(--accent-teal); }
+.color-dot.indigo { background-color: var(--accent-indigo); }
+.color-dot.gold { background-color: var(--accent-gold); }
+.color-dot.rose { background-color: var(--accent-rose); }
+
+
+/* Bible & Chapter Picker Modal (Bottom Sheet styling) */
+.picker-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1500;
+    display: none;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.picker-modal.open {
+    display: flex;
+}
+
+.picker-backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.picker-modal.open .picker-backdrop {
+    opacity: 1;
+}
+
+.picker-sheet {
+    background: var(--panel-bg);
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+    width: 100%;
+    max-width: 600px;
+    height: 75vh;
+    max-height: 750px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+    border: 1px solid var(--glass-border);
+    border-bottom: none;
+    transform: translateY(100%);
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    overflow: hidden;
+    box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.35);
+}
+
+.picker-modal.open .picker-sheet {
+    transform: translateY(0);
+}
+
+/* Bottom Sheet header & drag handle indicators */
+.sheet-handle-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px 8px 16px;
+    position: relative;
+    border-bottom: 1px solid var(--glass-border);
+    background: rgba(var(--modal-bg-rgb), 0.5);
+    flex-shrink: 0;
+}
+
+.sheet-handle {
+    width: 44px;
+    height: 5px;
+    background: var(--text-muted);
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+.sheet-close-btn {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    color: var(--text-secondary);
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background 0.2s;
+}
+
+.sheet-close-btn:hover {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+/* Switchable views inside Sheet */
+.picker-view {
+    display: none;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow: hidden;
+    height: calc(100% - 45px); /* Subtract handle height */
+}
+
+.picker-view.active {
+    display: flex;
+}
+
+.picker-grid-container {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding-bottom: 40px;
+}
+
+/* 1. Books View Tab selector bar */
+.picker-tabs {
+    display: flex;
+    border-bottom: 1px solid var(--glass-border);
+    background: rgba(var(--modal-bg-rgb), 0.3);
+    flex-shrink: 0;
+}
+
+.tab-btn {
+    flex-grow: 1;
+    border: none;
+    background: transparent;
+    padding: 16px 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: color 0.2s, border-color 0.2s;
+    text-align: center;
+    border-bottom: 3px solid transparent;
+}
+
+.tab-btn.active {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+}
+
+/* 4-Column Grid for Biblical Books (구약/신약) */
+.books-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px 10px;
+    padding: 20px 16px;
+}
+
+.book-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.book-card:active {
+    transform: scale(0.95);
+}
+
+.book-abbr-box {
+    width: 100%;
+    aspect-ratio: 1.1;
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text-primary);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: all 0.2s ease;
+}
+
+.book-name-label {
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-align: center;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Active Book design (Genesis) */
+.book-card.active .book-abbr-box {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: var(--accent-dim);
+    box-shadow: 0 4px 15px rgba(var(--accent-rgb), 0.2);
+}
+
+.book-card.active .book-name-label {
+    color: var(--accent);
+    font-weight: 700;
+}
+
+/* Dim non-implemented books */
+.book-card.disabled {
+    opacity: 0.45;
+}
+
+.book-card.disabled:active {
+    transform: none;
+}
+
+.book-card.disabled .book-abbr-box {
+    background: rgba(0,0,0,0.02);
+    border-style: dashed;
+}
+
+/* 2. Chapters selection View design (5-Column) */
+.picker-view-header {
+    display: flex;
+    align-items: center;
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--glass-border);
+    background: rgba(var(--modal-bg-rgb), 0.3);
+    flex-shrink: 0;
+}
+
+.back-btn {
+    border: 1px solid var(--glass-border);
+    background: var(--glass-bg);
+    color: var(--text-primary);
+    padding: 6px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.2s;
+}
+
+.back-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.selected-book-title {
+    margin-left: 16px;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: var(--font-sans);
+}
+
+.chapters-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+    padding: 20px 16px;
+}
+
+.chapter-card {
+    aspect-ratio: 1;
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-title);
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text-primary);
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: all 0.2s ease;
+}
+
+.chapter-card:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.chapter-card.active {
+    background: var(--accent);
+    color: #000;
+    border-color: var(--accent);
+    box-shadow: 0 4px 15px rgba(var(--accent-rgb), 0.35);
+}
+
+.chapter-card:active {
+    transform: scale(0.95);
+}
+
+
+/* Main Reading Container */
+.reading-area {
+    flex-grow: 1;
+    padding: 20px;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.bible-content {
+    transition: opacity 0.25s ease-in-out;
+}
+
+/* Loading & Error States */
+.loading-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0;
+    color: var(--text-secondary);
+    gap: 16px;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid var(--glass-border);
+    border-top: 4px solid var(--accent);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* General Font Family applications */
+.font-sans .passage-body {
+    font-family: var(--font-sans);
+}
+.font-serif .passage-body {
+    font-family: var(--font-serif);
+}
+
+/* Premium Passage Panel (Paper page feel) */
+.passage-panel {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: 24px;
+    padding: 28px;
+    margin-bottom: 24px;
+    box-shadow: var(--card-shadow);
+    transition: transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.passage-header {
+    font-family: var(--font-title);
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--accent);
+    margin-bottom: 18px;
+    border-bottom: 1px dashed var(--glass-border);
+    padding-bottom: 10px;
+    letter-spacing: 0.5px;
+}
+
+.passage-body {
+    text-align: justify;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+}
+
+/* SANS & SERIF Typography Tuning */
+.font-sans .passage-body {
+    font-size: calc(1.08rem * var(--font-scale));
+    line-height: 1.9;
+    color: var(--text-primary);
+}
+
+.font-serif .passage-body {
+    font-size: calc(1.15rem * var(--font-scale));
+    line-height: 2.0;
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+/* English Passage styles (lightweight text color and size) */
+.english .passage-body {
+    font-size: calc(0.98rem * var(--font-scale));
+    line-height: 1.8;
+    color: var(--text-secondary);
+}
+
+/* Verse Units (Flowing inline segments) */
+.verse-unit {
+    display: inline;
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 2px 4px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.verse-unit:hover {
+    background-color: rgba(var(--accent-rgb), 0.08);
+}
+
+.verse-unit.active-verse {
+    background-color: var(--accent-dim);
+    border-bottom: 2px solid var(--accent);
+    color: var(--text-primary);
+}
+
+/* Verse Number (Superscript style) */
+.verse-num {
+    vertical-align: super;
+    font-size: calc(0.72em * var(--font-scale));
+    font-weight: 800;
+    color: var(--accent);
+    margin-right: 3px;
+    margin-left: 2px;
+    font-family: var(--font-title);
+    transition: color 0.2s;
+}
+
+.verse-unit.active-verse .verse-num {
+    color: var(--text-primary);
+}
+
+/* Layout 1: STACKED (Over-Under Passage) Style */
+.layout-stacked {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Layout 2: SIDE-BY-SIDE (Parallel Passage) Style */
+.layout-side {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Mobile layout: side-by-side but tighter spacing */
+    gap: 12px;
+}
+
+@media (max-width: 767px) {
+    .layout-side .passage-panel {
+        padding: 16px;
+        border-radius: 16px;
+    }
+    
+    .layout-side .passage-header {
+        font-size: 15px;
+        margin-bottom: 12px;
+    }
+    
+    .layout-side .passage-body {
+        font-size: calc(0.85rem * var(--font-scale));
+        line-height: 1.6;
+    }
+}
+
+/* Tablet & Desktop Layout Tuning for Parallel view */
+@media (min-width: 768px) {
+    .layout-side {
+        gap: 28px;
+    }
+    
+    .layout-side .passage-panel {
+        padding: 32px;
+        margin-bottom: 0;
+    }
+    
+    .layout-selector-bar {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .reading-area {
+        padding: 30px 0;
+    }
+}
+
+/* Floating Action Navigation Buttons */
+.floating-nav-buttons {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 40px;
+    pointer-events: none;
+    z-index: 90;
+    width: 100%;
+    max-width: 600px;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.nav-fab {
+    pointer-events: auto;
+    border: none;
+    background: rgba(var(--accent-rgb), 0.85);
+    color: #000;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 8px 24px rgba(var(--accent-rgb), 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
+}
+
+.nav-fab:hover {
+    transform: scale(1.1);
+    background: rgba(var(--accent-rgb), 1);
+    box-shadow: 0 10px 28px rgba(var(--accent-rgb), 0.6);
+}
+
+.nav-fab:active {
+    transform: scale(0.95);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--glass-border);
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--text-muted);
+}
+
+/* Swipe Indicator Animations */
+.swipe-indicator {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    z-index: 100;
+}
+
+.prev-indicator {
+    left: -50px;
+}
+
+.next-indicator {
+    right: -50px;
+}
+
+.swipe-active-prev .prev-indicator {
+    opacity: 0.8;
+    transform: translateY(-50%) translateX(70px);
+}
+
+.swipe-active-next .next-indicator {
+    opacity: 0.8;
+    transform: translateY(-50%) translateX(-70px);
+}
+
+/* Gesture Hint Popup styling */
+.gesture-hint {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    z-index: 2000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease;
+}
+
+.gesture-hint.visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.gesture-hint-content {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    box-shadow: var(--card-shadow);
+    padding: 30px;
+    border-radius: 24px;
+    text-align: center;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.swipe-hand {
+    font-size: 48px;
+    color: var(--accent);
+    animation: swipeDemo 2s infinite ease-in-out;
+}
+
+@keyframes swipeDemo {
+    0% { transform: translateX(-30px) rotate(-10deg); }
+    50% { transform: translateX(30px) rotate(10deg); }
+    100% { transform: translateX(-30px) rotate(-10deg); }
+}
+
+.gesture-hint-content p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--text-primary);
+}
+
+.premium-btn {
+    border: none;
+    background: var(--accent);
+    color: #000;
+    padding: 10px 24px;
+    border-radius: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 14px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 12px rgba(var(--accent-rgb), 0.3);
+}
+
+.premium-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(var(--accent-rgb), 0.5);
+}
+
+.premium-btn:active {
+    transform: translateY(0);
+}
+
+/* Toast Notification Styles */
+.toast-container {
+    position: fixed;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    z-index: 3000;
+    pointer-events: none;
+    width: 90%;
+    max-width: 320px;
+}
+
+.toast-message {
+    background: rgba(15, 23, 42, 0.9);
+    border: 1px solid var(--glass-border);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 16px;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.toast-message.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Hebrew / Greek Typography and Direction Optimization */
+.hebrew-mode .verse-unit {
+    font-family: "SBL Hebrew", "Times New Roman", SBL-Hebrew, serif;
+    font-size: 1.18em;
+    line-height: 1.8;
+    text-align: right;
+    direction: rtl;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.hebrew-mode .verse-num {
+    direction: ltr;
+    display: inline-block;
+    margin-left: 6px;
+    font-size: 0.7em;
+    color: var(--accent);
+}
+
+.greek-mode .verse-unit {
+    font-family: "SBL Greek", "Times New Roman", Gentium, serif;
+    font-size: 1.08em;
+    line-height: 1.6;
+}
+
+/* Theological Commentary & Lexicon Reference Box Styles */
+.reference-section {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 260px;
+    background: var(--glass-bg);
+    border-top: 1px solid var(--glass-border);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    z-index: 1000;
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Collapsed state */
+.reference-section.collapsed {
+    transform: translateY(215px); /* Header height remains 45px visible */
+}
+
+.reference-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.reference-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.header-title-area {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13.5px;
+    font-weight: 700;
+    color: var(--accent);
+}
+
+.ref-icon {
+    font-size: 14px;
+}
+
+.ref-close-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    font-size: 14px;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s, transform 0.3s;
+}
+
+.ref-close-btn:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.reference-section.collapsed .ref-close-btn {
+    transform: rotate(180deg);
+}
+
+.reference-content {
+    flex: 1;
+    padding: 12px 0 16px 0;
+    overflow-y: auto;
+}
+
+.empty-state-ref {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: var(--text-muted);
+    text-align: center;
+    font-size: 12.5px;
+    line-height: 1.6;
+    gap: 8px;
+}
+
+.empty-state-ref .info-icon {
+    font-size: 22px;
+    color: rgba(var(--accent-rgb), 0.3);
+}
+
+/* Lexicon Card grid */
+.lexicon-grid {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    padding-bottom: 8px;
+    margin-bottom: 12px;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Custom scrollbar for horizontal cards */
+.lexicon-grid::-webkit-scrollbar {
+    height: 4px;
+}
+.lexicon-grid::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.01);
+}
+.lexicon-grid::-webkit-scrollbar-thumb {
+    background: rgba(var(--accent-rgb), 0.2);
+    border-radius: 2px;
+}
+
+.lexicon-card {
+    flex: 0 0 260px;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    padding: 10px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.lex-korean {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.lex-original {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--accent);
+}
+
+.lex-meta {
+    font-size: 9.5px;
+    color: var(--text-muted);
+    background: rgba(255, 255, 255, 0.04);
+    padding: 1px 6px;
+    border-radius: 4px;
+    align-self: flex-start;
+}
+
+.lex-meaning {
+    font-size: 11px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin-top: 4px;
+}
+
+/* Commentary Section styling */
+.theological-commentary {
+    background: rgba(var(--accent-rgb), 0.04);
+    border-left: 3px solid var(--accent);
+    padding: 10px 12px;
+    border-radius: 0 12px 12px 0;
+}
+
+.commentary-label {
+    font-size: 10px;
+    font-weight: 800;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+}
+
+.commentary-text {
+    font-size: 12px;
+    color: var(--text-primary);
+    line-height: 1.6;
+}
+
+/* Give reading area padding-bottom to prevent content cutoff */
+.reading-area {
+    padding-bottom: 280px;
+}
+
+/* Interactive Word Unit styling */
+.word-unit {
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 0 2px;
+    margin: 0 1px;
+    transition: background 0.15s ease, color 0.15s ease;
+}
+
+.active-verse .word-unit:hover {
+    color: var(--accent);
+    background: rgba(var(--accent-rgb), 0.08);
+    text-decoration: underline dotted var(--accent);
+}
+
+.active-verse .word-unit.selected-word {
+    background: rgba(var(--accent-rgb), 0.18);
+    color: var(--accent);
+    font-weight: 700;
+}
+
+/* Multilingual Word Study Tag Badges */
+.word-study-header {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255, 255, 255, 0.03);
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid var(--glass-border);
+}
+
+.word-lang-tag {
+    font-size: 9px;
+    font-weight: 800;
+    padding: 2px 6px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    display: inline-block;
+}
+
+.word-lang-tag.tag-ko { background: rgba(120, 144, 120, 0.15); color: #8fa68f; }
+.word-lang-tag.tag-en { background: rgba(120, 133, 144, 0.15); color: #9ab0c2; }
+.word-lang-tag.tag-og { background: rgba(179, 153, 126, 0.15); color: #d6be9c; }
+
+.word-study-details {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.word-study-details p {
+    font-size: 12px;
+    line-height: 1.6;
+    color: var(--text-secondary);
+    margin: 0;
+}
+
+.word-study-details p b {
+    color: var(--text-primary);
+}

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>한영 대조 창세기 성경 - Bilingual Genesis Bible</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="개역한글 성경과 영어 NIV 성경을 좌우 대조 또는 상하 대조로 한 눈에 볼 수 있는 세련되고 직관적인 모바일 웹앱입니다.">
+    <meta name="keywords" content="성경, 창세기, 한영성경, 개역한글, NIV, 대조성경, 모바일성경, Genesis, Bible, Bilingual">
+    <meta name="author" content="Antigravity Studio">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="한영 대조 창세기 성경 - Bilingual Genesis Bible">
+    <meta property="og:description" content="모바일 기기에 최적화된 화면에서 개역한글과 NIV 영어 성경 창세기를 병렬로 비교하며 읽어보세요.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Premium Ambient Background Gradient -->
+    <div class="ambient-bg"></div>
+
+    <div class="app-container">
+        <!-- Floating Header -->
+        <header class="app-header">
+            <div class="header-main">
+                <div class="brand">
+                    <span class="brand-sub">Bilingual Bible</span>
+                    <!-- Bible Picker Trigger (Replaces old text) -->
+                    <button id="bible-picker-trigger" class="picker-trigger-btn" title="성경 및 장 선택">
+                        <span id="header-book-name">창세기</span>
+                        <span id="header-chapter-num">1</span>장
+                        <i class="fa-solid fa-chevron-down trigger-arrow"></i>
+                    </button>
+                </div>
+                
+                <div class="header-actions">
+                    <button id="theme-toggle" class="icon-btn" title="테마 변경" aria-label="Toggle Dark Mode">
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+                    <button id="settings-toggle" class="icon-btn" title="설정 열기" aria-label="Open Settings">
+                        <i class="fa-solid fa-sliders"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Quick Layout & Language Bar -->
+            <div class="layout-selector-bar">
+                <div class="segment-container">
+                    <div class="layout-toggle-container">
+                        <button id="layout-side-btn" class="layout-btn active" title="좌우로 보기">
+                            <i class="fa-solid fa-columns"></i>
+                            <span>좌우 보기</span>
+                        </button>
+                        <button id="layout-stack-btn" class="layout-btn" title="상하로 보기">
+                            <i class="fa-solid fa-table-rows"></i>
+                            <span>상하 보기</span>
+                        </button>
+                    </div>
+                    <div class="lang-toggle-container">
+                        <button id="quick-lang-en-btn" class="lang-btn-quick active" title="영어 대조">
+                            <i class="fa-solid fa-globe"></i>
+                            <span>영어 (NIV)</span>
+                        </button>
+                        <button id="quick-lang-og-btn" class="lang-btn-quick" title="원어 대조">
+                            <i class="fa-solid fa-language"></i>
+                            <span>성경 원어</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Quick Settings Overlay -->
+        <div id="settings-panel" class="settings-panel">
+            <div class="settings-header">
+                <h3>독서 설정</h3>
+                <button id="settings-close" class="close-btn"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="settings-body">
+                <!-- Font Size adjustment -->
+                <div class="setting-item">
+                    <span class="setting-label">글자 크기</span>
+                    <div class="font-size-controls">
+                        <button id="font-decrease" class="ctrl-btn" aria-label="Decrease Font Size"><i class="fa-solid fa-minus"></i></button>
+                        <span id="font-size-display" class="size-val">100%</span>
+                        <button id="font-increase" class="ctrl-btn" aria-label="Increase Font Size"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                </div>
+
+                <!-- Font Family Selection -->
+                <div class="setting-item">
+                    <span class="setting-label">글꼴 스타일</span>
+                    <div class="font-family-controls">
+                        <button id="font-sans-btn" class="family-btn active">고딕체</button>
+                        <button id="font-serif-btn" class="family-btn">명조체</button>
+                    </div>
+                </div>
+
+                <!-- Accent Color selection -->
+                <div class="setting-item">
+                    <span class="setting-label">포인트 색상</span>
+                    <div class="accent-color-pickers">
+                        <span class="color-dot teal active" data-accent="teal"></span>
+                        <span class="color-dot indigo" data-accent="indigo"></span>
+                        <span class="color-dot gold" data-accent="gold"></span>
+                        <span class="color-dot rose" data-accent="rose"></span>
+                    </div>
+                </div>
+
+                <!-- Sub Language Selection (English vs Original) -->
+                <div class="setting-item">
+                    <span class="setting-label">대조 언어</span>
+                    <div class="sub-lang-controls">
+                        <button id="lang-en-btn" class="lang-btn active">영어 (NIV)</button>
+                        <button id="lang-og-btn" class="lang-btn">성경 원어</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bible / Chapter Picker Modal (Bottom Sheet style) -->
+        <div id="bible-picker-modal" class="picker-modal">
+            <div class="picker-backdrop" id="picker-backdrop"></div>
+            <div class="picker-sheet">
+                <!-- Drag Handle bar -->
+                <div class="sheet-handle-wrapper">
+                    <div class="sheet-handle"></div>
+                    <button id="picker-close" class="sheet-close-btn" aria-label="닫기">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+
+                <!-- 1. Books Selection View -->
+                <div id="picker-books-view" class="picker-view active">
+                    <div class="picker-tabs">
+                        <button id="tab-ot-btn" class="tab-btn active">구약성서</button>
+                        <button id="tab-nt-btn" class="tab-btn">신약성서</button>
+                    </div>
+                    <div class="picker-grid-container scrollable-area">
+                        <div id="picker-books-grid" class="books-grid">
+                            <!-- Filled dynamically by JS -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Chapters Selection View -->
+                <div id="picker-chapters-view" class="picker-view">
+                    <div class="picker-view-header">
+                        <button id="picker-back-btn" class="back-btn">
+                            <i class="fa-solid fa-arrow-left"></i> 책 선택
+                        </button>
+                        <h4 id="picker-selected-book-title" class="selected-book-title">창세기</h4>
+                    </div>
+                    <div class="picker-grid-container scrollable-area">
+                        <div id="picker-chapters-grid" class="chapters-grid">
+                            <!-- Filled dynamically by JS -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Reading Area -->
+        <main class="reading-area" id="reading-area">
+            <!-- Swipe zone helper on mobile -->
+            <div class="swipe-indicator prev-indicator"><i class="fa-solid fa-arrow-left"></i> 이전 장</div>
+            <div class="swipe-indicator next-indicator">다음 장 <i class="fa-solid fa-arrow-right"></i></div>
+            
+            <div id="bible-content" class="bible-content layout-side font-sans">
+                <div class="loading-state">
+                    <div class="spinner"></div>
+                    <p>창세기 말씀을 불러오는 중입니다...</p>
+                </div>
+            </div>
+        </main>
+
+        <!-- Theological Commentary & Lexicon Reference Box -->
+        <section id="reference-section" class="reference-section">
+            <div class="reference-container">
+                <div class="reference-header">
+                    <div class="header-title-area">
+                        <i class="fa-solid fa-book-open-reader ref-icon"></i>
+                        <span id="ref-verse-title">말씀 참고 및 신학 주석</span>
+                    </div>
+                    <button id="ref-close-btn" class="ref-close-btn" title="주석 박스 접기">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                </div>
+                <div id="reference-content" class="reference-content scrollable-area">
+                    <div class="empty-state-ref">
+                        <i class="fa-solid fa-circle-info info-icon"></i>
+                        <p>본문의 특정 구절을 터치하시면,<br>핵심 어휘의 영어/원어 분석과 신학 주석이 여기에 로드됩니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dynamic Floating Action Buttons for Navigation -->
+        <div class="floating-nav-buttons">
+            <button id="prev-chapter-floating" class="nav-fab" title="이전 장">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button id="next-chapter-floating" class="nav-fab" title="다음 장">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+
+        <!-- Touch Gesture Overlay Hint -->
+        <div id="gesture-hint" class="gesture-hint">
+            <div class="gesture-hint-content">
+                <i class="fa-solid fa-hand-pointer swipe-hand"></i>
+                <p>화면을 좌우로 스와이프하여<br>장을 넘길 수 있습니다.</p>
+                <button id="dismiss-hint-btn" class="premium-btn">알겠습니다</button>
+            </div>
+        </div>
+
+        <!-- Floating Toast Container -->
+        <div id="toast-container" class="toast-container"></div>
+    </div>
+
+    <!-- JavaScript logic -->
+    <script src="data/bible_data.js" charset="utf-8"></script>
+    <script src="data/commentary_db.js" charset="utf-8"></script>
+    <script src="index.js" charset="utf-8"></script>
+</body>
+</html>

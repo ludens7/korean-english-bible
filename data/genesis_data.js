@@ -1,0 +1,7918 @@
+// Compiled Genesis Bible Data (Bilingual: Korean KRV & English NIV)
+const BIBLE_DATA = [
+  {
+    "chapter": 1,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "태초에 하나님이 천지를 창조하시니라.",
+        "en": "In the beginning God created the heavens and the earth."
+      },
+      {
+        "verse": 2,
+        "ko": "땅이 혼돈하고 공허하며 흑암이 깊음 위에 있고 하나님의 신(神)은 수면에 운행하시니라",
+        "en": "Now the earth was formless and empty, darkness was over the surface of the deep, and the Spirit of God was hovering over the waters."
+      },
+      {
+        "verse": 3,
+        "ko": "하나님이 가라사대 빛이 있으라 ! 하시매 빛이 있었고",
+        "en": "And God said, “Let there be light,” and there was light."
+      },
+      {
+        "verse": 4,
+        "ko": "그 빛이 하나님의 보시기에 좋았더라 하나님이 빛과 어두움을 나누사",
+        "en": "God saw that the light was good, and he separated the light from the darkness."
+      },
+      {
+        "verse": 5,
+        "ko": "빛을 낮이라 칭하시고 어두움을 밤이라 칭하시니라 저녁이 되며 아침이 되니 이는 첫째 날이니라",
+        "en": "God called the light “day,” and the darkness he called “night.” And there was evening, and there was morning—the first day."
+      },
+      {
+        "verse": 6,
+        "ko": "하나님이 가라사대 물 가운데 궁창이 있어 물과 물로 나뉘게 하리라 ! 하시고",
+        "en": "And God said, “Let there be a vault between the waters to separate water from water.”"
+      },
+      {
+        "verse": 7,
+        "ko": "하나님이 궁창을 만드사 궁창 아래의 물과 궁창 위의 물로 나뉘게 하시매 그대로 되니라",
+        "en": "So God made the vault and separated the water under the vault from the water above it. And it was so."
+      },
+      {
+        "verse": 8,
+        "ko": "하나님이 궁창을 하늘이라 칭하시니라 저녁이 되며 아침이 되니 이는 둘째 날이니라",
+        "en": "God called the vault “sky.” And there was evening, and there was morning—the second day."
+      },
+      {
+        "verse": 9,
+        "ko": "하나님이 가라사대 천하의 물이 한곳으로 모이고 뭍이 드러나라 ! 하시매 그대로 되니라",
+        "en": "And God said, “Let the water under the sky be gathered to one place, and let dry ground appear.” And it was so."
+      },
+      {
+        "verse": 10,
+        "ko": "하나님이 뭍을 땅이라 칭하시고 모인 물을 바다라 칭하시니라 하나님의 보시기에 좋았더라",
+        "en": "God called the dry ground “land,” and the gathered waters he called “seas.” And God saw that it was good."
+      },
+      {
+        "verse": 11,
+        "ko": "하나님이 가라사대 땅은 풀과 씨 맺는 채소와 각기 종류대로 씨 가진 열매 맺는 과목을 내라 하시매 그대로 되어",
+        "en": "Then God said, “Let the land produce vegetation: seed-bearing plants and trees on the land that bear fruit with seed in it, according to their various kinds.” And it was so."
+      },
+      {
+        "verse": 12,
+        "ko": "땅이 풀과 각기 종류대로 씨 맺는 채소와 각기 종류대로 씨 가진 열매 맺는 나무를 내니 하나님의 보시기에 좋았더라",
+        "en": "The land produced vegetation: plants bearing seed according to their kinds and trees bearing fruit with seed in it according to their kinds. And God saw that it was good."
+      },
+      {
+        "verse": 13,
+        "ko": "저녁이 되며 아침이 되니 이는 세째 날이니라",
+        "en": "And there was evening, and there was morning—the third day."
+      },
+      {
+        "verse": 14,
+        "ko": "하나님이 가라사대 하늘의 궁창에 광명이 있어 주야를 나뉘게 하라 또 그 광명으로 하여 징조와 사시와 일자와 연한이 이루라",
+        "en": "And God said, “Let there be lights in the vault of the sky to separate the day from the night, and let them serve as signs to mark sacred times, and days and years,"
+      },
+      {
+        "verse": 15,
+        "ko": "또 그 광명이 하늘의 궁창에 있어 땅에 비취라 하시고 (그대로 되니라)",
+        "en": "and let them be lights in the vault of the sky to give light on the earth.” And it was so."
+      },
+      {
+        "verse": 16,
+        "ko": "하나님이 두 큰 광명을 만드사 큰 광명으로 낮을 주관하게 하시고 작은 광명으로 밤을 주관하게 하시며 또 별들을 만드시고",
+        "en": "God made two great lights—the greater light to govern the day and the lesser light to govern the night. He also made the stars."
+      },
+      {
+        "verse": 17,
+        "ko": "하나님이 그것들을 하늘의 궁창에 두어 땅에 비취게 하시며",
+        "en": "God set them in the vault of the sky to give light on the earth,"
+      },
+      {
+        "verse": 18,
+        "ko": "주야를 주관하게 하시며 빛과 어두움을 나뉘게 하시니라 하나님의 보시기에 좋았더라",
+        "en": "to govern the day and the night, and to separate light from darkness. And God saw that it was good."
+      },
+      {
+        "verse": 19,
+        "ko": "저녁이 되며 아침이 되니 이는 네째 날이니라",
+        "en": "And there was evening, and there was morning—the fourth day."
+      },
+      {
+        "verse": 20,
+        "ko": "하나님이 가라사대 물들은 생물로 번성케 하라 땅 위 하늘의 궁창에는 새가 날으라 하시고",
+        "en": "And God said, “Let the water teem with living creatures, and let birds fly above the earth across the vault of the sky.”"
+      },
+      {
+        "verse": 21,
+        "ko": "하나님이 큰 물고기와 물에서 번성하여 움직이는 모든 생물을 그 종류대로, 날개 있는 모든 새를 그 종류대로 창조하시니 하나님의 보시기에 좋았더라",
+        "en": "So God created the great creatures of the sea and every living thing with which the water teems and that moves about in it, according to their kinds, and every winged bird according to its kind. And God saw that it was good."
+      },
+      {
+        "verse": 22,
+        "ko": "하나님이 그들에게 복을 주어 가라사대 생육하고 번성하여 여러 바다물에 충만하라 새들도 땅에 번성하라 하시니라",
+        "en": "God blessed them and said, “Be fruitful and increase in number and fill the water in the seas, and let the birds increase on the earth.”"
+      },
+      {
+        "verse": 23,
+        "ko": "저녁이 되며 아침이 되니 이는 다섯째 날이니라",
+        "en": "And there was evening, and there was morning—the fifth day."
+      },
+      {
+        "verse": 24,
+        "ko": "하나님이 가라사대 땅은 생물을 그 종류대로 내되 육축과 기는 것과 땅의 짐승을 종류대로 내라 하시고 (그대로 되니라)",
+        "en": "And God said, “Let the land produce living creatures according to their kinds: the livestock, the creatures that move along the ground, and the wild animals, each according to its kind.” And it was so."
+      },
+      {
+        "verse": 25,
+        "ko": "하나님이 땅의 짐승을 그 종류대로, 육축을 그 종류대로, 땅에 기는 모든 것을 그 종류대로 만드시니 하나님의 보시기에 좋았더라",
+        "en": "God made the wild animals according to their kinds, the livestock according to their kinds, and all the creatures that move along the ground according to their kinds. And God saw that it was good."
+      },
+      {
+        "verse": 26,
+        "ko": "하나님이 가라사대 우리의 형상을 따라 우리의 모양대로 우리가 사람을 만들고 그로 바다의 고기와, 공중의 새와, 육축과, 온 땅과, 땅에 기는 모든 것을 다스리게 하자 하시고",
+        "en": "Then God said, “Let us make mankind in our image, in our likeness, so that they may rule over the fish in the sea and the birds in the sky, over the livestock and all the wild animals, and over all the creatures that move along the ground.”"
+      },
+      {
+        "verse": 27,
+        "ko": "하나님이 자기 형상 곧 하나님의 형상대로 사람을 창조하시되 남자와 여자를 창조하시고",
+        "en": "So God created mankind in his own image, in the image of God he created them; male and female he created them."
+      },
+      {
+        "verse": 28,
+        "ko": "하나님이 그들에게 복을 주시며 그들에게 이르시되 생육하고 번성하여 땅에 충만하라, 땅을 정복하라, 바다의 고기와 공중의 새와 땅에 움직이는 모든 생물을 다스리라 하시니라",
+        "en": "God blessed them and said to them, “Be fruitful and increase in number; fill the earth and subdue it. Rule over the fish in the sea and the birds in the sky and over every living creature that moves on the ground.”"
+      },
+      {
+        "verse": 29,
+        "ko": "하나님이 가라사대 내가 온 지면의 씨 맺는 모든 채소와 씨 가진 열매 맺는 모든 나무를 너희에게 주노니 너희 식물이 되리라",
+        "en": "Then God said, “I give you every seed-bearing plant on the face of the whole earth and every tree that has fruit with seed in it. They will be yours for food."
+      },
+      {
+        "verse": 30,
+        "ko": "또 땅의 모든 짐승과 공중의 모든 새와 생명이 있어 땅에 기는 모든 것에게는 내가 모든 푸른 풀을 식물로 주노라 하시니 그대로 되니라",
+        "en": "And to all the beasts of the earth and all the birds in the sky and all the creatures that move along the ground—everything that has the breath of life in it—I give every green plant for food.” And it was so."
+      },
+      {
+        "verse": 31,
+        "ko": "하나님이 그 지으신 모든 것을 보시니 보시기에 심히 좋았더라 저녁이 되며 아침이 되니 이는 여섯째 날이니라",
+        "en": "God saw all that he had made, and it was very good. And there was evening, and there was morning—the sixth day."
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "천지와 만물이 다 이루니라",
+        "en": "Thus the heavens and the earth were completed in all their vast array."
+      },
+      {
+        "verse": 2,
+        "ko": "하나님의 지으시던 일이 일곱째 날이 이를 때에 마치니 그 지으시던 일이 다하므로 일곱째 날에 안식하시니라",
+        "en": "By the seventh day God had finished the work he had been doing; so on the seventh day he rested from all his work."
+      },
+      {
+        "verse": 3,
+        "ko": "하나님이 일곱째 날을 복 주사 거룩하게 하셨으니 이는 하나님이 그 창조하시며 만드시던 모든 일을 마치시고 이 날에 안식하셨음이더라",
+        "en": "Then God blessed the seventh day and made it holy, because on it he rested from all the work of creating that he had done."
+      },
+      {
+        "verse": 4,
+        "ko": "여호와 하나님이 천지를 창조하신 때에 천지의 창조된 대략이 이러하니라",
+        "en": "This is the account of the heavens and the earth when they were created, when the Lord God made the earth and the heavens."
+      },
+      {
+        "verse": 5,
+        "ko": "여호와 하나님이 땅에 비를 내리지 아니하셨고 경작할 사람도 없었으므로 들에는 초목이 아직 없었고 밭에는 채소가 나지 아니하였으며",
+        "en": "Now no shrub had yet appeared on the earth and no plant had yet sprung up, for the Lord God had not sent rain on the earth and there was no one to work the ground,"
+      },
+      {
+        "verse": 6,
+        "ko": "안개만 땅에서 올라와 온 지면을 적셨더라",
+        "en": "but streams came up from the earth and watered the whole surface of the ground."
+      },
+      {
+        "verse": 7,
+        "ko": "여호와 하나님이 흙으로 사람을 지으시고 생기를 그 코에 불어 넣으시니 사람이 생령이 된지라",
+        "en": "Then the Lord God formed a man from the dust of the ground and breathed into his nostrils the breath of life, and the man became a living being."
+      },
+      {
+        "verse": 8,
+        "ko": "여호와 하나님이 동방의 에덴에 동산을 창설하시고 그 지으신 사람을 거기 두시고",
+        "en": "Now the Lord God had planted a garden in the east, in Eden; and there he put the man he had formed."
+      },
+      {
+        "verse": 9,
+        "ko": "여호와 하나님이 그 땅에서 보기에 아름답고 먹기에 좋은 나무가 나게 하시니 동산 가운데에는 생명나무와 선악을 알게하는 나무도 있더라",
+        "en": "The Lord God made all kinds of trees grow out of the ground—trees that were pleasing to the eye and good for food. In the middle of the garden were the tree of life and the tree of the knowledge of good and evil."
+      },
+      {
+        "verse": 10,
+        "ko": "강이 에덴에서 발원하여 동산을 적시고 거기서부터 갈라져 네 근원이 되었으니",
+        "en": "A river watering the garden flowed from Eden; from there it was separated into four headwaters."
+      },
+      {
+        "verse": 11,
+        "ko": "첫째의 이름은 비손이라 금이 있는 하윌라 온 땅에 둘렸으며",
+        "en": "The name of the first is the Pishon; it winds through the entire land of Havilah, where there is gold."
+      },
+      {
+        "verse": 12,
+        "ko": "그 땅의 금은 정금이요 그 곳에는 베델리엄과 호마노도 있으며",
+        "en": "(The gold of that land is good; aromatic resin and onyx are also there.)"
+      },
+      {
+        "verse": 13,
+        "ko": "둘째 강의 이름은 기혼이라 구스 온 땅에 둘렸고",
+        "en": "The name of the second river is the Gihon; it winds through the entire land of Cush."
+      },
+      {
+        "verse": 14,
+        "ko": "세째 강의 이름은 힛데겔이라 앗수르 동편으로 흐르며 네째 강은 유브라데더라",
+        "en": "The name of the third river is the Tigris; it runs along the east side of Ashur. And the fourth river is the Euphrates."
+      },
+      {
+        "verse": 15,
+        "ko": "여호와 하나님이 그 사람을 이끌어 에덴 동산에 두사 그것을 다스리며 지키게 하시고",
+        "en": "The Lord God took the man and put him in the Garden of Eden to work it and take care of it."
+      },
+      {
+        "verse": 16,
+        "ko": "여호와 하나님이 그 사람에게 명하여 가라사대 동산 각종 나무의 실과는 네가 임의로 먹되",
+        "en": "And the Lord God commanded the man, “You are free to eat from any tree in the garden;"
+      },
+      {
+        "verse": 17,
+        "ko": "선악을 알게하는 나무의 실과는 먹지 말라 ! 네가 먹는 날에는 정녕 죽으리라 ! 하시니라",
+        "en": "but you must not eat from the tree of the knowledge of good and evil, for when you eat from it you will certainly die.”"
+      },
+      {
+        "verse": 18,
+        "ko": "여호와 하나님이 가라사대 사람의 독처하는 것이 좋지 못하니 내가 그를 위하여 돕는 배필을 지으리라 하시니라",
+        "en": "The Lord God said, “It is not good for the man to be alone. I will make a helper suitable for him.”"
+      },
+      {
+        "verse": 19,
+        "ko": "여호와 하나님이 흙으로 각종 들짐승과 공중의 각종 새를 지으시고 아담이 어떻게 이름을 짓나 보시려고 그것들을 그에게로 이끌어 이르시니 아담이 각 생물을 일컫는 바가 곧 그 이름이라",
+        "en": "Now the Lord God had formed out of the ground all the wild animals and all the birds in the sky. He brought them to the man to see what he would name them; and whatever the man called each living creature, that was its name."
+      },
+      {
+        "verse": 20,
+        "ko": "아담이 모든 육축과 공중의 새와 들의 모든 짐승에게 이름을 주니라 아담이 돕는 배필이 없으므로",
+        "en": "So the man gave names to all the livestock, the birds in the sky and all the wild animals. But for Adam no suitable helper was found."
+      },
+      {
+        "verse": 21,
+        "ko": "여호와 하나님이 아담을 깊이 잠들게 하시니 잠들매 그가 그 갈빗대 하나를 취하고 살로 대신 채우시고",
+        "en": "So the Lord God caused the man to fall into a deep sleep; and while he was sleeping, he took one of the man`s ribs and then closed up the place with flesh."
+      },
+      {
+        "verse": 22,
+        "ko": "여호와 하나님이 아담에게서 취하신 그 갈빗대로 여자를 만드시고 그를 아담에게로 이끌어 오시니",
+        "en": "Then the Lord God made a woman from the rib he had taken out of the man, and he brought her to the man."
+      },
+      {
+        "verse": 23,
+        "ko": "아담이 가로되 `이는 내 뼈 중의 뼈요 ! 살 중의 살이라 ! 이것을 남자에게서 취하였은즉 여자라 칭하리라' 하니라",
+        "en": "The man said, “This is now bone of my bones and flesh of my flesh; she shall be called ‘woman,` for she was taken out of man.”"
+      },
+      {
+        "verse": 24,
+        "ko": "이러므로 남자가 부모를 떠나 그 아내와 연합하여 둘이 한 몸을 이룰지로다.",
+        "en": "That is why a man leaves his father and mother and is united to his wife, and they become one flesh."
+      },
+      {
+        "verse": 25,
+        "ko": "아담과 그 아내 두 사람이 벌거벗었으나 부끄러워 아니하니라",
+        "en": "Adam and his wife were both naked, and they felt no shame."
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "여호와 하나님의 지으신 들짐승 중에 뱀이 가장 간교하더라 뱀이 여자에게 물어 가로되 `하나님이 참으로 너희더러 동산 모든 나무의 실과를 먹지 말라 하시더냐 ?'",
+        "en": "Now the serpent was more crafty than any of the wild animals the Lord God had made. He said to the woman, “Did God really say, ‘You must not eat from any tree in the garden`?”"
+      },
+      {
+        "verse": 2,
+        "ko": "여자가 뱀에게 말하되 `동산 나무의 실과를 우리가 먹을 수 있으나",
+        "en": "The woman said to the serpent, “We may eat fruit from the trees in the garden,"
+      },
+      {
+        "verse": 3,
+        "ko": "동산 중앙에 있는 나무의 실과는 하나님의 말씀에 너희는 먹지도 말고 만지지도 말라 너희가 죽을까 하노라 하셨느니라'",
+        "en": "but God did say, ‘You must not eat fruit from the tree that is in the middle of the garden, and you must not touch it, or you will die.`”"
+      },
+      {
+        "verse": 4,
+        "ko": "뱀이 여자에게 이르되 `너희가 결코 죽지 아니하리라",
+        "en": "“You will not certainly die,” the serpent said to the woman."
+      },
+      {
+        "verse": 5,
+        "ko": "너희가 그것을 먹는 날에는 너희 눈이 밝아 하나님과 같이 되어 선악을 알 줄을 하나님이 아심이니라'",
+        "en": "“For God knows that when you eat from it your eyes will be opened, and you will be like God, knowing good and evil.”"
+      },
+      {
+        "verse": 6,
+        "ko": "여자가 그 나무를 본즉 먹음직도 하고, 보암직도 하고, 지혜롭게 할 만큼 탐스럽기도 한 나무인지라 여자가 그 실과를 따먹고 자기와 함께 한 남편에게도 주매 그도 먹은지라",
+        "en": "When the woman saw that the fruit of the tree was good for food and pleasing to the eye, and also desirable for gaining wisdom, she took some and ate it. She also gave some to her husband, who was with her, and he ate it."
+      },
+      {
+        "verse": 7,
+        "ko": "이에 그들의 눈이 밝아 자기들의 몸이 벗은 줄을 알고 무화과나무 잎을 엮어 치마를 하였더라",
+        "en": "Then the eyes of both of them were opened, and they realized they were naked; so they sewed fig leaves together and made coverings for themselves."
+      },
+      {
+        "verse": 8,
+        "ko": "그들이 날이 서늘할 때에 동산에 거니시는 여호와 하나님의 음성을 듣고 아담과 그 아내가 여호와 하나님의 낯을 피하여 동산 나무 사이에 숨은지라",
+        "en": "Then the man and his wife heard the sound of the Lord God as he was walking in the garden in the cool of the day, and they hid from the Lord God among the trees of the garden."
+      },
+      {
+        "verse": 9,
+        "ko": "여호와 하나님이 아담을 부르시며 그에게 이르시되 네가 어디 있느냐?",
+        "en": "But the Lord God called to the man, “Where are you?”"
+      },
+      {
+        "verse": 10,
+        "ko": "가로되 `내가 동산에서 하나님의 소리를 듣고 내가 벗었으므로 두려워하여 숨었나이다'",
+        "en": "He answered, “I heard you in the garden, and I was afraid because I was naked; so I hid.”"
+      },
+      {
+        "verse": 11,
+        "ko": "가라사대 누가 너의 벗었음을 네게 고하였느냐 ? 내가 너더러 먹지 말라 명한 그 나무 실과를 네가 먹었느냐?",
+        "en": "And he said, “Who told you that you were naked? Have you eaten from the tree that I commanded you not to eat from?”"
+      },
+      {
+        "verse": 12,
+        "ko": "아담이 가로되 `하나님이 주셔서 나와 함께하게 하신 여자 그가 그 나무 실과를 내게 주므로 내가 먹었나이다'",
+        "en": "The man said, “The woman you put here with me—she gave me some fruit from the tree, and I ate it.”"
+      },
+      {
+        "verse": 13,
+        "ko": "여호와 하나님이 여자에게 이르시되 네가 어찌하여 이렇게 하였느냐 ? 여자가 가로되 `뱀이 나를 꾀므로 내가 먹었나이다'",
+        "en": "Then the Lord God said to the woman, “What is this you have done?” The woman said, “The serpent deceived me, and I ate.”"
+      },
+      {
+        "verse": 14,
+        "ko": "여호와 하나님이 뱀에게 이르시되 네가 이렇게 하였으니 네가 모든 육축과 들의 모든 짐승보다 더욱 저주를 받아 배로 다니고 종신토록 흙을 먹을지니라",
+        "en": "So the Lord God said to the serpent, “Because you have done this, “Cursed are you above all livestock and all wild animals! You will crawl on your belly and you will eat dust all the days of your life."
+      },
+      {
+        "verse": 15,
+        "ko": "내가 너로 여자와 원수가 되게 하고 너의 후손도 여자의 후손과 원수가 되게 하리니 여자의 후손은 네 머리를 상하게 할 것이요 너는 그의 발꿈치를 상하게 할 것이니라 하시고",
+        "en": "And I will put enmity between you and the woman, and between your offspring and hers; he will crush your head, and you will strike his heel.”"
+      },
+      {
+        "verse": 16,
+        "ko": "또 여자에게 이르시되 내가 네게 잉태하는 고통을 크게 더하리니 네가 수고하고 자식을 낳을 것이며 너는 남편을 사모하고 남편은 너를 다스릴 것이니라 하시고",
+        "en": "To the woman he said, “I will make your pains in childbearing very severe; with painful labor you will give birth to children. Your desire will be for your husband, and he will rule over you.”"
+      },
+      {
+        "verse": 17,
+        "ko": "아담에게 이르시되 네가 네 아내의 말을 듣고 내가 너더러 먹지 말라 한 나무 실과를 먹었은즉 땅은 너로 인하여 저주를 받고 너는 종신토록 수고하여야 그 소산을 먹으리라",
+        "en": "To Adam he said, “Because you listened to your wife and ate fruit from the tree about which I commanded you, ‘You must not eat from it,` “Cursed is the ground because of you; through painful toil you will eat food from it all the days of your life."
+      },
+      {
+        "verse": 18,
+        "ko": "땅이 네게 가시덤불과 엉겅퀴를 낼 것이라 너의 먹을 것은 밭의 채소인즉",
+        "en": "It will produce thorns and thistles for you, and you will eat the plants of the field."
+      },
+      {
+        "verse": 19,
+        "ko": "네가 얼굴에 땀이 흘러야 식물을 먹고 필경은 흙으로 돌아가리니 그 속에서 네가 취함을 입었음이라 너는 흙이니 흙으로 돌아 갈 것이니라 하시니라",
+        "en": "By the sweat of your brow you will eat your food until you return to the ground, since from it you were taken; for dust you are and to dust you will return.”"
+      },
+      {
+        "verse": 20,
+        "ko": "아담이 그 아내를 하와라 이름하였으니 그는 모든 산 자의 어미가 됨이더라",
+        "en": "Adam named his wife Eve, because she would become the mother of all the living."
+      },
+      {
+        "verse": 21,
+        "ko": "여호와 하나님이 아담과 그 아내를 위하여 가죽 옷을 지어 입히시니라",
+        "en": "The Lord God made garments of skin for Adam and his wife and clothed them."
+      },
+      {
+        "verse": 22,
+        "ko": "여호와 하나님이 가라사대 보라, 이 사람이 선악을 아는 일에 우리 중 하나같이 되었으니 그가 그 손을 들어 생명나무 실과도 먹고 영생할까 하노라 하시고",
+        "en": "And the Lord God said, “The man has now become like one of us, knowing good and evil. He must not be allowed to reach out his hand and take also from the tree of life and eat, and live forever.”"
+      },
+      {
+        "verse": 23,
+        "ko": "여호와 하나님이 에덴 동산에서 그 사람을 내어 보내어 그의 근본된 토지를 갈게 하시니라",
+        "en": "So the Lord God banished him from the Garden of Eden to work the ground from which he had been taken."
+      },
+      {
+        "verse": 24,
+        "ko": "이같이 하나님이 그 사람을 쫓아 내시고 에덴 동산 동편에 그룹들과 두루 도는 화염검을 두어 생명나무의 길을 지키게 하시니라",
+        "en": "After he drove the man out, he placed on the east side of the Garden of Eden cherubim and a flaming sword flashing back and forth to guard the way to the tree of life."
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "아담이 그 아내 하와와 동침하매 하와가 잉태하여 가인을 낳고 이르되 `내가 여호와로 말미암아 득남하였다' 하니라",
+        "en": "Adam made love to his wife Eve, and she became pregnant and gave birth to Cain. She said, “With the help of the Lord I have brought forth a man.”"
+      },
+      {
+        "verse": 2,
+        "ko": "그가 또 가인의 아우 아벨을 낳았는데 아벨은 양 치는 자이었고, 가인은 농사하는 자이었더라",
+        "en": "Later she gave birth to his brother Abel. Now Abel kept flocks, and Cain worked the soil."
+      },
+      {
+        "verse": 3,
+        "ko": "세월이 지난 후에 가인은 땅의 소산으로 제물을 삼아 여호와께 드렸고",
+        "en": "In the course of time Cain brought some of the fruits of the soil as an offering to the Lord."
+      },
+      {
+        "verse": 4,
+        "ko": "아벨은 자기도 양의 첫 새끼와 그 기름으로 드렸더니 여호와께서 아벨과 그 제물은 열납하셨으나",
+        "en": "And Abel also brought an offering—fat portions from some of the firstborn of his flock. The Lord looked with favor on Abel and his offering,"
+      },
+      {
+        "verse": 5,
+        "ko": "가인과 그 제물은 열납하지 아니하신지라 가인이 심히 분하여 안색이 변하니",
+        "en": "but on Cain and his offering he did not look with favor. So Cain was very angry, and his face was downcast."
+      },
+      {
+        "verse": 6,
+        "ko": "여호와께서 가인에게 이르시되 네가 분하여 함은 어찜이며 안색이 변함은 어찜이뇨?",
+        "en": "Then the Lord said to Cain, “Why are you angry? Why is your face downcast?"
+      },
+      {
+        "verse": 7,
+        "ko": "네가 선을 행하면 어찌 낯을 들지 못하겠느냐 ? 선을 행치 아니하면 죄가 문에 엎드리느니라 죄의 소원은 네게 있으나 너는 죄를 다스릴지니라",
+        "en": "If you do what is right, will you not be accepted? But if you do not do what is right, sin is crouching at your door; it desires to have you, but you must rule over it.”"
+      },
+      {
+        "verse": 8,
+        "ko": "가인이 그 아우 아벨에게 고하니라 그 후 그들이 들에 있을때에 가인이 그 아우 아벨을 쳐 죽이니라",
+        "en": "Now Cain said to his brother Abel, “Let`s go out to the field.” While they were in the field, Cain attacked his brother Abel and killed him."
+      },
+      {
+        "verse": 9,
+        "ko": "내가 내 아우를 지키는 자이니까 ?'",
+        "en": "Then the Lord said to Cain, “Where is your brother Abel?” “I don`t know,” he replied. “Am I my brother`s keeper?”"
+      },
+      {
+        "verse": 10,
+        "ko": "가라사대 네가 무엇을 하였느냐 ? 네 아우의 핏소리가 땅에서부터 내게 호소하느니라",
+        "en": "The Lord said, “What have you done? Listen! Your brother`s blood cries out to me from the ground."
+      },
+      {
+        "verse": 11,
+        "ko": "땅이 그 입을 벌려 네 손에서부터 네 아우의 피를 받았은즉 네가 땅에서 저주를 받으리니",
+        "en": "Now you are under a curse and driven from the ground, which opened its mouth to receive your brother`s blood from your hand."
+      },
+      {
+        "verse": 12,
+        "ko": "네가 밭 갈아도 땅이 다시는 그 효력을 네게 주지 아니할 것이요 너는 땅에서 피하며 유리하는 자가 되리라",
+        "en": "When you work the ground, it will no longer yield its crops for you. You will be a restless wanderer on the earth.”"
+      },
+      {
+        "verse": 13,
+        "ko": "가인이 여호와께 고하되 `내 죄벌이 너무 중하여 견딜 수 없나이다",
+        "en": "Cain said to the Lord, “My punishment is more than I can bear."
+      },
+      {
+        "verse": 14,
+        "ko": "주께서 오늘 이 지면에서 나를 쫓아 내시온즉 내가 주의 낯을 뵈옵지 못하리니 내가 땅에서 피하며 유리하는 자가 될지라 무릇 나를 만나는 자가 나를 죽이겠나이다'",
+        "en": "Today you are driving me from the land, and I will be hidden from your presence; I will be a restless wanderer on the earth, and whoever finds me will kill me.”"
+      },
+      {
+        "verse": 15,
+        "ko": "여호와께서 그에게 이르시되 그렇지 않다 가인을 죽이는 자는 벌을 칠배나 받으리라 하시고 가인에게 표를 주사 만나는 누구에게든지 죽임을 면케 하시니라",
+        "en": "But the Lord said to him, “Not so; anyone who kills Cain will suffer vengeance seven times over.” Then the Lord put a mark on Cain so that no one who found him would kill him."
+      },
+      {
+        "verse": 16,
+        "ko": "가인이 여호와의 앞을 떠나 나가 에덴 동편 놋 땅에 거하였더니",
+        "en": "So Cain went out from the Lord`s presence and lived in the land of Nod, east of Eden."
+      },
+      {
+        "verse": 17,
+        "ko": "아내와 동침하니 그가 잉태하여 에녹을 낳은지라 가인이 성을 쌓고 그 아들의 이름으로 성을 이름하여 에녹이라 하였더라",
+        "en": "Cain made love to his wife, and she became pregnant and gave birth to Enoch. Cain was then building a city, and he named it after his son Enoch."
+      },
+      {
+        "verse": 18,
+        "ko": "에녹이 이랏을 낳았고, 이랏은 므후야엘을 낳았고, 므후야엘은 므드사엘을 낳았고, 므드사엘은 라멕을 낳았더라",
+        "en": "To Enoch was born Irad, and Irad was the father of Mehujael, and Mehujael was the father of Methushael, and Methushael was the father of Lamech."
+      },
+      {
+        "verse": 19,
+        "ko": "라멕이 두 아내를 취하였으니 하나의 이름은 아다요, 하나의 이름은 씰라며",
+        "en": "Lamech married two women, one named Adah and the other Zillah."
+      },
+      {
+        "verse": 20,
+        "ko": "아다는 야발을 낳았으니 그는 장막에 거하여 육축 치는 자의 조상이 되었고",
+        "en": "Adah gave birth to Jabal; he was the father of those who live in tents and raise livestock."
+      },
+      {
+        "verse": 21,
+        "ko": "그 아우의 이름은 유발이니 그는 수금과 퉁소를 잡는 모든 자의 조상이 되었으며",
+        "en": "His brother`s name was Jubal; he was the father of all who play stringed instruments and pipes."
+      },
+      {
+        "verse": 22,
+        "ko": "씰라는 두발가인을 낳았으니 그는 동,철로 각양 날카로운 기계를 만드는 자요 두발가인의 누이는 나아마이었더라",
+        "en": "Zillah also had a son, Tubal-Cain, who forged all kinds of tools out of bronze and iron. Tubal-Cain`s sister was Naamah."
+      },
+      {
+        "verse": 23,
+        "ko": "라멕이 아내들에게 이르되 `아다와 씰라여 내 소리를 들으라 라멕의 아내들이여 ! 내 말을 들으라 나의 창상을 인하여 내가 사람을 죽였고 나의 상함을 인하여 소년을 죽였도다",
+        "en": "Lamech said to his wives, “Adah and Zillah, listen to me; wives of Lamech, hear my words. I have killed a man for wounding me, a young man for injuring me."
+      },
+      {
+        "verse": 24,
+        "ko": "가인을 위하여는 벌이 칠배일진대 라멕을 위하여는 벌이 칠십 칠배이리로다' 하였더라",
+        "en": "If Cain is avenged seven times, then Lamech seventy-seven times.”"
+      },
+      {
+        "verse": 25,
+        "ko": "아담이 다시 아내와 동침하매 그가 아들을 낳아 그 이름을 셋이라 하였으니 `이는 하나님이 내게 가인의 죽인 아벨 대신에 다른 씨를 주셨다' 함이며",
+        "en": "Adam made love to his wife again, and she gave birth to a son and named him Seth, saying, “God has granted me another child in place of Abel, since Cain killed him.”"
+      },
+      {
+        "verse": 26,
+        "ko": "셋도 아들을 낳고 그 이름을 에노스라 하였으며 그 때에 사람들이 비로소 여호와의 이름을 불렀더라",
+        "en": "Seth also had a son, and he named him Enosh. At that time people began to call on the name of the Lord."
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "아담 자손의 계보가 이러하니라 하나님이 사람을 창조하실 때에 하나님의 형상대로 지으시되",
+        "en": "This is the written account of Adam`s family line. When God created mankind, he made them in the likeness of God."
+      },
+      {
+        "verse": 2,
+        "ko": "남자와 여자를 창조하나님이 그들에게 복을 주시고 그들의 이름을 사람이라 일컬으셨더라",
+        "en": "He created them male and female and blessed them. And he named them “Mankind” when they were created."
+      },
+      {
+        "verse": 3,
+        "ko": "아담이 일백 삼십세에 자기 모양 곧 자기 형상과 같은 아들을 낳아 이름을 셋이라 하였고",
+        "en": "When Adam had lived 130 years, he had a son in his own likeness, in his own image; and he named him Seth."
+      },
+      {
+        "verse": 4,
+        "ko": "아담이 셋을 낳은 후 팔백년을 지내며 자녀를 낳았으며",
+        "en": "After Seth was born, Adam lived 800 years and had other sons and daughters."
+      },
+      {
+        "verse": 5,
+        "ko": "그가 구백 삼십세를 향수하고 죽었더라",
+        "en": "Altogether, Adam lived a total of 930 years, and then he died."
+      },
+      {
+        "verse": 6,
+        "ko": "셋은 일백 오세에 에노스를 낳았고",
+        "en": "When Seth had lived 105 years, he became the father of Enosh."
+      },
+      {
+        "verse": 7,
+        "ko": "에노스를 낳은 후 팔백 칠년을 지내며 자녀를 낳았으며",
+        "en": "After he became the father of Enosh, Seth lived 807 years and had other sons and daughters."
+      },
+      {
+        "verse": 8,
+        "ko": "그가 구백 십이세를 향수하고 죽었더라",
+        "en": "Altogether, Seth lived a total of 912 years, and then he died."
+      },
+      {
+        "verse": 9,
+        "ko": "에노스는 구십세에 게난을 낳았고",
+        "en": "When Enosh had lived 90 years, he became the father of Kenan."
+      },
+      {
+        "verse": 10,
+        "ko": "게난을 낳은 후 팔백 십 오년을 지내며 자녀를 낳았으며",
+        "en": "After he became the father of Kenan, Enosh lived 815 years and had other sons and daughters."
+      },
+      {
+        "verse": 11,
+        "ko": "그가 구백 오세를 향수하고 죽었더라",
+        "en": "Altogether, Enosh lived a total of 905 years, and then he died."
+      },
+      {
+        "verse": 12,
+        "ko": "게난은 칠십세에 마할랄렐을 낳았고",
+        "en": "When Kenan had lived 70 years, he became the father of Mahalalel."
+      },
+      {
+        "verse": 13,
+        "ko": "마할랄렐을 낳은 후 팔백 사십년을 지내며 자녀를 낳았으며",
+        "en": "After he became the father of Mahalalel, Kenan lived 840 years and had other sons and daughters."
+      },
+      {
+        "verse": 14,
+        "ko": "그가 구백 십세를 향수하고 죽었더라",
+        "en": "Altogether, Kenan lived a total of 910 years, and then he died."
+      },
+      {
+        "verse": 15,
+        "ko": "마할랄렐은 육십 오세에 야렛을 낳았고",
+        "en": "When Mahalalel had lived 65 years, he became the father of Jared."
+      },
+      {
+        "verse": 16,
+        "ko": "야렛을 낳은 후 팔백 삼십년을 지내며 자녀를 낳았으며",
+        "en": "After he became the father of Jared, Mahalalel lived 830 years and had other sons and daughters."
+      },
+      {
+        "verse": 17,
+        "ko": "그가 팔백 구십 오세를 향수하고 죽었더라",
+        "en": "Altogether, Mahalalel lived a total of 895 years, and then he died."
+      },
+      {
+        "verse": 18,
+        "ko": "야렛은 일백 육십 이세에 에녹을 낳았고",
+        "en": "When Jared had lived 162 years, he became the father of Enoch."
+      },
+      {
+        "verse": 19,
+        "ko": "에녹을 낳은 후 팔백년을 지내며 자녀를 낳았으며",
+        "en": "After he became the father of Enoch, Jared lived 800 years and had other sons and daughters."
+      },
+      {
+        "verse": 20,
+        "ko": "그가 구백 육십 이세를 향수하고 죽었더라",
+        "en": "Altogether, Jared lived a total of 962 years, and then he died."
+      },
+      {
+        "verse": 21,
+        "ko": "에녹은 육십 오세에 므두셀라를 낳았고",
+        "en": "When Enoch had lived 65 years, he became the father of Methuselah."
+      },
+      {
+        "verse": 22,
+        "ko": "므두셀라를 낳은 후 삼백년을 하나님과 동행하며 자녀를 낳았으며",
+        "en": "After he became the father of Methuselah, Enoch walked faithfully with God 300 years and had other sons and daughters."
+      },
+      {
+        "verse": 23,
+        "ko": "그가 삼백 육십 오세를 향수하였더라",
+        "en": "Altogether, Enoch lived a total of 365 years."
+      },
+      {
+        "verse": 24,
+        "ko": "에녹이 하나님과 동행하더니 하나님이 그를 데려 가시므로 세상에 있지 아니하였더라",
+        "en": "Enoch walked faithfully with God; then he was no more, because God took him away."
+      },
+      {
+        "verse": 25,
+        "ko": "므두셀라는 일백 팔십 칠세에 라멕을 낳았고",
+        "en": "When Methuselah had lived 187 years, he became the father of Lamech."
+      },
+      {
+        "verse": 26,
+        "ko": "라멕을 낳은 후 칠백 팔십 이년을 지내며 자녀를 낳았으며",
+        "en": "After he became the father of Lamech, Methuselah lived 782 years and had other sons and daughters."
+      },
+      {
+        "verse": 27,
+        "ko": "그는 구백 육십 구세를 향수하고 죽었더라",
+        "en": "Altogether, Methuselah lived a total of 969 years, and then he died."
+      },
+      {
+        "verse": 28,
+        "ko": "라멕은 일백 팔십 이세에 아들을 낳고",
+        "en": "When Lamech had lived 182 years, he had a son."
+      },
+      {
+        "verse": 29,
+        "ko": "이름을 노아라 하여 가로되 `여호와께서 땅을 저주하시므로 수고로이 일하는 우리를 이 아들이 안위하리라' 하였더라",
+        "en": "He named him Noah and said, “He will comfort us in the labor and painful toil of our hands caused by the ground the Lord has cursed.”"
+      },
+      {
+        "verse": 30,
+        "ko": "라멕이 노아를 낳은 후 오백 구십 오년을 지내며 자녀를 낳았으며",
+        "en": "After Noah was born, Lamech lived 595 years and had other sons and daughters."
+      },
+      {
+        "verse": 31,
+        "ko": "그는 칠백 칠십 칠세를 향수하고 죽었더라",
+        "en": "Altogether, Lamech lived a total of 777 years, and then he died."
+      },
+      {
+        "verse": 32,
+        "ko": "노아가 오백세 된 후에 셈과, 함과, 야벳을 낳았더라",
+        "en": "After Noah was 500 years old, he became the father of Shem, Ham and Japheth."
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "사람이 땅 위에 번성하기 시작할 때에 그들에게서 딸들이 나니",
+        "en": "When human beings began to increase in number on the earth and daughters were born to them,"
+      },
+      {
+        "verse": 2,
+        "ko": "하나님의 아들들이 사람의 딸들의 아름다움을 보고 자기들의 좋아하는 모든 자로 아내를 삼는지라",
+        "en": "the sons of God saw that the daughters of humans were beautiful, and they married any of them they chose."
+      },
+      {
+        "verse": 3,
+        "ko": "여호와께서 가라사대 나의 신(神)이 영원히 사람과 함께하지 아니하리니 이는 그들이 육체가 됨이라 그러나 그들의 날은 일백 이십년이 되리라 하시니라",
+        "en": "Then the Lord said, “My Spirit will not contend with humans forever, for they are mortal; their days will be a hundred and twenty years.”"
+      },
+      {
+        "verse": 4,
+        "ko": "당시에 땅에 네피림이 있었고 그 후에도 하나님의 아들들이 사람의 딸들을 취하여 자식을 낳았으니 그들이 용사라 고대에 유명한 사람이었더라",
+        "en": "The Nephilim were on the earth in those days—and also afterward—when the sons of God went to the daughters of humans and had children by them. They were the heroes of old, men of renown."
+      },
+      {
+        "verse": 5,
+        "ko": "여호와께서 사람의 죄악이 세상에 관영함과 그 마음의 생각의 모든 계획이 항상 악할 뿐임을 보시고",
+        "en": "The Lord saw how great the wickedness of the human race had become on the earth, and that every inclination of the thoughts of the human heart was only evil all the time."
+      },
+      {
+        "verse": 6,
+        "ko": "땅위에 사람 지으셨음을 한탄하사 마음에 근심하시고",
+        "en": "The Lord regretted that he had made human beings on the earth, and his heart was deeply troubled."
+      },
+      {
+        "verse": 7,
+        "ko": "가라사대 나의 창조한 사람을 내가 지면에서 쓸어 버리되 사람으로부터 육축과 기는 것과 공중의 새까지 그리하리니 이는 내가 그것을 지었음을 한탄함이니라 하시니라",
+        "en": "So the Lord said, “I will wipe from the face of the earth the human race I have created—and with them the animals, the birds and the creatures that move along the ground—for I regret that I have made them.”"
+      },
+      {
+        "verse": 8,
+        "ko": "그러나 노아는 여호와께 은혜를 입었더라",
+        "en": "But Noah found favor in the eyes of the Lord."
+      },
+      {
+        "verse": 9,
+        "ko": "노아의 사적은 이러하니라 노아는 의인이요 당세에 완전한 자라 그가 하나님과 동행하였으며",
+        "en": "This is the account of Noah and his family. Noah was a righteous man, blameless among the people of his time, and he walked faithfully with God."
+      },
+      {
+        "verse": 10,
+        "ko": "그가 세 아들을 낳았으니 셈과, 함과, 야벳이라",
+        "en": "Noah had three sons: Shem, Ham and Japheth."
+      },
+      {
+        "verse": 11,
+        "ko": "때에 온 땅이 하나님 앞에 패괴하여 강포가 땅에 충만한지라",
+        "en": "Now the earth was corrupt in God`s sight and was full of violence."
+      },
+      {
+        "verse": 12,
+        "ko": "하나님이 보신즉 땅이 패괴하였으니 이는 땅에서 모든 혈육 있는 자의 행위가 패괴함이었더라",
+        "en": "God saw how corrupt the earth had become, for all the people on earth had corrupted their ways."
+      },
+      {
+        "verse": 13,
+        "ko": "하나님이 노아에게 이르시되 모든 혈육있는 자의 강포가 땅에 가득하므로 그 끝날이 내 앞에 이르렀으니 내가 그들을 땅과 함께 멸하리라",
+        "en": "So God said to Noah, “I am going to put an end to all people, for the earth is filled with violence because of them. I am surely going to destroy both them and the earth."
+      },
+      {
+        "verse": 14,
+        "ko": "너는 잣나무로 너를 위하여 방주를 짓되 그 안에 간들을 막고 역청으로 그 안팎에 칠하라",
+        "en": "So make yourself an ark of cypress wood; make rooms in it and coat it with pitch inside and out."
+      },
+      {
+        "verse": 15,
+        "ko": "그 방주의 제도는 이러하니 장이 삼백 규빗, 광이 오십 규빗, 고가 삼십 규빗이며",
+        "en": "This is how you are to build it: The ark is to be three hundred cubits long, fifty cubits wide and thirty cubits high."
+      },
+      {
+        "verse": 16,
+        "ko": "거기 창을 내되 위에서부터 한 규빗에 내고 그 문은 옆으로 내고 상 중 하 삼층으로 할지니라",
+        "en": "Make a roof for it, leaving below the roof an opening one cubit high all around. Put a door in the side of the ark and make lower, middle and upper decks."
+      },
+      {
+        "verse": 17,
+        "ko": "내가 홍수를 땅에 일으켜 무릇 생명의 기식 있는 육체를 천하에서 멸절하리니 땅에 있는 자가 다 죽으리라",
+        "en": "I am going to bring floodwaters on the earth to destroy all life under the heavens, every creature that has the breath of life in it. Everything on earth will perish."
+      },
+      {
+        "verse": 18,
+        "ko": "그러나 너와는 내가 내 언약을 세우리니 너는 네 아들들과 네 아내와 네 자부들과 함께 그 방주로 들어가고",
+        "en": "But I will establish my covenant with you, and you will enter the ark—you and your sons and your wife and your sons` wives with you."
+      },
+      {
+        "verse": 19,
+        "ko": "혈육 있는 모든 생물을 너는 각기 암,수 한쌍씩 방주로 이끌어 들여 너와 함께 생명을 보존케 하되",
+        "en": "You are to bring into the ark two of all living creatures, male and female, to keep them alive with you."
+      },
+      {
+        "verse": 20,
+        "ko": "새가 그 종류대로, 육축이 그 종류대로, 땅에 기는 모든 것이 그 종류대로, 각기 둘씩 네게로 나아오리니 그 생명을 보존케하라",
+        "en": "Two of every kind of bird, of every kind of animal and of every kind of creature that moves along the ground will come to you to be kept alive."
+      },
+      {
+        "verse": 21,
+        "ko": "너는 먹을 모든 식물을 네게로 가져다가 저축하라 이것이 너와 그들의 식물이 되리라",
+        "en": "You are to take every kind of food that is to be eaten and store it away as food for you and for them.”"
+      },
+      {
+        "verse": 22,
+        "ko": "노아가 그와 같이 하되 하나님이 자기에게 명하신 대로 다 준행하였더라.",
+        "en": "Noah did everything just as God commanded him."
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "여호와께서 노아에게 이르시되 너와 네 온 집은 방주로 들어가라 네가 이 세대에 내 앞에서 의로움을 내가 보았음이니라.",
+        "en": "The Lord then said to Noah, “Go into the ark, you and your whole family, because I have found you righteous in this generation."
+      },
+      {
+        "verse": 2,
+        "ko": "너는 모든 정결한 짐승은 암수 일곱씩 부정한 것은 암수 둘씩을 네게로 취하며",
+        "en": "Take with you seven pairs of every kind of clean animal, a male and its mate, and one pair of every kind of unclean animal, a male and its mate,"
+      },
+      {
+        "verse": 3,
+        "ko": "공중의 새도 암수 일곱씩을 취하여 그 씨를 온 지면에 유전케하라",
+        "en": "and also seven pairs of every kind of bird, male and female, to keep their various kinds alive throughout the earth."
+      },
+      {
+        "verse": 4,
+        "ko": "지금부터 칠일이면 내가 사십 주야를 땅에 비를 내려 나의 지은 모든 생물을 지면에서 쓸어 버리리라",
+        "en": "Seven days from now I will send rain on the earth for forty days and forty nights, and I will wipe from the face of the earth every living creature I have made.”"
+      },
+      {
+        "verse": 5,
+        "ko": "노아가 여호와께서 자기에게 명하신 대로 다 준행하였더라.",
+        "en": "And Noah did all that the Lord commanded him."
+      },
+      {
+        "verse": 6,
+        "ko": "홍수가 땅에 있을 때에 노아가 육백세라",
+        "en": "Noah was six hundred years old when the floodwaters came on the earth."
+      },
+      {
+        "verse": 7,
+        "ko": "노아가 아들들과 아내와 자부들과 함께 홍수를 피하여 방주에 들어갔고",
+        "en": "And Noah and his sons and his wife and his sons` wives entered the ark to escape the waters of the flood."
+      },
+      {
+        "verse": 8,
+        "ko": "정결한 짐승과 부정한 짐승과 새와 땅에 기는 모든 것이",
+        "en": "Pairs of clean and unclean animals, of birds and of all creatures that move along the ground,"
+      },
+      {
+        "verse": 9,
+        "ko": "하나님이 노아에게 명하신 대로 암수 둘씩 노아에게 나아와 방주로 들어갔더니",
+        "en": "male and female, came to Noah and entered the ark, as God had commanded Noah."
+      },
+      {
+        "verse": 10,
+        "ko": "칠일 후에 홍수가 땅에 덮이니",
+        "en": "And after the seven days the floodwaters came on the earth."
+      },
+      {
+        "verse": 11,
+        "ko": "노아 육백세 되던 해 이월 곧 그 달 십 칠일이라 그날에 큰 깊음의 샘들이 터지며 하늘의 창들이 열려",
+        "en": "In the six hundredth year of Noah`s life, on the seventeenth day of the second month—on that day all the springs of the great deep burst forth, and the floodgates of the heavens were opened."
+      },
+      {
+        "verse": 12,
+        "ko": "사십 주야를 비가 땅에 쏟아졌더라",
+        "en": "And rain fell on the earth forty days and forty nights."
+      },
+      {
+        "verse": 13,
+        "ko": "곧 그 날에 노아와 그의 아들 셈, 함, 야벳과 노아의 처와 세 자부가 다 방주로 들어갔고",
+        "en": "On that very day Noah and his sons, Shem, Ham and Japheth, together with his wife and the wives of his three sons, entered the ark."
+      },
+      {
+        "verse": 14,
+        "ko": "그들과 모든 들짐승이 그 종류대로, 모든 육축이 그 종류대로, 땅에 기는 모든 것이 그 종류대로, 모든 새 곧 각양의 새가 그 종류대로",
+        "en": "They had with them every wild animal according to its kind, all livestock according to their kinds, every creature that moves along the ground according to its kind and every bird according to its kind, everything with wings."
+      },
+      {
+        "verse": 15,
+        "ko": "무릇 기식이 있는 육체가 둘씩 노아에게 나아와 방주로 들어갔으니",
+        "en": "Pairs of all creatures that have the breath of life in them came to Noah and entered the ark."
+      },
+      {
+        "verse": 16,
+        "ko": "들어간 것들은 모든 것의 암,수라 하나님이 그에게 명하신대로 들어가매 여호와께서 그를 닫아 넣으시니라",
+        "en": "The animals going in were male and female of every living thing, as God had commanded Noah. Then the Lord shut him in."
+      },
+      {
+        "verse": 17,
+        "ko": "홍수가 땅에 사십일을 있었는지라 물이 많아져 방주가 땅에서 올랐고",
+        "en": "For forty days the flood kept coming on the earth, and as the waters increased they lifted the ark high above the earth."
+      },
+      {
+        "verse": 18,
+        "ko": "물이 더 많아져 땅에 창일하매 방주가 물 위에 떠 다녔으며",
+        "en": "The waters rose and increased greatly on the earth, and the ark floated on the surface of the water."
+      },
+      {
+        "verse": 19,
+        "ko": "물이 땅에 더욱 창일하매 천하에 높은 산이 다 덮였더니",
+        "en": "They rose greatly on the earth, and all the high mountains under the entire heavens were covered."
+      },
+      {
+        "verse": 20,
+        "ko": "물이 불어서 십오 규빗이 오르매 산들이 덮인지라",
+        "en": "The waters rose and covered the mountains to a depth of more than fifteen cubits."
+      },
+      {
+        "verse": 21,
+        "ko": "땅위에 움직이는 생물이 다 죽었으니 곧 새와 육축과 들짐승과 땅에 기는 모든 것과 모든 사람이라",
+        "en": "Every living thing that moved on land perished—birds, livestock, wild animals, all the creatures that swarm over the earth, and all mankind."
+      },
+      {
+        "verse": 22,
+        "ko": "육지에 있어 코로 생물의 기식을 호흡하는 것은 다 죽었더라",
+        "en": "Everything on dry land that had the breath of life in its nostrils died."
+      },
+      {
+        "verse": 23,
+        "ko": "지면의 모든 생물을 쓸어버리시니 곧 사람과 짐승과 기는 것과 공중의 새까지라 이들은 땅에서 쓸어버림을 당하였으되 홀로 노아와 그와 함께 방주에 있던 자만 남았더라",
+        "en": "Every living thing on the face of the earth was wiped out; people and animals and the creatures that move along the ground and the birds were wiped from the earth. Only Noah was left, and those with him in the ark."
+      },
+      {
+        "verse": 24,
+        "ko": "물이 일백 오십일을 땅에 창일하였더라",
+        "en": "The waters flooded the earth for a hundred and fifty days."
+      }
+    ]
+  },
+  {
+    "chapter": 8,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "하나님이 노아와 그와 함께 방주에 있는 모든 들짐승과 육축을 권념하사 바람으로 땅 위에 불게 하시매 물이 감하였고",
+        "en": "But God remembered Noah and all the wild animals and the livestock that were with him in the ark, and he sent a wind over the earth, and the waters receded."
+      },
+      {
+        "verse": 2,
+        "ko": "깊음의 샘과 하늘의 창이 막히고 하늘에서 비가 그치매",
+        "en": "Now the springs of the deep and the floodgates of the heavens had been closed, and the rain had stopped falling from the sky."
+      },
+      {
+        "verse": 3,
+        "ko": "물이 땅에서 물러가고 점점 물러가서 일백 오십일 후에 감하고",
+        "en": "The water receded steadily from the earth. At the end of the hundred and fifty days the water had gone down,"
+      },
+      {
+        "verse": 4,
+        "ko": "칠월 곧 그 달 십칠일에 방주가 아라랏 산에 머물렀으며",
+        "en": "and on the seventeenth day of the seventh month the ark came to rest on the mountains of Ararat."
+      },
+      {
+        "verse": 5,
+        "ko": "물이 점점 감하여 시월 곧 그달 일일에 산들의 봉우리가 보였더라",
+        "en": "The waters continued to recede until the tenth month, and on the first day of the tenth month the tops of the mountains became visible."
+      },
+      {
+        "verse": 6,
+        "ko": "사십일을 지나서 노아가 그 방주에 지은 창을 열고",
+        "en": "After forty days Noah opened a window he had made in the ark"
+      },
+      {
+        "verse": 7,
+        "ko": "까마귀를 내어 놓으매 까마귀가 물이 땅에서 마르기까지 날아 왕래하였더라",
+        "en": "and sent out a raven, and it kept flying back and forth until the water had dried up from the earth."
+      },
+      {
+        "verse": 8,
+        "ko": "그가 또 비둘기를 내어 놓아 지면에 물이 감한 여부를 알고자 하매",
+        "en": "Then he sent out a dove to see if the water had receded from the surface of the ground."
+      },
+      {
+        "verse": 9,
+        "ko": "온 지면에 물이 있으므로 비둘기가 접족할 곳을 찾지 못하고 방주로 돌아와 그에게로 오는지라 그가 손을 내밀어 방주 속 자기에게로 받아 들이고",
+        "en": "But the dove could find nowhere to perch because there was water over all the surface of the earth; so it returned to Noah in the ark. He reached out his hand and took the dove and brought it back to himself in the ark."
+      },
+      {
+        "verse": 10,
+        "ko": "또 칠일을 기다려 다시 비둘기를 방주에서 내어 놓으매",
+        "en": "He waited seven more days and again sent out the dove from the ark."
+      },
+      {
+        "verse": 11,
+        "ko": "저녁때에 비둘기가 그에게로 돌아왔는데 그 입에 감람 새 잎사귀가 있는지라 이에 노아가 땅에 물이 감한 줄 알았으며",
+        "en": "When the dove returned to him in the evening, there in its beak was a freshly plucked olive leaf! Then Noah knew that the water had receded from the earth."
+      },
+      {
+        "verse": 12,
+        "ko": "또 칠일을 기다려 비둘기를 내어 놓으매 다시는 그에게로 돌아오지 아니하였더라",
+        "en": "He waited seven more days and sent the dove out again, but this time it did not return to him."
+      },
+      {
+        "verse": 13,
+        "ko": "육백 일년 정월 곧 그 달 일일에 지면에 물이 걷힌지라 노아가 방주 뚜껑을 제치고 본즉 지면에 물이 걷혔더니",
+        "en": "By the first day of the first month of Noah`s six hundred and first year, the water had dried up from the earth. Noah then removed the covering from the ark and saw that the surface of the ground was dry."
+      },
+      {
+        "verse": 14,
+        "ko": "이월 이십 칠일에 땅이 말랐더라",
+        "en": "By the twenty-seventh day of the second month the earth was completely dry."
+      },
+      {
+        "verse": 15,
+        "ko": "하나님이 노아에게 말씀하여 가라사대",
+        "en": "Then God said to Noah,"
+      },
+      {
+        "verse": 16,
+        "ko": "너는 네 아내와 네 아들들과 네 자부들로 더불어 방주에서 나오고",
+        "en": "“Come out of the ark, you and your wife and your sons and their wives."
+      },
+      {
+        "verse": 17,
+        "ko": "너와 함께 한 모든 혈육 있는 생물 곧 새와 육축과 땅에 기는 모든 것을 다 이끌어 내라 이것들이 땅에서 생육하고 땅에서 번성하리라 하시매",
+        "en": "Bring out every kind of living creature that is with you—the birds, the animals, and all the creatures that move along the ground—so they can multiply on the earth and be fruitful and increase in number on it.”"
+      },
+      {
+        "verse": 18,
+        "ko": "노아가 그 아들들과 그 아내와 그 자부들과 함께 나왔고",
+        "en": "So Noah came out, together with his sons and his wife and his sons` wives."
+      },
+      {
+        "verse": 19,
+        "ko": "땅위의 동물 곧 모든 기는 것과 모든 새도 그 종류대로 방주에서 나왔더라",
+        "en": "All the animals and all the creatures that move along the ground and all the birds—everything that moves on land—came out of the ark, one kind after another."
+      },
+      {
+        "verse": 20,
+        "ko": "노아가 여호와를 위하여 단을 쌓고 모든 정결한 짐승 중에서와 모든 정결한 새 중에서 취하여 번제로 단에 드렸더니",
+        "en": "Then Noah built an altar to the Lord and, taking some of all the clean animals and clean birds, he sacrificed burnt offerings on it."
+      },
+      {
+        "verse": 21,
+        "ko": "여호와께서 그 향기를 흠향하시고 그 중심에 이르시되 내가 다시는 사람으로 인하여 땅을 저주하지 아니하리니 이는 사람의 마음의 계획하는 바가 어려서부터 악함이라 내가 전에 행한 것 같이 모든 생물을 멸하지 아니하리니",
+        "en": "The Lord smelled the pleasing aroma and said in his heart: “Never again will I curse the ground because of humans, even though every inclination of the human heart is evil from childhood. And never again will I destroy all living creatures, as I have done."
+      },
+      {
+        "verse": 22,
+        "ko": "땅이 있을 동안에는 심음과, 거둠과, 추위와, 더위와, 여름과, 겨울과, 낮과, 밤이 쉬지 아니하리라",
+        "en": "“As long as the earth endures, seedtime and harvest, cold and heat, summer and winter, day and night will never cease.”"
+      }
+    ]
+  },
+  {
+    "chapter": 9,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "하나님이 노아와 그 아들들에게 복을 주시며 그들에게 이르시되 생육하고 번성하여 땅에 충만하라.",
+        "en": "Then God blessed Noah and his sons, saying to them, “Be fruitful and increase in number and fill the earth."
+      },
+      {
+        "verse": 2,
+        "ko": "땅의 모든 짐승과 공중의 모든 새와 땅에 기는 모든 것과 바다의 모든 고기가 너희를 두려워하며 너희를 무서워하리니 이들은 너희 손에 붙이웠음이라",
+        "en": "The fear and dread of you will fall on all the beasts of the earth, and on all the birds in the sky, on every creature that moves along the ground, and on all the fish in the sea; they are given into your hands."
+      },
+      {
+        "verse": 3,
+        "ko": "무릇 산 동물은 너희의 식물이 될지라 채소같이 내가 이것을 다 너희에게 주노라",
+        "en": "Everything that lives and moves about will be food for you. Just as I gave you the green plants, I now give you everything."
+      },
+      {
+        "verse": 4,
+        "ko": "그러나 고기를 그 생명 되는 피 채 먹지 말 것이니라",
+        "en": "“But you must not eat meat that has its lifeblood still in it."
+      },
+      {
+        "verse": 5,
+        "ko": "내가 반드시 너희 피 곧 너희 생명의 피를 찾으리니 짐승이면 그 짐승에게서, 사람이나 사람의 형제면 그에게서 그의 생명을 찾으리라",
+        "en": "And for your lifeblood I will surely demand an accounting. I will demand an accounting from every animal. And from each human being, too, I will demand an accounting for the life of another human being."
+      },
+      {
+        "verse": 6,
+        "ko": "무릇 사람의 피를 흘리면 사람이 그 피를 흘릴 것이니 이는 하나님이 자기 형상대로 사람을 지었음이니라",
+        "en": "“Whoever sheds human blood, by humans shall their blood be shed; for in the image of God has God made mankind."
+      },
+      {
+        "verse": 7,
+        "ko": "너희는 생육하고 번성하며 땅에 편만하여 그 중에서 번성하라 하셨더라",
+        "en": "As for you, be fruitful and increase in number; multiply on the earth and increase upon it.”"
+      },
+      {
+        "verse": 8,
+        "ko": "하나님이 노아와 그와 함께 한 아들들에게 일러 가라사대",
+        "en": "Then God said to Noah and to his sons with him:"
+      },
+      {
+        "verse": 9,
+        "ko": "내가 내 언약을 너희와 너희 후손과",
+        "en": "“I now establish my covenant with you and with your descendants after you"
+      },
+      {
+        "verse": 10,
+        "ko": "너희와 함께 한 모든 생물 곧 너희와 함께 한 새와 육축과 땅의 모든 생물에게 세우리니 방주에서 나온 모든 것 곧 땅의 모든 짐승에게니라",
+        "en": "and with every living creature that was with you—the birds, the livestock and all the wild animals, all those that came out of the ark with you—every living creature on earth."
+      },
+      {
+        "verse": 11,
+        "ko": "내가 너희와 언약을 세우리니 다시는 모든 생물을 홍수로 멸하지 아니할 것이라 땅을 침몰할 홍수가 다시 있지 아니하리라",
+        "en": "I establish my covenant with you: Never again will all life be destroyed by the waters of a flood; never again will there be a flood to destroy the earth.”"
+      },
+      {
+        "verse": 12,
+        "ko": "하나님이 가라사대 내가 나와 너희와 및 너희와 함께 하는 모든 생물 사이에 영세까지 세우는 언약의 증거는 이것이라",
+        "en": "And God said, “This is the sign of the covenant I am making between me and you and every living creature with you, a covenant for all generations to come:"
+      },
+      {
+        "verse": 13,
+        "ko": "내가 내 무지개를 구름 속에 두었나니 이것이 나의 세상과의 언약의 증거니라",
+        "en": "I have set my rainbow in the clouds, and it will be the sign of the covenant between me and the earth."
+      },
+      {
+        "verse": 14,
+        "ko": "내가 구름으로 땅을 덮을 때에 무지개가 구름 속에 나타나면",
+        "en": "Whenever I bring clouds over the earth and the rainbow appears in the clouds,"
+      },
+      {
+        "verse": 15,
+        "ko": "내가 나와 너희와 및 혈기 있는 모든 생물사이의 내 언약을 기억하리니 다시는 물이 모든 혈기 있는 자를 멸하는 홍수가 되지 아니할지라",
+        "en": "I will remember my covenant between me and you and all living creatures of every kind. Never again will the waters become a flood to destroy all life."
+      },
+      {
+        "verse": 16,
+        "ko": "무지개가 구름 사이에 있으리니 내가 보고 나 하나님과 땅의 무릇 혈기 있는 모든 생물 사이에 된 영원한 언약을 기억하리라",
+        "en": "Whenever the rainbow appears in the clouds, I will see it and remember the everlasting covenant between God and all living creatures of every kind on the earth.”"
+      },
+      {
+        "verse": 17,
+        "ko": "하나님이 노아에게 또 이르시되 내가 나와 땅에 있는 모든 생물 사이에 세운 언약의 증거가 이것이라 하셨더라",
+        "en": "So God said to Noah, “This is the sign of the covenant I have established between me and all life on the earth.”"
+      },
+      {
+        "verse": 18,
+        "ko": "방주에서 나온 노아의 아들들은 셈과, 함과, 야벳이며 함은 가나안의 아비라",
+        "en": "The sons of Noah who came out of the ark were Shem, Ham and Japheth. (Ham was the father of Canaan.)"
+      },
+      {
+        "verse": 19,
+        "ko": "노아의 이 세 아들로 좇아 백성이 온 땅에 퍼지니라",
+        "en": "These were the three sons of Noah, and from them came the people who were scattered over the whole earth."
+      },
+      {
+        "verse": 20,
+        "ko": "노아가 농업을 시작하여 포도나무를 심었더니",
+        "en": "Noah, a man of the soil, proceeded to plant a vineyard."
+      },
+      {
+        "verse": 21,
+        "ko": "포도주를 마시고 취하여 그 장막 안에서 벌거벗은지라",
+        "en": "When he drank some of its wine, he became drunk and lay uncovered inside his tent."
+      },
+      {
+        "verse": 22,
+        "ko": "가나안의 아비 함이 그 아비의 하체를 보고 밖으로 나가서 두 형제에게 고하매",
+        "en": "Ham, the father of Canaan, saw his father naked and told his two brothers outside."
+      },
+      {
+        "verse": 23,
+        "ko": "셈과 야벳이 옷을 취하여 자기들의 어깨에 메고 뒷걸음쳐 들어가서 아비의 하체에 덮었으며 그들이 얼굴을 돌이키고 그 아비의 하체를 보지 아니하였더라",
+        "en": "But Shem and Japheth took a garment and laid it across their shoulders; then they walked in backward and covered their father`s naked body. Their faces were turned the other way so that they would not see their father naked."
+      },
+      {
+        "verse": 24,
+        "ko": "노아가 술이 깨어 그 작은 아들이 자기에게 행한 일을 알고",
+        "en": "When Noah awoke from his wine and found out what his youngest son had done to him,"
+      },
+      {
+        "verse": 25,
+        "ko": "이에 가로되 `가나안은 저주를 받아 그 형제의 종들의 종이 되기를 원하노라'",
+        "en": "he said, “Cursed be Canaan! The lowest of slaves will he be to his brothers.”"
+      },
+      {
+        "verse": 26,
+        "ko": "또 가로되 `셈의 하나님 여호와를 찬송하리로다 ! 가나안은 셈의 종이 되고",
+        "en": "He also said, “Praise be to the Lord, the God of Shem! May Canaan be the slave of Shem."
+      },
+      {
+        "verse": 27,
+        "ko": "하나님이 야벳을 창대케하사 셈의 장막에 거하게 하시고 가나안은 그의 종이 되게 하시기를 원하노라' 하였더라",
+        "en": "May God extend Japheth`s territory; may Japheth live in the tents of Shem, and may Canaan be the slave of Japheth.”"
+      },
+      {
+        "verse": 28,
+        "ko": "홍수 후에 노아가 삼백 오십년을 지내었고",
+        "en": "After the flood Noah lived 350 years."
+      },
+      {
+        "verse": 29,
+        "ko": "향년이 구백 오십세에 죽었더라",
+        "en": "Noah lived a total of 950 years, and then he died."
+      }
+    ]
+  },
+  {
+    "chapter": 10,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "노아의 아들 셈과, 함과, 야벳의 후예는 이러하니라 홍수 후에 그들이 아들들을 낳았으니",
+        "en": "This is the account of Shem, Ham and Japheth, Noah`s sons, who themselves had sons after the flood."
+      },
+      {
+        "verse": 2,
+        "ko": "야벳의 아들은 고멜과, 마곡과, 마대와, 야완과, 두발과, 메섹과, 디라스요",
+        "en": "The sons of Japheth: Gomer, Magog, Madai, Javan, Tubal, Meshek and Tiras."
+      },
+      {
+        "verse": 3,
+        "ko": "고멜의 아들은 아스그나스와, 리밧과, 도갈마요",
+        "en": "The sons of Gomer: Ashkenaz, Riphath and Togarmah."
+      },
+      {
+        "verse": 4,
+        "ko": "야완의 아들은 엘리사와, 달시스와, 깃딤과, 도다님이라",
+        "en": "The sons of Javan: Elishah, Tarshish, the Kittites and the Rodanites."
+      },
+      {
+        "verse": 5,
+        "ko": "이들로부터 여러 나라 백성으로 나뉘어서 각기 방언과 종족과 나라대로 바닷가의 땅에 머물렀더라",
+        "en": "(From these the maritime peoples spread out into their territories by their clans within their nations, each with its own language.)"
+      },
+      {
+        "verse": 6,
+        "ko": "함의 아들은 구스와, 미스라임과, 붓과, 가나안이요",
+        "en": "The sons of Ham: Cush, Egypt, Put and Canaan."
+      },
+      {
+        "verse": 7,
+        "ko": "구스의 아들은 스바와, 하윌라와, 삽다와, 라아마와, 삽드가요, 라아마의 아들은 스바와, 드단이며",
+        "en": "The sons of Cush: Seba, Havilah, Sabtah, Raamah and Sabteka. The sons of Raamah: Sheba and Dedan."
+      },
+      {
+        "verse": 8,
+        "ko": "구스가 또 니므롯을 낳았으니 그는 세상에 처음 영걸이라",
+        "en": "Cush was the father of Nimrod, who became a mighty warrior on the earth."
+      },
+      {
+        "verse": 9,
+        "ko": "그가 여호와 앞에서 특이한 사냥군이 되었으므로 속담에 이르기를 아무는 여호와 앞에 니므롯 같은 특이한 사냥군이로다 하더라",
+        "en": "He was a mighty hunter before the Lord; that is why it is said, “Like Nimrod, a mighty hunter before the Lord.”"
+      },
+      {
+        "verse": 10,
+        "ko": "그의 나라는 시날땅의 바벨과, 에렉과, 악갓과, 갈레에서 시작되었으며",
+        "en": "The first centers of his kingdom were Babylon, Uruk, Akkad and Kalneh, in Shinar."
+      },
+      {
+        "verse": 11,
+        "ko": "그가 그 땅에서 앗수르로 나아가 니느웨와, 르호보딜과, 갈라와",
+        "en": "From that land he went to Assyria, where he built Nineveh, Rehoboth Ir, Calah"
+      },
+      {
+        "verse": 12,
+        "ko": "및 니느웨와 갈라 사이의 레센(이는 큰 성이라)을 건축하였으며",
+        "en": "and Resen, which is between Nineveh and Calah—which is the great city."
+      },
+      {
+        "verse": 13,
+        "ko": "미스라임은 루딤과, 아나밈과, 르하빔과, 납두힘과",
+        "en": "Egypt was the father of the Ludites, Anamites, Lehabites, Naphtuhites,"
+      },
+      {
+        "verse": 14,
+        "ko": "바드루심과, 가슬루힘과, 갑도림을 낳았더라 (블레셋이 가슬루힘에게서 나왔더라)",
+        "en": "Pathrusites, Kasluhites (from whom the Philistines came) and Caphtorites."
+      },
+      {
+        "verse": 15,
+        "ko": "가나안은 장자 시돈과, 헷을 낳고",
+        "en": "Canaan was the father of Sidon his firstborn, and of the Hittites,"
+      },
+      {
+        "verse": 16,
+        "ko": "또 여부스 족속과, 아모리 족속과, 기르가스 족속과",
+        "en": "Jebusites, Amorites, Girgashites,"
+      },
+      {
+        "verse": 17,
+        "ko": "히위 족속과, 알가 족속과, 신 족속과",
+        "en": "Hivites, Arkites, Sinites,"
+      },
+      {
+        "verse": 18,
+        "ko": "아르왓 족속과, 스말 족속과, 하맛 족속의 조상을 낳았더니 이 후로 가나안 자손의 족속이 흩어져 처하였더라",
+        "en": "Arvadites, Zemarites and Hamathites. Later the Canaanite clans scattered"
+      },
+      {
+        "verse": 19,
+        "ko": "가나안의 지경은 시돈에서부터 그랄을 지나 가사까지와, 소돔과, 고모라와, 아드마와, 스보임을 지나 라사까지였더라",
+        "en": "and the borders of Canaan reached from Sidon toward Gerar as far as Gaza, and then toward Sodom, Gomorrah, Admah and Zeboyim, as far as Lasha."
+      },
+      {
+        "verse": 20,
+        "ko": "이들은 함의 자손이라 각기 족속과 방언과 지방과 나라대로이었더라",
+        "en": "These are the sons of Ham by their clans and languages, in their territories and nations."
+      },
+      {
+        "verse": 21,
+        "ko": "셈은 에벨 온 자손의 조상이요 야벳의 형이라 그에게도 자녀가 출생하였으니",
+        "en": "Sons were also born to Shem, whose older brother was Japheth; Shem was the ancestor of all the sons of Eber."
+      },
+      {
+        "verse": 22,
+        "ko": "셈의 아들은 엘람과, 앗수르와, 아르박삿과, 룻과, 아람이요",
+        "en": "The sons of Shem: Elam, Ashur, Arphaxad, Lud and Aram."
+      },
+      {
+        "verse": 23,
+        "ko": "아람의 아들은 우스와, 훌과, 게델과, 마스며",
+        "en": "The sons of Aram: Uz, Hul, Gether and Meshek."
+      },
+      {
+        "verse": 24,
+        "ko": "아르박삿은 셀라를 낳고, 셀라는 에벨을 낳았으며",
+        "en": "Arphaxad was the father of Shelah, and Shelah the father of Eber."
+      },
+      {
+        "verse": 25,
+        "ko": "에벨은 두 아들을 낳고, 하나의 이름을 벨렉이라 하였으니 그 때에 세상이 나뉘었음이요 벨렉의 아우의 이름은 욕단이며",
+        "en": "Two sons were born to Eber: One was named Peleg, because in his time the earth was divided; his brother was named Joktan."
+      },
+      {
+        "verse": 26,
+        "ko": "욕단은 알모닷과, 셀렙과, 하살마웹과, 예라와",
+        "en": "Joktan was the father of Almodad, Sheleph, Hazarmaveth, Jerah,"
+      },
+      {
+        "verse": 27,
+        "ko": "하도람과, 우살과, 디글라와",
+        "en": "Hadoram, Uzal, Diklah,"
+      },
+      {
+        "verse": 28,
+        "ko": "오발과, 아비마엘과, 스바와",
+        "en": "Obal, Abimael, Sheba,"
+      },
+      {
+        "verse": 29,
+        "ko": "오빌과, 하윌라와, 요밥을 낳았으니 이들은 다 욕단의 아들이며",
+        "en": "Ophir, Havilah and Jobab. All these were sons of Joktan."
+      },
+      {
+        "verse": 30,
+        "ko": "그들의 거하는 곳은 메사에서부터 스발로 가는 길의 동편 산이었더라",
+        "en": "The region where they lived stretched from Mesha toward Sephar, in the eastern hill country."
+      },
+      {
+        "verse": 31,
+        "ko": "이들은 셈의 자손이라 그 족속과 방언과 지방과 나라대로였더라",
+        "en": "These are the sons of Shem by their clans and languages, in their territories and nations."
+      },
+      {
+        "verse": 32,
+        "ko": "이들은 노아 자손의 족속들이요 그 세계와 나라대로라 홍수 후에 이들에게서 땅의 열국 백성이 나뉘었더라",
+        "en": "These are the clans of Noah`s sons, according to their lines of descent, within their nations. From these the nations spread out over the earth after the flood."
+      }
+    ]
+  },
+  {
+    "chapter": 11,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "온 땅의 구음이 하나이요 언어가 하나이었더라",
+        "en": "Now the whole world had one language and a common speech."
+      },
+      {
+        "verse": 2,
+        "ko": "이에 그들이 동방으로 옮기다가 시날 평지를 만나 거기 거하고",
+        "en": "As people moved eastward, they found a plain in Shinar and settled there."
+      },
+      {
+        "verse": 3,
+        "ko": "서로 말하되 `자, 벽돌을 만들어 견고히 굽자' 하고 이에 벽돌로 돌을 대신하며 역청으로 진흙을 대신하고",
+        "en": "They said to each other, “Come, let`s make bricks and bake them thoroughly.” They used brick instead of stone, and tar for mortar."
+      },
+      {
+        "verse": 4,
+        "ko": "또 말하되 `자, 성과 대를 쌓아 대 꼭대기를 하늘에 닿게 하여 우리 이름을 내고 온 지면에 흩어짐을 면하자' 하였더니",
+        "en": "Then they said, “Come, let us build ourselves a city, with a tower that reaches to the heavens, so that we may make a name for ourselves; otherwise we will be scattered over the face of the whole earth.”"
+      },
+      {
+        "verse": 5,
+        "ko": "여호와께서 인생들의 쌓는 성과 대를 보시려고 강림하셨더라",
+        "en": "But the Lord came down to see the city and the tower the people were building."
+      },
+      {
+        "verse": 6,
+        "ko": "여호와께서 가라사대 이 무리가 한 족속이요, 언어도 하나이므로 이같이 시작하였으니 이후로는 그 경영하는 일을 금지할 수 없으리로다",
+        "en": "The Lord said, “If as one people speaking the same language they have begun to do this, then nothing they plan to do will be impossible for them."
+      },
+      {
+        "verse": 7,
+        "ko": "자, 우리가 내려가서 거기서 그들의 언어를 혼잡케 하여 그들로 서로 알아듣지 못하게 하자 하시고",
+        "en": "Come, let us go down and confuse their language so they will not understand each other.”"
+      },
+      {
+        "verse": 8,
+        "ko": "여호와께서 거기서 그들을 온 지면에 흩으신 고로 그들이 성 쌓기를 그쳤더라",
+        "en": "So the Lord scattered them from there over all the earth, and they stopped building the city."
+      },
+      {
+        "verse": 9,
+        "ko": "그러므로 그 이름을 바벨이라 하니 이는 여호와께서 거기서 온 땅의 언어를 혼잡케 하셨음이라 여호와께서 거기서 그들을 온 지면에 흩으셨더라",
+        "en": "That is why it was called Babel—because there the Lord confused the language of the whole world. From there the Lord scattered them over the face of the whole earth."
+      },
+      {
+        "verse": 10,
+        "ko": "셈의 후예는 이러하니라 셈은 일백세 곧 홍수 후 이년에 아르박삿을 낳았고",
+        "en": "This is the account of Shem`s family line. Two years after the flood, when Shem was 100 years old, he became the father of Arphaxad."
+      },
+      {
+        "verse": 11,
+        "ko": "아르박삿을 낳은 후에 오백년을 지내며 자녀를 낳았으며",
+        "en": "And after he became the father of Arphaxad, Shem lived 500 years and had other sons and daughters."
+      },
+      {
+        "verse": 12,
+        "ko": "아르박삿은 삼십 오세에 셀라를 낳았고",
+        "en": "When Arphaxad had lived 35 years, he became the father of Shelah."
+      },
+      {
+        "verse": 13,
+        "ko": "셀라를 낳은 후에 사백 삼년을 지내며 자녀를 낳았으며",
+        "en": "And after he became the father of Shelah, Arphaxad lived 403 years and had other sons and daughters."
+      },
+      {
+        "verse": 14,
+        "ko": "셀라는 삼십세에 에벨을 낳았고",
+        "en": "When Shelah had lived 30 years, he became the father of Eber."
+      },
+      {
+        "verse": 15,
+        "ko": "에벨을 낳은 후에 사백 삼년을 지내며 자녀를 낳았으며",
+        "en": "And after he became the father of Eber, Shelah lived 403 years and had other sons and daughters."
+      },
+      {
+        "verse": 16,
+        "ko": "에벨은 삼십 사세에 벨렉을 낳았고",
+        "en": "When Eber had lived 34 years, he became the father of Peleg."
+      },
+      {
+        "verse": 17,
+        "ko": "벨렉을 낳은 후에 사백 삼십년을 지내며 자녀를 낳았으며",
+        "en": "And after he became the father of Peleg, Eber lived 430 years and had other sons and daughters."
+      },
+      {
+        "verse": 18,
+        "ko": "벨렉은 삼십세에 르우를 낳았고",
+        "en": "When Peleg had lived 30 years, he became the father of Reu."
+      },
+      {
+        "verse": 19,
+        "ko": "르우를 낳은 후에 이백 구년을 지내며 자녀를 낳았으며",
+        "en": "And after he became the father of Reu, Peleg lived 209 years and had other sons and daughters."
+      },
+      {
+        "verse": 20,
+        "ko": "르우는 삼십 이세에 스룩을 낳았고",
+        "en": "When Reu had lived 32 years, he became the father of Serug."
+      },
+      {
+        "verse": 21,
+        "ko": "스룩을 낳은 후에 이백 칠년을 지내며 자녀를 낳았으며",
+        "en": "And after he became the father of Serug, Reu lived 207 years and had other sons and daughters."
+      },
+      {
+        "verse": 22,
+        "ko": "스룩은 삼십세에 나홀을 낳았고",
+        "en": "When Serug had lived 30 years, he became the father of Nahor."
+      },
+      {
+        "verse": 23,
+        "ko": "나홀을 낳은 후에 이백년을 지내며 자녀를 낳았으며",
+        "en": "And after he became the father of Nahor, Serug lived 200 years and had other sons and daughters."
+      },
+      {
+        "verse": 24,
+        "ko": "나홀은 이십 구세에 데라를 낳았고",
+        "en": "When Nahor had lived 29 years, he became the father of Terah."
+      },
+      {
+        "verse": 25,
+        "ko": "데라를 낳은 후에 일백 십 구년을 지내며 자녀를 낳았으며",
+        "en": "And after he became the father of Terah, Nahor lived 119 years and had other sons and daughters."
+      },
+      {
+        "verse": 26,
+        "ko": "데라는 칠십세에 아브람과, 나홀과, 하란을 낳았더라",
+        "en": "After Terah had lived 70 years, he became the father of Abram, Nahor and Haran."
+      },
+      {
+        "verse": 27,
+        "ko": "데라의 후예는 이러하니라 데라는 아브람과, 나홀과, 하란을 낳았으며",
+        "en": "This is the account of Terah`s family line. Terah became the father of Abram, Nahor and Haran. And Haran became the father of Lot."
+      },
+      {
+        "verse": 28,
+        "ko": "하란은 그 아비 데라보다 먼저 본토 갈대아 우르에서 죽었더라",
+        "en": "While his father Terah was still alive, Haran died in Ur of the Chaldeans, in the land of his birth."
+      },
+      {
+        "verse": 29,
+        "ko": "아브람과 나홀이 장가 들었으니 아브람의 아내 이름은 사래며 나홀의 아내 이름은 밀가니 하란의 딸이요 하란은 밀가의 아비며 또 이스가의 아비더라",
+        "en": "Abram and Nahor both married. The name of Abram`s wife was Sarai, and the name of Nahor`s wife was Milkah; she was the daughter of Haran, the father of both Milkah and Iskah."
+      },
+      {
+        "verse": 30,
+        "ko": "사래는 잉태하지 못하므로 자식이 없었더라",
+        "en": "Now Sarai was childless because she was not able to conceive."
+      },
+      {
+        "verse": 31,
+        "ko": "데라가 그 아들 아브람과 하란의 아들 그 손자 롯과 그 자부 아브람의 아내 사래를 데리고 갈대아 우르에서 떠나 가나안 땅으로 가고자 하더니 하란에 이르러 거기 거하였으며",
+        "en": "Terah took his son Abram, his grandson Lot son of Haran, and his daughter-in-law Sarai, the wife of his son Abram, and together they set out from Ur of the Chaldeans to go to Canaan. But when they came to Harran, they settled there."
+      },
+      {
+        "verse": 32,
+        "ko": "데라는 이백 오세를 향수하고 하란에서 죽었더라",
+        "en": "Terah lived 205 years, and he died in Harran."
+      }
+    ]
+  },
+  {
+    "chapter": 12,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "여호와께서 아브람에게 이르시되 너는 너의 본토 친척 아비 집을 떠나 내가 네게 지시할 땅으로 가라",
+        "en": "The Lord had said to Abram, “Go from your country, your people and your father`s household to the land I will show you."
+      },
+      {
+        "verse": 2,
+        "ko": "내가 너로 큰 민족을 이루고 네게 복을 주어 네 이름을 창대케 하리니 너는 복의 근원이 될지라.",
+        "en": "“I will make you into a great nation, and I will bless you; I will make your name great, and you will be a blessing."
+      },
+      {
+        "verse": 3,
+        "ko": "너를 축복하는 자에게는 내가 복을 내리고 너를 저주하는 자에게는 내가 저주하리니 땅의 모든 족속이 너를 인하여 복을 얻을 것이니라 하신지라",
+        "en": "I will bless those who bless you, and whoever curses you I will curse; and all peoples on earth will be blessed through you.”"
+      },
+      {
+        "verse": 4,
+        "ko": "이에 아브람이 여호와의 말씀을 좇아 갔고 롯도 그와 함께 갔으며 아브람이 하란을 떠날 때에 그 나이 칠십 오세였더라",
+        "en": "So Abram went, as the Lord had told him; and Lot went with him. Abram was seventy-five years old when he set out from Harran."
+      },
+      {
+        "verse": 5,
+        "ko": "아브람이 그 아내 사래와 조카 롯과 하란에서 모은 모든 소유와 얻은 사람들을 이끌고 가나안 땅으로 가려고 떠나서 마침내 가나안 땅에 들어 갔더라",
+        "en": "He took his wife Sarai, his nephew Lot, all the possessions they had accumulated and the people they had acquired in Harran, and they set out for the land of Canaan, and they arrived there."
+      },
+      {
+        "verse": 6,
+        "ko": "아브람이 그 땅을 통과하여 세겜 땅 모레 상수리 나무에 이르니 그 때에 가나안 사람이 그 땅에 거하였더라",
+        "en": "Abram traveled through the land as far as the site of the great tree of Moreh at Shechem. At that time the Canaanites were in the land."
+      },
+      {
+        "verse": 7,
+        "ko": "여호와께서 아브람에게 나타나 가라사대 내가 이 땅을 네 자손에게 주리라 하신지라 그가 자기에게 나타나신 여호와를 위하여 그 곳에 단을 쌓고",
+        "en": "The Lord appeared to Abram and said, “To your offspring I will give this land.” So he built an altar there to the Lord, who had appeared to him."
+      },
+      {
+        "verse": 8,
+        "ko": "거기서 벧엘 동편 산으로 옮겨 장막을 치니 서는 벧엘이요, 동은 아이라 그가 그 곳에서 여호와를 위하여 단을 쌓고 여호와의 이름을 부르더니",
+        "en": "From there he went on toward the hills east of Bethel and pitched his tent, with Bethel on the west and Ai on the east. There he built an altar to the Lord and called on the name of the Lord."
+      },
+      {
+        "verse": 9,
+        "ko": "점점 남방으로 옮겨 갔더라",
+        "en": "Then Abram set out and continued toward the Negev."
+      },
+      {
+        "verse": 10,
+        "ko": "그 땅에 기근이 있으므로 아브람이 애굽에 우거하려 하여 그리로 내려갔으니 이는 그 땅에 기근이 심하였음이라",
+        "en": "Now there was a famine in the land, and Abram went down to Egypt to live there for a while because the famine was severe."
+      },
+      {
+        "verse": 11,
+        "ko": "그가 애굽에 가까이 이를 때에 그 아내 사래더러 말하되 `나 알기에 그대는 아리따운 여인이라",
+        "en": "As he was about to enter Egypt, he said to his wife Sarai, “I know what a beautiful woman you are."
+      },
+      {
+        "verse": 12,
+        "ko": "애굽 사람이 그대를 볼 때에 이르기를 이는 그의 아내라 하고 나는 죽이고 그대는 살리리니",
+        "en": "When the Egyptians see you, they will say, ‘This is his wife.` Then they will kill me but will let you live."
+      },
+      {
+        "verse": 13,
+        "ko": "원컨대 그대는 나의 누이라 하라 그리하면 내가 그대로 인하여 안전하고 내 목숨이 그대로 인하여 보존하겠노라' 하니라",
+        "en": "Say you are my sister, so that I will be treated well for your sake and my life will be spared because of you.”"
+      },
+      {
+        "verse": 14,
+        "ko": "아브람이 애굽에 이르렀을 때에 애굽 사람들이 그 여인의 심히 아리따움을 보았고",
+        "en": "When Abram came to Egypt, the Egyptians saw that Sarai was a very beautiful woman."
+      },
+      {
+        "verse": 15,
+        "ko": "바로의 대신들도 그를 보고 바로 앞에 칭찬하므로 그 여인을 바로의 궁으로 취하여 들인지라",
+        "en": "And when Pharaoh`s officials saw her, they praised her to Pharaoh, and she was taken into his palace."
+      },
+      {
+        "verse": 16,
+        "ko": "이에 바로가 그를 인하여 아브람을 후대하므로 아브람이 양과, 소와, 노비와, 암수 나귀와, 약대를 얻었더라",
+        "en": "He treated Abram well for her sake, and Abram acquired sheep and cattle, male and female donkeys, male and female servants, and camels."
+      },
+      {
+        "verse": 17,
+        "ko": "여호와께서 아브람의 아내 사래의 연고로 바로와 그 집에 큰 재앙을 내리신지라",
+        "en": "But the Lord inflicted serious diseases on Pharaoh and his household because of Abram`s wife Sarai."
+      },
+      {
+        "verse": 18,
+        "ko": "바로가 아브람을 불러서 이르되 `네가 어찌하여 나를 이렇게 대접하였느냐 ? 네가 어찌하여 그를 네 아내라고 내게 고하지 아니하였느냐?",
+        "en": "So Pharaoh summoned Abram. “What have you done to me?” he said. “Why didn`t you tell me she was your wife?"
+      },
+      {
+        "verse": 19,
+        "ko": "네가 어찌 그를 누이라 하여 나로 그를 취하여 아내를 삼게 하였느냐 ? 네 아내가 여기 있으니 이제 데려 가라' 하고",
+        "en": "Why did you say, ‘She is my sister,` so that I took her to be my wife? Now then, here is your wife. Take her and go!”"
+      },
+      {
+        "verse": 20,
+        "ko": "바로가 사람들에게 그의 일을 명하매 그들이 그 아내와 그 모든 소유를 보내었더라",
+        "en": "Then Pharaoh gave orders about Abram to his men, and they sent him on his way, with his wife and everything he had."
+      }
+    ]
+  },
+  {
+    "chapter": 13,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "아브람이 애굽에서 나올새 그와 그 아내와 모든 소유며 롯도 함께 하여 남방으로 올라가니",
+        "en": "So Abram went up from Egypt to the Negev, with his wife and everything he had, and Lot went with him."
+      },
+      {
+        "verse": 2,
+        "ko": "아브람에게 육축과 은,금이 풍부하였더라",
+        "en": "Abram had become very wealthy in livestock and in silver and gold."
+      },
+      {
+        "verse": 3,
+        "ko": "그가 남방에서부터 발행하여 벧엘에 이르며 벧엘과 아이 사이 전에 장막 쳤던 곳에 이르니",
+        "en": "From the Negev he went from place to place until he came to Bethel, to the place between Bethel and Ai where his tent had been earlier"
+      },
+      {
+        "verse": 4,
+        "ko": "그가 처음으로 단을 쌓은 곳이라 그가 거기서 여호와의 이름을 불렀더라",
+        "en": "and where he had first built an altar. There Abram called on the name of the Lord."
+      },
+      {
+        "verse": 5,
+        "ko": "아브람의 일행 롯도 양과 소와 장막이 있으므로",
+        "en": "Now Lot, who was moving about with Abram, also had flocks and herds and tents."
+      },
+      {
+        "verse": 6,
+        "ko": "그 땅이 그들의 동거함을 용납지 못하였으니 곧 그들의 소유가 많아서 동거할 수 없었음이라",
+        "en": "But the land could not support them while they stayed together, for their possessions were so great that they were not able to stay together."
+      },
+      {
+        "verse": 7,
+        "ko": "그러므로 아브람의 가축의 목자와 롯의 가축의 목자가 서로 다투고 또 가나안 사람과 브리스 사람도 그 땅에 거하였는지라",
+        "en": "And quarreling arose between Abram`s herders and Lot`s. The Canaanites and Perizzites were also living in the land at that time."
+      },
+      {
+        "verse": 8,
+        "ko": "아브람이 롯에게 이르되 `우리는 한 골육이라 나나, 너나, 내 목자나, 네 목자나 서로 다투게 말자",
+        "en": "So Abram said to Lot, “Let`s not have any quarreling between you and me, or between your herders and mine, for we are close relatives."
+      },
+      {
+        "verse": 9,
+        "ko": "네 앞에 온 땅이 있지 아니하냐 ? 나를 떠나라 네가 좌하면 나는 우하고, 네가 우하면 나는 좌하리라'",
+        "en": "Is not the whole land before you? Let`s part company. If you go to the left, I`ll go to the right; if you go to the right, I`ll go to the left.”"
+      },
+      {
+        "verse": 10,
+        "ko": "이에 롯이 눈을 들어 요단들을 바라본즉 소알까지 온 땅에 물이 넉넉하니 여호와께서 소돔과 고모라를 멸하시기 전이었는고로 여호와의 동산같고 애굽 땅과 같았더라",
+        "en": "Lot looked around and saw that the whole plain of the Jordan toward Zoar was well watered, like the garden of the Lord, like the land of Egypt. (This was before the Lord destroyed Sodom and Gomorrah.)"
+      },
+      {
+        "verse": 11,
+        "ko": "그러므로 롯이 요단 온 들을 택하고 동으로 옮기니 그들이 서로 떠난지라",
+        "en": "So Lot chose for himself the whole plain of the Jordan and set out toward the east. The two men parted company:"
+      },
+      {
+        "verse": 12,
+        "ko": "아브람은 가나안 땅에 거하였고 롯은 평지 성읍들에 머무르며 그 장막을 옮겨 소돔까지 이르렀더라",
+        "en": "Abram lived in the land of Canaan, while Lot lived among the cities of the plain and pitched his tents near Sodom."
+      },
+      {
+        "verse": 13,
+        "ko": "소돔 사람은 악하여 여호와 앞에 큰 죄인이었더라",
+        "en": "Now the people of Sodom were wicked and were sinning greatly against the Lord."
+      },
+      {
+        "verse": 14,
+        "ko": "롯이 아브람을 떠난 후에 여호와께서 아브람에게 이르시되 너는 눈을 들어 너 있는 곳에서 동서남북을 바라보라.",
+        "en": "The Lord said to Abram after Lot had parted from him, “Look around from where you are, to the north and south, to the east and west."
+      },
+      {
+        "verse": 15,
+        "ko": "보이는 땅을 내가 너와 네 자손에게 주리니 영원히 이르리라",
+        "en": "All the land that you see I will give to you and your offspring forever."
+      },
+      {
+        "verse": 16,
+        "ko": "내가 네 자손으로 땅의 티끌 같게 하리니 사람이 땅의 티끌을 능히 셀수 있을진대 네 자손도 세리라",
+        "en": "I will make your offspring like the dust of the earth, so that if anyone could count the dust, then your offspring could be counted."
+      },
+      {
+        "verse": 17,
+        "ko": "너는 일어나 그 땅을 종과 횡으로 행하여 보라 ! 내가 그것을 네게 주리라",
+        "en": "Go, walk through the length and breadth of the land, for I am giving it to you.”"
+      },
+      {
+        "verse": 18,
+        "ko": "이에 아브람이 장막을 옮겨 헤브론에 있는 마므레 상수리 수풀에 이르러 거하며 거기서 여호와를 위하여 단을 쌓았더라",
+        "en": "So Abram went to live near the great trees of Mamre at Hebron, where he pitched his tents. There he built an altar to the Lord."
+      }
+    ]
+  },
+  {
+    "chapter": 14,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "당시에 시날 왕 아므라벨과, 엘라살 왕 아리옥과, 엘람 왕 그돌라오멜과, 고임 왕 디달이",
+        "en": "At the time when Amraphel was king of Shinar, Arioch king of Ellasar, Kedorlaomer king of Elam and Tidal king of Goyim,"
+      },
+      {
+        "verse": 2,
+        "ko": "소돔 왕 베라와, 고모라 왕 비르사와, 아드마 왕 시납과, 수보임 왕 세메벨과, 벨라 곧 소알 왕과 싸우니라",
+        "en": "these kings went to war against Bera king of Sodom, Birsha king of Gomorrah, Shinab king of Admah, Shemeber king of Zeboyim, and the king of Bela (that is, Zoar)."
+      },
+      {
+        "verse": 3,
+        "ko": "이들이 다 싯딤 골짜기 곧 지금 염해에 모였더라",
+        "en": "All these latter kings joined forces in the Valley of Siddim (that is, the Dead Sea Valley)."
+      },
+      {
+        "verse": 4,
+        "ko": "이들이 십 이년 동안 그돌라오멜을 섬기다가 제 십 삼년에 배반한지라",
+        "en": "For twelve years they had been subject to Kedorlaomer, but in the thirteenth year they rebelled."
+      },
+      {
+        "verse": 5,
+        "ko": "제 십 사년에 그돌라오멜과 그와 동맹한 왕들이 나와서 아스드롯 가르나임에서 르바 족속을, 함에서 수스 족속을, 사웨기랴다임에서 엠 족속을 치고",
+        "en": "In the fourteenth year, Kedorlaomer and the kings allied with him went out and defeated the Rephaites in Ashteroth Karnaim, the Zuzites in Ham, the Emites in Shaveh Kiriathaim"
+      },
+      {
+        "verse": 6,
+        "ko": "호리 족속을 그 산 세일에서 쳐서 광야 근방 엘바란까지 이르렀으며",
+        "en": "and the Horites in the hill country of Seir, as far as El Paran near the desert."
+      },
+      {
+        "verse": 7,
+        "ko": "그들이 돌이켜 엔미스밧 곧 가데스에 이르러 아말렉 족속의 온 땅과 하사손다말에 사는 아모리 족속을 친지라",
+        "en": "Then they turned back and went to En Mishpat (that is, Kadesh), and they conquered the whole territory of the Amalekites, as well as the Amorites who were living in Hazezon Tamar."
+      },
+      {
+        "verse": 8,
+        "ko": "소돔 왕과, 고모라 왕과, 아드마 왕과, 스보임 왕과, 벨라 곧 소알 왕이 나와서 싯딤 골짜기에서 그들과 접전하였으니",
+        "en": "Then the king of Sodom, the king of Gomorrah, the king of Admah, the king of Zeboyim and the king of Bela (that is, Zoar) marched out and drew up their battle lines in the Valley of Siddim"
+      },
+      {
+        "verse": 9,
+        "ko": "엘람 왕 그돌라오멜과, 고임 왕 디달과, 시날 왕 아므라벨과, 엘라살 왕 아리옥 네 왕과 교전하였더라",
+        "en": "against Kedorlaomer king of Elam, Tidal king of Goyim, Amraphel king of Shinar and Arioch king of Ellasar—four kings against five."
+      },
+      {
+        "verse": 10,
+        "ko": "싯딤 골짜기에는 역청 구덩이가 많은지라 소돔 왕과 고모라 왕이 달아날 때에 군사가 거기 빠지고 그 나머지는 산으로 도망하매",
+        "en": "Now the Valley of Siddim was full of tar pits, and when the kings of Sodom and Gomorrah fled, some of the men fell into them and the rest fled to the hills."
+      },
+      {
+        "verse": 11,
+        "ko": "네 왕이 소돔과 고모라의 모든 재물과 양식을 빼앗아 가고",
+        "en": "The four kings seized all the goods of Sodom and Gomorrah and all their food; then they went away."
+      },
+      {
+        "verse": 12,
+        "ko": "소돔에 거하는 아브람의 조카 롯도 사로잡고 그 재물까지 노략하여 갔더라",
+        "en": "They also carried off Abram`s nephew Lot and his possessions, since he was living in Sodom."
+      },
+      {
+        "verse": 13,
+        "ko": "도망한 자가 와서 히브리 사람 아브람에게 고하니 때에 아브람이 아모리 족속 마므레의 상수리 수풀 근처에 거하였더라 마므레는 에스골의 형제요 또 아넬의 형제라 이들은 아브람과 동맹한 자더라",
+        "en": "A man who had escaped came and reported this to Abram the Hebrew. Now Abram was living near the great trees of Mamre the Amorite, a brother of Eshkol and Aner, all of whom were allied with Abram."
+      },
+      {
+        "verse": 14,
+        "ko": "아브람이 그 조카의 사로 잡혔음을 듣고 집에서 길리고 연습한 자 삼백 십 팔인을 거느리고 단까지 쫓아가서",
+        "en": "When Abram heard that his relative had been taken captive, he called out the 318 trained men born in his household and went in pursuit as far as Dan."
+      },
+      {
+        "verse": 15,
+        "ko": "그 가신을 나누어 밤을 타서 그들을 쳐서 파하고 다메섹 좌편 호바까지 쫓아가서",
+        "en": "During the night Abram divided his men to attack them and he routed them, pursuing them as far as Hobah, north of Damascus."
+      },
+      {
+        "verse": 16,
+        "ko": "모든 빼앗겼던 재물과 자기 조카 롯과 그 재물과 또 부녀와 인민을 다 찾아 왔더라",
+        "en": "He recovered all the goods and brought back his relative Lot and his possessions, together with the women and the other people."
+      },
+      {
+        "verse": 17,
+        "ko": "아브람이 그돌라오멜과 그와 함께 한 왕들을 파하고 돌아올때에 소돔 왕이 사웨 골짜기 곧 왕곡에 나와 그를 영접하였고",
+        "en": "After Abram returned from defeating Kedorlaomer and the kings allied with him, the king of Sodom came out to meet him in the Valley of Shaveh (that is, the King`s Valley)."
+      },
+      {
+        "verse": 18,
+        "ko": "살렘 왕 멜기세덱이 떡과 포도주를 가지극히 높으신 하나님의 제사장이었더라",
+        "en": "Then Melchizedek king of Salem brought out bread and wine. He was priest of God Most High,"
+      },
+      {
+        "verse": 19,
+        "ko": "그가 아브람에게 축복하여 가로되 `천지의 주재시요, 지극히 높으신 하나님이여 아브람에게 복을 주옵소서.",
+        "en": "and he blessed Abram, saying, “Blessed be Abram by God Most High, Creator of heaven and earth."
+      },
+      {
+        "verse": 20,
+        "ko": "너희 대적을 네 손에 붙이신 지극히 높으신 하나님을 찬송할지로다 !' 하매 아브람이 그 얻은 것에서 십분 일을 멜기세덱에게 주었더라",
+        "en": "And praise be to God Most High, who delivered your enemies into your hand.” Then Abram gave him a tenth of everything."
+      },
+      {
+        "verse": 21,
+        "ko": "소돔 왕이 아브람에게 이르되 `사람은 내게 보내고 물품은 네가 취하라'",
+        "en": "The king of Sodom said to Abram, “Give me the people and keep the goods for yourself.”"
+      },
+      {
+        "verse": 22,
+        "ko": "아브람이 소돔 왕에게 이르되 `천지의 주재시요 지극히 높으신 하나님 여호와께 내가 손을 들어 맹세하노니",
+        "en": "But Abram said to the king of Sodom, “With raised hand I have sworn an oath to the Lord, God Most High, Creator of heaven and earth,"
+      },
+      {
+        "verse": 23,
+        "ko": "네 말이 내가 아브람으로 치부케 하였다 할까 하여 네게 속한 것은 무론 한 실이나 신들메라도 내가 취하지 아니하리라",
+        "en": "that I will accept nothing belonging to you, not even a thread or the strap of a sandal, so that you will never be able to say, ‘I made Abram rich.`"
+      },
+      {
+        "verse": 24,
+        "ko": "오직 소년들의 먹은 것과 나와 동행한 아넬과 에스골과 마므레의 분깃을 제할지니 그들이 그 분깃을 취할 것이니라'",
+        "en": "I will accept nothing but what my men have eaten and the share that belongs to the men who went with me—to Aner, Eshkol and Mamre. Let them have their share.”"
+      }
+    ]
+  },
+  {
+    "chapter": 15,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "이 후에 여호와의 말씀이 이상 중에 아브람에게 임하여 가라사대 아브람아 두려워 말라! 나는 너의 방패요, 너의 지극히 큰 상급이니라",
+        "en": "After this, the word of the Lord came to Abram in a vision: “Do not be afraid, Abram. I am your shield, your very great reward.”"
+      },
+      {
+        "verse": 2,
+        "ko": "아브람이 가로되 `주 여호와여 무엇을 내게 주시려나이까 ? 나는 무자하오니 나의 상속자는 이 다메섹 엘리에셀이니이다'",
+        "en": "But Abram said, “Sovereign Lord, what can you give me since I remain childless and the one who will inherit my estate is Eliezer of Damascus?”"
+      },
+      {
+        "verse": 3,
+        "ko": "아브람이 또 가로되 `주께서 내게 씨를 아니주셨으니 내 집에서 길리운 자가 나의 후사가 될 것이니이다'",
+        "en": "And Abram said, “You have given me no children; so a servant in my household will be my heir.”"
+      },
+      {
+        "verse": 4,
+        "ko": "여호와의 말씀이 그에게 임하여 가라사대 그 사람은 너의 후사가 아니라 네 몸에서 날 자가 네 후사가 되리라 하시고",
+        "en": "Then the word of the Lord came to him: “This man will not be your heir, but a son who is your own flesh and blood will be your heir.”"
+      },
+      {
+        "verse": 5,
+        "ko": "그를 이끌고 밖으로 나가 가라사대 하늘을 우러러 뭇 별을 셀 수 있나 보라 ! 또 그에게 이르시되 네 자손이 이와 같으리라",
+        "en": "He took him outside and said, “Look up at the sky and count the stars—if indeed you can count them.” Then he said to him, “So shall your offspring be.”"
+      },
+      {
+        "verse": 6,
+        "ko": "아브람이 여호와를 믿으니 여호와께서 이를 그의 의로 여기시고",
+        "en": "Abram believed the Lord, and he credited it to him as righteousness."
+      },
+      {
+        "verse": 7,
+        "ko": "또 그에게 이르시되 나는 이 땅을 네게 주어 업을 삼게 하려고 너를 갈대아 우르에서 이끌어 낸 여호와로라.",
+        "en": "He also said to him, “I am the Lord, who brought you out of Ur of the Chaldeans to give you this land to take possession of it.”"
+      },
+      {
+        "verse": 8,
+        "ko": "그가 가로되 `주, 여호와여 ! 내가 이 땅으로 업을 삼을 줄을 무엇로 알리이까 ?'",
+        "en": "But Abram said, “Sovereign Lord, how can I know that I will gain possession of it?”"
+      },
+      {
+        "verse": 9,
+        "ko": "여호와께서 그에게 이르시되 나를 위하여 삼년 된 암소와, 삼년 된 암염소와, 삼년 된 수양과, 산비둘기와, 집비둘기 새끼를 취할지니라",
+        "en": "So the Lord said to him, “Bring me a heifer, a goat and a ram, each three years old, along with a dove and a young pigeon.”"
+      },
+      {
+        "verse": 10,
+        "ko": "아브람이 그 모든 것을 취하여 그 중간을 쪼개고 그 쪼갠 것을 마주 대하여 놓고 그 새는 쪼개지 아니하였으며",
+        "en": "Abram brought all these to him, cut them in two and arranged the halves opposite each other; the birds, however, he did not cut in half."
+      },
+      {
+        "verse": 11,
+        "ko": "솔개가 그 사체위에 내릴 때에는 아브람이 쫓았더라",
+        "en": "Then birds of prey came down on the carcasses, but Abram drove them away."
+      },
+      {
+        "verse": 12,
+        "ko": "해질 때에 아브람이 깊이 잠든 중에 캄캄함이 임하므로 심히 두려워하더니",
+        "en": "As the sun was setting, Abram fell into a deep sleep, and a thick and dreadful darkness came over him."
+      },
+      {
+        "verse": 13,
+        "ko": "여호와께서 아브람에게 이르시되 너는 정녕히 알라 네 자손이 이방에서 객이 되어 그들을 섬기겠고 그들은 사백 년 동안 네 자손을 괴롭게 하리니",
+        "en": "Then the Lord said to him, “Know for certain that for four hundred years your descendants will be strangers in a country not their own and that they will be enslaved and mistreated there."
+      },
+      {
+        "verse": 14,
+        "ko": "그 섬기는 나라를 내가 징치할지며 그 후에 네 자손이 큰 재물을 이끌고 나오리라",
+        "en": "But I will punish the nation they serve as slaves, and afterward they will come out with great possessions."
+      },
+      {
+        "verse": 15,
+        "ko": "너는 장수하다가 평안히 조상에게로 돌아가 장사될 것이요",
+        "en": "You, however, will go to your ancestors in peace and be buried at a good old age."
+      },
+      {
+        "verse": 16,
+        "ko": "네 자손은 사 대만에 이 땅으로 돌아 오리니 이는 아모리 족속의 죄악이 아직 관영치 아니함이니라 하시더니",
+        "en": "In the fourth generation your descendants will come back here, for the sin of the Amorites has not yet reached its full measure.”"
+      },
+      {
+        "verse": 17,
+        "ko": "해가 져서 어둘 때에 연기 나는 풀무가 보이며 타는 횃불이 쪼갠 고기 사이로 지나더라",
+        "en": "When the sun had set and darkness had fallen, a smoking firepot with a blazing torch appeared and passed between the pieces."
+      },
+      {
+        "verse": 18,
+        "ko": "그 날에 여호와께서 아브람으로 더불어 언약을 세워 가라사대 내가 이땅을 애굽강에서부터 그 큰 강 유브라데까지 네 자손에게 주노니",
+        "en": "On that day the Lord made a covenant with Abram and said, “To your descendants I give this land, from the Wadi of Egypt to the great river, the Euphrates—"
+      },
+      {
+        "verse": 19,
+        "ko": "곧 겐 족속과, 그니스 족속과, 갓몬 족속과,",
+        "en": "the land of the Kenites, Kenizzites, Kadmonites,"
+      },
+      {
+        "verse": 20,
+        "ko": "헷 족속과, 브리스 족속과, 르바 족속과,",
+        "en": "Hittites, Perizzites, Rephaites,"
+      },
+      {
+        "verse": 21,
+        "ko": "아모리 족속과, 가나안 족속과, 기르가스 족속과, 여부스 족속의 땅이니라 하셨더라",
+        "en": "Amorites, Canaanites, Girgashites and Jebusites.”"
+      }
+    ]
+  },
+  {
+    "chapter": 16,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "아브람의 아내 사래는 생산치 못하였고 그에게 한 여종이 있으니 애굽 사람이요 이름은 하갈이라",
+        "en": "Now Sarai, Abram`s wife, had borne him no children. But she had an Egyptian slave named Hagar;"
+      },
+      {
+        "verse": 2,
+        "ko": "사래가 아브람에게 이르되 `여호와께서 나의 생산을 허락지 아니하셨으니 원컨대 나의 여종과 동침하라 내가 혹 그로 말미암아 자녀를 얻을까 하노라' 하매 아브람이 사래의 말을 들으니라",
+        "en": "so she said to Abram, “The Lord has kept me from having children. Go, sleep with my slave; perhaps I can build a family through her.” Abram agreed to what Sarai said."
+      },
+      {
+        "verse": 3,
+        "ko": "아브람의 아내 사래가 그 여종 애굽 사람 하갈을 가져 그 남편 아브람에게 첩으로 준 때는 아브람이 가나안 땅에 거한지 십년 후이었더라",
+        "en": "So after Abram had been living in Canaan ten years, Sarai his wife took her Egyptian slave Hagar and gave her to her husband to be his wife."
+      },
+      {
+        "verse": 4,
+        "ko": "아브람이 하갈과 동침하였더니 하갈이 잉태하매 그가 자기의 잉태함을 깨닫고 그 여주인을 멸시한지라",
+        "en": "He slept with Hagar, and she conceived. When she knew she was pregnant, she began to despise her mistress."
+      },
+      {
+        "verse": 5,
+        "ko": "사래가 아브람에게 이르되 `나의 받는 욕은 당신이 받아야 옳도다 내가 나의 여종을 당신의 품에 두었거늘 그가 자기의 잉태함을 깨닫고 나를 멸시하니 당신과 나 사이에 여호와께서 판단하시기를 원하노라'",
+        "en": "Then Sarai said to Abram, “You are responsible for the wrong I am suffering. I put my slave in your arms, and now that she knows she is pregnant, she despises me. May the Lord judge between you and me.”"
+      },
+      {
+        "verse": 6,
+        "ko": "아브람이 사래에게 이르되 `그대의 여종은 그대의 수중에 있으니 그대의 눈에 좋은대로 그에게 행하라' 하매 사래가 하갈을 학대하였더니 하갈이 사래의 앞에서 도망하였더라",
+        "en": "“Your slave is in your hands,” Abram said. “Do with her whatever you think best.” Then Sarai mistreated Hagar; so she fled from her."
+      },
+      {
+        "verse": 7,
+        "ko": "여호와의 사자가 광야의 샘 곁 곧 술 길 샘물 곁에서 그를 만나",
+        "en": "The angel of the Lord found Hagar near a spring in the desert; it was the spring that is beside the road to Shur."
+      },
+      {
+        "verse": 8,
+        "ko": "가로되 `사래의 여종 하갈아 네가 어디서 왔으며 어디로 가느냐 ?' 그가 가로되 `나는 나의 여주인 사래를 피하여 도망하나이다'",
+        "en": "And he said, “Hagar, slave of Sarai, where have you come from, and where are you going?” “I`m running away from my mistress Sarai,” she answered."
+      },
+      {
+        "verse": 9,
+        "ko": "여호와의 사자가 그에게 이르되 네 여주인에게로 돌아가서 그 수하에 복종하라",
+        "en": "Then the angel of the Lord told her, “Go back to your mistress and submit to her.”"
+      },
+      {
+        "verse": 10,
+        "ko": "여호와의 사자가 또 그에게 이르되 `내가 네 자손으로 크게 번성하여 그 수가 많아 셀 수 없게 하리라",
+        "en": "The angel added, “I will increase your descendants so much that they will be too numerous to count.”"
+      },
+      {
+        "verse": 11,
+        "ko": "여호와의 사자가 또 그에게 이르되 네가 잉태하였은즉 아들을 낳으리니 그 이름을 이스마엘이라 하라 이는 여호와께서 네 고통을 들으셨음이니라",
+        "en": "The angel of the Lord also said to her: “You are now pregnant and you will give birth to a son. You shall name him Ishmael, for the Lord has heard of your misery."
+      },
+      {
+        "verse": 12,
+        "ko": "그가 사람 중에 들나귀 같이 되리니 그 손이 모든 사람을 치겠고 모든 사람의 손이 그를 칠지며 그가 모든 형제의 동방에서 살리라' 하니라",
+        "en": "He will be a wild donkey of a man; his hand will be against everyone and everyone`s hand against him, and he will live in hostility toward all his brothers.”"
+      },
+      {
+        "verse": 13,
+        "ko": "하갈이 자기에게 이르신 여호와의 이름을 감찰하시는 하나님이라 하였으니 이는 `내가 어떻게 여기서 나를 감찰하시는 하나님을 뵈었는고' 함이라",
+        "en": "She gave this name to the Lord who spoke to her: “You are the God who sees me,” for she said, “I have now seen the One who sees me.”"
+      },
+      {
+        "verse": 14,
+        "ko": "이러므로 그 샘을 브엘라해로이라 불렀으며 그것이 가데스와 베렛 사이에 있더라",
+        "en": "That is why the well was called Beer Lahai Roi; it is still there, between Kadesh and Bered."
+      },
+      {
+        "verse": 15,
+        "ko": "하갈이 아브람의 아들을 낳으매 아브람이 하갈의 낳은 그 아들을 이름하여 이스마엘이라 하였더라",
+        "en": "So Hagar bore Abram a son, and Abram gave the name Ishmael to the son she had borne."
+      },
+      {
+        "verse": 16,
+        "ko": "하갈이 아브람에게 이스마엘을 낳을 때에 아브람이 팔십 육세이었더라",
+        "en": "Abram was eighty-six years old when Hagar bore him Ishmael."
+      }
+    ]
+  },
+  {
+    "chapter": 17,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "아브람의 구십 구세 때에 여호와께서 아브람에게 나타나서 그에게 이르시되 나는 전능한 하나님이라 ! 너는 내 앞에서 행하여 완전하라.",
+        "en": "When Abram was ninety-nine years old, the Lord appeared to him and said, “I am God Almighty; walk before me faithfully and be blameless."
+      },
+      {
+        "verse": 2,
+        "ko": "내가 내 언약을 나와 너 사이에 세워 너로 심히 번성케 하리라 하시니",
+        "en": "Then I will make my covenant between me and you and will greatly increase your numbers.”"
+      },
+      {
+        "verse": 3,
+        "ko": "아브람이 엎드린대 하나님이 또 그에게 일러 가라사대",
+        "en": "Abram fell facedown, and God said to him,"
+      },
+      {
+        "verse": 4,
+        "ko": "내가 너와 내 언약을 세우니 너는 열국의 아비가 될지라",
+        "en": "“As for me, this is my covenant with you: You will be the father of many nations."
+      },
+      {
+        "verse": 5,
+        "ko": "이제 후로는 네 이름을 아브람이라 하지 아니하고 아브라함이라 하리니 이는 내가 너로 열국의 아비가 되게 함이니라",
+        "en": "No longer will you be called Abram; your name will be Abraham, for I have made you a father of many nations."
+      },
+      {
+        "verse": 6,
+        "ko": "내가 너로 심히 번성케 하리니 나라들이 네게로 좇아 일어나며 열왕이 네게로 좇아나리라",
+        "en": "I will make you very fruitful; I will make nations of you, and kings will come from you."
+      },
+      {
+        "verse": 7,
+        "ko": "내가 내 언약을 나와 너와 네 대대 후손의 사이에 세워서 영원한 언약을 삼고 너와 네 후손의 하나님이 되리라",
+        "en": "I will establish my covenant as an everlasting covenant between me and you and your descendants after you for the generations to come, to be your God and the God of your descendants after you."
+      },
+      {
+        "verse": 8,
+        "ko": "내가 너와 네 후손에게 너의 우거하는 이 땅 곧 가나안 일경으로 주어 영원한 기업이 되게 하고 나는 그들의 하나님이 되리라",
+        "en": "The whole land of Canaan, where you now reside as a foreigner, I will give as an everlasting possession to you and your descendants after you; and I will be their God.”"
+      },
+      {
+        "verse": 9,
+        "ko": "하나님이 또 아브라함에게 이르시되 그런즉 너는 내 언약을 지키고 네 후손도 대대로 지키라.",
+        "en": "Then God said to Abraham, “As for you, you must keep my covenant, you and your descendants after you for the generations to come."
+      },
+      {
+        "verse": 10,
+        "ko": "너희 중 남자는 다 할례를 받으라 ! 이것이 나와 너희와 너희 후손사이에 지킬 내 언약이니라",
+        "en": "This is my covenant with you and your descendants after you, the covenant you are to keep: Every male among you shall be circumcised."
+      },
+      {
+        "verse": 11,
+        "ko": "너희는 양피를 베어라 이것이 나와 너희 사이의 언약의 표징이니라",
+        "en": "You are to undergo circumcision, and it will be the sign of the covenant between me and you."
+      },
+      {
+        "verse": 12,
+        "ko": "대대로 남자는 집에서 난 자나 혹 너희 자손이 아니요 이방 사람에게서 돈으로 산 자를 무론하고 난지 팔일 만에 할례를 받을 것이라",
+        "en": "For the generations to come every male among you who is eight days old must be circumcised, including those born in your household or bought with money from a foreigner—those who are not your offspring."
+      },
+      {
+        "verse": 13,
+        "ko": "너희 집에서 난 자든지 너희 돈으로 산 자든지 할례를 받아야 하리니 이에 내 언약이 너희 살에 있어 영원한 언약이 되려니와",
+        "en": "Whether born in your household or bought with your money, they must be circumcised. My covenant in your flesh is to be an everlasting covenant."
+      },
+      {
+        "verse": 14,
+        "ko": "할례를 받지 아니한 남자 곧 그 양피를 베지 아니한 자는 백성 중에서 끊어지리니 그가 내 언약을 배반하였음이니라",
+        "en": "Any uncircumcised male, who has not been circumcised in the flesh, will be cut off from his people; he has broken my covenant.”"
+      },
+      {
+        "verse": 15,
+        "ko": "하나님이 또 아브라함에게 이르시되 네 아내 사래는 이름을 사래라 하지 말고 그 이름을 사라라 하라",
+        "en": "God also said to Abraham, “As for Sarai your wife, you are no longer to call her Sarai; her name will be Sarah."
+      },
+      {
+        "verse": 16,
+        "ko": "내가 그에게 복을 주어 그로 네게 아들을 낳아 주게 하며 내가 그에게 복을 주어 그로 열국의 어미가 되게 하리니 민족의 열왕이 그에게서 나리라",
+        "en": "I will bless her and will surely give you a son by her. I will bless her so that she will be the mother of nations; kings of peoples will come from her.”"
+      },
+      {
+        "verse": 17,
+        "ko": "아브라함이 엎드리어 웃으며 심중에 이르되 `백세된 사람이 어찌 자식을 낳을까 ? 사라는 구십세니 어찌 생산하리요' 하고",
+        "en": "Abraham fell facedown; he laughed and said to himself, “Will a son be born to a man a hundred years old? Will Sarah bear a child at the age of ninety?”"
+      },
+      {
+        "verse": 18,
+        "ko": "아브라함이 이에 하나님께 고하되 `이스마엘이나 하나님 앞에 살기를 원하나이다'",
+        "en": "And Abraham said to God, “If only Ishmael might live under your blessing!”"
+      },
+      {
+        "verse": 19,
+        "ko": "하나님이 가라사대 아니라 네 아내 사라가 정녕 네게 아들을 낳으리니 너는 그 이름을 이삭이라 하라 내가 그와 내 언약을 세우리리 그의 후손에게 영원한 언약이 되리라",
+        "en": "Then God said, “Yes, but your wife Sarah will bear you a son, and you will call him Isaac. I will establish my covenant with him as an everlasting covenant for his descendants after him."
+      },
+      {
+        "verse": 20,
+        "ko": "이스마엘에게 이르러는 내가 네 말을 들었나니 내가 그에게 복을 주어 생육이 중다하여 그로 크게 번성케 할지라 그가 열 두 방백을 낳으리니 내가 그로 큰 나라가 되게 하려니와",
+        "en": "And as for Ishmael, I have heard you: I will surely bless him; I will make him fruitful and will greatly increase his numbers. He will be the father of twelve rulers, and I will make him into a great nation."
+      },
+      {
+        "verse": 21,
+        "ko": "내 언약은 내가 명년, 이 기한에 사라가 네게 낳을 이삭과 세우리라",
+        "en": "But my covenant I will establish with Isaac, whom Sarah will bear to you by this time next year.”"
+      },
+      {
+        "verse": 22,
+        "ko": "하나님이 아브라함과 말씀을 마치시고 그를 떠나 올라가셨더라",
+        "en": "When he had finished speaking with Abraham, God went up from him."
+      },
+      {
+        "verse": 23,
+        "ko": "이에 아브라함이 하나님이 자기에게 말씀하신 대로 이 날에 그 아들 이스마엘과 집에서 생장한 모든 자와 돈으로 산 모든 자 곧 아브라함의 집 사람 중 모든 남자를 데려다가 그 양피를 베었으니",
+        "en": "On that very day Abraham took his son Ishmael and all those born in his household or bought with his money, every male in his household, and circumcised them, as God told him."
+      },
+      {
+        "verse": 24,
+        "ko": "아브라함이 그 양피를 벤때는 구십 구세이었고",
+        "en": "Abraham was ninety-nine years old when he was circumcised,"
+      },
+      {
+        "verse": 25,
+        "ko": "그 아들 이스마엘이 그 양피를 벤 때는 십 삼세이었더라",
+        "en": "and his son Ishmael was thirteen;"
+      },
+      {
+        "verse": 26,
+        "ko": "당일에 아브라함과 그 아들 이스마엘이 할례를 받았고",
+        "en": "Abraham and his son Ishmael were both circumcised on that very day."
+      },
+      {
+        "verse": 27,
+        "ko": "그 집의 모든 남자 곧 집에서 생장한 자와 돈으로 이방 사람에게서 사온 자가 다 그와 함께 할례를 받았더라",
+        "en": "And every male in Abraham`s household, including those born in his household or bought from a foreigner, was circumcised with him."
+      }
+    ]
+  },
+  {
+    "chapter": 18,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "여호와께서 마므레 상수리 수풀 근처에서 아브라함에게 나타나시니라 오정 즈음에 그가 장막 문에 앉았다가",
+        "en": "The Lord appeared to Abraham near the great trees of Mamre while he was sitting at the entrance to his tent in the heat of the day."
+      },
+      {
+        "verse": 2,
+        "ko": "눈을 들어 본즉 사람 셋이 맞은편에 섰는지라 그가 그들을 보자 곧 장막 문에서 달려나가 영접하며 몸을 땅에 굽혀",
+        "en": "Abraham looked up and saw three men standing nearby. When he saw them, he hurried from the entrance of his tent to meet them and bowed low to the ground."
+      },
+      {
+        "verse": 3,
+        "ko": "가로되 `내 주여 ! 내가 주께 은혜를 입었사오면 원컨대 종을 떠나 지나가지 마옵시고",
+        "en": "He said, “If I have found favor in your eyes, my lord, do not pass your servant by."
+      },
+      {
+        "verse": 4,
+        "ko": "물을 조금 가져오게 하사 당신들의 발을 씻으시고 나무 아래서 쉬소서",
+        "en": "Let a little water be brought, and then you may all wash your feet and rest under this tree."
+      },
+      {
+        "verse": 5,
+        "ko": "내가 떡을 조금 가져오리니 당신들의 마음을 쾌활케 하신 후에 지나가소서 당신들이 종에게 오셨음이니이다' 그들이 가로되 `네 말대로 그리하라'",
+        "en": "Let me get you something to eat, so you can be refreshed and then go on your way—now that you have come to your servant.” “Very well,” they answered, “do as you say.”"
+      },
+      {
+        "verse": 6,
+        "ko": "아브라함이 급히 장막에 들어가 사라에게 이르러 이르되 `속히 고운 가루 세 스아를 가져다가 반죽하여 떡을 만들라' 하고",
+        "en": "So Abraham hurried into the tent to Sarah. “Quick,” he said, “get three seahs of the finest flour and knead it and bake some bread.”"
+      },
+      {
+        "verse": 7,
+        "ko": "아브라함이 또 짐승 떼에 달려가서 기름지고 좋은 송아지를 취하여 하인에게 주니 그가 급히 요리한지라",
+        "en": "Then he ran to the herd and selected a choice, tender calf and gave it to a servant, who hurried to prepare it."
+      },
+      {
+        "verse": 8,
+        "ko": "아브라함이 뻐터와 우유와 하인이 요리한 송아지를 가져다가 그들의 앞에 진설하고 나무 아래 모셔 서매 그들이 먹으니라",
+        "en": "He then brought some curds and milk and the calf that had been prepared, and set these before them. While they ate, he stood near them under a tree."
+      },
+      {
+        "verse": 9,
+        "ko": "그들이 아브라함에게 이르되 `네 아내 사라가 어디 있느냐 ?' 대답하되 `장막에 있나이다'",
+        "en": "“Where is your wife Sarah?” they asked him. “There, in the tent,” he said."
+      },
+      {
+        "verse": 10,
+        "ko": "그가 가라사대 `기한이 이를 때에 내가 정녕 네게로 돌아오리니 네 아내 사라에게 아들이 있으리라' 하시니 사라가 그 뒤 장막 문에서 들었더라",
+        "en": "Then one of them said, “I will surely return to you about this time next year, and Sarah your wife will have a son.” Now Sarah was listening at the entrance to the tent, which was behind him."
+      },
+      {
+        "verse": 11,
+        "ko": "아브라함과 사라가 나이 많아 늙었고 사라의 경수는 끊어졌는지라",
+        "en": "Abraham and Sarah were already very old, and Sarah was past the age of childbearing."
+      },
+      {
+        "verse": 12,
+        "ko": "사라가 속으로 웃고 이르되 `내가 노쇠하였고 내 주인도 늙었으니 내게 어찌 낙이 있으리요 ?'",
+        "en": "So Sarah laughed to herself as she thought, “After I am worn out and my lord is old, will I now have this pleasure?”"
+      },
+      {
+        "verse": 13,
+        "ko": "여호와께서 아브라함에게 이르시되 사라가 왜 웃으며 이르기를 내가 늙었거늘 어떻게 아들을 낳으리요 하느냐?",
+        "en": "Then the Lord said to Abraham, “Why did Sarah laugh and say, ‘Will I really have a child, now that I am old?`"
+      },
+      {
+        "verse": 14,
+        "ko": "여호와께 능치 못한 일이 있겠느냐 ! 기한이 이를 때에 내가 네게로 돌아오리니 사라에게 아들이 있으리라",
+        "en": "Is anything too hard for the Lord? I will return to you at the appointed time next year, and Sarah will have a son.”"
+      },
+      {
+        "verse": 15,
+        "ko": "사라가 두려워서 승인치 아니하여 가로되 `내가 웃지 아니하였나이다' 가라사대 아니라 네가 웃었느니라'",
+        "en": "Sarah was afraid, so she lied and said, “I did not laugh.” But he said, “Yes, you did laugh.”"
+      },
+      {
+        "verse": 16,
+        "ko": "그 사람들이 거기서 일어나서 소돔으로 향하고 아브라함은 그들을 전송하러 함께 나가니라",
+        "en": "When the men got up to leave, they looked down toward Sodom, and Abraham walked along with them to see them on their way."
+      },
+      {
+        "verse": 17,
+        "ko": "여호와께서 가라사대 나의 하려는 것을 아브라함에게 숨기겠느냐?",
+        "en": "Then the Lord said, “Shall I hide from Abraham what I am about to do?"
+      },
+      {
+        "verse": 18,
+        "ko": "아브라함은 강대한 나라가 되고 천하 만민은 그를 인하여 복을 받게 될 것이 아니냐?",
+        "en": "Abraham will surely become a great and powerful nation, and all nations on earth will be blessed through him."
+      },
+      {
+        "verse": 19,
+        "ko": "내가 그로 그 자식과 권속에게 명하여 여호와의 도를 지켜 의와 공도를 행하게 하려고 그를 택하였나니 이는 나 여호와가 아브라함에게 대하여 말한 일을 이루려 함이니라",
+        "en": "For I have chosen him, so that he will direct his children and his household after him to keep the way of the Lord by doing what is right and just, so that the Lord will bring about for Abraham what he has promised him.”"
+      },
+      {
+        "verse": 20,
+        "ko": "여호와께서 또 가라사대 소돔과 고모라에 대한 부르짖음이 크고 그 죄악이 심히 중하니",
+        "en": "Then the Lord said, “The outcry against Sodom and Gomorrah is so great and their sin so grievous"
+      },
+      {
+        "verse": 21,
+        "ko": "내가 이제 내려가서 그 모든 행한 것이 과연 내게 들린 부르짖음과 같은지 그렇지 않은지 내가 보고 알려하노라",
+        "en": "that I will go down and see if what they have done is as bad as the outcry that has reached me. If not, I will know.”"
+      },
+      {
+        "verse": 22,
+        "ko": "그 사람들이 거기서 떠나 소돔으로 향하여 가고 아브라함은 여호와 앞에 그대로 섰더니",
+        "en": "The men turned away and went toward Sodom, but Abraham remained standing before the Lord."
+      },
+      {
+        "verse": 23,
+        "ko": "가까이 나아가 가로되 `주께서 의인을 악인과 함께 멸하시려나이까?",
+        "en": "Then Abraham approached him and said: “Will you sweep away the righteous with the wicked?"
+      },
+      {
+        "verse": 24,
+        "ko": "그 성 중에 의인 오십이 있을지라도 주께서 그 곳을 멸하시고 그 오십 의인을 위하여 용서치 아니하시리이까?",
+        "en": "What if there are fifty righteous people in the city? Will you really sweep it away and not spare the place for the sake of the fifty righteous people in it?"
+      },
+      {
+        "verse": 25,
+        "ko": "주께서 이같이 하사 의인을 악인과 함께 죽이심은 불가하오며 의인과 악인을 균등히 하심도 불가하니이다 세상을 심판하시는 이가 공의를 행하실 것이 아니니이까 ?'",
+        "en": "Far be it from you to do such a thing—to kill the righteous with the wicked, treating the righteous and the wicked alike. Far be it from you! Will not the Judge of all the earth do right?”"
+      },
+      {
+        "verse": 26,
+        "ko": "여호와께서 가라사대 내가 만일 소돔 성 중에서 의인 오십을 찾으면 그들을 위하여 온 지경을 용서하리라",
+        "en": "The Lord said, “If I find fifty righteous people in the city of Sodom, I will spare the whole place for their sake.”"
+      },
+      {
+        "verse": 27,
+        "ko": "아브라함이 말씀하여 가로되 `티끌과 같은 나라도 감히 주께 고하나이다",
+        "en": "Then Abraham spoke up again: “Now that I have been so bold as to speak to the Lord, though I am nothing but dust and ashes,"
+      },
+      {
+        "verse": 28,
+        "ko": "오십 의인 중에 오인이 부족할 것이면 그 오인 부족함을 인하여 온 성을 멸하시리이까 ?' 가라사대 내가 거기서 사십 오인을 찾으면 멸하지 아니하리라",
+        "en": "what if the number of the righteous is five less than fifty? Will you destroy the whole city for lack of five people?” “If I find forty-five there,” he said, “I will not destroy it.”"
+      },
+      {
+        "verse": 29,
+        "ko": "아브라함이 또 고하여 가로되 `거기서 사십인을 찾으시면 어찌 하시려나이까 ?' 가라사대 사십인을 인하여 멸하지 아니하리라",
+        "en": "Once again he spoke to him, “What if only forty are found there?” He said, “For the sake of forty, I will not do it.”"
+      },
+      {
+        "verse": 30,
+        "ko": "아브라함이 가로되 `내 주여 노하지 마옵시고 말씀하게 하옵소서 거기서 삼십인을 찾으시면 어찌 하시려나이까 ?' 가라사대 내가 거기서 삼십인을 찾으면 멸하지 아니하리라",
+        "en": "Then he said, “May the Lord not be angry, but let me speak. What if only thirty can be found there?” He answered, “I will not do it if I find thirty there.”"
+      },
+      {
+        "verse": 31,
+        "ko": "아브라함이 또 가로되 `내가 감히 내 주께 고하나이다 거기서 이십인을 찾으시면 어찌 하시려나이까 ?' 가라사대 내가 이십인을 인하여 멸하지 아니하리라",
+        "en": "Abraham said, “Now that I have been so bold as to speak to the Lord, what if only twenty can be found there?” He said, “For the sake of twenty, I will not destroy it.”"
+      },
+      {
+        "verse": 32,
+        "ko": "아브라함이 또 가로되 `주는 노하지 마옵소서 내가 이번만 더 말씀하리이다 거기서 십인을 인하여도 멸하지 아니하리라",
+        "en": "Then he said, “May the Lord not be angry, but let me speak just once more. What if only ten can be found there?” He answered, “For the sake of ten, I will not destroy it.”"
+      },
+      {
+        "verse": 33,
+        "ko": "여호와께서 아브라함과 말씀을 마치시고 즉시 가시니 아브라함도 자기 곳으로 돌아갔더라",
+        "en": "When the Lord had finished speaking with Abraham, he left, and Abraham returned home."
+      }
+    ]
+  },
+  {
+    "chapter": 19,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "날이 저물 때에 그 두 천사가 소돔에 이르니 마침 롯이 소돔 성 문에 앉았다가 그들을 보고 일어나 영접하고 땅에 엎드리어 절하여",
+        "en": "The two angels arrived at Sodom in the evening, and Lot was sitting in the gateway of the city. When he saw them, he got up to meet them and bowed down with his face to the ground."
+      },
+      {
+        "verse": 2,
+        "ko": "가로되 `내 주여 ! 돌이켜 종의 집으로 들어와 발을 씻고 주무시고 일찌기 일어나 갈 길을 가소서' 그들이 가로되 `아니라 우리가 거리에서 경야하리라'",
+        "en": "“My lords,” he said, “please turn aside to your servant`s house. You can wash your feet and spend the night and then go on your way early in the morning.” “No,” they answered, “we will spend the night in the square.”"
+      },
+      {
+        "verse": 3,
+        "ko": "롯이 간청하매 그제야 돌이켜서 그 집으로 들어 오는지라 롯이 그들을 위하여 식탁을 베풀고 무교병을 구우니 그들이 먹으니라",
+        "en": "But he insisted so strongly that they did go with him and entered his house. He prepared a meal for them, baking bread without yeast, and they ate."
+      },
+      {
+        "verse": 4,
+        "ko": "그들의 눕기 전에 그 성 사람 곧 소돔 백성들이 무론 노소하고 사방에서 다 모여 그 집을 에워싸고",
+        "en": "Before they had gone to bed, all the men from every part of the city of Sodom—both young and old—surrounded the house."
+      },
+      {
+        "verse": 5,
+        "ko": "롯을 부르고 그에게 이르되 `이 저녁에 네게 온 사람이 어디 있느냐 ? 이끌어내라 우리가 그들을 상관하리라'",
+        "en": "They called to Lot, “Where are the men who came to you tonight? Bring them out to us so that we can have sex with them.”"
+      },
+      {
+        "verse": 6,
+        "ko": "롯이 문 밖의 무리에게로 나가서 뒤로 문을 닫고",
+        "en": "Lot went outside to meet them and shut the door behind him"
+      },
+      {
+        "verse": 7,
+        "ko": "이르되 청하노니 `내 형제들아 이런 악을 행치 말라",
+        "en": "and said, “No, my friends. Don`t do this wicked thing."
+      },
+      {
+        "verse": 8,
+        "ko": "내게 남자를 가까이 아니한 두 딸이 있노라 청컨대 내가 그들을 너희에게로 이끌어내리니 너희 눈에 좋은대로 그들에게 행하고 이 사람들은 내 집에 들어왔은즉 이 사람들에게는 아무 짓도 하지 말라'",
+        "en": "Look, I have two daughters who have never slept with a man. Let me bring them out to you, and you can do what you like with them. But don`t do anything to these men, for they have come under the protection of my roof.”"
+      },
+      {
+        "verse": 9,
+        "ko": "그들이 가로되 `너는 물러나라' 또 가로되 `이놈이 들어와서 우거하면서 우리의 법관이 되려 하는도다 이제 우리가 그들보다 너를 더 해하리라' 하고 롯을 밀치며 가까이 나아와서 그 문을 깨치려 하는지라",
+        "en": "“Get out of our way,” they replied. “This fellow came here as a foreigner, and now he wants to play the judge! We`ll treat you worse than them.” They kept bringing pressure on Lot and moved forward to break down the door."
+      },
+      {
+        "verse": 10,
+        "ko": "그 사람들이 손을 내밀어 롯을 집으로 끌어들이고 문을 닫으며",
+        "en": "But the men inside reached out and pulled Lot back into the house and shut the door."
+      },
+      {
+        "verse": 11,
+        "ko": "문밖의 무리로 무론 대소하고 그 눈을 어둡게 하니 그들이 문을 찾느라고 곤비하였더라",
+        "en": "Then they struck the men who were at the door of the house, young and old, with blindness so that they could not find the door."
+      },
+      {
+        "verse": 12,
+        "ko": "그 사람들이 롯에게 이르되 `이 외에 네게 속한 자가 또 있느냐 ? 네 사위나 자녀나 성중에 네게 속한 자들을 다 성 밖으로 이끌어내라",
+        "en": "The two men said to Lot, “Do you have anyone else here—sons-in-law, sons or daughters, or anyone else in the city who belongs to you? Get them out of here,"
+      },
+      {
+        "verse": 13,
+        "ko": "그들에 대하여 부르짖음이 여호와 앞에 크므로 여호와께서 우리로 이 곳을 멸하러 보내셨나니 우리가 멸하리라'",
+        "en": "because we are going to destroy this place. The outcry to the Lord against its people is so great that he has sent us to destroy it.”"
+      },
+      {
+        "verse": 14,
+        "ko": "롯이 나가서 그 딸과 정혼한 사위들에게 고하여 이르되 `여호와께서 이 성을 멸하실터이니 너희는 일어나 이 곳에서 떠나라' 하되 그 사위들이 농담으로 여겼더라",
+        "en": "So Lot went out and spoke to his sons-in-law, who were pledged to marry his daughters. He said, “Hurry and get out of this place, because the Lord is about to destroy the city!” But his sons-in-law thought he was joking."
+      },
+      {
+        "verse": 15,
+        "ko": "동틀 때에 천사가 롯을 재촉하여 가로되 `일어나 여기 있는 네 아내와 두 딸을 이끌라 이 성의 죄악 중에 함께 멸망할까 하노라'",
+        "en": "With the coming of dawn, the angels urged Lot, saying, “Hurry! Take your wife and your two daughters who are here, or you will be swept away when the city is punished.”"
+      },
+      {
+        "verse": 16,
+        "ko": "그러나 롯이 지체하매 그 사람들이 롯의 손과, 그 아내의 손과, 두 딸의 손을 잡아 인도하여 성밖에 두니 여호와께서 그에게 인자를 더하심이었더라",
+        "en": "When he hesitated, the men grasped his hand and the hands of his wife and of his two daughters and led them safely out of the city, for the Lord was merciful to them."
+      },
+      {
+        "verse": 17,
+        "ko": "그 사람들이 그들을 밖으로 이끌어 낸 후에 이르되 `도망하여 생명을 보존하라 돌아보거나 들에 머무르거나 하지 말고 산으로 도망하여 멸망함을 면하라'",
+        "en": "As soon as they had brought them out, one of them said, “Flee for your lives! Don`t look back, and don`t stop anywhere in the plain! Flee to the mountains or you will be swept away!”"
+      },
+      {
+        "verse": 18,
+        "ko": "롯이 그들에게 이르되 `내 주여 그리 마옵소서",
+        "en": "But Lot said to them, “No, my lords, please!"
+      },
+      {
+        "verse": 19,
+        "ko": "종이 주께 은혜를 얻었고 주께서 큰 인자를 내게 베푸사 내 생명을 구원하시오나 내가 도망하여 산까지 갈 수 없나이다 두렵건대 재앙을 만나 죽을까 하나이다",
+        "en": "Your servant has found favor in your eyes, and you have shown great kindness to me in sparing my life. But I can`t flee to the mountains; this disaster will overtake me, and I`ll die."
+      },
+      {
+        "verse": 20,
+        "ko": "보소서 저 성은 도망하기 가깝고 작기도 하오니 나로 그 곳에 도망하게 하소서 이는 작은 성이 아니니이까 ? 내 생명이 보존되리이다'",
+        "en": "Look, here is a town near enough to run to, and it is small. Let me flee to it—it is very small, isn`t it? Then my life will be spared.”"
+      },
+      {
+        "verse": 21,
+        "ko": "그가 그에게 이르되 `내가 이 일에도 네 소원을 들었은즉 너의 말하는 성을 멸하지 아니하리니",
+        "en": "He said to him, “Very well, I will grant this request too; I will not overthrow the town you speak of."
+      },
+      {
+        "verse": 22,
+        "ko": "그리로 속희 도망하라 네가 거기 이르기까지는 내가 아무 일도 행할 수 없노라 하였더라 그러므로 그 성 이름을 소알이라 불렀 더라",
+        "en": "But flee there quickly, because I cannot do anything until you reach it.” (That is why the town was called Zoar.)"
+      },
+      {
+        "verse": 23,
+        "ko": "롯이 소알에 들어갈 때에 해가 돋았더라",
+        "en": "By the time Lot reached Zoar, the sun had risen over the land."
+      },
+      {
+        "verse": 24,
+        "ko": "여호와께서 하늘 곧 여호와에게로서 유황과 불을 비같이 소돔과 고모라에 내리사",
+        "en": "Then the Lord rained down burning sulfur on Sodom and Gomorrah—from the Lord out of the heavens."
+      },
+      {
+        "verse": 25,
+        "ko": "그 성들과 온 들과 성에 거하는 모든 백성과 땅에 난것을 다 엎어 멸하셨더라",
+        "en": "Thus he overthrew those cities and the entire plain, destroying all those living in the cities—and also the vegetation in the land."
+      },
+      {
+        "verse": 26,
+        "ko": "롯의 아내는 뒤를 돌아본고로 소금 기둥이 되었더라",
+        "en": "But Lot`s wife looked back, and she became a pillar of salt."
+      },
+      {
+        "verse": 27,
+        "ko": "아브라함이 그 아침에 일찌기 일어나 여호와의 앞에 섰던 곳에 이르러",
+        "en": "Early the next morning Abraham got up and returned to the place where he had stood before the Lord."
+      },
+      {
+        "verse": 28,
+        "ko": "소돔과 고모라와 그 온 들을 향하여 눈을 들어 연기가 옹기점 연기같이 치밀음을 보았더라",
+        "en": "He looked down toward Sodom and Gomorrah, toward all the land of the plain, and he saw dense smoke rising from the land, like smoke from a furnace."
+      },
+      {
+        "verse": 29,
+        "ko": "하나님이 들의 성들을 멸하실 때 곧 롯의 거하는 성을 엎으실 때에 아브라함을 생각하사 롯을 그 엎으시는 중에서 내어 보내셨더라",
+        "en": "So when God destroyed the cities of the plain, he remembered Abraham, and he brought Lot out of the catastrophe that overthrew the cities where Lot had lived."
+      },
+      {
+        "verse": 30,
+        "ko": "롯이 소알에 거하기를 두려워하여 두 딸과 함께 소알에서 나와 산에 올라 거하되 그 두 딸과 함께 굴에 거하였더니",
+        "en": "Lot and his two daughters left Zoar and settled in the mountains, for he was afraid to stay in Zoar. He and his two daughters lived in a cave."
+      },
+      {
+        "verse": 31,
+        "ko": "큰 딸이 작은 딸에게 이르되 `우리 아버지는 늙으셨고 이 땅에는 세상의 도리를 좇아 우리의 배필 될 사람이 없으니",
+        "en": "One day the older daughter said to the younger, “Our father is old, and there is no man around here to give us children—as is the custom all over the earth."
+      },
+      {
+        "verse": 32,
+        "ko": "우리가 우리 아버지에게 술을 마시우고 동침하여 우리 아버지로 말미암아 인종을 전하자' 하고",
+        "en": "Let`s get our father to drink wine and then sleep with him and preserve our family line through our father.”"
+      },
+      {
+        "verse": 33,
+        "ko": "그 밤에 그들이 아비에게 술을 마시우고 큰 딸이 들어가서 그 아비와 동침하니라 그러나 그 아비는 그 딸의 눕고 일어나는 것을 깨닫지 못하였더라",
+        "en": "That night they got their father to drink wine, and the older daughter went in and slept with him. He was not aware of it when she lay down or when she got up."
+      },
+      {
+        "verse": 34,
+        "ko": "이튿날에 큰 딸이 작은 딸에게 이르되 `어제 밤에는 내가 우리 아버지와 동침하였으니 오늘 밤에도 우리가 아버지에게 술을 마시우고 네가 들어가 동침하고 우리가 아버지로 말미암아 인종을 전하자' 하고",
+        "en": "The next day the older daughter said to the younger, “Last night I slept with my father. Let`s get him to drink wine again tonight, and you go in and sleep with him so we can preserve our family line through our father.”"
+      },
+      {
+        "verse": 35,
+        "ko": "이 밤에도 그들이 아비에게 술을 마시우고 작은 딸이 일어나 아비와 동침하니라 그러나 아비는 그 딸의 눕고 일어나는 것을 깨닫지 못하였더라",
+        "en": "So they got their father to drink wine that night also, and the younger daughter went in and slept with him. Again he was not aware of it when she lay down or when she got up."
+      },
+      {
+        "verse": 36,
+        "ko": "롯의 두 딸이 아비로 말미암아 잉태하고",
+        "en": "So both of Lot`s daughters became pregnant by their father."
+      },
+      {
+        "verse": 37,
+        "ko": "큰 딸은 아들을 낳아 이름을 모압이라 하였으니 오늘날 모압 족속의 조상이요",
+        "en": "The older daughter had a son, and she named him Moab; he is the father of the Moabites of today."
+      },
+      {
+        "verse": 38,
+        "ko": "작은 딸도 아들을 낳아 이름을 벤암미라 하였으니 오늘날 암몬 족속의 조상이었더라",
+        "en": "The younger daughter also had a son, and she named him Ben-Ammi; he is the father of the Ammonites of today."
+      }
+    ]
+  },
+  {
+    "chapter": 20,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "아브라함이 거기서 남방으로 이사하여 가데스와 술 사이 그랄에 우거하며",
+        "en": "Now Abraham moved on from there into the region of the Negev and lived between Kadesh and Shur. For a while he stayed in Gerar,"
+      },
+      {
+        "verse": 2,
+        "ko": "그 아내 사라를 자기 누이라 하였으므로 그랄 왕 아비멜렉이 보내어 사라를 취하였더니",
+        "en": "and there Abraham said of his wife Sarah, “She is my sister.” Then Abimelek king of Gerar sent for Sarah and took her."
+      },
+      {
+        "verse": 3,
+        "ko": "그 밤에 하나님이 아비멜렉에게 현몽하시고 그에게 이르시되 네가 취한 이 여인을 인하여 네가 죽으리니 그가 남의 아내임이니라",
+        "en": "But God came to Abimelek in a dream one night and said to him, “You are as good as dead because of the woman you have taken; she is a married woman.”"
+      },
+      {
+        "verse": 4,
+        "ko": "아비멜렉이 그 여인을 가까이 아니한 고로 그가 대답하되 `주여, 주께서 의로운 백성도 멸하시나이까?",
+        "en": "Now Abimelek had not gone near her, so he said, “Lord, will you destroy an innocent nation?"
+      },
+      {
+        "verse": 5,
+        "ko": "그가 나더러 이는 내 누이라고 하지 아니하였나이까 ? 그 여인도 그는 내 오라비라 하였사오니 나는 온전한 마음과 깨끗한 손으로 이렇게 하였나이다'",
+        "en": "Did he not say to me, ‘She is my sister,` and didn`t she also say, ‘He is my brother`? I have done this with a clear conscience and clean hands.”"
+      },
+      {
+        "verse": 6,
+        "ko": "하나님이 꿈에 또 그에게 이르시되 네가 온전한 마음으로 이렇게 한 줄을 나도 알았으므로 너를 막아 내게 범죄하지 않게 하였나니 여인에게 가까이 못하게 함이 이 까닭이니라",
+        "en": "Then God said to him in the dream, “Yes, I know you did this with a clear conscience, and so I have kept you from sinning against me. That is why I did not let you touch her."
+      },
+      {
+        "verse": 7,
+        "ko": "이제 그 사람의 아내를 돌려 보내라 그는 선지자라 그가 너를 위하여 기도하리니 네가 살려니와 네가 돌려 보내지 않으면 너와 네게 속한 자가 다 정녕 죽을 줄 알지니라",
+        "en": "Now return the man`s wife, for he is a prophet, and he will pray for you and you will live. But if you do not return her, you may be sure that you and all who belong to you will die.”"
+      },
+      {
+        "verse": 8,
+        "ko": "아비멜렉이 그 아침에 일찌기 일어나 모든 신복을 불러 그 일을 다 말하여 들리매 그 사람들이 심히 두려워하였더라",
+        "en": "Early the next morning Abimelek summoned all his officials, and when he told them all that had happened, they were very much afraid."
+      },
+      {
+        "verse": 9,
+        "ko": "아비멜렉이 아브라함을 불러서 그에게 이르되 `네가 어찌하여 우리에게 이리 하느냐 ? 내가 무슨 죄를 네게 범하였관대 네가 나와 내 나라로 큰 죄에 빠질 뻔하게 하였느냐 ? 네가 합당치 않은 일을 네게 행하였도다` 하고",
+        "en": "Then Abimelek called Abraham in and said, “What have you done to us? How have I wronged you that you have brought such great guilt upon me and my kingdom? You have done things to me that should never be done.”"
+      },
+      {
+        "verse": 10,
+        "ko": "아비멜렉이 또 아브라함에게 이르되 `네가 무슨 의견으로 이렇게 하였느냐 ?'",
+        "en": "And Abimelek asked Abraham, “What was your reason for doing this?”"
+      },
+      {
+        "verse": 11,
+        "ko": "아브라함이 가로되 `이곳에서는 하나님을 두려워함이 없으니 내 아내를 인하여 사람이 나를 죽일까 생각하였음이요",
+        "en": "Abraham replied, “I said to myself, ‘There is surely no fear of God in this place, and they will kill me because of my wife.`"
+      },
+      {
+        "verse": 12,
+        "ko": "또 그는 실로 나의 이복 누이로서 내 처가 되었음이니라",
+        "en": "Besides, she really is my sister, the daughter of my father though not of my mother; and she became my wife."
+      },
+      {
+        "verse": 13,
+        "ko": "하나님이 나로 내 아비 집을 떠나 두루 다니게 하실 때에 내가 아내에게 말하기를 이후로 우리의 가는 곳마다 그대는 나를 그대의 오라비라 하라 이것이 그대가 내게 베풀 은혜라 하였었노라`",
+        "en": "And when God had me wander from my father`s household, I said to her, ‘This is how you can show your love to me: Everywhere we go, say of me, “He is my brother.”`”"
+      },
+      {
+        "verse": 14,
+        "ko": "아비멜렉이 양과 소와 노비를 취하여 아브라함에게 주고 그 아내 사라도 그에게 돌려보내고",
+        "en": "Then Abimelek brought sheep and cattle and male and female slaves and gave them to Abraham, and he returned Sarah his wife to him."
+      },
+      {
+        "verse": 15,
+        "ko": "아브라함에게 이르되 `내 땅이 네 앞에 있으니 너 보기에 좋은 대로 거하라' 하고",
+        "en": "And Abimelek said, “My land is before you; live wherever you like.”"
+      },
+      {
+        "verse": 16,
+        "ko": "사라에게 이르되 `내가 은 천개를 네 오라비에게 주어서 그것으로 너와 함께 한 여러 사람 앞에서 네 수치를 풀게 하였노니 네 일이 다 선히 해결되었느니라'",
+        "en": "To Sarah he said, “I am giving your brother a thousand shekels of silver. This is to cover the offense against you before all who are with you; you are completely vindicated.”"
+      },
+      {
+        "verse": 17,
+        "ko": "아브라함이 하나님께 기도하매 하나님이 아비멜렉과 그 아내와 여종을 치료하사 생산케 하셨으니",
+        "en": "Then Abraham prayed to God, and God healed Abimelek, his wife and his female slaves so they could have children again,"
+      },
+      {
+        "verse": 18,
+        "ko": "여호와께서 이왕에 아브라함의 아내 사라의 연고로 아비멜렉의 집 모든 태를 닫히셨음이더라",
+        "en": "for the Lord had kept all the women in Abimelek`s household from conceiving because of Abraham`s wife Sarah."
+      }
+    ]
+  },
+  {
+    "chapter": 21,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "여호와께서 그 말씀대로 사라를 권고하셨고 여호와께서 그 말씀대로 사라에게 행하셨으므로",
+        "en": "Now the Lord was gracious to Sarah as he had said, and the Lord did for Sarah what he had promised."
+      },
+      {
+        "verse": 2,
+        "ko": "사라가 잉태하고 하나님의 말씀하신 기한에 미쳐 늙은 아브라함에게 아들을 낳으니",
+        "en": "Sarah became pregnant and bore a son to Abraham in his old age, at the very time God had promised him."
+      },
+      {
+        "verse": 3,
+        "ko": "아브라함이 그 낳은 아들 곧 사라가 자기에게 낳은 아들을 이름하여 이삭이라 하였고",
+        "en": "Abraham gave the name Isaac to the son Sarah bore him."
+      },
+      {
+        "verse": 4,
+        "ko": "그 아들 이삭이 난지 팔일만에 그가 하나님의 명대로 할례를 행하였더라",
+        "en": "When his son Isaac was eight days old, Abraham circumcised him, as God commanded him."
+      },
+      {
+        "verse": 5,
+        "ko": "아브라함이 그 아들 이삭을 낳을 때에 백세라",
+        "en": "Abraham was a hundred years old when his son Isaac was born to him."
+      },
+      {
+        "verse": 6,
+        "ko": "사라가 가로되 `하나님이 나로 웃게 하시니 듣는 자가 다 나와 함께 웃으리로다'",
+        "en": "Sarah said, “God has brought me laughter, and everyone who hears about this will laugh with me.”"
+      },
+      {
+        "verse": 7,
+        "ko": "또 가로되 `사라가 자식들을 젖 먹이겠다고 누가 아브라함에게 말하였으리요 마는 아브라함 노경에 내가 아들을 낳았도다' 하니라",
+        "en": "And she added, “Who would have said to Abraham that Sarah would nurse children? Yet I have borne him a son in his old age.”"
+      },
+      {
+        "verse": 8,
+        "ko": "아이가 자라매 젖을 떼고 이삭의 젖을 떼는 날에 아브라함이 대연을 배설하였더라",
+        "en": "The child grew and was weaned, and on the day Isaac was weaned Abraham held a great feast."
+      },
+      {
+        "verse": 9,
+        "ko": "사라가 본즉 아브라함의 아들 애굽 여인 하갈의 소생이 이삭을 희롱하는지라",
+        "en": "But Sarah saw that the son whom Hagar the Egyptian had borne to Abraham was mocking,"
+      },
+      {
+        "verse": 10,
+        "ko": "그가 아브라함에게 이르되 `이 여종과 그 아들을 내어 쫓으라 이 종의 아들은 내 아들 이삭과 함께 기업을 얻지 못하리라' 하매",
+        "en": "and she said to Abraham, “Get rid of that slave woman and her son, for that woman`s son will never share in the inheritance with my son Isaac.”"
+      },
+      {
+        "verse": 11,
+        "ko": "아브라함이 그 아들을 위하여 그 일이 깊이 근심이 되었더니",
+        "en": "The matter distressed Abraham greatly because it concerned his son."
+      },
+      {
+        "verse": 12,
+        "ko": "하나님이 아브라함에게 이르시되 네 아이나 네 여종을 위하여 근심치 말고 사라가 네게 이른 말을 다 들으라 ! 이삭에게서 나는 자라야 네 씨라 칭할 것임이니라",
+        "en": "But God said to him, “Do not be so distressed about the boy and your slave woman. Listen to whatever Sarah tells you, because it is through Isaac that your offspring will be reckoned."
+      },
+      {
+        "verse": 13,
+        "ko": "그러나 여종의 아들도 네 씨니 내가 그로 한 민족을 이루게 하리라 하신지라",
+        "en": "I will make the son of the slave into a nation also, because he is your offspring.”"
+      },
+      {
+        "verse": 14,
+        "ko": "아브라함이 아침에 일찌기 일어나 떡과 물 한 가죽부대를 취하여 하갈의 어깨에 메워 주고 그 자식을 이끌고 가게 하매 하갈이 나가서 브엘세바 들에서 방황하더니",
+        "en": "Early the next morning Abraham took some food and a skin of water and gave them to Hagar. He set them on her shoulders and then sent her off with the boy. She went on her way and wandered in the Desert of Beersheba."
+      },
+      {
+        "verse": 15,
+        "ko": "가죽부대의 물이 다한지라 그 자식을 떨기나무 아래 두며",
+        "en": "When the water in the skin was gone, she put the boy under one of the bushes."
+      },
+      {
+        "verse": 16,
+        "ko": "가로되 `자식의 죽는 것을 참아 보지 못하겠다' 하고 살 한 바탕쯤가서 마주 앉아 바라보며 방성대곡하니",
+        "en": "Then she went off and sat down about a bowshot away, for she thought, “I cannot watch the boy die.” And as she sat there, she began to sob."
+      },
+      {
+        "verse": 17,
+        "ko": "하나님이 그 아이의 소리를 들으시므로 하나님의 사자가 하늘에서부터 하갈을 불러 가라사대 `하갈아, 무슨 일이냐 ? 두려워 말라 ! 하나님이 거기 있는 아이의 소리를 들으셨나니",
+        "en": "God heard the boy crying, and the angel of God called to Hagar from heaven and said to her, “What is the matter, Hagar? Do not be afraid; God has heard the boy crying as he lies there."
+      },
+      {
+        "verse": 18,
+        "ko": "일어나 아이를 일으켜 네 손으로 붙들라 그로 큰 민족을 이루게 하리라' 하시니라",
+        "en": "Lift the boy up and take him by the hand, for I will make him into a great nation.”"
+      },
+      {
+        "verse": 19,
+        "ko": "하나님이 하갈의 눈을 밝히시매 샘물을 보고 가서 가죽부대에 물을 채워다가 그 아이에게 마시웠더라",
+        "en": "Then God opened her eyes and she saw a well of water. So she went and filled the skin with water and gave the boy a drink."
+      },
+      {
+        "verse": 20,
+        "ko": "하나님이 그 아이와 함께 계시매 그가 장성하여 광야에 거하며 활쏘는 자가 되었더니",
+        "en": "God was with the boy as he grew up. He lived in the desert and became an archer."
+      },
+      {
+        "verse": 21,
+        "ko": "그가 바란 광야에 거할 때에 그 어미가 그를 위하여 애굽땅 여인을 취하여 아내를 삼게 하였더라",
+        "en": "While he was living in the Desert of Paran, his mother got a wife for him from Egypt."
+      },
+      {
+        "verse": 22,
+        "ko": "때에 아비멜렉과 그 군대 장관 비골이 아브라함에게 말하여 가로되 네가 무슨 일을 하든지 하나님이 너와 함께 계시도다.",
+        "en": "At that time Abimelek and Phicol the commander of his forces said to Abraham, “God is with you in everything you do."
+      },
+      {
+        "verse": 23,
+        "ko": "그런즉 너는 나와 내 아들과 내 손자에게 거짓되이 행치 않기를 이제 여기서 하나님을 가리켜 내게 맹세하라 내가 네게 후대한대로 너도 나와 너의 머무는 이 땅에 행할 것이니라",
+        "en": "Now swear to me here before God that you will not deal falsely with me or my children or my descendants. Show to me and the country where you now reside as a foreigner the same kindness I have shown to you.”"
+      },
+      {
+        "verse": 24,
+        "ko": "아브라함이 가로되 `내가 맹세하리라' 하고",
+        "en": "Abraham said, “I swear it.”"
+      },
+      {
+        "verse": 25,
+        "ko": "아비멜렉의 종들이 아브라함의 우물을 늑탈한 일에 대하여 아브라함이 아비멜렉을 책망하매",
+        "en": "Then Abraham complained to Abimelek about a well of water that Abimelek`s servants had seized."
+      },
+      {
+        "verse": 26,
+        "ko": "아비멜렉이 가로되 `누가 그리하였는지 내가 알지 못하노라 너도 내게 고하지 아니하였고 나도 듣지 못하였더니 오늘이야 들었노라'",
+        "en": "But Abimelek said, “I don`t know who has done this. You did not tell me, and I heard about it only today.”"
+      },
+      {
+        "verse": 27,
+        "ko": "아브라함이 양과 소를 취하여 아비멜렉에게 주고 두 사람이 서로 언약을 세우니라",
+        "en": "So Abraham brought sheep and cattle and gave them to Abimelek, and the two men made a treaty."
+      },
+      {
+        "verse": 28,
+        "ko": "아브라함이 일곱 암양 새끼를 따로 놓으니",
+        "en": "Abraham set apart seven ewe lambs from the flock,"
+      },
+      {
+        "verse": 29,
+        "ko": "아비멜렉이 아브라함에게 이르되 `이 일곱 암양 새끼를 따로 놓음은 어찜이뇨 ?'",
+        "en": "and Abimelek asked Abraham, “What is the meaning of these seven ewe lambs you have set apart by themselves?”"
+      },
+      {
+        "verse": 30,
+        "ko": "아브라함이 가로되 `너는 내 손에서 이 암양 새끼 일곱을 받아 내가 이 우물 판 증거를 삼으라' 하고",
+        "en": "He replied, “Accept these seven lambs from my hand as a witness that I dug this well.”"
+      },
+      {
+        "verse": 31,
+        "ko": "두 사람이 거기서 서로 맹세하였으므로 그 곳을 브엘세바라 이름하였더라",
+        "en": "So that place was called Beersheba, because the two men swore an oath there."
+      },
+      {
+        "verse": 32,
+        "ko": "그들이 브엘세바에서 언약을 세우매 아비멜렉과 그 군대 장관 비골은 떠나 블레셋 족속의 땅으로 돌아갔고",
+        "en": "After the treaty had been made at Beersheba, Abimelek and Phicol the commander of his forces returned to the land of the Philistines."
+      },
+      {
+        "verse": 33,
+        "ko": "아브라함은 브엘세바에 에셀나무를 심고 거기서 영생하시는 하나님 여호와의 이름을 불렀으며",
+        "en": "Abraham planted a tamarisk tree in Beersheba, and there he called on the name of the Lord, the Eternal God."
+      },
+      {
+        "verse": 34,
+        "ko": "그가 블레셋 족속의 땅에서 여러 날을 지내었더라",
+        "en": "And Abraham stayed in the land of the Philistines for a long time."
+      }
+    ]
+  },
+  {
+    "chapter": 22,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "그 일 후에 하나님이 아브라함을 시험하시려고 그를 부르시되 아브라함아 하시니 그가 가로되 `내가 여기 있나이다'",
+        "en": "Some time later God tested Abraham. He said to him, “Abraham!” “Here I am,” he replied."
+      },
+      {
+        "verse": 2,
+        "ko": "여호와께서 가라사대 네 아들 네 사랑하는 독자 이삭을 데리고 모리아 땅으로 가서 내가 네게 지시하는 한 산 거기서 그를 번제로 드리라",
+        "en": "Then God said, “Take your son, your only son, whom you love—Isaac—and go to the region of Moriah. Sacrifice him there as a burnt offering on a mountain I will show you.”"
+      },
+      {
+        "verse": 3,
+        "ko": "아브라함이 아침에 일찌기 일어나 나귀에 안장을 지우고 두 사환과 그 아들 이삭을 데리고 번제에 쓸 나무를 쪼개어 가지고 떠나 하나님의 자기에게 지시하시는 곳으로 가더니",
+        "en": "Early the next morning Abraham got up and loaded his donkey. He took with him two of his servants and his son Isaac. When he had cut enough wood for the burnt offering, he set out for the place God had told him about."
+      },
+      {
+        "verse": 4,
+        "ko": "제 삼일에 아브라함이 눈을 들어 그곳을 멀리 바라본지라",
+        "en": "On the third day Abraham looked up and saw the place in the distance."
+      },
+      {
+        "verse": 5,
+        "ko": "이에 아브라함이 사환에게 이르되 `너희는 나귀와 함께 여기서 기다리라 내가 아이와 함께 저기 가서 경배하고 너희에게로 돌아오리라' 하고",
+        "en": "He said to his servants, “Stay here with the donkey while I and the boy go over there. We will worship and then we will come back to you.”"
+      },
+      {
+        "verse": 6,
+        "ko": "아브라함이 이에 번제 나무를 취하여 그 아들 이삭에게 지우고 자기는 불과 칼을 손에 들고 두 사람이 동행하더니",
+        "en": "Abraham took the wood for the burnt offering and placed it on his son Isaac, and he himself carried the fire and the knife. As the two of them went on together,"
+      },
+      {
+        "verse": 7,
+        "ko": "이삭이 그 아비 아브라함에게 말하여 가로되 `내 아버지여' 하니 그가 가로되 `내 아들아 내가 여기 있노라' 이삭이 가로되 `불과 나무는 있거니와 번제할 어린 양은 어디 있나이까 ?'",
+        "en": "Isaac spoke up and said to his father Abraham, “Father?” “Yes, my son?” Abraham replied. “The fire and wood are here,” Isaac said, “but where is the lamb for the burnt offering?”"
+      },
+      {
+        "verse": 8,
+        "ko": "아브라함이 가로되 `아들아, 번제할 어린 양은 하나님이 자기를 위하여 친히 준비하시리라' 하고 두 사람이 함께 나아가서",
+        "en": "Abraham answered, “God himself will provide the lamb for the burnt offering, my son.” And the two of them went on together."
+      },
+      {
+        "verse": 9,
+        "ko": "하나님이 그에게 지시하신 곳에 이른지라 이에 아브라함이 그곳에 단을 쌓고 나무를 벌여놓고 그 아들 이삭을 결박하여 단 나무위에 놓고",
+        "en": "When they reached the place God had told him about, Abraham built an altar there and arranged the wood on it. He bound his son Isaac and laid him on the altar, on top of the wood."
+      },
+      {
+        "verse": 10,
+        "ko": "손을 내밀어 칼을 잡고 그 아들을 잡으려 하더니",
+        "en": "Then he reached out his hand and took the knife to slay his son."
+      },
+      {
+        "verse": 11,
+        "ko": "여호와의 사자가 하늘에서부터 그를 불러 가라사대 `아브라함아, 아브라함아' 하시는지라 아브라함이 가로되 `내가 여기 있나이다' 하매",
+        "en": "But the angel of the Lord called out to him from heaven, “Abraham! Abraham!” “Here I am,” he replied."
+      },
+      {
+        "verse": 12,
+        "ko": "사자가 가라사대 `그 아이에게 네 손을 대지 말라 아무 일도 그에게 하지 말라 네가 네 아들 네 독자라도 내게 아끼지 아니하였으니 내가 이제야 네가 하나님을 경외하는 줄을 아노라'",
+        "en": "“Do not lay a hand on the boy,” he said. “Do not do anything to him. Now I know that you fear God, because you have not withheld from me your son, your only son.”"
+      },
+      {
+        "verse": 13,
+        "ko": "아브라함이 눈을 들어 살펴본즉 한 수양이 뒤에 있는데 뿔이 수풀에 걸렸는지라 아브라함이 가서 그 수양을 가져다가 아들을 대신하여 번제로 드렸더라",
+        "en": "Abraham looked up and there in a thicket he saw a ram caught by its horns. He went over and took the ram and sacrificed it as a burnt offering instead of his son."
+      },
+      {
+        "verse": 14,
+        "ko": "아브라함이 그 땅 이름을 `여호와 이레' 라 하였으므로 오늘까지 사람들이 이르기를 `여호와의 산에서 준비되리라' 하더라",
+        "en": "So Abraham called that place The Lord Will Provide. And to this day it is said, “On the mountain of the Lord it will be provided.”"
+      },
+      {
+        "verse": 15,
+        "ko": "여호와의 사자가 하늘에서부터 두번째 아브라함을 불러",
+        "en": "The angel of the Lord called to Abraham from heaven a second time"
+      },
+      {
+        "verse": 16,
+        "ko": "가라사대 여호와께서 이르시기를 내가 나를 가리켜 맹세하노니 네가 이같이 행하여 네 아들 네 독자를 아끼지 아니하였은즉",
+        "en": "and said, “I swear by myself, declares the Lord, that because you have done this and have not withheld your son, your only son,"
+      },
+      {
+        "verse": 17,
+        "ko": "내가 네게 큰 복을 주고 네 씨로 크게 성하여 하늘의 별과 같고 바닷가의 모래와 같게 하리니 네 씨가 그 대적의 문을 얻으리라",
+        "en": "I will surely bless you and make your descendants as numerous as the stars in the sky and as the sand on the seashore. Your descendants will take possession of the cities of their enemies,"
+      },
+      {
+        "verse": 18,
+        "ko": "또 네 씨로 말미암아 천하 만민이 복을 얻으리니 이는 네가 나의 말을 준행하였음이니라 ! 하셨다 하니라",
+        "en": "and through your offspring all nations on earth will be blessed, because you have obeyed me.”"
+      },
+      {
+        "verse": 19,
+        "ko": "이에 아브라함이 그 사환에게로 돌아와서 함께 떠나 브엘세바에 이르러 거기 거하였더라",
+        "en": "Then Abraham returned to his servants, and they set off together for Beersheba. And Abraham stayed in Beersheba."
+      },
+      {
+        "verse": 20,
+        "ko": "이일 후에 혹이 아브라함에게 고하여 이르기를 `밀가가 그대의 동생 나홀에게 자녀를 낳았다' 하였더라",
+        "en": "Some time later Abraham was told, “Milkah is also a mother; she has borne sons to your brother Nahor:"
+      },
+      {
+        "verse": 21,
+        "ko": "그 맏아들은 우스요 우스의 동생은 부스와, 아람의 아비 그므엘과",
+        "en": "Uz the firstborn, Buz his brother, Kemuel (the father of Aram),"
+      },
+      {
+        "verse": 22,
+        "ko": "게셋과, 하소와, 빌다스와, 이들랍과, 브두엘이라",
+        "en": "Kesed, Hazo, Pildash, Jidlaph and Bethuel.”"
+      },
+      {
+        "verse": 23,
+        "ko": "이 여덟 사람은 아브라함의 동생 나홀의 처 밀가의 소생이며 브두엘은 리브가를 낳았고",
+        "en": "Bethuel became the father of Rebekah. Milkah bore these eight sons to Abraham`s brother Nahor."
+      },
+      {
+        "verse": 24,
+        "ko": "나홀의 첩 르우마라 하는 자도 데바와, 가함과, 다하스와, 마아가를 낳았더라",
+        "en": "His concubine, whose name was Reumah, also had sons: Tebah, Gaham, Tahash and Maakah."
+      }
+    ]
+  },
+  {
+    "chapter": 23,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "사라가 일백 이십 칠세를 살았으니 이것이 곧 사라의 향년이라",
+        "en": "Sarah lived to be a hundred and twenty-seven years old."
+      },
+      {
+        "verse": 2,
+        "ko": "사라가 가나안 땅 헤브론 곧 기럇아르바에서 죽으매 아브라함이 들어가서 사라를 위하여 슬퍼하며 애통하다가",
+        "en": "She died at Kiriath Arba (that is, Hebron) in the land of Canaan, and Abraham went to mourn for Sarah and to weep over her."
+      },
+      {
+        "verse": 3,
+        "ko": "그 시체 앞에서 일어나 나가서 헷 족속에게 말하여 가로되",
+        "en": "Then Abraham rose from beside his dead wife and spoke to the Hittites. He said,"
+      },
+      {
+        "verse": 4,
+        "ko": "`나는 당신들 중에 나그네요, 우거한 자니 청컨대 당신들 중에서 내게 매장지를 주어 소유를 삼아 나로 내 죽은 자를 내어 장사하게 하시오'",
+        "en": "“I am a foreigner and stranger among you. Sell me some property for a burial site here so I can bury my dead.”"
+      },
+      {
+        "verse": 5,
+        "ko": "헷 족속이 아브라함에게 대답하여 가로되",
+        "en": "The Hittites replied to Abraham,"
+      },
+      {
+        "verse": 6,
+        "ko": "`내 주여, 들으소서 당신은 우리 중 하나님의 방백이시니 우리 묘실 중에서 좋은 것을 택하여 당신의 죽은 자를 장사하소서 우리 중에서 자기 묘실에 당신의 죽은 자 장사함을 금할 자가 없으리이다'",
+        "en": "“Sir, listen to us. You are a mighty prince among us. Bury your dead in the choicest of our tombs. None of us will refuse you his tomb for burying your dead.”"
+      },
+      {
+        "verse": 7,
+        "ko": "아브라함이 일어나 그 땅 거민 헷 족속을 향하여 몸을 굽히고",
+        "en": "Then Abraham rose and bowed down before the people of the land, the Hittites."
+      },
+      {
+        "verse": 8,
+        "ko": "그들에게 말하여 가로되 `나로 나의 죽은 자를 내어 장사하게 하는 일이 당신들의 뜻일진대 내 말을 듣고 나를 위하여 소할의 아들 에브론에게 구하여",
+        "en": "He said to them, “If you are willing to let me bury my dead, then listen to me and intercede with Ephron son of Zohar on my behalf"
+      },
+      {
+        "verse": 9,
+        "ko": "그로 그 밭머리에 있는 막벨라 굴을 내게 주게 하되 준가를 받고 그 굴을 내게 주어서 당신들 중에 내 소유 매장지가 되게 하기를 원하노라",
+        "en": "so he will sell me the cave of Machpelah, which belongs to him and is at the end of his field. Ask him to sell it to me for the full price as a burial site among you.”"
+      },
+      {
+        "verse": 10,
+        "ko": "때에 에브론이 헷 족속 중에 앉았더니 그가 헷 족속 곧 성문에 들어온 모든 자의 듣는데 아브라함에게 대답하여 가로되",
+        "en": "Ephron the Hittite was sitting among his people and he replied to Abraham in the hearing of all the Hittites who had come to the gate of his city."
+      },
+      {
+        "verse": 11,
+        "ko": "`내 주여, 그리 마시고 내 말을 들으소서 내가 그 밭을 당신께 드리되 내가 내 동족 앞에서 당신께 드리고 그 속의 굴도 내가 당신께 드리되 내가 내 동족 앞에서 당신께 드리오니 당신의 죽은 자를 장사하소서'",
+        "en": "“No, my lord,” he said. “Listen to me; I give you the field, and I give you the cave that is in it. I give it to you in the presence of my people. Bury your dead.”"
+      },
+      {
+        "verse": 12,
+        "ko": "아브라함이 이에 그 땅 백성을 대하여 몸을 굽히고",
+        "en": "Again Abraham bowed down before the people of the land"
+      },
+      {
+        "verse": 13,
+        "ko": "그 땅 백성의 듣는데 에브론에게 말하여 가로되 `당신이 합당히 여기면 청컨대 내 말을 들으시오 내가 그 밭값을 당신에게 주리니 당신은 내게서 받으시오 내가 나의 죽은 자를 거기 장사하겠노라'",
+        "en": "and he said to Ephron in their hearing, “Listen to me, if you will. I will pay the price of the field. Accept it from me so I can bury my dead there.”"
+      },
+      {
+        "verse": 14,
+        "ko": "에브론이 아브라함에게 대답하여 가로되",
+        "en": "Ephron answered Abraham,"
+      },
+      {
+        "verse": 15,
+        "ko": "`내 주여, 내게 들으소서 땅값은 은 사백 세겔이나 나와 당신 사이에 어찌 교계하리이까 ? 당신의 죽은 자를 장사하소서'",
+        "en": "“Listen to me, my lord; the land is worth four hundred shekels of silver, but what is that between you and me? Bury your dead.”"
+      },
+      {
+        "verse": 16,
+        "ko": "아브라함이 에브론의 말을 좇아 에브론이 헷 족속의 듣는데서 말한 대로 상고의 통용하는 은 사백 세겔을 달아 에브론에게 주었더니",
+        "en": "Abraham agreed to Ephron`s terms and weighed out for him the price he had named in the hearing of the Hittites: four hundred shekels of silver, according to the weight current among the merchants."
+      },
+      {
+        "verse": 17,
+        "ko": "마므레 앞 막벨라에 있는 에브론의 밭을 바꾸어 그 속의 굴과 그 사방에 둘린 수목을 다",
+        "en": "So Ephron`s field in Machpelah near Mamre—both the field and the cave in it, and all the trees within the borders of the field—was deeded"
+      },
+      {
+        "verse": 18,
+        "ko": "성문에 들어온 헷 족속 앞에서 아브라함의 소유로 정한지라",
+        "en": "to Abraham as his property in the presence of all the Hittites who had come to the gate of the city."
+      },
+      {
+        "verse": 19,
+        "ko": "그 후에 아브라함이 그 아내 사라를 가나안 땅 마므레 앞 막벨라밭 굴에 장사하였더라 (마므레는 곧 헤브론이라)",
+        "en": "Afterward Abraham buried his wife Sarah in the cave in the field of Machpelah near Mamre (which is at Hebron) in the land of Canaan."
+      },
+      {
+        "verse": 20,
+        "ko": "이와 같이 그 밭과 그 속의 굴을 헷 족속이 아브라함 소유 매장지로 정하였더라",
+        "en": "So the field and the cave in it were deeded to Abraham by the Hittites as a burial site."
+      }
+    ]
+  },
+  {
+    "chapter": 24,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "아브라함이 나이 많아 늙었고 여호와께서 그의 범사에 복을 주셨더라",
+        "en": "Abraham was now very old, and the Lord had blessed him in every way."
+      },
+      {
+        "verse": 2,
+        "ko": "아브라함이 자기 집 모든 소유를 맡은 늙은 종에게 이르되 `청컨대 네 손을 내 환도뼈 밑에 넣으라",
+        "en": "He said to the senior servant in his household, the one in charge of all that he had, “Put your hand under my thigh."
+      },
+      {
+        "verse": 3,
+        "ko": "내가 너로 하늘의 하나님, 땅의 하나님이신 여호와를 가리켜 맹세하게 하노니 너는 나의 거하는 이 지방 가나안 족속의 딸 중에서 내 아들을 위하여 아내를 택하지 말고",
+        "en": "I want you to swear by the Lord, the God of heaven and the God of earth, that you will not get a wife for my son from the daughters of the Canaanites, among whom I am living,"
+      },
+      {
+        "verse": 4,
+        "ko": "내 고향 내 족속에게로 가서 내 아들 이삭을 위하여 아내를 택하라'",
+        "en": "but will go to my country and my own relatives and get a wife for my son Isaac.”"
+      },
+      {
+        "verse": 5,
+        "ko": "종이 가로되 `여자가 나를 좇아 이 땅으로 오고자 아니하거든 내가 주인의 아들을 주인의 나오신 땅으로 인도하여 돌아가리이까 ?'",
+        "en": "The servant asked him, “What if the woman is unwilling to come back with me to this land? Shall I then take your son back to the country you came from?”"
+      },
+      {
+        "verse": 6,
+        "ko": "아브라함이 그에게 이르되 `삼가 내 아들을 그리로 데리고 돌아가지 말라",
+        "en": "“Make sure that you do not take my son back there,” Abraham said."
+      },
+      {
+        "verse": 7,
+        "ko": "하늘의 하나님 여호와께서 나를 내 아버지의 집과 내 본토에서 떠나게 하시고 내게 말씀하시며 내게 맹세하여 이르시기를 이 땅을 네 씨에게 주리라 하셨으니 그가 그 사자를 네 앞서 보내실지라 네가 거기서 내 아들을 위하여 아내를 택할지니라",
+        "en": "“The Lord, the God of heaven, who brought me out of my father`s household and my native land and who spoke to me and promised me on oath, saying, ‘To your offspring I will give this land`—he will send his angel before you so that you can get a wife for my son from there."
+      },
+      {
+        "verse": 8,
+        "ko": "만일 여자가 너를 좇아 오고자 아니하면 나의 이 맹세가 너와 상관이 없나니 오직 내 아들을 데리고 그리로 가지 말지니라'",
+        "en": "If the woman is unwilling to come back with you, then you will be released from this oath of mine. Only do not take my son back there.”"
+      },
+      {
+        "verse": 9,
+        "ko": "종이 이에 주인 아브라함의 환도뼈 아래 손을 넣고 이 일에 대하여 그에게 맹세하였더라",
+        "en": "So the servant put his hand under the thigh of his master Abraham and swore an oath to him concerning this matter."
+      },
+      {
+        "verse": 10,
+        "ko": "이에 종이 그 주인의 약대 중 열 필을 취하고 떠났는데 곧 그 주인의 모든 좋은 것을 가지고 떠나 메소보다미아로 가서 나홀의 성에 이르러",
+        "en": "Then the servant left, taking with him ten of his master`s camels loaded with all kinds of good things from his master. He set out for Aram Naharaim and made his way to the town of Nahor."
+      },
+      {
+        "verse": 11,
+        "ko": "그 약대를 성 밖 우물 곁에 꿇렸으니 저녁 때라 여인들이 물을 길러 나올 때이었더라",
+        "en": "He had the camels kneel down near the well outside the town; it was toward evening, the time the women go out to draw water."
+      },
+      {
+        "verse": 12,
+        "ko": "그가 가로되 `우리 주인 아브라함의 하나님 여호와여 ! 원컨대 오늘날 나로 순적히 만나게 하사 나의 주인 아브라함에게 은혜를 베푸시옵소서.",
+        "en": "Then he prayed, “Lord, God of my master Abraham, make me successful today, and show kindness to my master Abraham."
+      },
+      {
+        "verse": 13,
+        "ko": "성 중 사람의 딸들이 물 길러 나오겠사오니 내가 우물 곁에 섰다가",
+        "en": "See, I am standing beside this spring, and the daughters of the townspeople are coming out to draw water."
+      },
+      {
+        "verse": 14,
+        "ko": "한 소녀에게 이르기를 청컨대 너는 물 항아리를 기울여 나로 마시게 하라 하리니 그의 대답이 마시라 내가 당신의 약대에게도 마시우리라 하면 그는 주께서 주의 종 이삭을 위하여 정하신 자라 이로 인하여 주께서 나의 주인에게 은혜 베푸심을 내가 알겠나이다'",
+        "en": "May it be that when I say to a young woman, ‘Please let down your jar that I may have a drink,` and she says, ‘Drink, and I`ll water your camels too`—let her be the one you have chosen for your servant Isaac. By this I will know that you have shown kindness to my master.”"
+      },
+      {
+        "verse": 15,
+        "ko": "말을 마치지 못하여서 리브가가 물 항아리를 어깨에 메고 나오니 그는 아브라함의 동생 나홀의 아내 밀가의 아들 브두엘의 소생이라",
+        "en": "Before he had finished praying, Rebekah came out with her jar on her shoulder. She was the daughter of Bethuel son of Milkah, who was the wife of Abraham`s brother Nahor."
+      },
+      {
+        "verse": 16,
+        "ko": "그 소녀는 보기에 심히 아리땁고 지금까지 남자가 가까이 하지 아니한 처녀더라 그가 우물에 내려가서 물을 그 물 항아리에 채워 가지고 올라오는지라",
+        "en": "The woman was very beautiful, a virgin; no man had ever slept with her. She went down to the spring, filled her jar and came up again."
+      },
+      {
+        "verse": 17,
+        "ko": "종이 마주 달려가서 가로되 `청컨대 네 물 항아리의 물을 내게 조금 마시우라'",
+        "en": "The servant hurried to meet her and said, “Please give me a little water from your jar.”"
+      },
+      {
+        "verse": 18,
+        "ko": "그가 가로되 `주여, 마시소서' 하며 급히 그 물 항아리를 손에 내려 마시게 하고",
+        "en": "“Drink, my lord,” she said, and quickly lowered the jar to her hands and gave him a drink."
+      },
+      {
+        "verse": 19,
+        "ko": "마시우기를 다하고 가로되 `당신의 약대도 위하여 물을 길어 그것들로 배불리 마시게 하리이다' 하고",
+        "en": "After she had given him a drink, she said, “I`ll draw water for your camels too, until they have had enough to drink.”"
+      },
+      {
+        "verse": 20,
+        "ko": "급히 물 항아리의 물을 구유에 붓고 다시 길으려고 우물로 달려가서 모든 약대를 위하여 긷는지라",
+        "en": "So she quickly emptied her jar into the trough, ran back to the well to draw more water, and drew enough for all his camels."
+      },
+      {
+        "verse": 21,
+        "ko": "그 사람이 그를 묵묵히 주목하며 여호와께서 과연 평탄한 길을 주신 여부를 알고자 하더니",
+        "en": "Without saying a word, the man watched her closely to learn whether or not the Lord had made his journey successful."
+      },
+      {
+        "verse": 22,
+        "ko": "약대가 마시기를 다하매 그가 반 세겔중 금고리 한개와, 열 세겔중 금 손목고리 한 쌍을 그에게 주며",
+        "en": "When the camels had finished drinking, the man took out a gold nose ring weighing a beka and two gold bracelets weighing ten shekels."
+      },
+      {
+        "verse": 23,
+        "ko": "가로되 `네가 뉘 딸이냐 ? 청컨대 내게 고하라 네 부친의 집에 우리 유숙할 곳이 있느냐 ?'",
+        "en": "Then he asked, “Whose daughter are you? Please tell me, is there room in your father`s house for us to spend the night?”"
+      },
+      {
+        "verse": 24,
+        "ko": "그 여자가 그에게 이르되 `나는 밀가가 나홀에게 낳은 아들 브두엘의 딸이니이다'",
+        "en": "She answered him, “I am the daughter of Bethuel, the son that Milkah bore to Nahor.”"
+      },
+      {
+        "verse": 25,
+        "ko": "또 가로되 `우리에게 짚과 보리도 족하며 유숙할 곳도 있나이다'",
+        "en": "And she added, “We have plenty of straw and fodder, as well as room for you to spend the night.”"
+      },
+      {
+        "verse": 26,
+        "ko": "이에 그 사람이 머리를 숙여 여호와께 경배하고",
+        "en": "Then the man bowed down and worshiped the Lord,"
+      },
+      {
+        "verse": 27,
+        "ko": "가로되 `나의 주인 아브라함의 하나님 여호와를 찬송하나이다 ! 나의 주인에게 주의 인자와 성실을 끊이지 아니하셨사오며 여호와께서 길에서 나를 인도하사 내 주인의 동생집에 이르게 하셨나이다' 하니라",
+        "en": "saying, “Praise be to the Lord, the God of my master Abraham, who has not abandoned his kindness and faithfulness to my master. As for me, the Lord has led me on the journey to the house of my master`s relatives.”"
+      },
+      {
+        "verse": 28,
+        "ko": "소녀가 달려가서 이 일을 어미 집에 고하였더니",
+        "en": "The young woman ran and told her mother`s household about these things."
+      },
+      {
+        "verse": 29,
+        "ko": "리브가에게 오라비가 있어 이름은 라반이라 그가 우물로 달려가 그 사람에게 이르니",
+        "en": "Now Rebekah had a brother named Laban, and he hurried out to the man at the spring."
+      },
+      {
+        "verse": 30,
+        "ko": "그가 그 누이의 고리와 그 손의 손목고리를 보고 또 그 누이 리브가가 그 사람이 자기에게 이같이 말하더라 함을 듣고 그 사람에게로 나아감이라 때에 그가 우물가 약대 곁에 섰더라",
+        "en": "As soon as he had seen the nose ring, and the bracelets on his sister`s arms, and had heard Rebekah tell what the man said to her, he went out to the man and found him standing by the camels near the spring."
+      },
+      {
+        "verse": 31,
+        "ko": "라반이 가로되 `여호와께 복을 받은 자여 ! 들어오소서 어찌 밖에 섰나이까 ? 내가 방과 약대의 처소를 예비하였나이다'",
+        "en": "“Come, you who are blessed by the Lord,” he said. “Why are you standing out here? I have prepared the house and a place for the camels.”"
+      },
+      {
+        "verse": 32,
+        "ko": "그 사람이 집으로 들어가매 라반이 약대의 짐을 부리고 짚과 보리를 약대에게 주고 그 사람의 발과 그 종자의 발 씻을 물을 주고",
+        "en": "So the man went to the house, and the camels were unloaded. Straw and fodder were brought for the camels, and water for him and his men to wash their feet."
+      },
+      {
+        "verse": 33,
+        "ko": "그 앞에 식물을 베푸니 그 사람이 가로되 `내가 내 일을 진술하기 전에는 먹지 아니하겠나이다' 라반이 가로되 `말하소서'",
+        "en": "Then food was set before him, but he said, “I will not eat until I have told you what I have to say.” “Then tell us,” Laban said."
+      },
+      {
+        "verse": 34,
+        "ko": "그가 가로되 `나는 아브라함의 종이니이다",
+        "en": "So he said, “I am Abraham`s servant."
+      },
+      {
+        "verse": 35,
+        "ko": "여호와께서 나의 주인에게 크게 복을 주어 창성케 하시되 우양과, 은,금과, 노비와, 약대와, 나귀를 그에게 주셨고",
+        "en": "The Lord has blessed my master abundantly, and he has become wealthy. He has given him sheep and cattle, silver and gold, male and female servants, and camels and donkeys."
+      },
+      {
+        "verse": 36,
+        "ko": "나의 주인의 부인 사라가 노년에 나의 주인에게 아들을 낳으매 주인이 그 모든 소유를 그 아들에게 주었나이다",
+        "en": "My master`s wife Sarah has borne him a son in her old age, and he has given him everything he owns."
+      },
+      {
+        "verse": 37,
+        "ko": "나의 주인이 나로 맹세하게 하여 가로되 너는 내 아들을 위하여 나 사는 땅 가나안 족속의 딸 중에서 아내를 택하지 말고",
+        "en": "And my master made me swear an oath, and said, ‘You must not get a wife for my son from the daughters of the Canaanites, in whose land I live,"
+      },
+      {
+        "verse": 38,
+        "ko": "내 아비 집 내 족속에게로 가서 내 아들을 위하여 아내를 택하라 하시기로",
+        "en": "but go to my father`s family and to my own clan, and get a wife for my son.`"
+      },
+      {
+        "verse": 39,
+        "ko": "내가 내 주인에게 말씀하되 혹 여자가 나를 좇지 아니하면 어찌 하리이까 ? 한즉",
+        "en": "“Then I asked my master, ‘What if the woman will not come back with me?`"
+      },
+      {
+        "verse": 40,
+        "ko": "주인이 내게 이르되 나의 섬기는 여호와께서 그 사자를 너와 함께 보내어 네게 평탄한 길을 주시리니 너는 내 족속 중 내 아비 집에서 내 아들을 위하여 아내를 택할 것이니라",
+        "en": "“He replied, ‘The Lord, before whom I have walked faithfully, will send his angel with you and make your journey a success, so that you can get a wife for my son from my own clan and from my father`s family."
+      },
+      {
+        "verse": 41,
+        "ko": "네가 내 족속에게 이를 때에는 네가 내 맹세와 상관이 없으리라 설혹 그들이 네게 주지 아니할지라도 네가 내 맹세와 상관이 없으리라 하시기로",
+        "en": "You will be released from my oath if, when you go to my clan, they refuse to give her to you—then you will be released from my oath.`"
+      },
+      {
+        "verse": 42,
+        "ko": "내가 오늘 우물에 이르러 말씀하기를 나의 주인 아브라함의 하나님 여호와여, 만일 나의 행하는 길에 형통함을 주실진대",
+        "en": "“When I came to the spring today, I said, ‘Lord, God of my master Abraham, if you will, please grant success to the journey on which I have come."
+      },
+      {
+        "verse": 43,
+        "ko": "내가 이 우물 곁에 섰다가 청년 여자가 물을 길러 오거든 내가 그에게 청하기를 너는 물 항아리의 물을 내게 조금 마시우라 하여",
+        "en": "See, I am standing beside this spring. If a young woman comes out to draw water and I say to her, “Please let me drink a little water from your jar,”"
+      },
+      {
+        "verse": 44,
+        "ko": "그의 대답이 당신은 마시라 내가 또 당신의 약대를 위하여도 길으리라 하면 그 여자는 여호와께서 나의 주인의 아들을 위하여 정하여 주신 자가 되리이다 하며",
+        "en": "and if she says to me, “Drink, and I`ll draw water for your camels too,” let her be the one the Lord has chosen for my master`s son.`"
+      },
+      {
+        "verse": 45,
+        "ko": "내가 묵도하기를 마치지 못하여 리브가가 물 항아리를 어깨에 메고 나와서 우물로 내려와 긷기로 내가 그에게 이르기를 청컨대 내게 마시우라 한즉",
+        "en": "“Before I finished praying in my heart, Rebekah came out, with her jar on her shoulder. She went down to the spring and drew water, and I said to her, ‘Please give me a drink.`"
+      },
+      {
+        "verse": 46,
+        "ko": "그가 급히 물 항아리를 어깨에서 내리며 가로되 마시라 내가 당신의 약대에게도 마시우리라 하기로 내가 마시매 그가 또 약대에게도 마시운지라",
+        "en": "“She quickly lowered her jar from her shoulder and said, ‘Drink, and I`ll water your camels too.` So I drank, and she watered the camels also."
+      },
+      {
+        "verse": 47,
+        "ko": "내가 그에게 묻기를 네가 뉘 딸이뇨? 한즉 가로되 밀가가 나홀에게 낳은 브두엘의 딸이라 하기로 내가 고리를 그 코에 꿰고 손목고리를 그 손에 끼우고",
+        "en": "“I asked her, ‘Whose daughter are you?` “She said, ‘The daughter of Bethuel son of Nahor, whom Milkah bore to him.` “Then I put the ring in her nose and the bracelets on her arms,"
+      },
+      {
+        "verse": 48,
+        "ko": "나의 주인 아브라함의 하나님 여호와께서 나를 바른 길로 인도하사 나의 주인의 동생의 딸을 그 아들을 위하여 택하게 하셨으므로 내가 머리를 숙여 그에게 경배하고 찬송하였나이다.",
+        "en": "and I bowed down and worshiped the Lord. I praised the Lord, the God of my master Abraham, who had led me on the right road to get the granddaughter of my master`s brother for his son."
+      },
+      {
+        "verse": 49,
+        "ko": "이제 당신들이 인자와 진실로 나의 주인을 대접하려거든 내게 고하시고 그렇지 않을지라도 내게 고하여 나로 좌우간 행하게 하소서'",
+        "en": "Now if you will show kindness and faithfulness to my master, tell me; and if not, tell me, so I may know which way to turn.”"
+      },
+      {
+        "verse": 50,
+        "ko": "라반과 브두엘이 대답하여 가로되 `이 일이 여호와께로 말미암았으니 우리는 가부를 말할 수 없노라",
+        "en": "Laban and Bethuel answered, “This is from the Lord; we can say nothing to you one way or the other."
+      },
+      {
+        "verse": 51,
+        "ko": "리브가가 그대 앞에 있으니 데리고 가서 여호와의 명대로 그로 그대의 주인의 아들의 아내가 되게 하라'",
+        "en": "Here is Rebekah; take her and go, and let her become the wife of your master`s son, as the Lord has directed.”"
+      },
+      {
+        "verse": 52,
+        "ko": "아브라함의 종이 그들의 말을 듣고 땅에 엎드리어 여호와께 절하고",
+        "en": "When Abraham`s servant heard what they said, he bowed down to the ground before the Lord."
+      },
+      {
+        "verse": 53,
+        "ko": "은,금 패물과 의복을 꺼내어 리브가에게 주고 그 오라비와 어미에게도 보물을 주니라",
+        "en": "Then the servant brought out gold and silver jewelry and articles of clothing and gave them to Rebekah; he also gave costly gifts to her brother and to her mother."
+      },
+      {
+        "verse": 54,
+        "ko": "이에 그들 곧 종과 종자들이 먹고 마시고 유숙하고 아침에 일어나서 그가 가로되 `나를 보내어 내 주인에게로 돌아가게 하소서'",
+        "en": "Then he and the men who were with him ate and drank and spent the night there. When they got up the next morning, he said, “Send me on my way to my master.”"
+      },
+      {
+        "verse": 55,
+        "ko": "리브가의 오라비와 그 어미가 가로되 `소녀로 며칠을 적어도 열흘을 우리와 함께 있게 하라 그 후에 그가 갈 것이니라'",
+        "en": "But her brother and her mother replied, “Let the young woman remain with us ten days or so; then you may go.”"
+      },
+      {
+        "verse": 56,
+        "ko": "그 사람이 그들에게 이르되 `나를 만류치 마소서 여호와께서 내게 형통한 길을 주셨으니 나를 보내어 내 주인에게로 돌아가게 하소서'",
+        "en": "But he said to them, “Do not detain me, now that the Lord has granted success to my journey. Send me on my way so I may go to my master.”"
+      },
+      {
+        "verse": 57,
+        "ko": "그들이 가로되 `우리가 소녀를 불러 그에게 물으리라` 하고",
+        "en": "Then they said, “Let`s call the young woman and ask her about it.”"
+      },
+      {
+        "verse": 58,
+        "ko": "리브가를 불러 그에게 이르되 `네가 이 사람과 함께 가려느냐 ?` 그가 대답하되 `가겠나이다'",
+        "en": "So they called Rebekah and asked her, “Will you go with this man?” “I will go,” she said."
+      },
+      {
+        "verse": 59,
+        "ko": "그들이 그 누이 리브가와 그의 유모와 아브라함의 종과 종자들을 보내며",
+        "en": "So they sent their sister Rebekah on her way, along with her nurse and Abraham`s servant and his men."
+      },
+      {
+        "verse": 60,
+        "ko": "리브가에게 축복하여 가로되 `우리 누이여, 너는 천만인의 어미가 될지어다 ! 네 씨로 그 원수의 성문을 얻게 할지어다'",
+        "en": "And they blessed Rebekah and said to her, “Our sister, may you increase to thousands upon thousands; may your offspring possess the cities of their enemies.”"
+      },
+      {
+        "verse": 61,
+        "ko": "리브가가 일어나 비자와 함께 약대를 타고 그 사람을 따라가니 종이 리브가를 데리고 가니라",
+        "en": "Then Rebekah and her attendants got ready and mounted the camels and went back with the man. So the servant took Rebekah and left."
+      },
+      {
+        "verse": 62,
+        "ko": "때에 이삭이 브엘 라해로이에서 왔으니 그가 남방에 거하였었음이라",
+        "en": "Now Isaac had come from Beer Lahai Roi, for he was living in the Negev."
+      },
+      {
+        "verse": 63,
+        "ko": "이삭이 저물 때에 들에 나가 묵상하다가 눈을 들어 보매 약대들이 오더라",
+        "en": "He went out to the field one evening to meditate, and as he looked up, he saw camels approaching."
+      },
+      {
+        "verse": 64,
+        "ko": "리브가가 눈을 들어 이삭을 바라보고 약대에서 내려",
+        "en": "Rebekah also looked up and saw Isaac. She got down from her camel"
+      },
+      {
+        "verse": 65,
+        "ko": "종에게 말하되 `들에서 배회하다가 우리에게로 마주 오는 자가 누구뇨 ?' 종이 가로되 `이는 내 주인이니이다' 리브가가 면박을 취하여 스스로 가리우더라",
+        "en": "and asked the servant, “Who is that man in the field coming to meet us?” “He is my master,” the servant answered. So she took her veil and covered herself."
+      },
+      {
+        "verse": 66,
+        "ko": "종이 그 행한 일을 다 이삭에게 고하매",
+        "en": "Then the servant told Isaac all he had done."
+      },
+      {
+        "verse": 67,
+        "ko": "이삭이 리브가를 인도하여 모친 사라의 장막으로 들이고 그를 취하여 아내를 삼고 사랑하였으니 이삭이 모친 상사 후에 위로를 얻었더라",
+        "en": "Isaac brought her into the tent of his mother Sarah, and he married Rebekah. So she became his wife, and he loved her; and Isaac was comforted after his mother`s death."
+      }
+    ]
+  },
+  {
+    "chapter": 25,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "아브라함이 후처를 취하였으니 그 이름은 그두라라",
+        "en": "Abraham had taken another wife, whose name was Keturah."
+      },
+      {
+        "verse": 2,
+        "ko": "그가 시므란과, 욕산과, 므단과, 미디안과, 이스박과, 수아을 낳았고",
+        "en": "She bore him Zimran, Jokshan, Medan, Midian, Ishbak and Shuah."
+      },
+      {
+        "verse": 3,
+        "ko": "욕산과, 스바와, 드단을 낳았으며 드단의 자손은 앗수르 족속과, 르두시 족속과, 르움미 족속이며",
+        "en": "Jokshan was the father of Sheba and Dedan; the descendants of Dedan were the Ashurites, the Letushites and the Leummites."
+      },
+      {
+        "verse": 4,
+        "ko": "미디안의 아들은 에바와, 에벨과, 하녹과, 아비다와, 엘다아니 다 그두라의 자손이었더라",
+        "en": "The sons of Midian were Ephah, Epher, Hanok, Abida and Eldaah. All these were descendants of Keturah."
+      },
+      {
+        "verse": 5,
+        "ko": "아브라함이 이삭에게 자기 모든 소유를 주었고",
+        "en": "Abraham left everything he owned to Isaac."
+      },
+      {
+        "verse": 6,
+        "ko": "자기 서자들에게도 재물을 주어 자기 생전에 그들로 자기 아들 이삭을 떠나 동방 곧 동국으로 가게 하였더라",
+        "en": "But while he was still living, he gave gifts to the sons of his concubines and sent them away from his son Isaac to the land of the east."
+      },
+      {
+        "verse": 7,
+        "ko": "아브라함의 향년이 일백 칠십 오세라",
+        "en": "Abraham lived a hundred and seventy-five years."
+      },
+      {
+        "verse": 8,
+        "ko": "그가 수가 높고 나이 많아 기운이 진하여 죽어 자기 열조에게로 돌아가매",
+        "en": "Then Abraham breathed his last and died at a good old age, an old man and full of years; and he was gathered to his people."
+      },
+      {
+        "verse": 9,
+        "ko": "그 아들 이삭과 이스마엘이 그를 마므레 앞 헷 족속 소할의 아들 에브론의 밭에 있는 막벨라 굴에 장사하였으니",
+        "en": "His sons Isaac and Ishmael buried him in the cave of Machpelah near Mamre, in the field of Ephron son of Zohar the Hittite,"
+      },
+      {
+        "verse": 10,
+        "ko": "이것은 아브라함이 헷 족속에게서 산 밭이라 아브라함과 그 아내 사라가 거기 장사되니라",
+        "en": "the field Abraham had bought from the Hittites. There Abraham was buried with his wife Sarah."
+      },
+      {
+        "verse": 11,
+        "ko": "아브라함이 죽은 후에 하나님이 그 아들 이삭에게 복을 주셨고 이삭을 브엘 라해로이 근처에 거하였더라",
+        "en": "After Abraham`s death, God blessed his son Isaac, who then lived near Beer Lahai Roi."
+      },
+      {
+        "verse": 12,
+        "ko": "사라의 여종 애굽인 하갈이 아브라함에게 낳은 아들 이스마엘의 후예는 이러하고",
+        "en": "This is the account of the family line of Abraham`s son Ishmael, whom Sarah`s slave, Hagar the Egyptian, bore to Abraham."
+      },
+      {
+        "verse": 13,
+        "ko": "이스마엘의 아들들의 이름은 그 이름과 그 세대 대로 이와 같으니라 이스마엘의 장자는 느바욧이요, 그 다음은 게달과, 앗브엘과, 밉삼과,",
+        "en": "These are the names of the sons of Ishmael, listed in the order of their birth: Nebaioth the firstborn of Ishmael, Kedar, Adbeel, Mibsam,"
+      },
+      {
+        "verse": 14,
+        "ko": "미스마와, 두마와, 맛사와,",
+        "en": "Mishma, Dumah, Massa,"
+      },
+      {
+        "verse": 15,
+        "ko": "하닷과, 데마와, 여둘과, 나비스와, 게드마니",
+        "en": "Hadad, Tema, Jetur, Naphish and Kedemah."
+      },
+      {
+        "verse": 16,
+        "ko": "이들은 이스마엘의 아들들이요 그 촌과 부락대로 된 이름이며 그 족속대로는 십 이방백이었더라",
+        "en": "These were the sons of Ishmael, and these are the names of the twelve tribal rulers according to their settlements and camps."
+      },
+      {
+        "verse": 17,
+        "ko": "이스마엘은 향년이 일백 삼십 칠세에 기운이 진하여 죽어 자기 열조에게로 돌아갔고",
+        "en": "Ishmael lived a hundred and thirty-seven years. He breathed his last and died, and he was gathered to his people."
+      },
+      {
+        "verse": 18,
+        "ko": "그 자손들은 하윌라에서부터 앗수르로 통하는 애굽 앞 술까지 이르러 그 모든 형제의 맞은편에 거하였더라",
+        "en": "His descendants settled in the area from Havilah to Shur, near the eastern border of Egypt, as you go toward Ashur. And they lived in hostility toward all the tribes related to them."
+      },
+      {
+        "verse": 19,
+        "ko": "아브라함의 아들 이삭의 후예는 이러하니라 아브라함이 이삭을 낳았고",
+        "en": "This is the account of the family line of Abraham`s son Isaac. Abraham became the father of Isaac,"
+      },
+      {
+        "verse": 20,
+        "ko": "이삭은 사십세에 리브가를 취하여 아내를 삼았으니 리브가는 밧단 아람의 아람 족속 중 브두엘의 딸이요 아람 족속 중 라반의 누이였더라",
+        "en": "and Isaac was forty years old when he married Rebekah daughter of Bethuel the Aramean from Paddan Aram and sister of Laban the Aramean."
+      },
+      {
+        "verse": 21,
+        "ko": "이삭이 그 아내가 잉태하지 못하므로 그를 위하여 여호와께 간구하매 여호와께서 그 간구를 들으셨으므로 그 아내 리브가가 잉태하였더니",
+        "en": "Isaac prayed to the Lord on behalf of his wife, because she was childless. The Lord answered his prayer, and his wife Rebekah became pregnant."
+      },
+      {
+        "verse": 22,
+        "ko": "아이들이 그의 태 속에서 서로 싸우는지라 그가 가로되 `이같으면 내가 어찌할꼬 ?' 하고 가서 여호와께 묻자온대",
+        "en": "The babies jostled each other within her, and she said, “Why is this happening to me?” So she went to inquire of the Lord."
+      },
+      {
+        "verse": 23,
+        "ko": "여호와께서 그에게 이르시되 두 국민이 네 태 중에 있구나 두 민족이 네 복 중에서부터 나누이리라 이 족속이, 저 족속보다 강하겠고 큰 자는 어린 자를 섬기리라 하셨더라",
+        "en": "The Lord said to her, “Two nations are in your womb, and two peoples from within you will be separated; one people will be stronger than the other, and the older will serve the younger.”"
+      },
+      {
+        "verse": 24,
+        "ko": "그 해산 기한이 찬즉 태에 쌍동이가 있었는데",
+        "en": "When the time came for her to give birth, there were twin boys in her womb."
+      },
+      {
+        "verse": 25,
+        "ko": "먼저 나온 자는 붉고 전신이 갖옷 같아서 이름을 에서라 하였고",
+        "en": "The first to come out was red, and his whole body was like a hairy garment; so they named him Esau."
+      },
+      {
+        "verse": 26,
+        "ko": "후에 나온 아우는 손으로 에서의 발꿈치를 잡았으므로 그 이름을 야곱이라 하였으며 리브가가 그들을 낳을 때에 이삭이 육십세이었더라",
+        "en": "After this, his brother came out, with his hand grasping Esau`s heel; so he was named Jacob. Isaac was sixty years old when Rebekah gave birth to them."
+      },
+      {
+        "verse": 27,
+        "ko": "그 아이들이 장성하매 에서는 익숙한 사냥군인고로 들 사람이 되고 야곱은 종용한 사람인고로 장막에 거하니",
+        "en": "The boys grew up, and Esau became a skillful hunter, a man of the open country, while Jacob was content to stay at home among the tents."
+      },
+      {
+        "verse": 28,
+        "ko": "이삭은 에서의 사냥한 고기를 좋아하므로 그를 사랑하고 리브가는 야곱을 사랑하였더라",
+        "en": "Isaac, who had a taste for wild game, loved Esau, but Rebekah loved Jacob."
+      },
+      {
+        "verse": 29,
+        "ko": "야곱이 죽을 쑤었더니 에서가 들에서부터 돌아와서 심히 곤비하여",
+        "en": "Once when Jacob was cooking some stew, Esau came in from the open country, famished."
+      },
+      {
+        "verse": 30,
+        "ko": "야곱에게 이르되 `내가 곤비하니 그 붉은 것을 나로 먹게 하라' 한지라 그러므로 에서의 별명은 에돔이더라",
+        "en": "He said to Jacob, “Quick, let me have some of that red stew! I`m famished!” (That is why he was also called Edom.)"
+      },
+      {
+        "verse": 31,
+        "ko": "야곱이 가로되 `형의 장자의 명분을 오늘날 내게 팔라'",
+        "en": "Jacob replied, “First sell me your birthright.”"
+      },
+      {
+        "verse": 32,
+        "ko": "에서가 가로되 `내가 죽게 되었으니 이 장자의 명분이 내게 무엇이 유익하리요'",
+        "en": "“Look, I am about to die,” Esau said. “What good is the birthright to me?”"
+      },
+      {
+        "verse": 33,
+        "ko": "야곱이 가로되 `오늘 내게 맹세하라' 에서가 맹세하고 장자의 명분을 야곱에게 판지라",
+        "en": "But Jacob said, “Swear to me first.” So he swore an oath to him, selling his birthright to Jacob."
+      },
+      {
+        "verse": 34,
+        "ko": "야곱이 떡과 팥죽을 에서에게 주매 에서가 먹으며 마시고 일어나서 갔으니 에서가 장자의 명분을 경홀히 여김이었더라",
+        "en": "Then Jacob gave Esau some bread and some lentil stew. He ate and drank, and then got up and left. So Esau despised his birthright."
+      }
+    ]
+  },
+  {
+    "chapter": 26,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "아브라함 때에 첫 흉년이 들었더니 그 땅에 또 흉년이 들매 이삭이 그랄로 가서 블레셋 왕 아비멜렉에게 이르렀더니",
+        "en": "Now there was a famine in the land—besides the previous famine in Abraham`s time—and Isaac went to Abimelek king of the Philistines in Gerar."
+      },
+      {
+        "verse": 2,
+        "ko": "여호와께서 이삭에게 나타나 가라사대 애굽으로 내려가지 말고 내가 네게 지시하는 땅에 거하라",
+        "en": "The Lord appeared to Isaac and said, “Do not go down to Egypt; live in the land where I tell you to live."
+      },
+      {
+        "verse": 3,
+        "ko": "이 땅에 유하면 내가 너와 함께 있어 네게 주고 내가 이 모든 땅을 너와 네 자손에게 주리라 내가 네 아비 아브라함에게 맹세한 것을 이루어",
+        "en": "Stay in this land for a while, and I will be with you and will bless you. For to you and your descendants I will give all these lands and will confirm the oath I swore to your father Abraham."
+      },
+      {
+        "verse": 4,
+        "ko": "네 자손을 하늘의 별과 같이 번성케 하며 이 모든 땅을 네 자손에게 주리니 네 자손을 인하여 천하 만민이 복을 받으리라",
+        "en": "I will make your descendants as numerous as the stars in the sky and will give them all these lands, and through your offspring all nations on earth will be blessed,"
+      },
+      {
+        "verse": 5,
+        "ko": "이는 아브라함이 내 말을 순종하고 내 명령과, 내 계명과, 내 율례와, 내 법도를 지켰음이니라 하시니라",
+        "en": "because Abraham obeyed me and did everything I required of him, keeping my commands, my decrees and my instructions.”"
+      },
+      {
+        "verse": 6,
+        "ko": "이삭이 그랄에 거하였더니",
+        "en": "So Isaac stayed in Gerar."
+      },
+      {
+        "verse": 7,
+        "ko": "그 곳 사람들이 그 아내를 물으매 그가 말하기를 그는 나의 누이라 하였으니 리브가는 보기에 아리따우므로 그 곳 백성이 리브가로 인하여 자기를 죽일까 하여 그는 나의 아내라 하기를 두려워 함이었더라",
+        "en": "When the men of that place asked him about his wife, he said, “She is my sister,” because he was afraid to say, “She is my wife.” He thought, “The men of this place might kill me on account of Rebekah, because she is beautiful.”"
+      },
+      {
+        "verse": 8,
+        "ko": "이삭이 거기 오래 거하였더니 이삭이 그 아내 리브가를 껴안은 것을 블레셋 왕 아비멜렉이 창으로 내다본지라",
+        "en": "When Isaac had been there a long time, Abimelek king of the Philistines looked down from a window and saw Isaac caressing his wife Rebekah."
+      },
+      {
+        "verse": 9,
+        "ko": "이에 아비멜렉이 이삭을 불러 이르되 `그가 정녕 네 아내여늘 어찌 네 누이라 하였느냐 ?' 이삭이 그에게 대답하되 `내 생각에 그를 인하여 내가 죽게 될까 두려워하였음이로라'",
+        "en": "So Abimelek summoned Isaac and said, “She is really your wife! Why did you say, ‘She is my sister`?” Isaac answered him, “Because I thought I might lose my life on account of her.”"
+      },
+      {
+        "verse": 10,
+        "ko": "아비멜렉이 가로되 `네가 어찌 우리에게 이렇게 행하였느냐 ? 백성 중 하나가 네 아내와 동침하기 쉬웠을뻔 하였은즉 네가 죄를 우리에게 입혔으리라'",
+        "en": "Then Abimelek said, “What is this you have done to us? One of the men might well have slept with your wife, and you would have brought guilt upon us.”"
+      },
+      {
+        "verse": 11,
+        "ko": "아비멜렉이 이에 모든 백성에게 명하여 가로되 `이 사람이나 그 아내에게 범하는 자는 죽이리라' 하였더라",
+        "en": "So Abimelek gave orders to all the people: “Anyone who harms this man or his wife shall surely be put to death.”"
+      },
+      {
+        "verse": 12,
+        "ko": "이삭이 그 땅에서 농사하여 그 해에 백배나 얻었고 여호와께서 복을 주시므로",
+        "en": "Isaac planted crops in that land and the same year reaped a hundredfold, because the Lord blessed him."
+      },
+      {
+        "verse": 13,
+        "ko": "그 사람이 창대하고 왕성하여 마침내 거부가 되어",
+        "en": "The man became rich, and his wealth continued to grow until he became very wealthy."
+      },
+      {
+        "verse": 14,
+        "ko": "양과 소가 떼를 이루고 노복이 심히 많으므로 블레셋 사람이 그를 시기하여",
+        "en": "He had so many flocks and herds and servants that the Philistines envied him."
+      },
+      {
+        "verse": 15,
+        "ko": "그 아비 아브라함 때에 그 아비의 종들이 판 모든 우물을 막고 흙으로 메웠더라",
+        "en": "So all the wells that his father`s servants had dug in the time of his father Abraham, the Philistines stopped up, filling them with earth."
+      },
+      {
+        "verse": 16,
+        "ko": "아비멜렉이 이삭에게 이르되 `네가 우리보다 크게 강성한즉 우리를 떠나가라'",
+        "en": "Then Abimelek said to Isaac, “Move away from us; you have become too powerful for us.”"
+      },
+      {
+        "verse": 17,
+        "ko": "이삭이 그곳을 떠나 그랄 골짜기에 장막을 치고 거기 우거하며",
+        "en": "So Isaac moved away from there and encamped in the Valley of Gerar, where he settled."
+      },
+      {
+        "verse": 18,
+        "ko": "그 아비 아브라함 때에 팠던 우물들을 다시 팠으니 이는 아브라함 죽은 후에 블레셋 사람이 그 우물들을 메웠음이라 이삭이 그 우물들의 이름을 그 아비의 부르던 이름으로 불렀더라",
+        "en": "Isaac reopened the wells that had been dug in the time of his father Abraham, which the Philistines had stopped up after Abraham died, and he gave them the same names his father had given them."
+      },
+      {
+        "verse": 19,
+        "ko": "이삭의 종들이 골짜기에 파서 샘 근원을 얻었더니",
+        "en": "Isaac`s servants dug in the valley and discovered a well of fresh water there."
+      },
+      {
+        "verse": 20,
+        "ko": "그랄 목자들이 이삭의 목자와 다투어 가로되 `이 물은 우리의 것이라' 하매 이삭이 그 다툼을 인하여 그 우물 이름을 에섹이라 하였으며",
+        "en": "But the herders of Gerar quarreled with those of Isaac and said, “The water is ours!” So he named the well Esek, because they disputed with him."
+      },
+      {
+        "verse": 21,
+        "ko": "또 다른 우물을 팠더니 그들이 또 다투는고로 그 이름을 싯나라 하였으며",
+        "en": "Then they dug another well, but they quarreled over that one also; so he named it Sitnah."
+      },
+      {
+        "verse": 22,
+        "ko": "이삭이 거기서 옮겨 다른 우물을 팠더니 그들이 다투지 아니하였으므로 그 이름을 르호봇이라 하여 가로되 `이제는 여호와께서 우리의 장소를 넓게 하셨으니 이 땅에서 우리가 번성하리로다' 하였더라",
+        "en": "He moved on from there and dug another well, and no one quarreled over it. He named it Rehoboth, saying, “Now the Lord has given us room and we will flourish in the land.”"
+      },
+      {
+        "verse": 23,
+        "ko": "이삭이 거기서부터 브엘세바로 올라갔더니",
+        "en": "From there he went up to Beersheba."
+      },
+      {
+        "verse": 24,
+        "ko": "그 밤에 여호와께서 그에게 나타나 가라사대 나는 네 아비 아브라함의 하나님이니 두려워 말라! 내 종 아브라함을 위하여 내가 너와 함께 있어 네게 복을 주어 네 자손으로 번성케 하리라 하신지라",
+        "en": "That night the Lord appeared to him and said, “I am the God of your father Abraham. Do not be afraid, for I am with you; I will bless you and will increase the number of your descendants for the sake of my servant Abraham.”"
+      },
+      {
+        "verse": 25,
+        "ko": "이삭이 그 곳에 단을 쌓아 여호와의 이름을 부르고 거기 장막을 쳤더니 그 종들이 거기서도 우물을 팠더라",
+        "en": "Isaac built an altar there and called on the name of the Lord. There he pitched his tent, and there his servants dug a well."
+      },
+      {
+        "verse": 26,
+        "ko": "아비멜렉이 그 친구 아훗삿과 군대장관 비골로 더불어 그랄에서부터 이삭에게로 온지라",
+        "en": "Meanwhile, Abimelek had come to him from Gerar, with Ahuzzath his personal adviser and Phicol the commander of his forces."
+      },
+      {
+        "verse": 27,
+        "ko": "이삭이 그들에게 이르되 `너희가 나를 미워하여 나로 너희를 떠나가게 하였거늘 어찌하여 내게 왔느냐 ?'",
+        "en": "Isaac asked them, “Why have you come to me, since you were hostile to me and sent me away?”"
+      },
+      {
+        "verse": 28,
+        "ko": "그들이 가로되 `여호와께서 너와 함께 계심을 우리가 분명히 보았으므로 우리의 사이 곧 우리와 너의 사이에 맹세를 세워 너와 계약을 맺으리라 말하였노라",
+        "en": "They answered, “We saw clearly that the Lord was with you; so we said, ‘There ought to be a sworn agreement between us`—between us and you. Let us make a treaty with you"
+      },
+      {
+        "verse": 29,
+        "ko": "너는 우리를 해하지 말라 이는 우리가 너를 범하지 아니하고 선한 일만 네게 행하며 너로 평안히 가게 하였음이니라 이제 너는 여호와께 복을 받은 자니라 !'",
+        "en": "that you will do us no harm, just as we did not harm you but always treated you well and sent you away peacefully. And now you are blessed by the Lord.”"
+      },
+      {
+        "verse": 30,
+        "ko": "이삭이 그들을 위하여 잔치를 베풀매 그들이 먹고 마시고",
+        "en": "Isaac then made a feast for them, and they ate and drank."
+      },
+      {
+        "verse": 31,
+        "ko": "아침에 일찌기 일어나 서로 맹세한 후에 이삭이 그들을 보내매 그들이 평안히 갔더라",
+        "en": "Early the next morning the men swore an oath to each other. Then Isaac sent them on their way, and they went away peacefully."
+      },
+      {
+        "verse": 32,
+        "ko": "그 날에 이삭의 종들이 자기들의 판 우물에 대하여 이삭에게 와서 고하여 가로되 `우리가 물을 얻었나이다' 하매",
+        "en": "That day Isaac`s servants came and told him about the well they had dug. They said, “We`ve found water!”"
+      },
+      {
+        "verse": 33,
+        "ko": "그가 그 이름을 세바라 한지라 그러므로 그 성읍 이름이 오늘까지 브엘세바더라",
+        "en": "He called it Shibah, and to this day the name of the town has been Beersheba."
+      },
+      {
+        "verse": 34,
+        "ko": "에서가 사십세에 헷 족속 브에리의 딸 유딧과, 헷 족속 엘론의 딸 바스맛을 아내로 취하였더니",
+        "en": "When Esau was forty years old, he married Judith daughter of Beeri the Hittite, and also Basemath daughter of Elon the Hittite."
+      },
+      {
+        "verse": 35,
+        "ko": "그들이 이삭과 리브가의 마음의 근심이 되었더라",
+        "en": "They were a source of grief to Isaac and Rebekah."
+      }
+    ]
+  },
+  {
+    "chapter": 27,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "이삭이 나이 많아 눈이 어두워 잘 보지 못하더니 맏아들 에서를 불러 가로되 `내 아들아' 하매 그가 가로되 `내가 여기 있나이다' 하니",
+        "en": "When Isaac was old and his eyes were so weak that he could no longer see, he called for Esau his older son and said to him, “My son.” “Here I am,” he answered."
+      },
+      {
+        "verse": 2,
+        "ko": "이삭이 가로되 `내가 이제 늙어 어느날 죽을는지 알지 못하노니",
+        "en": "Isaac said, “I am now an old man and don`t know the day of my death."
+      },
+      {
+        "verse": 3,
+        "ko": "그런즉 네 기구 곧 전통과 활을 가지고 들에 가서 나를 위하여 사냥하여",
+        "en": "Now then, get your equipment—your quiver and bow—and go out to the open country to hunt some wild game for me."
+      },
+      {
+        "verse": 4,
+        "ko": "나의 즐기는 별미를 만들어 내게로 가져다가 먹게 하여 나로 죽기 전에 내 마음껏 네게 축복하게 하라'",
+        "en": "Prepare me the kind of tasty food I like and bring it to me to eat, so that I may give you my blessing before I die.”"
+      },
+      {
+        "verse": 5,
+        "ko": "이삭이 그 아들 에서에게 말할때에 리브가가 들었더니 에서가 사냥하여 오려고 들로 나가매",
+        "en": "Now Rebekah was listening as Isaac spoke to his son Esau. When Esau left for the open country to hunt game and bring it back,"
+      },
+      {
+        "verse": 6,
+        "ko": "리브가가 그 아들 야곱에게 일러 가로되 `네 부친이 네 형 에서에게 말씀하시는 것을 내가 들으니 이르시기를",
+        "en": "Rebekah said to her son Jacob, “Look, I overheard your father say to your brother Esau,"
+      },
+      {
+        "verse": 7,
+        "ko": "나를 위하여 사냥하여 가져다가 별미를 만들어 나로 먹게 하여 죽기 전에 여호와 앞에서 네게 축복하게 하라 하셨으니",
+        "en": "‘Bring me some game and prepare me some tasty food to eat, so that I may give you my blessing in the presence of the Lord before I die.`"
+      },
+      {
+        "verse": 8,
+        "ko": "그런즉 내 아들아 내 말을 좇아 내가 네게 명하는대로",
+        "en": "Now, my son, listen carefully and do what I tell you:"
+      },
+      {
+        "verse": 9,
+        "ko": "염소떼에 가서 거기서 염소의 좋은 새끼를 내게로 가져오면 내가 그것으로 네 부친을 위하여 그 즐기시는 별미를 만들리니",
+        "en": "Go out to the flock and bring me two choice young goats, so I can prepare some tasty food for your father, just the way he likes it."
+      },
+      {
+        "verse": 10,
+        "ko": "네가 그것을 가져 네 부친께 드려서 그로 죽으시기 전에 네게 축복하기 위하여 잡수시게 하라'",
+        "en": "Then take it to your father to eat, so that he may give you his blessing before he dies.”"
+      },
+      {
+        "verse": 11,
+        "ko": "야곱이 그 모친 리브가에게 이르되 `내 형 에서는 털사람이요, 나는 매끈매끈한 사람인즉",
+        "en": "Jacob said to Rebekah his mother, “But my brother Esau is a hairy man while I have smooth skin."
+      },
+      {
+        "verse": 12,
+        "ko": "아버지께서 나를 만지실진대 내가 아버지께 속이는 자로 뵈일지라 복은 고사하고 저주를 받을까 하나이다'",
+        "en": "What if my father touches me? I would appear to be tricking him and would bring down a curse on myself rather than a blessing.”"
+      },
+      {
+        "verse": 13,
+        "ko": "어미가 그에게 이르되 `내 아들아, 너의 저주는 내게로 돌리리니 내 말만 좇고 가서 가져오라'",
+        "en": "His mother said to him, “My son, let the curse fall on me. Just do what I say; go and get them for me.”"
+      },
+      {
+        "verse": 14,
+        "ko": "그가 가서 취하여 어미에게로 가져왔더니 그 어미가 그 아비의 즐기는 별미를 만들었더라",
+        "en": "So he went and got them and brought them to his mother, and she prepared some tasty food, just the way his father liked it."
+      },
+      {
+        "verse": 15,
+        "ko": "리브가가 집 안 자기 처소에 있는 맏아들 에서의 좋은 의복을 취하여 작은 아들 야곱에게 입히고",
+        "en": "Then Rebekah took the best clothes of Esau her older son, which she had in the house, and put them on her younger son Jacob."
+      },
+      {
+        "verse": 16,
+        "ko": "또 염소 새끼의 가죽으로 그 손과 목의 매끈매끈한 곳에 꾸미고",
+        "en": "She also covered his hands and the smooth part of his neck with the goatskins."
+      },
+      {
+        "verse": 17,
+        "ko": "그 만든 별미와 떡을 자기 아들 야곱의 손에 주매",
+        "en": "Then she handed to her son Jacob the tasty food and the bread she had made."
+      },
+      {
+        "verse": 18,
+        "ko": "야곱이 아버지에게 나아가서 `내 아버지여' 하고 부른대 가로되 `내가 여기 있노라 내 아들아 네가 누구냐 ?'",
+        "en": "He went to his father and said, “My father.” “Yes, my son,” he answered. “Who is it?”"
+      },
+      {
+        "verse": 19,
+        "ko": "야곱이 아비에게 대답하되 `나는 아버지의 맏아들 에서로소이다 아버지께서 내게 명하신대로 내가 하였사오니 청컨대 일어나 앉아서 내 사냥한 고기를 잡수시고 아버지의 마음껏 내게 축복하소서 !'",
+        "en": "Jacob said to his father, “I am Esau your firstborn. I have done as you told me. Please sit up and eat some of my game, so that you may give me your blessing.”"
+      },
+      {
+        "verse": 20,
+        "ko": "이삭이 그 아들에게 이르되 `내 아들아, 네가 어떻게 이같이 속히 잡았느냐 ?' 그가 가로되 `아버지의 하나님 여호와께서 나로 순적히 만나게 하셨음이니이다'",
+        "en": "Isaac asked his son, “How did you find it so quickly, my son?” “The Lord your God gave me success,” he replied."
+      },
+      {
+        "verse": 21,
+        "ko": "이삭이 야곱에게 이르되 `내 아들아, 가까이 오라 네가 과연 내 아들 에서인지 아닌지 내가 너를 만지려 하노라'",
+        "en": "Then Isaac said to Jacob, “Come near so I can touch you, my son, to know whether you really are my son Esau or not.”"
+      },
+      {
+        "verse": 22,
+        "ko": "야곱이 그 아비 이삭에게 가까이 가니 이삭이 만지며 가로되 `음성은 야곱의 음성이나, 손은 에서의 손이로다' 하며",
+        "en": "Jacob went close to his father Isaac, who touched him and said, “The voice is the voice of Jacob, but the hands are the hands of Esau.”"
+      },
+      {
+        "verse": 23,
+        "ko": "그 손이 형 에서의 손과 같이 털이 있으므로 능히 분별치 못하고 축복하였더라",
+        "en": "He did not recognize him, for his hands were hairy like those of his brother Esau; so he proceeded to bless him."
+      },
+      {
+        "verse": 24,
+        "ko": "이삭이 가로되 네가 참 내 아들 에서냐 그가 대답하되 그러하니이다",
+        "en": "“Are you really my son Esau?” he asked. “I am,” he replied."
+      },
+      {
+        "verse": 25,
+        "ko": "이삭이 가로되 `내게로 가져오라 내 아들의 사냥한 고기를 먹고 내 마음껏 네게 축복하리라 !' 야곱이 그에게로 가져가매 그가 먹고 또 포도주를 가져가매 그가 마시고",
+        "en": "Then he said, “My son, bring me some of your game to eat, so that I may give you my blessing.” Jacob brought it to him and he ate; and he brought some wine and he drank."
+      },
+      {
+        "verse": 26,
+        "ko": "그 아비 이삭이 그에게 이르되 `내 아들아, 가까이 와서 내게 입맞추라`",
+        "en": "Then his father Isaac said to him, “Come here, my son, and kiss me.”"
+      },
+      {
+        "verse": 27,
+        "ko": "그가 가까이 가서 그에게 입맞추니 아비가 그 옷의 향취를 맡고 그에게 축복하여 가로되 `내 아들의 향취는 여호와의 복 주신 밭의 향취로다",
+        "en": "So he went to him and kissed him. When Isaac caught the smell of his clothes, he blessed him and said, “Ah, the smell of my son is like the smell of a field that the Lord has blessed."
+      },
+      {
+        "verse": 28,
+        "ko": "하나님은 하늘의 이슬과 땅의 기름짐이며 풍성한 곡식과 포도주로 네게 주시기를 원하노라",
+        "en": "May God give you heaven`s dew and earth`s richness— an abundance of grain and new wine."
+      },
+      {
+        "verse": 29,
+        "ko": "만민이 너를 섬기고 열국이 네게 굴복하리니 네가 형제들의 주가 되고 네 어미의 아들들이 네게 굴복하며 네게 저주하는 자는 저주를 받고 네게 축복하는 자는 복을 받기를 원하노라'",
+        "en": "May nations serve you and peoples bow down to you. Be lord over your brothers, and may the sons of your mother bow down to you. May those who curse you be cursed and those who bless you be blessed.”"
+      },
+      {
+        "verse": 30,
+        "ko": "이삭이 야곱에게 축복하기를 마치매 야곱이 그 아비 이삭 앞에서 나가자 곧 그 형 에서가 사냥하여 돌아온지라",
+        "en": "After Isaac finished blessing him, and Jacob had scarcely left his father`s presence, his brother Esau came in from hunting."
+      },
+      {
+        "verse": 31,
+        "ko": "그가 별미를 만들어 아비에게로 가지고 가서 가로되 `아버지여, 일어나서 아들의 사냥한 고기를 잡수시고 마음껏 내게 축복하소서'",
+        "en": "He too prepared some tasty food and brought it to his father. Then he said to him, “My father, please sit up and eat some of my game, so that you may give me your blessing.”"
+      },
+      {
+        "verse": 32,
+        "ko": "그 아비 이삭이 그에게 이르되 `너는 누구냐 ?' 그가 대답하되 `나는 아버지의 아들 곧 아버지의 맏아들 에서로소이다`",
+        "en": "His father Isaac asked him, “Who are you?” “I am your son,” he answered, “your firstborn, Esau.”"
+      },
+      {
+        "verse": 33,
+        "ko": "이삭이 심히 크게 떨며 가로되 `그런즉 사냥한 고기를 내게 가져온 자가 누구냐 ? 너 오기 전에 내가 다 먹고 그를 위하여 축복하였은즉 그가 정녕 복을 받을 것이니라 !'",
+        "en": "Isaac trembled violently and said, “Who was it, then, that hunted game and brought it to me? I ate it just before you came and I blessed him—and indeed he will be blessed!”"
+      },
+      {
+        "verse": 34,
+        "ko": "에서가 그 아비의 말을 듣고 방성 대곡하며 아비에게 이르되 `내 아버지여, 내게 축복하소서 내게도 그리하소서'",
+        "en": "When Esau heard his father`s words, he burst out with a loud and bitter cry and said to his father, “Bless me—me too, my father!”"
+      },
+      {
+        "verse": 35,
+        "ko": "이삭이 가로되 `네 아우가 간교하게 와서 네 복을 빼앗았도다'",
+        "en": "But he said, “Your brother came deceitfully and took your blessing.”"
+      },
+      {
+        "verse": 36,
+        "ko": "에서가 가로되 `그의 이름을 야곱이라 함이 합당치 아니하니이까 ? 그가 나를 속임이 이것이 두번째니이다 전에는 나의 장자의 명분을 빼앗고 이제는 내 복을 빼앗았나이다' 또 가로되 `아버지께서 나를 위하여 빌 복을 남기지 아니하셨나이까 ?'",
+        "en": "Esau said, “Isn`t he rightly named Jacob? This is the second time he has taken advantage of me: He took my birthright, and now he`s taken my blessing!” Then he asked, “Haven`t you reserved any blessing for me?”"
+      },
+      {
+        "verse": 37,
+        "ko": "이삭이 에서에게 대답하여 가로되 `내가 그를 너의 주로 세우고 그 모든 형제를 내가 그에게 종으로 주었으며 곡식과 포도주를 그에게 공급하였으니 내 아들아 ! 내가 네게 무엇을 할 수 있으랴 ?'",
+        "en": "Isaac answered Esau, “I have made him lord over you and have made all his relatives his servants, and I have sustained him with grain and new wine. So what can I possibly do for you, my son?”"
+      },
+      {
+        "verse": 38,
+        "ko": "에서가 아비에게 이르되 `내 아버지여, 아버지의 빌 복이 이 하나뿐이리이까 ? 내 아버지여, 내게 축복하소서 내게도 그리 하소서' 하고 소리를 높여 우니",
+        "en": "Esau said to his father, “Do you have only one blessing, my father? Bless me too, my father!” Then Esau wept aloud."
+      },
+      {
+        "verse": 39,
+        "ko": "그 아비 이삭이 그에게 대답하여 가로되 `너의 주소는 땅의 기름짐에서 뜨고 내리는 하늘 이슬에서 뜰 것이며",
+        "en": "His father Isaac answered him, “Your dwelling will be away from the earth`s richness, away from the dew of heaven above."
+      },
+      {
+        "verse": 40,
+        "ko": "너는 칼을 믿고 생활하겠고 네 아우를 섬길 것이며 네가 매임을 벗을 때에는 그 멍에를 네 목에서 떨쳐버리리라' 하였더라",
+        "en": "You will live by the sword and you will serve your brother. But when you grow restless, you will throw his yoke from off your neck.”"
+      },
+      {
+        "verse": 41,
+        "ko": "그 아비가 야곱에게 축복한 그 축복을 인하여 에서가 야곱을 미워하여 심중에 이르기를 `아버지를 곡할 때가 가까왔은즉 내가 내 아우 야곱을 죽이리라' 하였더니",
+        "en": "Esau held a grudge against Jacob because of the blessing his father had given him. He said to himself, “The days of mourning for my father are near; then I will kill my brother Jacob.”"
+      },
+      {
+        "verse": 42,
+        "ko": "맏아들 에서의 이 말이 리브가에게 들리매 이에 보내어 작은 아들 야곱을 불러 그에게 이르되 `네 형 에서가 너를 죽여 그 한을 풀려하나니",
+        "en": "When Rebekah was told what her older son Esau had said, she sent for her younger son Jacob and said to him, “Your brother Esau is planning to avenge himself by killing you."
+      },
+      {
+        "verse": 43,
+        "ko": "내 아들아, 내 말을 좇아 일어나 하란으로 가서 내 오라버니 라반에게 피하여",
+        "en": "Now then, my son, do what I say: Flee at once to my brother Laban in Harran."
+      },
+      {
+        "verse": 44,
+        "ko": "네 형의 노가 풀리기 까지 몇날 동안 그와 함께 거하라",
+        "en": "Stay with him for a while until your brother`s fury subsides."
+      },
+      {
+        "verse": 45,
+        "ko": "네 형의 분노가 풀려 네가 자기에게 행한 것을 잊어버리거든 내가 곧 보내어 너를 거기서 불러오리라 어찌 하루에 너희 둘을 잃으랴'",
+        "en": "When your brother is no longer angry with you and forgets what you did to him, I`ll send word for you to come back from there. Why should I lose both of you in one day?”"
+      },
+      {
+        "verse": 46,
+        "ko": "리브가가 이삭에게 이르되 `내가 헷 사람의 딸들을 인하여 나의 생명을 싫어하거늘 야곱이 만일 이 땅의 딸들 곧 그들과 같은 헷 사람의 딸들 중에서 아내를 취하면 나의 생명이 내게 무슨 재미가 있으리이까 ?'",
+        "en": "Then Rebekah said to Isaac, “I`m disgusted with living because of these Hittite women. If Jacob takes a wife from among the women of this land, from Hittite women like these, my life will not be worth living.”"
+      }
+    ]
+  },
+  {
+    "chapter": 28,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "이삭이 야곱을 불러 그에게 축복하고 또 부탁하여 가로되 `너는 가나안 사람의 딸들 중에서 아내를 취하지 말고",
+        "en": "So Isaac called for Jacob and blessed him. Then he commanded him: “Do not marry a Canaanite woman."
+      },
+      {
+        "verse": 2,
+        "ko": "일어나 밧단아람으로 가서 너의 외조부 브두엘 집에 이르러 거기서 너의 외삼촌 라반의 딸 중에서 아내를 취하라",
+        "en": "Go at once to Paddan Aram, to the house of your mother`s father Bethuel. Take a wife for yourself there, from among the daughters of Laban, your mother`s brother."
+      },
+      {
+        "verse": 3,
+        "ko": "전능하신 하나님이 네게 복을 주어 너로 생육하고 번성케하사 너로 여러 족속을 이루게 하시고",
+        "en": "May God Almighty bless you and make you fruitful and increase your numbers until you become a community of peoples."
+      },
+      {
+        "verse": 4,
+        "ko": "아브라함에게 허락하신 복을 네게 주시되 너와 너와 함께 네 자손에게 주사 너로 하나님이 아브라함에게 주신 땅 곧 너의 우거하는 땅을 유업으로 받게 하시기를 원하노라'",
+        "en": "May he give you and your descendants the blessing given to Abraham, so that you may take possession of the land where you now reside as a foreigner, the land God gave to Abraham.”"
+      },
+      {
+        "verse": 5,
+        "ko": "이에 이삭이 야곱을 보내었더니 밧단아람으로 가서 라반에게 이르렀으니 라반은 아람 사람 브두엘의 아들이요 야곱과 에서의 어미 리브가의 오라비더라",
+        "en": "Then Isaac sent Jacob on his way, and he went to Paddan Aram, to Laban son of Bethuel the Aramean, the brother of Rebekah, who was the mother of Jacob and Esau."
+      },
+      {
+        "verse": 6,
+        "ko": "에서가 본즉 이삭이 야곱에게 축복하고 그를 밧단아람으로 보내어 거기서 아내를 취하게 하였고 또 그에게 축복하고 명하기를 `너는 가나안 사람의 딸들 중에서 아내를 취하지 말라' 하였고",
+        "en": "Now Esau learned that Isaac had blessed Jacob and had sent him to Paddan Aram to take a wife from there, and that when he blessed him he commanded him, “Do not marry a Canaanite woman,”"
+      },
+      {
+        "verse": 7,
+        "ko": "또 야곱이 부모의 명을 좇아 밧단아람으로 갔으며",
+        "en": "and that Jacob had obeyed his father and mother and had gone to Paddan Aram."
+      },
+      {
+        "verse": 8,
+        "ko": "에서가 또 본즉 가나안 사람의 딸들이 그 아비 이삭을 기쁘게 못하는지라",
+        "en": "Esau then realized how displeasing the Canaanite women were to his father Isaac;"
+      },
+      {
+        "verse": 9,
+        "ko": "이에 에서가 이스마엘에게 가서 그 본처들 외에 아브라함의 아들 이스마엘의 딸이요 느바욧의 누이인 마할랏을 아내로 취하였더라",
+        "en": "so he went to Ishmael and married Mahalath, the sister of Nebaioth and daughter of Ishmael son of Abraham, in addition to the wives he already had."
+      },
+      {
+        "verse": 10,
+        "ko": "야곱이 브엘세바에서 떠나 하란으로 향하여 가더니",
+        "en": "Jacob left Beersheba and set out for Harran."
+      },
+      {
+        "verse": 11,
+        "ko": "한 곳에 이르러는 해가 진지라 거기서 유숙하려고 그 곳의 한 돌을 취하여 베개하고 거기 누워 자더니",
+        "en": "When he reached a certain place, he stopped for the night because the sun had set. Taking one of the stones there, he put it under his head and lay down to sleep."
+      },
+      {
+        "verse": 12,
+        "ko": "꿈에 본즉 사닥다리가 땅 위에 섰는데 그 꼭대기가 하늘에 닿았고 또 본즉 하나님의 사자가 그 위에서 오르락 내리락하고",
+        "en": "He had a dream in which he saw a stairway resting on the earth, with its top reaching to heaven, and the angels of God were ascending and descending on it."
+      },
+      {
+        "verse": 13,
+        "ko": "또 본즉 여호와께서 그 위에 서서 가라사대 나는 여호와니 너의 조부 아브라함의 하나님이요 이삭의 하나님이라 ! 너 누운 땅을 내가 너와 네 자손에게 주리니",
+        "en": "There above it stood the Lord, and he said: “I am the Lord, the God of your father Abraham and the God of Isaac. I will give you and your descendants the land on which you are lying."
+      },
+      {
+        "verse": 14,
+        "ko": "네 자손이 땅의 티끌같이 되어서 동서남북에 편만할지며 땅의 모든 족속이 너와 네 자손을 인하여 복을 얻으리라.",
+        "en": "Your descendants will be like the dust of the earth, and you will spread out to the west and to the east, to the north and to the south. All peoples on earth will be blessed through you and your offspring."
+      },
+      {
+        "verse": 15,
+        "ko": "내가 너와 함께 있어 네가 어디로 가든지 너를 지키며 너를 이끌어 이 땅으로 돌아오게 할지라 내가 네게 허락한 것을 다 이루기까지 너를 떠나지 아니하리라 ! 하신지라",
+        "en": "I am with you and will watch over you wherever you go, and I will bring you back to this land. I will not leave you until I have done what I have promised you.”"
+      },
+      {
+        "verse": 16,
+        "ko": "야곱이 잠이 깨어 가로되 `여호와께서 과연 여기 계시거늘 내가 알지 못하였도다'",
+        "en": "When Jacob awoke from his sleep, he thought, “Surely the Lord is in this place, and I was not aware of it.”"
+      },
+      {
+        "verse": 17,
+        "ko": "이에 두려워하여 가로되 `두렵도다, 이 곳이여 ! 다른 것이 아니라 이는 하나님의 전이요, 이는 하늘의 문이로다' 하고",
+        "en": "He was afraid and said, “How awesome is this place! This is none other than the house of God; this is the gate of heaven.”"
+      },
+      {
+        "verse": 18,
+        "ko": "야곱이 아침에 일찌기 일어나 베개하였던 돌을 가져 기둥으로 세우고 그 위에 기름을 붓고",
+        "en": "Early the next morning Jacob took the stone he had placed under his head and set it up as a pillar and poured oil on top of it."
+      },
+      {
+        "verse": 19,
+        "ko": "그곳 이름을 벧엘이라 하였더라 이 성의 본 이름은 루스더라",
+        "en": "He called that place Bethel, though the city used to be called Luz."
+      },
+      {
+        "verse": 20,
+        "ko": "야곱이 서원하여 가로되 `하나님이 나와 함께 계시사 내가 가는 이 길에서 나를 지키시고 먹을 양식과 입을 옷을 주사",
+        "en": "Then Jacob made a vow, saying, “If God will be with me and will watch over me on this journey I am taking and will give me food to eat and clothes to wear"
+      },
+      {
+        "verse": 21,
+        "ko": "나로 평안히 아비 집으로 돌아가게 하시오면 여호와께서 나의 하나님이 되실 것이요",
+        "en": "so that I return safely to my father`s household, then the Lord will be my God"
+      },
+      {
+        "verse": 22,
+        "ko": "내가 기둥으로 세운 이 돌이 하나님의 전이 될 것이요 하나님께서 내게 주신 모든 것에서 십분 일을 내가 반드시 하나님께 드리겠나이다` 하였더라",
+        "en": "and this stone that I have set up as a pillar will be God`s house, and of all that you give me I will give you a tenth.”"
+      }
+    ]
+  },
+  {
+    "chapter": 29,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "야곱이 발행하여 동방 사람의 땅에 이르러",
+        "en": "Then Jacob continued on his journey and came to the land of the eastern peoples."
+      },
+      {
+        "verse": 2,
+        "ko": "본즉 들에 우물이 있고 그 곁에 양 세 떼가 누웠으니 이는 목자들이 그 우물에서 물을 양떼에게 먹임이라 큰 돌로 우물 아구를 덮었다가",
+        "en": "There he saw a well in the open country, with three flocks of sheep lying near it because the flocks were watered from that well. The stone over the mouth of the well was large."
+      },
+      {
+        "verse": 3,
+        "ko": "모든 떼가 모이면 그들이 우물 아구에서 돌을 옮기고 양에게 물을 먹이고는 여전히 우물 아구 그 자리에 돌을 덮더라",
+        "en": "When all the flocks were gathered there, the shepherds would roll the stone away from the well`s mouth and water the sheep. Then they would return the stone to its place over the mouth of the well."
+      },
+      {
+        "verse": 4,
+        "ko": "야곱이 그들에게 이르되 `나의 형제여 어디로서뇨 ?' 그들이 가로되 `하란에서로라'",
+        "en": "Jacob asked the shepherds, “My brothers, where are you from?” “We`re from Harran,” they replied."
+      },
+      {
+        "verse": 5,
+        "ko": "야곱이 그들에게 이르되 `너희가 나홀의 손자 라반을 아느냐 ?' 그들이 가로되 `아노라'",
+        "en": "He said to them, “Do you know Laban, Nahor`s grandson?” “Yes, we know him,” they answered."
+      },
+      {
+        "verse": 6,
+        "ko": "야곱이 그들에게 이르되 `그가 평안하냐 ?' 가로되 `평안하니라 딸 라헬이 지금 양을 몰고 오느니라'",
+        "en": "Then Jacob asked them, “Is he well?” “Yes, he is,” they said, “and here comes his daughter Rachel with the sheep.”"
+      },
+      {
+        "verse": 7,
+        "ko": "야곱이 가로되 `해가 아직 높은즉 짐승 모일 때가 아니니 양에게 물을 먹이고 가서 뜯기라'",
+        "en": "“Look,” he said, “the sun is still high; it is not time for the flocks to be gathered. Water the sheep and take them back to pasture.”"
+      },
+      {
+        "verse": 8,
+        "ko": "그들이 가로되 `우리가 그리하지 못하겠노라 떼가 다 모이고 목자들이 우물 아구에서 돌을 옮겨야 우리가 양에게 물을 먹이느리라'",
+        "en": "“We can`t,” they replied, “until all the flocks are gathered and the stone has been rolled away from the mouth of the well. Then we will water the sheep.”"
+      },
+      {
+        "verse": 9,
+        "ko": "야곱이 그들과 말하는 중에 라헬이 그 아비의 양과 함께 오니 그가 그의 양들을 침이었더라",
+        "en": "While he was still talking with them, Rachel came with her father`s sheep, for she was a shepherd."
+      },
+      {
+        "verse": 10,
+        "ko": "야곱이 그 외삼촌 라반의 딸 라헬과 그 외삼촌의 양을 보고 나아가서 우물 아구에서 돌을 옮기고 외삼촌 라반의 양떼에게 물을 먹이고",
+        "en": "When Jacob saw Rachel daughter of his uncle Laban, and Laban`s sheep, he went over and rolled the stone away from the mouth of the well and watered his uncle`s sheep."
+      },
+      {
+        "verse": 11,
+        "ko": "그가 라헬에게 입맞추고 소리내어 울며",
+        "en": "Then Jacob kissed Rachel and began to weep aloud."
+      },
+      {
+        "verse": 12,
+        "ko": "그에게 자기가 그의 아비의 생질이요 리브가의 아들됨을 고하였더니 라헬이 달려가서 그 아비에게 고하매",
+        "en": "He had told Rachel that he was a relative of her father and a son of Rebekah. So she ran and told her father."
+      },
+      {
+        "verse": 13,
+        "ko": "라반이 그 생질 야곱의 소식을 듣고 달려와서 그를 영접하여 안고 입맞추고 자기 집으로 인도하여 들이니 야곱이 자기의 모든 일을 라반에게 고하매",
+        "en": "As soon as Laban heard the news about Jacob, his sister`s son, he hurried to meet him. He embraced him and kissed him and brought him to his home, and there Jacob told him all these things."
+      },
+      {
+        "verse": 14,
+        "ko": "라반이 가로되 `너는 참으로 나의 골육이로다' 하였더라 야곱이 한달을 그와 함께 거하더니",
+        "en": "Then Laban said to him, “You are my own flesh and blood.” After Jacob had stayed with him for a whole month,"
+      },
+      {
+        "verse": 15,
+        "ko": "라반이 야곱에게 이르되 `네가 비록 나의 생질이나 어찌 공으로 내 일만 하겠느냐 ? 무엇이 네 보수겠느냐 ? 내게 고하라'",
+        "en": "Laban said to him, “Just because you are a relative of mine, should you work for me for nothing? Tell me what your wages should be.”"
+      },
+      {
+        "verse": 16,
+        "ko": "라반이 두 딸이 있으니 형의 이름은 레아요 아우의 이름은 라헬이라",
+        "en": "Now Laban had two daughters; the name of the older was Leah, and the name of the younger was Rachel."
+      },
+      {
+        "verse": 17,
+        "ko": "레아는 안력이 부족하고 라헬은 곱고 아리따우니",
+        "en": "Leah had weak eyes, but Rachel had a lovely figure and was beautiful."
+      },
+      {
+        "verse": 18,
+        "ko": "야곱이 라헬을 연애하므로 대답하되 `내가 외삼촌의 작은 딸 라헬을 위하여 외삼촌에게 칠년을 봉사하리이다'",
+        "en": "Jacob was in love with Rachel and said, “I`ll work for you seven years in return for your younger daughter Rachel.”"
+      },
+      {
+        "verse": 19,
+        "ko": "라반이 가로되 `그를 네게 주는 것이 타인에게 주는 것보다 나으니 나와 함께 있으라'",
+        "en": "Laban said, “It`s better that I give her to you than to some other man. Stay here with me.”"
+      },
+      {
+        "verse": 20,
+        "ko": "야곱이 라헬을 위하여 칠년 동안 라반을 봉사하였으나 그를 연애하는 까닭에 칠년을 수일 같이 여겼더라",
+        "en": "So Jacob served seven years to get Rachel, but they seemed like only a few days to him because of his love for her."
+      },
+      {
+        "verse": 21,
+        "ko": "야곱이 라반에게 이르되 `내 기한이 찼으니 내 아내를 내게 주소서 내가 그에게 들어가겠나이다'",
+        "en": "Then Jacob said to Laban, “Give me my wife. My time is completed, and I want to make love to her.”"
+      },
+      {
+        "verse": 22,
+        "ko": "라반이 그 곳 사람을 다 모아 잔치하고",
+        "en": "So Laban brought together all the people of the place and gave a feast."
+      },
+      {
+        "verse": 23,
+        "ko": "저녁에 그 딸 레아를 야곱에게로 데려가매 야곱이 그에게로 들어가니라",
+        "en": "But when evening came, he took his daughter Leah and brought her to Jacob, and Jacob made love to her."
+      },
+      {
+        "verse": 24,
+        "ko": "라반이 또 그 여종 실바를 그 딸 레아에게 시녀로 주었더라",
+        "en": "And Laban gave his servant Zilpah to his daughter as her attendant."
+      },
+      {
+        "verse": 25,
+        "ko": "야곱이 아침에 보니 레아라 라반에게 이르되 `외삼촌이 어찌하여 내게 이같이 행하셨나이까 ? 내가 라헬을 위하여 외삼촌께 봉사하지 아니하였나이까 ? 외삼촌이 나를 속이심은 어찜이니이까 ?'",
+        "en": "When morning came, there was Leah! So Jacob said to Laban, “What is this you have done to me? I served you for Rachel, didn`t I? Why have you deceived me?”"
+      },
+      {
+        "verse": 26,
+        "ko": "라반이 가로되 `형보다 아우를 먼저 주는 것은 우리 지방에서 하지 아니하는 바이라",
+        "en": "Laban replied, “It is not our custom here to give the younger daughter in marriage before the older one."
+      },
+      {
+        "verse": 27,
+        "ko": "이를 위하여 칠일을 채우라 우리가 그도 네게 주리니 네가 그를 위하여 또 칠년을 내게 봉사할지니라'",
+        "en": "Finish this daughter`s bridal week; then we will give you the younger one also, in return for another seven years of work.”"
+      },
+      {
+        "verse": 28,
+        "ko": "야곱이 그대로 하여 그 칠일을 채우매 라반이 딸 라헬도 그에게 아내로 주고",
+        "en": "And Jacob did so. He finished the week with Leah, and then Laban gave him his daughter Rachel to be his wife."
+      },
+      {
+        "verse": 29,
+        "ko": "라반이 또 그 여종 빌하를 그 딸 라헬에게 주어 시녀가 되게 하매",
+        "en": "Laban gave his servant Bilhah to his daughter Rachel as her attendant."
+      },
+      {
+        "verse": 30,
+        "ko": "야곱이 또한 라헬에게로 들어갔고 그가 레아보다 라헬을 더 사랑하고 다시 칠년을 라반에게 봉사하였더라",
+        "en": "Jacob made love to Rachel also, and his love for Rachel was greater than his love for Leah. And he worked for Laban another seven years."
+      },
+      {
+        "verse": 31,
+        "ko": "여호와께서 레아에게 총이 없음을 보시고 그의 태를 여셨으나 라헬은 무자하였더라",
+        "en": "When the Lord saw that Leah was not loved, he enabled her to conceive, but Rachel remained childless."
+      },
+      {
+        "verse": 32,
+        "ko": "레아가 잉태하여 아들을 낳고 그 이름을 르우벤이라 하여 가로되 `여호와께서 나의 괴로움을 권고하셨으니 이제는 내 남편이 나를 사랑하리로다' 하였더라",
+        "en": "Leah became pregnant and gave birth to a son. She named him Reuben, for she said, “It is because the Lord has seen my misery. Surely my husband will love me now.”"
+      },
+      {
+        "verse": 33,
+        "ko": "그가 다시 잉태하여 아들을 낳고 가로되 `여호와께서 나의 총이 없음을 들으셨으므로 내게 이도 주셨도다' 하고 그 이름을 시므온이라 하였으며",
+        "en": "She conceived again, and when she gave birth to a son she said, “Because the Lord heard that I am not loved, he gave me this one too.” So she named him Simeon."
+      },
+      {
+        "verse": 34,
+        "ko": "그가 또 잉태하여 아들을 낳고 가로되 `내가 그에게 세 아들을 낳았으니 내 남편이 지금부터 나와 연합하리로다' 하고 그 이름을 레위라 하였으며",
+        "en": "Again she conceived, and when she gave birth to a son she said, “Now at last my husband will become attached to me, because I have borne him three sons.” So he was named Levi."
+      },
+      {
+        "verse": 35,
+        "ko": "그가 또 잉태하여 아들을 낳고 가로되 `내가 이제는 여호와를 찬송하리로다 !' 하고 이로 인하여 그가 그 이름을 유다라 하였고 그의 생산이 멈추었더라",
+        "en": "She conceived again, and when she gave birth to a son she said, “This time I will praise the Lord.” So she named him Judah. Then she stopped having children."
+      }
+    ]
+  },
+  {
+    "chapter": 30,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "라헬이 자기가 야곱에게 아들을 낳지 못함을 보고 그 형을 투기하여 야곱에게 이르되 `나로 자식을 낳게 하라 그렇지 아니하면 내가 죽겠노라'",
+        "en": "When Rachel saw that she was not bearing Jacob any children, she became jealous of her sister. So she said to Jacob, “Give me children, or I`ll die!”"
+      },
+      {
+        "verse": 2,
+        "ko": "야곱이 라헬에게 노를 발하여 가로되 `그대로 성태치 못하게 하시는 이는 하나님이시니 내가 하나님을 대신하겠느냐 ?'",
+        "en": "Jacob became angry with her and said, “Am I in the place of God, who has kept you from having children?”"
+      },
+      {
+        "verse": 3,
+        "ko": "라헬이 가로되 `나의 여종 빌하에게로 들어가라 그가 아들을 낳아 내 무릎에 두리니 그러면 나도 그를 인하여 자식을 얻겠노라' 하고",
+        "en": "Then she said, “Here is Bilhah, my servant. Sleep with her so that she can bear children for me and I too can build a family through her.”"
+      },
+      {
+        "verse": 4,
+        "ko": "그 시녀 빌하를 남편에게 첩으로 주매 야곱이 그에게로 들어갔더니",
+        "en": "So she gave him her servant Bilhah as a wife. Jacob slept with her,"
+      },
+      {
+        "verse": 5,
+        "ko": "빌하가 잉태하여 야곱에게 아들을 낳은지라",
+        "en": "and she became pregnant and bore him a son."
+      },
+      {
+        "verse": 6,
+        "ko": "라헬이 가로되 `하나님이 내 억울함을 푸시려고 내 소리를 들으사 내게 아들을 주셨다' 하고 이로 인하여 그 이름을 단이라 하였으며",
+        "en": "Then Rachel said, “God has vindicated me; he has listened to my plea and given me a son.” Because of this she named him Dan."
+      },
+      {
+        "verse": 7,
+        "ko": "라헬의 시녀 빌하가 다시 잉태하여 둘째 아들을 야곱에게 낳으매",
+        "en": "Rachel`s servant Bilhah conceived again and bore Jacob a second son."
+      },
+      {
+        "verse": 8,
+        "ko": "라헬이 가로되 `내가 형과 크게 경쟁하여 이기었다' 하고 그 이름을 납달리라 하였더라",
+        "en": "Then Rachel said, “I have had a great struggle with my sister, and I have won.” So she named him Naphtali."
+      },
+      {
+        "verse": 9,
+        "ko": "레아가 자기의 생산이 멈춤을 보고 그 시녀 실바를 취하여 야곱에게 주어 첩을 삼게 하였더니",
+        "en": "When Leah saw that she had stopped having children, she took her servant Zilpah and gave her to Jacob as a wife."
+      },
+      {
+        "verse": 10,
+        "ko": "레아의 시녀 실바가 야곱에게 아들을 낳으매",
+        "en": "Leah`s servant Zilpah bore Jacob a son."
+      },
+      {
+        "verse": 11,
+        "ko": "레아가 가로되 `복되도다' 하고 그 이름을 갓이라 하였으며",
+        "en": "Then Leah said, “What good fortune!” So she named him Gad."
+      },
+      {
+        "verse": 12,
+        "ko": "레아의 시녀 실바가 둘째 아들을 야곱에게 낳으매",
+        "en": "Leah`s servant Zilpah bore Jacob a second son."
+      },
+      {
+        "verse": 13,
+        "ko": "레아가 가로되 `기쁘도다 모든 딸들이 나를 기쁜 자라 하리로다' 하고 그 이름을 아셀이라 하였더라",
+        "en": "Then Leah said, “How happy I am! The women will call me happy.” So she named him Asher."
+      },
+      {
+        "verse": 14,
+        "ko": "맥추 때에 르우벤이 나가서 들에서 합환채를 얻어 어미 레아에게 드렸더니 라헬이 레아에게 이르되 `형의 아들의 합환채를 청구하노라'",
+        "en": "During wheat harvest, Reuben went out into the fields and found some mandrake plants, which he brought to his mother Leah. Rachel said to Leah, “Please give me some of your son`s mandrakes.”"
+      },
+      {
+        "verse": 15,
+        "ko": "레아가 그에게 이르되 `네가 내 남편을 빼앗은 것이 작은 일이냐 ? 네가 내 아들의 합환채도 빼앗고자 하느냐 ?' 라헬이 가로되 `그러면 형의 아들의 합환채 대신에 오늘밤에 내 남편이 형과 동침하리라' 하리라",
+        "en": "But she said to her, “Wasn`t it enough that you took away my husband? Will you take my son`s mandrakes too?” “Very well,” Rachel said, “he can sleep with you tonight in return for your son`s mandrakes.”"
+      },
+      {
+        "verse": 16,
+        "ko": "저물 때에 야곱이 들에서 돌아오매 레아가 나와서 그를 영접하며 이르되 `내게로 들어오라 내가 내 아들의 합환채로 당신을 샀노라' 그 밤에 야곱이 그와 동침하였더라",
+        "en": "So when Jacob came in from the fields that evening, Leah went out to meet him. “You must sleep with me,” she said. “I have hired you with my son`s mandrakes.” So he slept with her that night."
+      },
+      {
+        "verse": 17,
+        "ko": "하나님이 레아를 들으셨으므로 그가 잉태하여 다섯째 아들을 야곱에게 낳은지라",
+        "en": "God listened to Leah, and she became pregnant and bore Jacob a fifth son."
+      },
+      {
+        "verse": 18,
+        "ko": "레아가 가로되 `내가 내 시녀를 남편에게 주었으므로 하나님이 내게 그 값을 주셨다' 하고 그 이름을 잇사갈이라 하였으며",
+        "en": "Then Leah said, “God has rewarded me for giving my servant to my husband.” So she named him Issachar."
+      },
+      {
+        "verse": 19,
+        "ko": "레아가 다시 잉태하여 여섯째 아들을 야곱에게 낳은지라",
+        "en": "Leah conceived again and bore Jacob a sixth son."
+      },
+      {
+        "verse": 20,
+        "ko": "레아가 가로되 `하나님이 네게 후한 선물을 주시도다 내가 남편에게 여섯 아들을 낳았으니 이제는 그가 나와 함께 거하리라' 하고 그 이름을 스불론이라 하였으며",
+        "en": "Then Leah said, “God has presented me with a precious gift. This time my husband will treat me with honor, because I have borne him six sons.” So she named him Zebulun."
+      },
+      {
+        "verse": 21,
+        "ko": "그 후에 그가 딸을 낳고 그 이름을 디나라 하였더라",
+        "en": "Some time later she gave birth to a daughter and named her Dinah."
+      },
+      {
+        "verse": 22,
+        "ko": "하나님이 라헬을 생각하신지라 하나님이 그를 들으시고 그 태를 여신고로",
+        "en": "Then God remembered Rachel; he listened to her and enabled her to conceive."
+      },
+      {
+        "verse": 23,
+        "ko": "그가 잉태하여 아들을 낳고 가로되 `하나님이 나의 부끄러움을 씻으셨다' 하고",
+        "en": "She became pregnant and gave birth to a son and said, “God has taken away my disgrace.”"
+      },
+      {
+        "verse": 24,
+        "ko": "그 이름을 요셉이라 하니 여호와는 다시 다른 아들을 내게 더하시기를 원하노라 함이었더라",
+        "en": "She named him Joseph, and said, “May the Lord add to me another son.”"
+      },
+      {
+        "verse": 25,
+        "ko": "라헬이 요셉을 낳은 때에 야곱이 라반에게 이르되 `나를 보내어 내 고향 내 본토로 가게 하시되",
+        "en": "After Rachel gave birth to Joseph, Jacob said to Laban, “Send me on my way so I can go back to my own homeland."
+      },
+      {
+        "verse": 26,
+        "ko": "내가 외삼촌에게서 일하고 얻은 처자를 내게 주어 나로 가게 하소서 내가 외삼촌께 한 일은 외삼촌이 아시나이다'",
+        "en": "Give me my wives and children, for whom I have served you, and I will be on my way. You know how much work I`ve done for you.”"
+      },
+      {
+        "verse": 27,
+        "ko": "라반이 그에게 이르되 `여호와께서 너로 인하여 내게 복 주신줄을 내가 깨달았노니 네가 나를 사랑스럽게 여기거든 유하라'",
+        "en": "But Laban said to him, “If I have found favor in your eyes, please stay. I have learned by divination that the Lord has blessed me because of you.”"
+      },
+      {
+        "verse": 28,
+        "ko": "또 가로되 `네 품삯을 정하라 내가 그것을 주리라'",
+        "en": "He added, “Name your wages, and I will pay them.”"
+      },
+      {
+        "verse": 29,
+        "ko": "야곱이 그에게 이르되 `내가 어떻게 외삼촌을 섬겼는지, 어떻게 외삼촌의 짐승을 쳤는지 외삼촌이 아시나이다",
+        "en": "Jacob said to him, “You know how I have worked for you and how your livestock has fared under my care."
+      },
+      {
+        "verse": 30,
+        "ko": "내가 오기 전에는 외삼촌의 소유가 적더니 번성하여 떼를 이루었나이다 나의 공력을 따라 여호와께서 외삼촌에게 복을 주셨나이다 그러나 나는 어느 때에나 내 집을 세우리이까 ?'",
+        "en": "The little you had before I came has increased greatly, and the Lord has blessed you wherever I have been. But now, when may I do something for my own household?”"
+      },
+      {
+        "verse": 31,
+        "ko": "라반이 가로되 내가 무엇으로 네게 주랴 야곱이 가로되 외삼촌께서 아무 것도 내게 주실 것이 아니라 나를 위하여 이 일을 행하시면 내가 다시 외삼촌의 양떼를 먹이고 지키리이다",
+        "en": "“What shall I give you?” he asked. “Don`t give me anything,” Jacob replied. “But if you will do this one thing for me, I will go on tending your flocks and watching over them:"
+      },
+      {
+        "verse": 32,
+        "ko": "",
+        "en": "Let me go through all your flocks today and remove from them every speckled or spotted sheep, every dark-colored lamb and every spotted or speckled goat. They will be my wages."
+      },
+      {
+        "verse": 33,
+        "ko": "",
+        "en": "And my honesty will testify for me in the future, whenever you check on the wages you have paid me. Any goat in my possession that is not speckled or spotted, or any lamb that is not dark-colored, will be considered stolen.”"
+      },
+      {
+        "verse": 34,
+        "ko": "",
+        "en": "“Agreed,” said Laban. “Let it be as you have said.”"
+      },
+      {
+        "verse": 35,
+        "ko": "",
+        "en": "That same day he removed all the male goats that were streaked or spotted, and all the speckled or spotted female goats (all that had white on them) and all the dark-colored lambs, and he placed them in the care of his sons."
+      },
+      {
+        "verse": 36,
+        "ko": "",
+        "en": "Then he put a three-day journey between himself and Jacob, while Jacob continued to tend the rest of Laban`s flocks."
+      },
+      {
+        "verse": 37,
+        "ko": "",
+        "en": "Jacob, however, took fresh-cut branches from poplar, almond and plane trees and made white stripes on them by peeling the bark and exposing the white inner wood of the branches."
+      },
+      {
+        "verse": 38,
+        "ko": "",
+        "en": "Then he placed the peeled branches in all the watering troughs, so that they would be directly in front of the flocks when they came to drink. When the flocks were in heat and came to drink,"
+      },
+      {
+        "verse": 39,
+        "ko": "",
+        "en": "they mated in front of the branches. And they bore young that were streaked or speckled or spotted."
+      },
+      {
+        "verse": 40,
+        "ko": "",
+        "en": "Jacob set apart the young of the flock by themselves, but made the rest face the streaked and dark-colored animals that belonged to Laban. Thus he made separate flocks for himself and did not put them with Laban`s animals."
+      },
+      {
+        "verse": 41,
+        "ko": "",
+        "en": "Whenever the stronger females were in heat, Jacob would place the branches in the troughs in front of the animals so they would mate near the branches,"
+      },
+      {
+        "verse": 42,
+        "ko": "",
+        "en": "but if the animals were weak, he would not place them there. So the weak animals went to Laban and the strong ones to Jacob."
+      },
+      {
+        "verse": 43,
+        "ko": "",
+        "en": "In this way the man grew exceedingly prosperous and came to own large flocks, and female and male servants, and camels and donkeys."
+      }
+    ]
+  },
+  {
+    "chapter": 31,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "야곱이 들은즉 라반의 아들들의 말이 `야곱이 우리 아버지의 소유를 다 빼앗고 우리 아버지의 소유로 인하여 이같이 거부가 되었다' 하는지라",
+        "en": "Jacob heard that Laban`s sons were saying, “Jacob has taken everything our father owned and has gained all this wealth from what belonged to our father.”"
+      },
+      {
+        "verse": 2,
+        "ko": "야곱이 라반의 안색을 본즉 자기에게 대하여 전과 같지 아니하더라",
+        "en": "And Jacob noticed that Laban`s attitude toward him was not what it had been."
+      },
+      {
+        "verse": 3,
+        "ko": "여호와께서 야곱에게 이르시되 네 조상의 땅, 네 족속에게로 돌아가라 내가 너와 함께 있으리라 하신지라",
+        "en": "Then the Lord said to Jacob, “Go back to the land of your fathers and to your relatives, and I will be with you.”"
+      },
+      {
+        "verse": 4,
+        "ko": "야곱이 보내어 라헬과 레아를 자기 양떼 있는 들로 불러다가",
+        "en": "So Jacob sent word to Rachel and Leah to come out to the fields where his flocks were."
+      },
+      {
+        "verse": 5,
+        "ko": "그들에게 이르되 `내가 그대들의 아버지의 안색을 본즉 내게 대하여 전과 같지 아니하도다 그러할지라도 내 아버지의 하나님은 나와 함께 계셨느니라",
+        "en": "He said to them, “I see that your father`s attitude toward me is not what it was before, but the God of my father has been with me."
+      },
+      {
+        "verse": 6,
+        "ko": "그대들도 알거니와 내가 힘을 다하여 그대들의 아버지를 섬겼거늘",
+        "en": "You know that I`ve worked for your father with all my strength,"
+      },
+      {
+        "verse": 7,
+        "ko": "그대들의 아버지가 나를 속여 품삯을 열번이나 변역하였느니라 그러나 하나님이 그를 금하사 나를 해치 못하게 하셨으며",
+        "en": "yet your father has cheated me by changing my wages ten times. However, God has not allowed him to harm me."
+      },
+      {
+        "verse": 8,
+        "ko": "그가 이르기를 점 있는 것이 네 삯이 되리라 하면 온 양떼의 낳은 것이 점 있는 것이요 또 얼룩무늬 있는 것이 네 삯이 되리라 하면 온 양떼의 낳은 것이 얼룩무늬 있는 것이니",
+        "en": "If he said, ‘The speckled ones will be your wages,` then all the flocks gave birth to speckled young; and if he said, ‘The streaked ones will be your wages,` then all the flocks bore streaked young."
+      },
+      {
+        "verse": 9,
+        "ko": "하나님이 이같이 그대들의 아버지의 짐승을 빼앗아 내게 주셨으니라",
+        "en": "So God has taken away your father`s livestock and has given them to me."
+      },
+      {
+        "verse": 10,
+        "ko": "그 양떼가 새끼 밸 때에 내가 꿈에 눈을 들어 보니 양떼를 탄 수양은 다 얼룩무늬 있는것, 점 있는 것, 아롱진 것이었더라",
+        "en": "“In breeding season I once had a dream in which I looked up and saw that the male goats mating with the flock were streaked, speckled or spotted."
+      },
+      {
+        "verse": 11,
+        "ko": "꿈에 하나님의 사자가 내게 말씀하시기를 야곱아 ! 하기로 내가 대답하기를 여기 있나이다 ! 하매",
+        "en": "The angel of God said to me in the dream, ‘Jacob.` I answered, ‘Here I am.`"
+      },
+      {
+        "verse": 12,
+        "ko": "가라사대 네 눈을 들어 보라 ! 양떼를 탄 수양은 다 얼룩무늬 있는것, 점 있는 것, 아롱진 것이니라 라반이 네게 행한 모든 것을 내가 보았노라",
+        "en": "And he said, ‘Look up and see that all the male goats mating with the flock are streaked, speckled or spotted, for I have seen all that Laban has been doing to you."
+      },
+      {
+        "verse": 13,
+        "ko": "나는 벧엘 하나님이라 ! 네가 거기서 기둥에 기름을 붓고 거기서 내게 서원하였으니 지금 일어나 이곳을 떠나서 네 출생지로 돌아가라 하셨느니라'",
+        "en": "I am the God of Bethel, where you anointed a pillar and where you made a vow to me. Now leave this land at once and go back to your native land.`”"
+      },
+      {
+        "verse": 14,
+        "ko": "라헬과 레아가 그에게 대답하여 가로되 `우리가 우리 아버지 집에서 무슨 분깃이나 유업이나 있으리요",
+        "en": "Then Rachel and Leah replied, “Do we still have any share in the inheritance of our father`s estate?"
+      },
+      {
+        "verse": 15,
+        "ko": "아버지가 우리를 팔고 우리의 돈을 다 먹었으니 아버지가 우리를 외인으로 여기는 것이 아닌가",
+        "en": "Does he not regard us as foreigners? Not only has he sold us, but he has used up what was paid for us."
+      },
+      {
+        "verse": 16,
+        "ko": "하나님이 우리 아버지에게서 취하신 재물은 우리와 우리 자식의 것이니 이제 하나님이 당신에게 이르신 일을 다 준행하라'",
+        "en": "Surely all the wealth that God took away from our father belongs to us and our children. So do whatever God has told you.”"
+      },
+      {
+        "verse": 17,
+        "ko": "야곱이 일어나 자식들과 아내들을 약대들에게 태우고",
+        "en": "Then Jacob put his children and his wives on camels,"
+      },
+      {
+        "verse": 18,
+        "ko": "그 얻은 바 모든 짐승과 모든 소유물 곧 그가 밧단아람에서 얻은 짐승을 이끌고 가나안 땅에 있는 그 아비 이삭에게로 가려할새",
+        "en": "and he drove all his livestock ahead of him, along with all the goods he had accumulated in Paddan Aram, to go to his father Isaac in the land of Canaan."
+      },
+      {
+        "verse": 19,
+        "ko": "때에 라반이 양털을 깎으러 갔으므로 라헬은 그 아비의 드라빔을 도적질하고",
+        "en": "When Laban had gone to shear his sheep, Rachel stole her father`s household gods."
+      },
+      {
+        "verse": 20,
+        "ko": "야곱은 그 거취를 아람 사람 라반에게 고하지 않고 가만히 떠났더라",
+        "en": "Moreover, Jacob deceived Laban the Aramean by not telling him he was running away."
+      },
+      {
+        "verse": 21,
+        "ko": "그가 그 모든 소유를 이끌고 강을 건너 길르앗 산을 향하여 도망한지",
+        "en": "So he fled with all he had, crossed the Euphrates River, and headed for the hill country of Gilead."
+      },
+      {
+        "verse": 22,
+        "ko": "삼일만에 야곱의 도망한 것이 라반에게 들린지라",
+        "en": "On the third day Laban was told that Jacob had fled."
+      },
+      {
+        "verse": 23,
+        "ko": "라반이 그 형제를 거느리고 칠일 길을 쫓아가 길르앗산에서 그에게 미쳤더니",
+        "en": "Taking his relatives with him, he pursued Jacob for seven days and caught up with him in the hill country of Gilead."
+      },
+      {
+        "verse": 24,
+        "ko": "밤에 하나님이 아람 사람 라반에게 현몽하여 가라사대 너는 삼가 야곱에게 선악간 말하지 말라 하셨더라",
+        "en": "Then God came to Laban the Aramean in a dream at night and said to him, “Be careful not to say anything to Jacob, either good or bad.”"
+      },
+      {
+        "verse": 25,
+        "ko": "라반이 야곱을 쫓아 미치니 야곱이 산에 장막을 쳤는지라 라반이 그 형제로 더불어 길르앗산에 장막을 치고",
+        "en": "Jacob had pitched his tent in the hill country of Gilead when Laban overtook him, and Laban and his relatives camped there too."
+      },
+      {
+        "verse": 26,
+        "ko": "라반이 야곱에게 이르되 `네가 내게 알리지 아니하고 가만히 내 딸들을 칼로 잡은 자 같이 끌고 갔으니 어찌 이같이 하였느냐?",
+        "en": "Then Laban said to Jacob, “What have you done? You`ve deceived me, and you`ve carried off my daughters like captives in war."
+      },
+      {
+        "verse": 27,
+        "ko": "내가 즐거움과, 노래와, 북과, 수금으로 너를 보내겠거늘 어찌하여 네가 나를 속이고 가만히 도망하고 내게 고하지 아니하였으며",
+        "en": "Why did you run off secretly and deceive me? Why didn`t you tell me, so I could send you away with joy and singing to the music of timbrels and harps?"
+      },
+      {
+        "verse": 28,
+        "ko": "나로 내 손자들과 딸들에게 입맞추지 못하게 하였느냐 ? 네 소위가 실로 어리석도다",
+        "en": "You didn`t even let me kiss my grandchildren and my daughters goodbye. You have done a foolish thing."
+      },
+      {
+        "verse": 29,
+        "ko": "너를 해할만한 능력이 내 손에 있으나 너희 아버지의 하나님이 어제밤에 내게 말씀하시기를 너는 삼가 야곱에게 선악간 말하지 말라 하셨느니라",
+        "en": "I have the power to harm you; but last night the God of your father said to me, ‘Be careful not to say anything to Jacob, either good or bad.`"
+      },
+      {
+        "verse": 30,
+        "ko": "이제 네가 네 아비 집을 사모하여 돌아가려는 것은 가하거니와 어찌 내 신(神)을 도적질하였느냐 ?'",
+        "en": "Now you have gone off because you longed to return to your father`s household. But why did you steal my gods?”"
+      },
+      {
+        "verse": 31,
+        "ko": "야곱이 라반에게 대답하여 가로되 `내가 말하기를 외삼촌이 외삼촌의 딸들을 내게서 억지로 빼앗으리라 하여 두려워하였음이니이다",
+        "en": "Jacob answered Laban, “I was afraid, because I thought you would take your daughters away from me by force."
+      },
+      {
+        "verse": 32,
+        "ko": "외삼촌의 신은 뉘게서 찾든지 그는 살지 못할 것이요 우리 형제들 앞에서 무엇이든지 외삼촌의 것이 발견되거든 외삼촌에게로 하소서' 하니 야곱은 라헬이 그것을 도적질한 줄을 알지 못함이었더라",
+        "en": "But if you find anyone who has your gods, that person shall not live. In the presence of our relatives, see for yourself whether there is anything of yours here with me; and if so, take it.” Now Jacob did not know that Rachel had stolen the gods."
+      },
+      {
+        "verse": 33,
+        "ko": "라반이 야곱의 장막에 들어가고 레아의 장막에 들어가고 두 여종의 장막에 들어갔으나 찾지 못하고 레아의 장막에서 나와 라헬의 장막에 들어가매",
+        "en": "So Laban went into Jacob`s tent and into Leah`s tent and into the tent of the two female servants, but he found nothing. After he came out of Leah`s tent, he entered Rachel`s tent."
+      },
+      {
+        "verse": 34,
+        "ko": "라헬이 그 드라빔을 가져 약대 안장 아래 넣고 그 위에 앉은지라 라반이 그 장막에서 찾다가 얻지 못하매",
+        "en": "Now Rachel had taken the household gods and put them inside her camel`s saddle and was sitting on them. Laban searched through everything in the tent but found nothing."
+      },
+      {
+        "verse": 35,
+        "ko": "라헬이 그 아비에게 이르되 `마침 경수가 나므로 일어나서 영접할수 없사오니 내 주는 노하지 마소서' 하니라 라반이 그 드라빔을 두루 찾다가 얻지 못한지라",
+        "en": "Rachel said to her father, “Don`t be angry, my lord, that I cannot stand up in your presence; I`m having my period.” So he searched but could not find the household gods."
+      },
+      {
+        "verse": 36,
+        "ko": "야곱이 노하여 라반을 책망할새 야곱이 라반에게 대척하여 가로되 나의 허물이 무엇이니이까 ? 무슨 죄가 있기에 외삼촌께서 나를 불같이 급히 쫓나이까?",
+        "en": "Jacob was angry and took Laban to task. “What is my crime?” he asked Laban. “How have I wronged you that you hunt me down?"
+      },
+      {
+        "verse": 37,
+        "ko": "외삼촌께서 내 물건을 다 뒤져 보셨으니 외삼촌의 가장집물 중에 무엇을 찾았나이까 ? 여기 나의 형제와 외삼촌의 형제 앞에 그것을 두고 우리 두 사이에 판단하게 하소서",
+        "en": "Now that you have searched through all my goods, what have you found that belongs to your household? Put it here in front of your relatives and mine, and let them judge between the two of us."
+      },
+      {
+        "verse": 38,
+        "ko": "내가 이 이십년에 외삼촌과 함께 하였거니와 외삼촌의 암양들이나 암염소들이 낙태하지 아니하였고 또 외삼촌의 양떼의 수양을 내가 먹지 아니하였으며",
+        "en": "“I have been with you for twenty years now. Your sheep and goats have not miscarried, nor have I eaten rams from your flocks."
+      },
+      {
+        "verse": 39,
+        "ko": "물려 찢긴 것은 내가 외삼촌에게로 가져가지 아니하고 스스로 그것을 보충하였으며 낮에 도적을 맞았든지, 밤에 도적을 맞았든지, 내가 외삼촌에게 물어 내었으며",
+        "en": "I did not bring you animals torn by wild beasts; I bore the loss myself. And you demanded payment from me for whatever was stolen by day or night."
+      },
+      {
+        "verse": 40,
+        "ko": "내가 이와 같이 낮에는 더위를 무릅쓰고, 밤에는 추위를 당하며, 눈붙일 겨를도 없이 지내었나이다",
+        "en": "This was my situation: The heat consumed me in the daytime and the cold at night, and sleep fled from my eyes."
+      },
+      {
+        "verse": 41,
+        "ko": "내가 외삼촌의 집에 거한 이 이십년에 외삼촌의 두 딸을 위하여 십 사년, 외삼촌의 양떼를 위하여 육년을 외삼촌을 봉사하였거니와 외삼촌께서 내 품값을 열번이나 변역하셨으니",
+        "en": "It was like this for the twenty years I was in your household. I worked for you fourteen years for your two daughters and six years for your flocks, and you changed my wages ten times."
+      },
+      {
+        "verse": 42,
+        "ko": "우리 아버지의 하나님, 아브라함의 하나님, 곧 이삭의 경외하는 이가 나와 함께 계시지 아니하셨더면 외삼촌께서 이제 나를 공수로 돌려 보내셨으리이다마는 하나님이 나의 고난과 내 손의 수고를 감찰하시고 어제밤에 외삼촌을 책망하셨나이다",
+        "en": "If the God of my father, the God of Abraham and the Fear of Isaac, had not been with me, you would surely have sent me away empty-handed. But God has seen my hardship and the toil of my hands, and last night he rebuked you.”"
+      },
+      {
+        "verse": 43,
+        "ko": "라반이 야곱에게 대답하여 가로되 `딸들은 내 딸이요, 자식들은 내 자식이요, 양떼는 나의 양떼요, 네가 보는 것은 다 내 것이라 내가 오늘날 내 딸들과 그 낳은 자식들에게 어찌할 수 있으랴?",
+        "en": "Laban answered Jacob, “The women are my daughters, the children are my children, and the flocks are my flocks. All you see is mine. Yet what can I do today about these daughters of mine, or about the children they have borne?"
+      },
+      {
+        "verse": 44,
+        "ko": "이제 오라 너와 내가 언약을 세워 그것으로 너와 나 사이에 증거를 삼을 것이니라'",
+        "en": "Come now, let`s make a covenant, you and I, and let it serve as a witness between us.”"
+      },
+      {
+        "verse": 45,
+        "ko": "이에 야곱이 돌을 가져 기둥으로 세우고",
+        "en": "So Jacob took a stone and set it up as a pillar."
+      },
+      {
+        "verse": 46,
+        "ko": "또 `그 형제들에게 돌을 모으라` 하니 그들이 돌을 취하여 무더기를 이루매 무리가 거기 무더기 곁에서 먹고",
+        "en": "He said to his relatives, “Gather some stones.” So they took stones and piled them in a heap, and they ate there by the heap."
+      },
+      {
+        "verse": 47,
+        "ko": "라반은 그것을 여갈사하두다라 칭하였고 야곱은 그것을 갈르엣이라 칭하였으니",
+        "en": "Laban called it Jegar Sahadutha, and Jacob called it Galeed."
+      },
+      {
+        "verse": 48,
+        "ko": "라반의 말에 `오늘날 이 무더기가 너와 나 사이에 증거가 된다' 하였으므로 그 이름을 갈르엣이라 칭하였으며",
+        "en": "Laban said, “This heap is a witness between you and me today.” That is why it was called Galeed."
+      },
+      {
+        "verse": 49,
+        "ko": "또 미스바라 하였으니 이는 그의 말에 `우리 피차 떠나 있을 때에 여호와께서 너와 나 사이에 감찰하옵소서' 함이라",
+        "en": "It was also called Mizpah, because he said, “May the Lord keep watch between you and me when we are away from each other."
+      },
+      {
+        "verse": 50,
+        "ko": "`네가 내 딸을 박대하거나 내 딸들 외에 다른 아내들을 취하면 사람은 우리와 함께 할 자가 없어도 보라, 하나님이 너와 나 사이에 증거하시느니라' 하였더라",
+        "en": "If you mistreat my daughters or if you take any wives besides my daughters, even though no one is with us, remember that God is a witness between you and me.”"
+      },
+      {
+        "verse": 51,
+        "ko": "라반이 또 야곱에게 이르되 `내가 너와 나 사이에 둔 이 무더기를 보라 또 이 기둥을 보라",
+        "en": "Laban also said to Jacob, “Here is this heap, and here is this pillar I have set up between you and me."
+      },
+      {
+        "verse": 52,
+        "ko": "이 무더기가 증거가 되고 이 기둥이 증거가 되나니 내가 이 무더기를 넘어 네게로 가서 해하지 않을 것이요, 네가 이 무더기, 이 기둥을 넘어 내게로 와서 해하지 않을 것이라",
+        "en": "This heap is a witness, and this pillar is a witness, that I will not go past this heap to your side to harm you and that you will not go past this heap and pillar to my side to harm me."
+      },
+      {
+        "verse": 53,
+        "ko": "아브라함의 하나님, 나홀의 하나님, 그들의 조상의 하나님은 우리 사이에 판단하옵소서' 하매 야곱이 그 아비 이삭의 경외하는 이를 가리켜 맹세하고",
+        "en": "May the God of Abraham and the God of Nahor, the God of their father, judge between us.” So Jacob took an oath in the name of the Fear of his father Isaac."
+      },
+      {
+        "verse": 54,
+        "ko": "야곱이 또 산에서 제사를 드리고 형제들을 불러 떡을 먹이니 그들이 떡을 먹고 산에서 경야하고",
+        "en": "He offered a sacrifice there in the hill country and invited his relatives to a meal. After they had eaten, they spent the night there."
+      },
+      {
+        "verse": 55,
+        "ko": "라반이 아침에 일찌기 일어나 손자들과 딸들에게 입맞추며 그들에게 축복하고 떠나 고향으로 돌아갔더라",
+        "en": "Early the next morning Laban kissed his grandchildren and his daughters and blessed them. Then he left and returned home."
+      }
+    ]
+  },
+  {
+    "chapter": 32,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "야곱이 그 길을 진행하더니 하나님의 사자들이 그를 만난지라",
+        "en": "Jacob also went on his way, and the angels of God met him."
+      },
+      {
+        "verse": 2,
+        "ko": "야곱이 그들을 볼 때에 이르기를 `이는 하나님의 군대라' 하고 그 땅 이름을 마하나임이라 하였더라",
+        "en": "When Jacob saw them, he said, “This is the camp of God!” So he named that place Mahanaim."
+      },
+      {
+        "verse": 3,
+        "ko": "야곱이 세일 땅 에돔 들에 있는 형 에서에게로 사자들을 자기보다 앞서 보내며",
+        "en": "Jacob sent messengers ahead of him to his brother Esau in the land of Seir, the country of Edom."
+      },
+      {
+        "verse": 4,
+        "ko": "그들에게 부탁하여 가로되 `너희는 이같이 내 주 에서에게 고하라 주의 종 야곱이 말하기를 내가 라반에게 붙여서 지금까지 있었사오며",
+        "en": "He instructed them: “This is what you are to say to my lord Esau: ‘Your servant Jacob says, I have been staying with Laban and have remained there till now."
+      },
+      {
+        "verse": 5,
+        "ko": "내게 소와, 나귀와, 양떼와, 노비가 있사오므로 사람을 보내어 내 주께 고하고 내 주께 은혜 받기를 원하나이다 하더라 하라' 하였더니",
+        "en": "I have cattle and donkeys, sheep and goats, male and female servants. Now I am sending this message to my lord, that I may find favor in your eyes.`”"
+      },
+      {
+        "verse": 6,
+        "ko": "사자들이 야곱에게 돌아와 가로되 `우리가 주인의 형 에서에게 이른즉 그가 사백인을 거느리고 주인을 만나려고 오더이다'",
+        "en": "When the messengers returned to Jacob, they said, “We went to your brother Esau, and now he is coming to meet you, and four hundred men are with him.”"
+      },
+      {
+        "verse": 7,
+        "ko": "야곱이 심히 두렵고 답답하여 자기와 함께 한 종자와 양과, 소와, 약대를 두 떼로 나누고",
+        "en": "In great fear and distress Jacob divided the people who were with him into two groups, and the flocks and herds and camels as well."
+      },
+      {
+        "verse": 8,
+        "ko": "가로되 `에서가 와서 한 떼를 치면, 남은 한 떼는 피하리라' 하고",
+        "en": "He thought, “If Esau comes and attacks one group, the group that is left may escape.”"
+      },
+      {
+        "verse": 9,
+        "ko": "야곱이 또 가로되 `나의 조부 아브라함의 하나님, 나의 아버지 이삭의 하나님, 여호와여 ! 주께서 전에 내게 명하시기를 네 고향 네 족속에게로 돌아가라 내가 네게 은혜를 베풀리라 하셨나이다",
+        "en": "Then Jacob prayed, “O God of my father Abraham, God of my father Isaac, Lord, you who said to me, ‘Go back to your country and your relatives, and I will make you prosper,`"
+      },
+      {
+        "verse": 10,
+        "ko": "나는 주께서 주의 종에게 베푸신 모든 은총과 모든 진리를 조금이라도 감당할 수 없사오나 내가 내 지팡이만 가지고 이 요단을 건넜더니 지금은 두 떼나 이루었나이다",
+        "en": "I am unworthy of all the kindness and faithfulness you have shown your servant. I had only my staff when I crossed this Jordan, but now I have become two camps."
+      },
+      {
+        "verse": 11,
+        "ko": "내가 주께 간구하오니 내 형의 손에서 에서의 손에서 나를 건져내시옵소서 내가 그를 두려워하옴은 그가 와서 나와 내 처자들을 칠까 겁냄이니이다",
+        "en": "Save me, I pray, from the hand of my brother Esau, for I am afraid he will come and attack me, and also the mothers with their children."
+      },
+      {
+        "verse": 12,
+        "ko": "주께서 말씀하시기를 내가 정녕 네게 은혜를 베풀어 네 씨로 바다의 셀 수 없는 모래와 같이 많게 하리라 하셨나이다'",
+        "en": "But you have said, ‘I will surely make you prosper and will make your descendants like the sand of the sea, which cannot be counted.`”"
+      },
+      {
+        "verse": 13,
+        "ko": "야곱이 거기서 경야하고 그 소유 중에서 형 에서를 위하여 예물을 택하니",
+        "en": "He spent the night there, and from what he had with him he selected a gift for his brother Esau:"
+      },
+      {
+        "verse": 14,
+        "ko": "암염소가 이백이요, 수염소가 이십이요, 암양이 이백이요, 수양이 이십이요,",
+        "en": "two hundred female goats and twenty male goats, two hundred ewes and twenty rams,"
+      },
+      {
+        "verse": 15,
+        "ko": "젖나는 약대 삼십과 그 새끼요, 암소가 사십이요, 황소가 열이요, 암나귀가 이십이요, 그 새끼나귀가 열이라,",
+        "en": "thirty female camels with their young, forty cows and ten bulls, and twenty female donkeys and ten male donkeys."
+      },
+      {
+        "verse": 16,
+        "ko": "그것을 각각 떼로 나눠 종들의 손에 맡기고 그 종들에게 이르되 나보다 앞서 건너가서 각 떼로 상거가 뜨게 하라 하고",
+        "en": "He put them in the care of his servants, each herd by itself, and said to his servants, “Go ahead of me, and keep some space between the herds.”"
+      },
+      {
+        "verse": 17,
+        "ko": "그가 또 앞선 자에게 부탁하여 가로되 `내 형 에서가 너를 만나 묻기를 네가 뉘 사람이며 어디로 가느냐 ? 네 앞엣 것은 뉘 것이냐 ? 하거든",
+        "en": "He instructed the one in the lead: “When my brother Esau meets you and asks, ‘Who do you belong to, and where are you going, and who owns all these animals in front of you?`"
+      },
+      {
+        "verse": 18,
+        "ko": "대답하기를 주의 종 야곱의 것이요, 자기 주 에서에게로 보내는 예물이오며 야곱도 우리 뒤에 있나이다 하라' 하고",
+        "en": "then you are to say, ‘They belong to your servant Jacob. They are a gift sent to my lord Esau, and he is coming behind us.`”"
+      },
+      {
+        "verse": 19,
+        "ko": "그 둘째와 세째와 각 떼를 따라가는 자에게 부탁하여 가로되 `너희도 에서를 만나거든 곧 이같이 그에게 고하고",
+        "en": "He also instructed the second, the third and all the others who followed the herds: “You are to say the same thing to Esau when you meet him."
+      },
+      {
+        "verse": 20,
+        "ko": "또 너희는 말하기를 주의 종 야곱이 우리 뒤에 있다 하라' 하니 이는 야곱의 생각에 `내가 내 앞에 보내는 예물로 형의 감정을 푼 후에 대면하면 형이 혹시 나를 받으리라' 함이었더라",
+        "en": "And be sure to say, ‘Your servant Jacob is coming behind us.`” For he thought, “I will pacify him with these gifts I am sending on ahead; later, when I see him, perhaps he will receive me.”"
+      },
+      {
+        "verse": 21,
+        "ko": "그 예물은 그의 앞서 행하고 그는 무리 가운데서 경야하다가",
+        "en": "So Jacob`s gifts went on ahead of him, but he himself spent the night in the camp."
+      },
+      {
+        "verse": 22,
+        "ko": "밤에 일어나 두 아내와 두 여종과 열 한 아들을 인도하여 얍복 나루를 건널새",
+        "en": "That night Jacob got up and took his two wives, his two female servants and his eleven sons and crossed the ford of the Jabbok."
+      },
+      {
+        "verse": 23,
+        "ko": "그들을 인도하여 시내를 건네며 그 소유도 건네고",
+        "en": "After he had sent them across the stream, he sent over all his possessions."
+      },
+      {
+        "verse": 24,
+        "ko": "야곱은 홀로 남았더니 어떤 사람이 날이 새도록 야곱과 씨름하다가",
+        "en": "So Jacob was left alone, and a man wrestled with him till daybreak."
+      },
+      {
+        "verse": 25,
+        "ko": "그 사람이 자기가 야곱을 이기지 못함을 보고 야곱의 환도뼈를 치매 야곱의 환도뼈가 그 사람과 씨름할 때에 위골되었더라",
+        "en": "When the man saw that he could not overpower him, he touched the socket of Jacob`s hip so that his hip was wrenched as he wrestled with the man."
+      },
+      {
+        "verse": 26,
+        "ko": "그 사람이 가로되 `날이 새려 하니 나로 가게 하라' 야곱이 가로되 `당신이 내게 축복하지 아니하면 가게 하지 아니하겠나이다 !'",
+        "en": "Then the man said, “Let me go, for it is daybreak.” But Jacob replied, “I will not let you go unless you bless me.”"
+      },
+      {
+        "verse": 27,
+        "ko": "그 사람이 그에게 이르되 `네 이름이 무엇이냐 ?' 그가 가로되 `야곱이니이다'",
+        "en": "The man asked him, “What is your name?” “Jacob,” he answered."
+      },
+      {
+        "verse": 28,
+        "ko": "그 사람이 가로되 `네 이름을 다시는 야곱이라 부를 것이 아니요 이스라엘이라 부를 것이니 이는 네가 하나님과 사람으로 더불어 겨루어 이기었음이니라'",
+        "en": "Then the man said, “Your name will no longer be Jacob, but Israel, because you have struggled with God and with humans and have overcome.”"
+      },
+      {
+        "verse": 29,
+        "ko": "야곱이 청하여 가로되 `당신의 이름을 고하소서' 그 사람이 가로되 `어찌 내 이름을 묻느냐 ?' 하고 거기서 야곱에게 축복한지라",
+        "en": "Jacob said, “Please tell me your name.” But he replied, “Why do you ask my name?” Then he blessed him there."
+      },
+      {
+        "verse": 30,
+        "ko": "그러므로 야곱이 그곳 이름을 브니엘이라 하였으니 그가 이르기를 내가 하나님과 대면하여 보았으나 내 생명이 보전되었다' 함이더라",
+        "en": "So Jacob called the place Peniel, saying, “It is because I saw God face to face, and yet my life was spared.”"
+      },
+      {
+        "verse": 31,
+        "ko": "그가 브니엘을 지날 때에 해가 돋았고 그 환도뼈로 인하여 절었더라",
+        "en": "The sun rose above him as he passed Peniel, and he was limping because of his hip."
+      },
+      {
+        "verse": 32,
+        "ko": "그 사람이 야곱의 환도뼈 큰 힘줄을 친고로 이스라엘 사람들이 지금까지 환도뼈 큰 힘줄을 먹지 아니하더라",
+        "en": "Therefore to this day the Israelites do not eat the tendon attached to the socket of the hip, because the socket of Jacob`s hip was touched near the tendon."
+      }
+    ]
+  },
+  {
+    "chapter": 33,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "야곱이 눈을 들어 보니 에서가 사백인을 거느리고 오는지라 그 자식들을 나누어 레아와 라헬과 두 여종에게 맡기고",
+        "en": "Jacob looked up and there was Esau, coming with his four hundred men; so he divided the children among Leah, Rachel and the two female servants."
+      },
+      {
+        "verse": 2,
+        "ko": "여종과 그 자식들은 앞에 두고 레아와 그 자식들은 다음에 두고 라헬과 요셉은 뒤에 두고",
+        "en": "He put the female servants and their children in front, Leah and her children next, and Rachel and Joseph in the rear."
+      },
+      {
+        "verse": 3,
+        "ko": "자기는 그들 앞에서 나아가되 몸을 일곱번 땅에 굽히며 그 형 에서에게 가까이 하니",
+        "en": "He himself went on ahead and bowed down to the ground seven times as he approached his brother."
+      },
+      {
+        "verse": 4,
+        "ko": "에서가 달려와서 그를 맞아서 안고 목을 어긋맞기고 그와 입맞추고 피차 우니라",
+        "en": "But Esau ran to meet Jacob and embraced him; he threw his arms around his neck and kissed him. And they wept."
+      },
+      {
+        "verse": 5,
+        "ko": "에서가 눈을 들어 여인과 자식들을 보고 묻되 `너와 함께한 이들은 누구냐 ?' 야곱이 가로되 `하나님이 주의 종에게 은혜로 주신 자식이니이다'",
+        "en": "Then Esau looked up and saw the women and children. “Who are these with you?” he asked. Jacob answered, “They are the children God has graciously given your servant.”"
+      },
+      {
+        "verse": 6,
+        "ko": "때에 여종들이 그 자식으로 더불어 나아와 절하고",
+        "en": "Then the female servants and their children approached and bowed down."
+      },
+      {
+        "verse": 7,
+        "ko": "레아도 그 자식으로 더불어 나아와 절하고 그 후에 요셉이 라헬로 더불어 나아와 절하니",
+        "en": "Next, Leah and her children came and bowed down. Last of all came Joseph and Rachel, and they too bowed down."
+      },
+      {
+        "verse": 8,
+        "ko": "에서가 또 가로되 `나의 만난 바 이 모든 떼는 무슨 까닭이냐 ?' 야곱이 가로되 `내 주께 은혜를 입으려 함이니이다'",
+        "en": "Esau asked, “What`s the meaning of all these flocks and herds I met?” “To find favor in your eyes, my lord,” he said."
+      },
+      {
+        "verse": 9,
+        "ko": "에서가 가로되 `내 동생아, 내게 있는 것이 족하니 네 소유는 네게 두라'",
+        "en": "But Esau said, “I already have plenty, my brother. Keep what you have for yourself.”"
+      },
+      {
+        "verse": 10,
+        "ko": "야곱이 가로되 `그렇지 아니하니이다 형님께 은혜를 얻었사오면 청컨대 내 손에서 이 예물을 받으소서 내가 형님의 얼굴을 뵈온즉 하나님의 얼굴을 본 것 같사오며 형님도 나를 기뻐하심이니이이다",
+        "en": "“No, please!” said Jacob. “If I have found favor in your eyes, accept this gift from me. For to see your face is like seeing the face of God, now that you have received me favorably."
+      },
+      {
+        "verse": 11,
+        "ko": "하나님이 내게 은혜를 베푸셨고 나의 소유도 족하오니 청컨대 내가 형님께 드리는 예물을 받으소서' 하고 그에게 강권하매 받으니라",
+        "en": "Please accept the present that was brought to you, for God has been gracious to me and I have all I need.” And because Jacob insisted, Esau accepted it."
+      },
+      {
+        "verse": 12,
+        "ko": "에서가 가로되 `우리가 떠나가자 내가 너의 앞잡이가 되리라'",
+        "en": "Then Esau said, “Let us be on our way; I`ll accompany you.”"
+      },
+      {
+        "verse": 13,
+        "ko": "야곱이 그에게 이르되 `내 주도 아시거니와 자식들은 유약하고 내게 있는 양떼와 소가 새끼를 데렸은즉 하루만 과히 몰면 모든 떼가 죽으리니",
+        "en": "But Jacob said to him, “My lord knows that the children are tender and that I must care for the ewes and cows that are nursing their young. If they are driven hard just one day, all the animals will die."
+      },
+      {
+        "verse": 14,
+        "ko": "청컨대 내 주는 종보다 앞서 가소서 나는 앞에 가는 짐승과 자식의 행보대로 천천히 인도하여 세일로 가서 내 주께 나아가리이다'",
+        "en": "So let my lord go on ahead of his servant, while I move along slowly at the pace of the flocks and herds before me and the pace of the children, until I come to my lord in Seir.”"
+      },
+      {
+        "verse": 15,
+        "ko": "에서가 가로되 `내가 내 종자 수인을 네게 머물리라' 야곱이 가로되 `어찌하여 그리하리이까 ? 나로 내 주께 은혜를 얻게 하소서' 하매",
+        "en": "Esau said, “Then let me leave some of my men with you.” “But why do that?” Jacob asked. “Just let me find favor in the eyes of my lord.”"
+      },
+      {
+        "verse": 16,
+        "ko": "이 날에 에서는 세일로 회정하고",
+        "en": "So that day Esau started on his way back to Seir."
+      },
+      {
+        "verse": 17,
+        "ko": "야곱은 숙곳에 이르러 자기를 위하여 집을 짓고 짐승을 위하여 우릿간을 지은고로 그 땅 이름을 숙곳이라 부르더라",
+        "en": "Jacob, however, went to Sukkoth, where he built a place for himself and made shelters for his livestock. That is why the place is called Sukkoth."
+      },
+      {
+        "verse": 18,
+        "ko": "야곱이 밧단아람에서부터 평안히 가나안 땅 세겜 성에 이르러 성 앞에 그 장막을 치고",
+        "en": "After Jacob came from Paddan Aram, he arrived safely at the city of Shechem in Canaan and camped within sight of the city."
+      },
+      {
+        "verse": 19,
+        "ko": "그 장막 친 밭을 세겜의 아비 하몰의 아들들의 손에서 은 일백개로 사고",
+        "en": "For a hundred pieces of silver, he bought from the sons of Hamor, the father of Shechem, the plot of ground where he pitched his tent."
+      },
+      {
+        "verse": 20,
+        "ko": "",
+        "en": "There he set up an altar and called it El Elohe Israel."
+      }
+    ]
+  },
+  {
+    "chapter": 34,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "레아가 야곱에게 낳은 딸 디나가 그 땅 여자를 보러 나갔더니",
+        "en": "Now Dinah, the daughter Leah had borne to Jacob, went out to visit the women of the land."
+      },
+      {
+        "verse": 2,
+        "ko": "히위 족속 중 하몰의 아들 그 땅 추장 세겜이 그를 보고 끌어들여 강간하여 욕되게 하고",
+        "en": "When Shechem son of Hamor the Hivite, the ruler of that area, saw her, he took her and raped her."
+      },
+      {
+        "verse": 3,
+        "ko": "그 마음이 깊이 야곱의 딸 디나에게 연련하며 그 소녀를 사랑하여 그의 마음을 말로 위로하고",
+        "en": "His heart was drawn to Dinah daughter of Jacob; he loved the young woman and spoke tenderly to her."
+      },
+      {
+        "verse": 4,
+        "ko": "그 아비 하몰에게 청하여 가로되 `이 소녀를 내 아내로 얻게 하여 주소서' 하였더라",
+        "en": "And Shechem said to his father Hamor, “Get me this girl as my wife.”"
+      },
+      {
+        "verse": 5,
+        "ko": "야곱이 그 딸 디나를 그가 더럽혔다 함을 들었으나 자기 아들들이 들에서 목축하므로 그들의 돌아오기까지 잠잠하였고",
+        "en": "When Jacob heard that his daughter Dinah had been defiled, his sons were in the fields with his livestock; so he did nothing about it until they came home."
+      },
+      {
+        "verse": 6,
+        "ko": "세겜의 아비 하몰은 야곱에게 말하러 왔으며",
+        "en": "Then Shechem`s father Hamor went out to talk with Jacob."
+      },
+      {
+        "verse": 7,
+        "ko": "야곱의 아들들은 들에서 이를 듣고 돌아와서 사람 사람이 근심하고 심히 노하였으니 이는 세겜이 야곱의 딸을 강간하여 이스라엘에게 부끄러운 일 곧 행치 못할 일을 행하였음이더라",
+        "en": "Meanwhile, Jacob`s sons had come in from the fields as soon as they heard what had happened. They were shocked and furious, because Shechem had done an outrageous thing in Israel by sleeping with Jacob`s daughter—a thing that should not be done."
+      },
+      {
+        "verse": 8,
+        "ko": "하몰이 그들에게 이르되 `내 아들 세겜이 마음으로 너희 딸을 연련하여 하니 원컨대 그를 세겜에게 주어 아내를 삼게 하라",
+        "en": "But Hamor said to them, “My son Shechem has his heart set on your daughter. Please give her to him as his wife."
+      },
+      {
+        "verse": 9,
+        "ko": "너희가 우리와 통혼하여 너희 딸을 우리에게 주며 우리 딸을 너희가 취하고",
+        "en": "Intermarry with us; give us your daughters and take our daughters for yourselves."
+      },
+      {
+        "verse": 10,
+        "ko": "너희가 우리와 함께 거하되 땅이 너희 앞에 있으니 여기 머물러 매매하며 여기서 기업을 얻으라' 하고",
+        "en": "You can settle among us; the land is open to you. Live in it, trade in it, and acquire property in it.”"
+      },
+      {
+        "verse": 11,
+        "ko": "세겜도 디나의 아비와 남형들에게 이르되 `나로 너희에게 은혜를 입게 하라 너희가 내게 청구하는 것은 내가 수응하리니",
+        "en": "Then Shechem said to Dinah`s father and brothers, “Let me find favor in your eyes, and I will give you whatever you ask."
+      },
+      {
+        "verse": 12,
+        "ko": "이 소녀만 내게 주어 아내가 되게 하라 아무리 큰 빙물과 예물을 청구할지라도 너희가 내게 말한대로 수응하리라'",
+        "en": "Make the price for the bride and the gift I am to bring as great as you like, and I`ll pay whatever you ask me. Only give me the young woman as my wife.”"
+      },
+      {
+        "verse": 13,
+        "ko": "야곱의 아들들이 세겜과 그 아비 하몰에게 속여 대답하였으니 이는 세겜이 그 누이 디나를 더럽혔음이라",
+        "en": "Because their sister Dinah had been defiled, Jacob`s sons replied deceitfully as they spoke to Shechem and his father Hamor."
+      },
+      {
+        "verse": 14,
+        "ko": "야곱의 아들들이 그들에게 말하되 `우리는 그리하지 못하겠노라 할례 받지 아니한 사람에게 우리 누이를 줄 수 없노니 이는 우리의 수욕이 됨이니라",
+        "en": "They said to them, “We can`t do such a thing; we can`t give our sister to a man who is not circumcised. That would be a disgrace to us."
+      },
+      {
+        "verse": 15,
+        "ko": "그런즉 이같이 하면 너희에게 허락하리라 만일 너희 중 남자가 다 할례를 받고 우리 같이 되면",
+        "en": "We will enter into an agreement with you on one condition only: that you become like us by circumcising all your males."
+      },
+      {
+        "verse": 16,
+        "ko": "우리 딸을 너희에게 주며 너희 딸을 우리가 취하며 너희가 함께 거하여 한 민족이 되려니와",
+        "en": "Then we will give you our daughters and take your daughters for ourselves. We`ll settle among you and become one people with you."
+      },
+      {
+        "verse": 17,
+        "ko": "너희가 만일 우리를 듣지 아니하고 할례를 받지 아니하면 우리는 곧 우리 딸을 데리고 가리라'",
+        "en": "But if you will not agree to be circumcised, we`ll take our sister and go.”"
+      },
+      {
+        "verse": 18,
+        "ko": "그들의 말을 하몰과 그 아들 세겜이 좋게 여기므로",
+        "en": "Their proposal seemed good to Hamor and his son Shechem."
+      },
+      {
+        "verse": 19,
+        "ko": "이 소년이 그 일 행하기를 지체치 아니하였으니 그가 야곱의 딸을 사랑함이며 그는 그 아비 집에 가장 존귀함일러라",
+        "en": "The young man, who was the most honored of all his father`s family, lost no time in doing what they said, because he was delighted with Jacob`s daughter."
+      },
+      {
+        "verse": 20,
+        "ko": "하몰과 그 아들 세겜이 성문에 이르러 그 고을 사람에게 말하여 가로되",
+        "en": "So Hamor and his son Shechem went to the gate of their city to speak to the men of their city."
+      },
+      {
+        "verse": 21,
+        "ko": "`이 사람들은 우리와 친목하고 이 땅은 넓어 그들을 용납할 만하니 그들로 여기서 거주하며 매매하게 하고 우리가 그들의 딸들을 아내로 취하고 우리 딸들도 그들에게 주자",
+        "en": "“These men are friendly toward us,” they said. “Let them live in our land and trade in it; the land has plenty of room for them. We can marry their daughters and they can marry ours."
+      },
+      {
+        "verse": 22,
+        "ko": "그러나 우리 중에 모든 남자가 그들의 할례를 받음 같이 할례를 받아야 그 사람들이 우리와 함께 거하여 한 민족 되기를 허락할 것이라",
+        "en": "But the men will agree to live with us as one people only on the condition that our males be circumcised, as they themselves are."
+      },
+      {
+        "verse": 23,
+        "ko": "그리하면 그들의 생축과 재산과 그 모든 짐승이 우리의 소유가 되지 않겠느냐 ? 다만 그 말대로 하자 그리하면 그들이 우리와 함께 거하리라'",
+        "en": "Won`t their livestock, their property and all their other animals become ours? So let us agree to their terms, and they will settle among us.”"
+      },
+      {
+        "verse": 24,
+        "ko": "성문으로 출입하는 모든 자가 하몰과 그 아들 세겜의 말을 듣고 성문으로 출입하는 그 모든 남자가 할례를 받으니라",
+        "en": "All the men who went out of the city gate agreed with Hamor and his son Shechem, and every male in the city was circumcised."
+      },
+      {
+        "verse": 25,
+        "ko": "제 삼일에 미쳐 그들이 고통할 때에 야곱의 두 아들 디나의 오라비 시므온과 레위가 각기 칼을 가지고 가서 부지중에 성을 엄습하여 그 모든 남자를 죽이고",
+        "en": "Three days later, while all of them were still in pain, two of Jacob`s sons, Simeon and Levi, Dinah`s brothers, took their swords and attacked the unsuspecting city, killing every male."
+      },
+      {
+        "verse": 26,
+        "ko": "칼로 하몰과 그 아들 세겜을 죽이고 디나를 세겜의 집에서 데려오고",
+        "en": "They put Hamor and his son Shechem to the sword and took Dinah from Shechem`s house and left."
+      },
+      {
+        "verse": 27,
+        "ko": "야곱의 여러 아들이 그 시체있는 성으로 가서 노략하였으니 이는 그들이 그 누이를 더럽힌 연고라",
+        "en": "The sons of Jacob came upon the dead bodies and looted the city where their sister had been defiled."
+      },
+      {
+        "verse": 28,
+        "ko": "그들이 양과, 소와, 나귀와, 그 성에 있는 것과, 들에 있는 것과,",
+        "en": "They seized their flocks and herds and donkeys and everything else of theirs in the city and out in the fields."
+      },
+      {
+        "verse": 29,
+        "ko": "그 모든 재물을 빼앗으며 그 자녀와 아내들을 사로잡고 집 속의 물건을 다 노략한지라",
+        "en": "They carried off all their wealth and all their women and children, taking as plunder everything in the houses."
+      },
+      {
+        "verse": 30,
+        "ko": "야곱이 시므온과 레위에게 이르되 너희가 내게 화를 끼쳐 나로 이 땅 사람 곧 가나안 족속과 브리스 족속에게 냄새를 내게 하였도다 나는 수가 적은즉 그들이 모여 나를 치고 나를 죽이리니 그리하면 나와 내 집이 멸망하리라",
+        "en": "Then Jacob said to Simeon and Levi, “You have brought trouble on me by making me obnoxious to the Canaanites and Perizzites, the people living in this land. We are few in number, and if they join forces against me and attack me, I and my household will be destroyed.”"
+      },
+      {
+        "verse": 31,
+        "ko": "그들이 가로되 `그가 우리 누이를 창녀같이 대우함이 가하니이까 ?'",
+        "en": "But they replied, “Should he have treated our sister like a prostitute?”"
+      }
+    ]
+  },
+  {
+    "chapter": 35,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "하나님이 야곱에게 이르시되 일어나 벧엘로 올라가서 거기 거하며 네가 네 형 에서의 낯을 피하여 도망하던 때에 네게 나타났던 하나님께 거기서 단을 쌓으라 ! 하신지라",
+        "en": "Then God said to Jacob, “Go up to Bethel and settle there, and build an altar there to God, who appeared to you when you were fleeing from your brother Esau.”"
+      },
+      {
+        "verse": 2,
+        "ko": "야곱이 이에 자기 집 사람과 자기와 함께 한 모든 자에게 이르되 `너희 중의 이방 신상을 버리고 자신을 정결케 하고 의복을 바꾸라",
+        "en": "So Jacob said to his household and to all who were with him, “Get rid of the foreign gods you have with you, and purify yourselves and change your clothes."
+      },
+      {
+        "verse": 3,
+        "ko": "우리가 일어나 벧엘로 올라가자 나의 환난날에 내게 응답하시며 나의 가는 길에서 나와 함께 하신 하나님께 내가 거기서 단을 쌓으려 하노라' 하매",
+        "en": "Then come, let us go up to Bethel, where I will build an altar to God, who answered me in the day of my distress and who has been with me wherever I have gone.”"
+      },
+      {
+        "verse": 4,
+        "ko": "그들이 자기 손에 있는 모든 이방 신상과 자기 귀에 있는 고리를 야곱에게 주는지라 야곱이 그것들을 세겜 근처 상수리나무 아래 묻고",
+        "en": "So they gave Jacob all the foreign gods they had and the rings in their ears, and Jacob buried them under the oak at Shechem."
+      },
+      {
+        "verse": 5,
+        "ko": "그들이 발행하였으나 하나님이 그 사면 고을들로 크게 두려워하게 하신 고로 야곱의 아들들을 추격하는 자가 없었더라",
+        "en": "Then they set out, and the terror of God fell on the towns all around them so that no one pursued them."
+      },
+      {
+        "verse": 6,
+        "ko": "야곱과 그와 함께한 모든 사람이 가나안 땅 루스 곧 벧엘에 이르고",
+        "en": "Jacob and all the people with him came to Luz (that is, Bethel) in the land of Canaan."
+      },
+      {
+        "verse": 7,
+        "ko": "그가 거기서 단을 쌓고 그곳을 엘벧엘이라 불렀으니 이는 그 형의 낯을 피할 때에 하나님이 그에게 거기서 나타나셨음이더라",
+        "en": "There he built an altar, and he called the place El Bethel, because it was there that God revealed himself to him when he was fleeing from his brother."
+      },
+      {
+        "verse": 8,
+        "ko": "리브가의 유모 드보라가 죽으매 그를 벧엘 아래 상수리나무 밑에 장사하고 그 나무 이름을 알론바굿이라 불렀더라",
+        "en": "Now Deborah, Rebekah`s nurse, died and was buried under the oak outside Bethel. So it was named Allon Bakuth."
+      },
+      {
+        "verse": 9,
+        "ko": "야곱이 밧단아람에서 돌아오매 하나님이 다시 야곱에게 나타나서 그에게 복을 주시고",
+        "en": "After Jacob returned from Paddan Aram, God appeared to him again and blessed him."
+      },
+      {
+        "verse": 10,
+        "ko": "그에게 이르시되 네 이름이 야곱이다마는 네 이름을 다시는 야곱이라 부르지 않겠고 이스라엘이 네 이름이 되리라 하시고 그가 그의 이름을 이스라엘이라 부르시고",
+        "en": "God said to him, “Your name is Jacob, but you will no longer be called Jacob; your name will be Israel.” So he named him Israel."
+      },
+      {
+        "verse": 11,
+        "ko": "그에게 이르시되 나는 전능한 하나님이니라 ! 생육하며 번성하라 ! 국민과 많은 국민이 네게서 나고 왕들이 네 허리에서 나오리라",
+        "en": "And God said to him, “I am God Almighty; be fruitful and increase in number. A nation and a community of nations will come from you, and kings will be among your descendants."
+      },
+      {
+        "verse": 12,
+        "ko": "내가 아브라함과 이삭에게 준 땅을 네게 주고 내가 네 후손에게도 그 땅을 주리라 ! 하시고",
+        "en": "The land I gave to Abraham and Isaac I also give to you, and I will give this land to your descendants after you.”"
+      },
+      {
+        "verse": 13,
+        "ko": "하나님이 그와 말씀하시던 곳에서 그를 떠나 올라가시는지라",
+        "en": "Then God went up from him at the place where he had talked with him."
+      },
+      {
+        "verse": 14,
+        "ko": "야곱이 하나님의 자기와 말씀하시던 곳에 기둥 곧 돌 기둥을 세우고 그 위에 전제물을 붓고 또 그 위에 기름을 붓고",
+        "en": "Jacob set up a stone pillar at the place where God had talked with him, and he poured out a drink offering on it; he also poured oil on it."
+      },
+      {
+        "verse": 15,
+        "ko": "하나님이 자기와 말씀하시던 곳의 이름을 벧엘이라 불렀더라",
+        "en": "Jacob called the place where God had talked with him Bethel."
+      },
+      {
+        "verse": 16,
+        "ko": "그들이 벧엘에서 발행하여 에브랏에 이르기까지 얼마 길을 격한 곳에서 라헬이 임산하여 심히 신고하더니",
+        "en": "Then they moved on from Bethel. While they were still some distance from Ephrath, Rachel began to give birth and had great difficulty."
+      },
+      {
+        "verse": 17,
+        "ko": "그가 난산할 즈음에 산파가 그에게 이르되 `두려워말라 지금 그대가 또 득남하느니라' 하매",
+        "en": "And as she was having great difficulty in childbirth, the midwife said to her, “Don`t despair, for you have another son.”"
+      },
+      {
+        "verse": 18,
+        "ko": "그가 죽기에 임하여 그 혼이 떠나려할 때에 아들의 이름은 베노니라 불렀으나 그 아비가 그를 베냐민이라 불렀더라",
+        "en": "As she breathed her last—for she was dying—she named her son Ben-Oni. But his father named him Benjamin."
+      },
+      {
+        "verse": 19,
+        "ko": "라헬이 죽으매 에브랏 곧 베들레헴 길에 장사되었고",
+        "en": "So Rachel died and was buried on the way to Ephrath (that is, Bethlehem)."
+      },
+      {
+        "verse": 20,
+        "ko": "야곱이 라헬의 묘에 비를 세웠더니 지금까지 라헬의 묘비라 일컫더라",
+        "en": "Over her tomb Jacob set up a pillar, and to this day that pillar marks Rachel`s tomb."
+      },
+      {
+        "verse": 21,
+        "ko": "이스라엘이 다시 발행하여 에델 망대를 지나 장막을 쳤더라",
+        "en": "Israel moved on again and pitched his tent beyond Migdal Eder."
+      },
+      {
+        "verse": 22,
+        "ko": "이스라엘이 그 땅에 유할 때에 르우벤이 가서 그 서모 빌하와 통간하매 이스라엘이 이를 들었더라 야곱의 아들은 열 둘이라",
+        "en": "While Israel was living in that region, Reuben went in and slept with his father`s concubine Bilhah, and Israel heard of it. Jacob had twelve sons:"
+      },
+      {
+        "verse": 23,
+        "ko": "레아의 소생은 야곱의 장자 르우벤과, 그 다음 시므온과, 레위와, 유다와, 잇사갈과, 스불론이요,",
+        "en": "The sons of Leah: Reuben the firstborn of Jacob, Simeon, Levi, Judah, Issachar and Zebulun."
+      },
+      {
+        "verse": 24,
+        "ko": "라헬의 소생은 요셉과, 베냐민이며,",
+        "en": "The sons of Rachel: Joseph and Benjamin."
+      },
+      {
+        "verse": 25,
+        "ko": "라헬의 여종 빌하의 소생은 단과, 납달리요,",
+        "en": "The sons of Rachel`s servant Bilhah: Dan and Naphtali."
+      },
+      {
+        "verse": 26,
+        "ko": "레아의 여종 실바의 소생은 갓과, 아셀이니, 이들은 야곱의 아들들이요 밧단아람에서 그에게 낳은 자더라",
+        "en": "The sons of Leah`s servant Zilpah: Gad and Asher. These were the sons of Jacob, who were born to him in Paddan Aram."
+      },
+      {
+        "verse": 27,
+        "ko": "야곱이 기럇아르바의 마므레로 가서 그 아비 이삭에게 이르렀으니 기럇아르바는 곧 아브라함과 이삭의 우거하던 헤브론이더라",
+        "en": "Jacob came home to his father Isaac in Mamre, near Kiriath Arba (that is, Hebron), where Abraham and Isaac had stayed."
+      },
+      {
+        "verse": 28,
+        "ko": "이삭의 나이 일백 팔십세라",
+        "en": "Isaac lived a hundred and eighty years."
+      },
+      {
+        "verse": 29,
+        "ko": "이삭이 나이 많고 늙어 기운이 진하매 죽어 자기 열조에게로 돌아가니 그 아들 에서와 야곱이 그를 장사하였더라",
+        "en": "Then he breathed his last and died and was gathered to his people, old and full of years. And his sons Esau and Jacob buried him."
+      }
+    ]
+  },
+  {
+    "chapter": 36,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "에서 곧 에돔의 대략이 이러하니라",
+        "en": "This is the account of the family line of Esau (that is, Edom)."
+      },
+      {
+        "verse": 2,
+        "ko": "에서가 가나안 여인 중 헷 족속 중 엘론의 딸 아다와, 히위 족속중 시브온의 딸 아나의 소생 오홀리바마를 자기 아내로 취하고",
+        "en": "Esau took his wives from the women of Canaan: Adah daughter of Elon the Hittite, and Oholibamah daughter of Anah and granddaughter of Zibeon the Hivite—"
+      },
+      {
+        "verse": 3,
+        "ko": "또 이스마엘의 딸 느바욧의 누이 바스맛을 취하였더니",
+        "en": "also Basemath daughter of Ishmael and sister of Nebaioth."
+      },
+      {
+        "verse": 4,
+        "ko": "아다는 엘리바스를 에서에게 낳았고, 바스맛은 르우엘을 낳았고",
+        "en": "Adah bore Eliphaz to Esau, Basemath bore Reuel,"
+      },
+      {
+        "verse": 5,
+        "ko": "오홀리바마는 여우스와, 얄람과, 고라를 낳았으니 이들은 에서의 아들이요 가나안 땅에서 그에게 낳은 자더라",
+        "en": "and Oholibamah bore Jeush, Jalam and Korah. These were the sons of Esau, who were born to him in Canaan."
+      },
+      {
+        "verse": 6,
+        "ko": "에서가 자기 아내들과, 자기 자녀들과, 자기 집의 모든 사람과, 자기의 가축과, 자기 모든 짐승과, 자기가 가나안 땅에서 얻은 모든 재물을 이끌고 그 동생 야곱을 떠나 타처로 갔으니",
+        "en": "Esau took his wives and sons and daughters and all the members of his household, as well as his livestock and all his other animals and all the goods he had acquired in Canaan, and moved to a land some distance from his brother Jacob."
+      },
+      {
+        "verse": 7,
+        "ko": "두 사람의 소유가 풍부하여 함께 거할 수 없음이러라 그들의 우거한 땅이 그들의 가축으로 인하여 그들을 용납할 수 없었더라",
+        "en": "Their possessions were too great for them to remain together; the land where they were staying could not support them both because of their livestock."
+      },
+      {
+        "verse": 8,
+        "ko": "이에 에서 곧 에돔이 세일산에 거하니라",
+        "en": "So Esau (that is, Edom) settled in the hill country of Seir."
+      },
+      {
+        "verse": 9,
+        "ko": "세일산에 거한 에돔 족속의 조상 에서의 대략이 이러하고",
+        "en": "This is the account of the family line of Esau the father of the Edomites in the hill country of Seir."
+      },
+      {
+        "verse": 10,
+        "ko": "그 자손의 이름은 이러하니라 에서의 아내 아다의 아들은 엘리바스요, 에서의 아내 바스맛의 아들은 르우엘이며",
+        "en": "These are the names of Esau`s sons: Eliphaz, the son of Esau`s wife Adah, and Reuel, the son of Esau`s wife Basemath."
+      },
+      {
+        "verse": 11,
+        "ko": "엘리바스의 아들들은 데만과, 오말과, 스보와, 가담과, 그나스요,",
+        "en": "The sons of Eliphaz: Teman, Omar, Zepho, Gatam and Kenaz."
+      },
+      {
+        "verse": 12,
+        "ko": "에서의 아들 엘리바스의 첩 딤나는 아말렉을 엘리바스에게 낳았으니 이들은 에서의 아내 아다의 자손이며",
+        "en": "Esau`s son Eliphaz also had a concubine named Timna, who bore him Amalek. These were grandsons of Esau`s wife Adah."
+      },
+      {
+        "verse": 13,
+        "ko": "르우엘의 아들들은 나핫과, 세라와, 삼마와, 미사니 이들은 에서의 아내 바스맛의 자손이며",
+        "en": "The sons of Reuel: Nahath, Zerah, Shammah and Mizzah. These were grandsons of Esau`s wife Basemath."
+      },
+      {
+        "verse": 14,
+        "ko": "시브온의 손녀 아나의 딸 에서의 아내 오홀리바마의 아들들은 이러하니 그가 여우스와, 얄람과, 고라를 에서에게 낳았더라",
+        "en": "The sons of Esau`s wife Oholibamah daughter of Anah and granddaughter of Zibeon, whom she bore to Esau: Jeush, Jalam and Korah."
+      },
+      {
+        "verse": 15,
+        "ko": "에서 자손 중 족장은 이러하니라 에서의 장자 엘리바스의 자손에는 데만 족장, 오말 족장, 스보 족장, 그나스 족장과",
+        "en": "These were the chiefs among Esau`s descendants: The sons of Eliphaz the firstborn of Esau: Chiefs Teman, Omar, Zepho, Kenaz,"
+      },
+      {
+        "verse": 16,
+        "ko": "고라 족장, 가담 족장, 아말렉 족장이니 이들은 에돔 땅에 있는 엘리바스로 말미암아 나온 족장들이요 이들은 아다의 자손이며",
+        "en": "Korah, Gatam and Amalek. These were the chiefs descended from Eliphaz in Edom; they were grandsons of Adah."
+      },
+      {
+        "verse": 17,
+        "ko": "에서의 아들 르우엘의 자손에는 나핫 족장, 세라 족장, 삼마 족장, 미사 족장이니 이들은 에돔 땅에 있는 르우엘로 말미암아 나온 족장들이요 이들은 에서의 아내 바스맛의 자손이며",
+        "en": "The sons of Esau`s son Reuel: Chiefs Nahath, Zerah, Shammah and Mizzah. These were the chiefs descended from Reuel in Edom; they were grandsons of Esau`s wife Basemath."
+      },
+      {
+        "verse": 18,
+        "ko": "에서의 아내 오홀리바마의 아들들은 여우스 족장, 얄람 족장, 고라 족장이니 이들은 아나의 딸이요 에서의 아내인 오홀리바마로 말미암아 나온 족장들이라",
+        "en": "The sons of Esau`s wife Oholibamah: Chiefs Jeush, Jalam and Korah. These were the chiefs descended from Esau`s wife Oholibamah daughter of Anah."
+      },
+      {
+        "verse": 19,
+        "ko": "에서 곧 에돔의 자손으로서 족장 된 자들이 이러하였더라",
+        "en": "These were the sons of Esau (that is, Edom), and these were their chiefs."
+      },
+      {
+        "verse": 20,
+        "ko": "그 땅의 원거인 호리 족속 세일의 자손은 로단과, 소발과, 시브온과, 아나와,",
+        "en": "These were the sons of Seir the Horite, who were living in the region: Lotan, Shobal, Zibeon, Anah,"
+      },
+      {
+        "verse": 21,
+        "ko": "디손과, 에셀과, 디산이니 이들은 에돔 땅에 있는 세일의 자손중 호리 족속으로 말미암아 나온 족장들이요",
+        "en": "Dishon, Ezer and Dishan. These sons of Seir in Edom were Horite chiefs."
+      },
+      {
+        "verse": 22,
+        "ko": "로단의 자녀는 호리와, 헤맘과, 로단의 누이 딤나요",
+        "en": "The sons of Lotan: Hori and Homam. Timna was Lotan`s sister."
+      },
+      {
+        "verse": 23,
+        "ko": "소발의 자녀는 알완과, 마나핫과, 에발과, 스보와, 오남이요",
+        "en": "The sons of Shobal: Alvan, Manahath, Ebal, Shepho and Onam."
+      },
+      {
+        "verse": 24,
+        "ko": "시브온의 자녀는 아야와, 아나며 이 아나는 그 아비 시브온의 나귀를 칠 때에 광야에서 온천을 발견하였고",
+        "en": "The sons of Zibeon: Aiah and Anah. This is the Anah who discovered the hot springs in the desert while he was grazing the donkeys of his father Zibeon."
+      },
+      {
+        "verse": 25,
+        "ko": "아나의 자녀는 디손과, 오홀리바마니 오홀리바마는 아나의 딸이며",
+        "en": "The children of Anah: Dishon and Oholibamah daughter of Anah."
+      },
+      {
+        "verse": 26,
+        "ko": "디손의 자녀는 헴단과, 에스반과, 이드란과, 그란이요",
+        "en": "The sons of Dishon: Hemdan, Eshban, Ithran and Keran."
+      },
+      {
+        "verse": 27,
+        "ko": "에셀의 자녀는 빌한과, 사아완과, 아간이요",
+        "en": "The sons of Ezer: Bilhan, Zaavan and Akan."
+      },
+      {
+        "verse": 28,
+        "ko": "디산의 자녀는 우스와, 아란이니",
+        "en": "The sons of Dishan: Uz and Aran."
+      },
+      {
+        "verse": 29,
+        "ko": "호리 족속의 족장들은 곧 로단 족장, 소발 족장, 시브온 족장, 아나 족장",
+        "en": "These were the Horite chiefs: Lotan, Shobal, Zibeon, Anah,"
+      },
+      {
+        "verse": 30,
+        "ko": "디손 족장, 에셀 족장, 디산 족장이라 이들은 그 구역을 따라 세일 땅에 있는 호리 족속으로 말미암아 나온 족장들이었더라",
+        "en": "Dishon, Ezer and Dishan. These were the Horite chiefs, according to their divisions, in the land of Seir."
+      },
+      {
+        "verse": 31,
+        "ko": "이스라엘 자손을 다스리는 왕이 있기 전에 에돔 땅을 다스리는 왕이 이러하니라",
+        "en": "These were the kings who reigned in Edom before any Israelite king reigned:"
+      },
+      {
+        "verse": 32,
+        "ko": "브올의 아들 벨라가 에돔의 왕이 되었으니 그 도성의 이름은 딘하바며",
+        "en": "Bela son of Beor became king of Edom. His city was named Dinhabah."
+      },
+      {
+        "verse": 33,
+        "ko": "벨라가 죽고 보스라 사람 세라의 아들 요밥이 그를 대신하여 왕이 되고",
+        "en": "When Bela died, Jobab son of Zerah from Bozrah succeeded him as king."
+      },
+      {
+        "verse": 34,
+        "ko": "요밥이 죽고 데만 족속의 땅의 후삼이 그를 대신하여 왕이 되고",
+        "en": "When Jobab died, Husham from the land of the Temanites succeeded him as king."
+      },
+      {
+        "verse": 35,
+        "ko": "후삼이 죽고 브닷의 아들 곧 모압 들에서 미디안 족속을 친 하닷이 그를 대신하여 왕이 되니 그 도성 이름은 아윗이며",
+        "en": "When Husham died, Hadad son of Bedad, who defeated Midian in the country of Moab, succeeded him as king. His city was named Avith."
+      },
+      {
+        "verse": 36,
+        "ko": "하닷이 죽고 마스레가의 삼라가 그를 대신하여 왕이 되고",
+        "en": "When Hadad died, Samlah from Masrekah succeeded him as king."
+      },
+      {
+        "verse": 37,
+        "ko": "삼라가 죽고 유브라데 하숫가 르호봇의 사울이 그를 대신하여 왕이 되고",
+        "en": "When Samlah died, Shaul from Rehoboth on the river succeeded him as king."
+      },
+      {
+        "verse": 38,
+        "ko": "사울이 죽고 악볼의 아들 바알하난이 그를 대신하여 왕이 되고",
+        "en": "When Shaul died, Baal-Hanan son of Akbor succeeded him as king."
+      },
+      {
+        "verse": 39,
+        "ko": "악볼의 아들 바알하난이 죽고 하달이 저를 대신하여 왕이 되니 그 도성 이름은 바우며 그 처의 이름은 므헤다벨이니 마드렛의 딸이요 메사합의 손녀더라",
+        "en": "When Baal-Hanan son of Akbor died, Hadad succeeded him as king. His city was named Pau, and his wife`s name was Mehetabel daughter of Matred, the daughter of Me-Zahab."
+      },
+      {
+        "verse": 40,
+        "ko": "에서에게서 나온 족장들의 이름은 그 종족과 거처와 이름대로 이러하니 딤나 족장, 알와 족장, 여뎃 족장",
+        "en": "These were the chiefs descended from Esau, by name, according to their clans and regions: Timna, Alvah, Jetheth,"
+      },
+      {
+        "verse": 41,
+        "ko": "오홀리바마 족장, 엘라 족장, 비논 족장",
+        "en": "Oholibamah, Elah, Pinon,"
+      },
+      {
+        "verse": 42,
+        "ko": "그나스 족장, 데만 족장, 밉살 족장",
+        "en": "Kenaz, Teman, Mibzar,"
+      },
+      {
+        "verse": 43,
+        "ko": "막디엘 족장, 이람 족장이라 이들은 그 구역과 거처를 따른 에돔 족장들이며 에돔 족속의 조상은 에서더라",
+        "en": "Magdiel and Iram. These were the chiefs of Edom, according to their settlements in the land they occupied. This is the family line of Esau, the father of the Edomites."
+      }
+    ]
+  },
+  {
+    "chapter": 37,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "야곱이 가나안 땅 곧 그 아비의 우거하던 땅에 거하였으니",
+        "en": "Jacob lived in the land where his father had stayed, the land of Canaan."
+      },
+      {
+        "verse": 2,
+        "ko": "야곱의 약전이 이러하니라 요셉이 십 칠세의 소년으로서 그 형제와 함께 양을 칠 때에 그 아비의 첩 빌하와 실바의 아들들로 더불어 함께 하였더니 그가 그들의 과실을 아비에게 고하더라",
+        "en": "This is the account of Jacob`s family line. Joseph, a young man of seventeen, was tending the flocks with his brothers, the sons of Bilhah and the sons of Zilpah, his father`s wives, and he brought their father a bad report about them."
+      },
+      {
+        "verse": 3,
+        "ko": "요셉은 노년에 얻은 아들이므로 이스라엘이 여러 아들보다 그를 깊이 사랑하여 위하여 채색옷을 지었더니",
+        "en": "Now Israel loved Joseph more than any of his other sons, because he had been born to him in his old age; and he made an ornate robe for him."
+      },
+      {
+        "verse": 4,
+        "ko": "그 형들이 아비가 형제들보다 그를 사랑함을 보고 그를 미워하여 그에게 언사가 불평하였더라",
+        "en": "When his brothers saw that their father loved him more than any of them, they hated him and could not speak a kind word to him."
+      },
+      {
+        "verse": 5,
+        "ko": "요셉이 꿈을 꾸고 자기 형들에게 고하매 그들이 그를 더욱 미워하였더라",
+        "en": "Joseph had a dream, and when he told it to his brothers, they hated him all the more."
+      },
+      {
+        "verse": 6,
+        "ko": "요셉이 그들에게 이르되 `청컨대 나의 꾼 꿈을 들으시오",
+        "en": "He said to them, “Listen to this dream I had:"
+      },
+      {
+        "verse": 7,
+        "ko": "우리가 밭에서 곡식을 묶더니 내 단은 일어서고 당신들의 단은 내 단을 둘러서서 절하더이다'",
+        "en": "We were binding sheaves of grain out in the field when suddenly my sheaf rose and stood upright, while your sheaves gathered around mine and bowed down to it.”"
+      },
+      {
+        "verse": 8,
+        "ko": "그 형들이 그에게 이르되 `네가 참으로 우리의 왕이 되겠느냐 ? 참으로 우리를 다스리게 되겠느냐 ?' 하고 그 꿈과 그 말을 인하여 그를 더욱 미워하더니",
+        "en": "His brothers said to him, “Do you intend to reign over us? Will you actually rule us?” And they hated him all the more because of his dream and what he had said."
+      },
+      {
+        "verse": 9,
+        "ko": "요셉이 다시 꿈을 꾸고 그 형들에게 고하여 가로되 `내가 또 꿈을 꾼즉 해와 달과 열한 별이 내게 절하더이다' 하니라",
+        "en": "Then he had another dream, and he told it to his brothers. “Listen,” he said, “I had another dream, and this time the sun and moon and eleven stars were bowing down to me.”"
+      },
+      {
+        "verse": 10,
+        "ko": "그가 그 꿈으로 부형에게 고하매 아비가 그를 꾸짖고 그에게 이르되 `너의 꾼 꿈이 무엇이냐 나와 네 모와 네 형제들이 참으로 가서 땅에 엎드려 네게 절하겠느냐 ?'",
+        "en": "When he told his father as well as his brothers, his father rebuked him and said, “What is this dream you had? Will your mother and I and your brothers actually come and bow down to the ground before you?”"
+      },
+      {
+        "verse": 11,
+        "ko": "그 형들은 시기하되 그 아비는 그 말을 마음에 두었더라",
+        "en": "His brothers were jealous of him, but his father kept the matter in mind."
+      },
+      {
+        "verse": 12,
+        "ko": "그 형들이 세겜에 가서 아비의 양떼를 칠 때에",
+        "en": "Now his brothers had gone to graze their father`s flocks near Shechem,"
+      },
+      {
+        "verse": 13,
+        "ko": "이스라엘이 요셉에게 이르되 `네 형들이 세겜에서 양을 치지 아니하느냐 ? 너를 그들에게로 보내리라' 요셉이 아비에게 대답하되 `내가 그리하겠나이다'",
+        "en": "and Israel said to Joseph, “As you know, your brothers are grazing the flocks near Shechem. Come, I am going to send you to them.” “Very well,” he replied."
+      },
+      {
+        "verse": 14,
+        "ko": "이스라엘이 그에게 이르되 `가서 네 형들과 양떼가 다 잘 있는 여부를 보고 돌아와 내게 고하라' 하고 그를 헤브론 골짜기에서 보내매 이에 세겜으로 가니라",
+        "en": "So he said to him, “Go and see if all is well with your brothers and with the flocks, and bring word back to me.” Then he sent him off from the Valley of Hebron. When Joseph arrived at Shechem,"
+      },
+      {
+        "verse": 15,
+        "ko": "어떤 사람이 그를 만난즉 그가 들에서 방황하는지라 그 사람이 그에게 물어 가로되 `네가 무엇을 찾느냐 ?'",
+        "en": "a man found him wandering around in the fields and asked him, “What are you looking for?”"
+      },
+      {
+        "verse": 16,
+        "ko": "그가 가로되 `내가 나의 형들을 찾으오니 청컨대 그들의 양치는 곳을 내게 가르치소서'",
+        "en": "He replied, “I`m looking for my brothers. Can you tell me where they are grazing their flocks?”"
+      },
+      {
+        "verse": 17,
+        "ko": "그 사람이 가로되 `그들이 여기서 떠났느니라 내가 그들의 말을 들으니 도단으로 가자 하더라' 요셉이 그 형들의 뒤를 따라 가서 도단에서 그들을 만나니라",
+        "en": "“They have moved on from here,” the man answered. “I heard them say, ‘Let`s go to Dothan.`” So Joseph went after his brothers and found them near Dothan."
+      },
+      {
+        "verse": 18,
+        "ko": "요셉이 그들에게 가까이 오기 전에 그들이 요셉을 멀리서 보고 죽이기를 꾀하여",
+        "en": "But they saw him in the distance, and before he reached them, they plotted to kill him."
+      },
+      {
+        "verse": 19,
+        "ko": "서로 이르되 `꿈 꾸는 자가 오는도다",
+        "en": "“Here comes that dreamer!” they said to each other."
+      },
+      {
+        "verse": 20,
+        "ko": "자, 그를 죽여 한 구덩이에 던지고 우리가 말하기를 악한 짐승이 그를 잡아먹었다 하자 그 꿈이 어떻게 되는 것을 우리가 볼 것이니라' 하는지라",
+        "en": "“Come now, let`s kill him and throw him into one of these cisterns and say that a ferocious animal devoured him. Then we`ll see what comes of his dreams.”"
+      },
+      {
+        "verse": 21,
+        "ko": "르우벤이 듣고 요셉을 그들의 손에서 구원하려 하여 가로되 `우리가 그 생명은 상하지 말자'",
+        "en": "When Reuben heard this, he tried to rescue him from their hands. “Let`s not take his life,” he said."
+      },
+      {
+        "verse": 22,
+        "ko": "르우벤이 또 그들에게 이르되 `피를 흘리지 말라 그를 광야 그 구덩이에 던지고 손을 그에게 대지 말라' 하니 이는 그가 요셉을 그들의 손에서 구원하여 그 아비에게로 돌리려 함이었더라",
+        "en": "“Don`t shed any blood. Throw him into this cistern here in the wilderness, but don`t lay a hand on him.” Reuben said this to rescue him from them and take him back to his father."
+      },
+      {
+        "verse": 23,
+        "ko": "요셉이 형들에게 이르매 그 형들이 요셉의 옷 곧 그 입은 채색옷을 벗기고",
+        "en": "So when Joseph came to his brothers, they stripped him of his robe—the ornate robe he was wearing—"
+      },
+      {
+        "verse": 24,
+        "ko": "그를 잡아 구덩이에 던지니 그 구덩이는 빈 것이라 그 속에 물이 없었더라",
+        "en": "and they took him and threw him into the cistern. The cistern was empty; there was no water in it."
+      },
+      {
+        "verse": 25,
+        "ko": "그들이 앉아 음식을 먹다가 눈을 들어 본즉 한떼 이스마엘 족속이 길르앗에서 오는데 그 약대들에 향품과, 유향과, 몰약을 싣고 애굽으로 내려가는지라",
+        "en": "As they sat down to eat their meal, they looked up and saw a caravan of Ishmaelites coming from Gilead. Their camels were loaded with spices, balm and myrrh, and they were on their way to take them down to Egypt."
+      },
+      {
+        "verse": 26,
+        "ko": "유다가 자기 형제에게 이르되 `우리가 우리 동생을 죽이고 그의 피를 은익한들 무엇이 유익할까?",
+        "en": "Judah said to his brothers, “What will we gain if we kill our brother and cover up his blood?"
+      },
+      {
+        "verse": 27,
+        "ko": "자, 그를 이스마엘 사람에게 팔고 우리 손을 그에게 대지 말자 그는 우리의 동생이요 우리의 골육이니라' 하매 형제들이 청종하였더라",
+        "en": "Come, let`s sell him to the Ishmaelites and not lay our hands on him; after all, he is our brother, our own flesh and blood.” His brothers agreed."
+      },
+      {
+        "verse": 28,
+        "ko": "때에 미디안 사람 상고들이 지나는지라 그들이 요셉을 구덩이에서 끌어 올리고 은 이십개에 그를 이스마엘 사람들에게 팔매 그 상고들이 요셉을 데리고 애굽으로 갔더라",
+        "en": "So when the Midianite merchants came by, his brothers pulled Joseph up out of the cistern and sold him for twenty shekels of silver to the Ishmaelites, who took him to Egypt."
+      },
+      {
+        "verse": 29,
+        "ko": "르우벤이 돌아와서 구덩이에 이르러 본즉 거기 요셉이 없는지라 옷을 찢고",
+        "en": "When Reuben returned to the cistern and saw that Joseph was not there, he tore his clothes."
+      },
+      {
+        "verse": 30,
+        "ko": "아우들에게로 와서 가로되 `아이가 없도다 나는 나는 어디로 갈까 ?'",
+        "en": "He went back to his brothers and said, “The boy isn`t there! Where can I turn now?”"
+      },
+      {
+        "verse": 31,
+        "ko": "그들이 요셉의 옷을 취하고 수염소를 죽여 그 옷을 피에 적시고",
+        "en": "Then they got Joseph`s robe, slaughtered a goat and dipped the robe in the blood."
+      },
+      {
+        "verse": 32,
+        "ko": "그 채색옷을 보내어 그 아비에게로 가져다가 이르기를 `우리가 이것을 얻었으니 아버지의 아들의 옷인가 아닌가 보소서' 하매",
+        "en": "They took the ornate robe back to their father and said, “We found this. Examine it to see whether it is your son`s robe.”"
+      },
+      {
+        "verse": 33,
+        "ko": "아비가 그것을 알아보고 가로되 `내 아들의 옷이라 악한 짐승이 그를 먹었도다 요셉이 정녕 찢겼도다' 하고",
+        "en": "He recognized it and said, “It is my son`s robe! Some ferocious animal has devoured him. Joseph has surely been torn to pieces.”"
+      },
+      {
+        "verse": 34,
+        "ko": "자기 옷을 찢고 굵은 베로 허리를 묶고 오래도록 그 아들을 위하여 애통하니",
+        "en": "Then Jacob tore his clothes, put on sackcloth and mourned for his son many days."
+      },
+      {
+        "verse": 35,
+        "ko": "그 모든 자녀가 위로하되 그가 그 위로를 받지 아니하여 가로되 `내가 슬퍼하며 음부에 내려 아들에게로 가리라' 하고 그 아비가 그를 위하여 울었더라",
+        "en": "All his sons and daughters came to comfort him, but he refused to be comforted. “No,” he said, “I will continue to mourn until I join my son in the grave.” So his father wept for him."
+      },
+      {
+        "verse": 36,
+        "ko": "미디안 사람이 애굽에서 바로의 신하 시위대장 보디발에게 요셉을 팔았더라",
+        "en": "Meanwhile, the Midianites sold Joseph in Egypt to Potiphar, one of Pharaoh`s officials, the captain of the guard."
+      }
+    ]
+  },
+  {
+    "chapter": 38,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "그 후에 유다가 자기 형제에게서 내려가서 아둘람 사람 히라에게로 나아가니라",
+        "en": "At that time, Judah left his brothers and went down to stay with a man of Adullam named Hirah."
+      },
+      {
+        "verse": 2,
+        "ko": "유다가 거기서 가나안 사람 수아라 하는 자의 딸을 보고 그를 취하여 동침하니",
+        "en": "There Judah met the daughter of a Canaanite man named Shua. He married her and made love to her;"
+      },
+      {
+        "verse": 3,
+        "ko": "그가 잉태하여 아들을 낳으매 유다가 그 이름을 엘이라 하니라",
+        "en": "she became pregnant and gave birth to a son, who was named Er."
+      },
+      {
+        "verse": 4,
+        "ko": "그가 다시 잉태하여 아들을 낳고 그 이름을 오난이라 하고",
+        "en": "She conceived again and gave birth to a son and named him Onan."
+      },
+      {
+        "verse": 5,
+        "ko": "그가 또 다시 아들을 낳고 그 이름을 셀라라 하니라 그가 셀라를 낳을 때에 유다는 거십에 있었더라",
+        "en": "She gave birth to still another son and named him Shelah. It was at Kezib that she gave birth to him."
+      },
+      {
+        "verse": 6,
+        "ko": "유다가 장자 엘을 위하여 아내를 취하니 그 이름은 다말이더라",
+        "en": "Judah got a wife for Er, his firstborn, and her name was Tamar."
+      },
+      {
+        "verse": 7,
+        "ko": "유다의 장자 엘이 여호와 목전에 악하므로 여호와께서 그를 죽이신지라",
+        "en": "But Er, Judah`s firstborn, was wicked in the Lord`s sight; so the Lord put him to death."
+      },
+      {
+        "verse": 8,
+        "ko": "유다가 오난에게 이르되 `네 형수에게로 들어가서 남편의 아우의 본분을 행하여 네 형을 취하여 씨가 있게 하라'",
+        "en": "Then Judah said to Onan, “Sleep with your brother`s wife and fulfill your duty to her as a brother-in-law to raise up offspring for your brother.”"
+      },
+      {
+        "verse": 9,
+        "ko": "오난이 그 씨가 자기 것이 되지 않을 줄 알므로 형수에게 들어갔을 때에 형에게 아들을 얻게 아니하려고 땅에 설정하매",
+        "en": "But Onan knew that the child would not be his; so whenever he slept with his brother`s wife, he spilled his semen on the ground to keep from providing offspring for his brother."
+      },
+      {
+        "verse": 10,
+        "ko": "그 일이 여호와 목전에 악하므로 여호와께서 그도 죽이시니",
+        "en": "What he did was wicked in the Lord`s sight; so the Lord put him to death also."
+      },
+      {
+        "verse": 11,
+        "ko": "유다가 그 며느리 다말에게 이르되 `수절하고 네 아비 집에 있어서 내 아들 셀라가 장성하기를 기다리라' 하니 셀라도 그 형들 같이 죽을까 염려함이라 다말이 가서 그 아비 집에 있으니라",
+        "en": "Judah then said to his daughter-in-law Tamar, “Live as a widow in your father`s household until my son Shelah grows up.” For he thought, “He may die too, just like his brothers.” So Tamar went to live in her father`s household."
+      },
+      {
+        "verse": 12,
+        "ko": "얼마 후에 유다의 아내 수아의 딸이 죽은지라 유다가 위로를 받은 후에 그 친구 아둘람 사람 히라와 함께 딤나로 올라가서 자기 양털 깍는 자에게 이르렀더니",
+        "en": "After a long time Judah`s wife, the daughter of Shua, died. When Judah had recovered from his grief, he went up to Timnah, to the men who were shearing his sheep, and his friend Hirah the Adullamite went with him."
+      },
+      {
+        "verse": 13,
+        "ko": "혹이 다말에게 고하되 `네 시부가 자기 양털을 깎으려고 딤나에 올라왔다' 한지라",
+        "en": "When Tamar was told, “Your father-in-law is on his way to Timnah to shear his sheep,”"
+      },
+      {
+        "verse": 14,
+        "ko": "그가 그 과부의 의복을 벗고 면박으로 얼굴을 가리고 몸을 휩싸고 딤나 길 곁 에나임 문에 앉으니 이는 셀라가 장성함을 보았어도 자기를 그의 아내로 주지 않음을 인함이라",
+        "en": "she took off her widow`s clothes, covered herself with a veil to disguise herself, and then sat down at the entrance to Enaim, which is on the road to Timnah. For she saw that, though Shelah had now grown up, she had not been given to him as his wife."
+      },
+      {
+        "verse": 15,
+        "ko": "그가 얼굴을 가리웠으므로 유다가 그를 보고 창녀로 여겨",
+        "en": "When Judah saw her, he thought she was a prostitute, for she had covered her face."
+      },
+      {
+        "verse": 16,
+        "ko": "길곁으로 그에게 나아가 가로되 `청컨대 나로 네게 들어가게 하라' 하니 그 자부인줄 알지 못하였음이라 그가 가로되 `당신이 무엇을 주고 내게 들어 오려느냐 ?'",
+        "en": "Not realizing that she was his daughter-in-law, he went over to her by the roadside and said, “Come now, let me sleep with you.” “And what will you give me to sleep with you?” she asked."
+      },
+      {
+        "verse": 17,
+        "ko": "유다가 가로되 내가 내 떼에서 염소 새끼를 주리라 그가 가로되 당신이 그것을 줄 때까지 약조물을 주겠느냐?",
+        "en": "“I`ll send you a young goat from my flock,” he said. “Will you give me something as a pledge until you send it?” she asked."
+      },
+      {
+        "verse": 18,
+        "ko": "유다가 가로되 `무슨 약조물을 네게 주랴 ?' 그가 가로되 `당신의 도장과 그 끈과 당신의 손에 있는 지팡이로 하라' 유다가 그것들을 그에게 주고 그에게로 들어갔더니 그가 유다로 말미암아 잉태하였더라",
+        "en": "He said, “What pledge should I give you?” “Your seal and its cord, and the staff in your hand,” she answered. So he gave them to her and slept with her, and she became pregnant by him."
+      },
+      {
+        "verse": 19,
+        "ko": "그가 일어나 떠나가서 그 면박을 벗고 과부의 의복을 도로 입으니라",
+        "en": "After she left, she took off her veil and put on her widow`s clothes again."
+      },
+      {
+        "verse": 20,
+        "ko": "유다가 그 친구 아둘람 사람의 손에 부탁하여 염소 새끼를 보내고 그 여인의 손에서 약조물을 찾으려 하였으나 그가 그 여인을 찾지 못한지라",
+        "en": "Meanwhile Judah sent the young goat by his friend the Adullamite in order to get his pledge back from the woman, but he did not find her."
+      },
+      {
+        "verse": 21,
+        "ko": "그가 그 곳 사람에게 물어 가로되 `길 곁 에나임에 있던 창녀가 어디 있느냐 ?` 그들이 가로되 `여기는 창녀가 없느니라'",
+        "en": "He asked the men who lived there, “Where is the shrine prostitute who was beside the road at Enaim?” “There hasn`t been any shrine prostitute here,” they said."
+      },
+      {
+        "verse": 22,
+        "ko": "그가 유다에게로 돌아와 가로되 `내가 그를 찾지 못하고 그 곳 사람도 이르기를 여기는 창녀가 없다 하더라`",
+        "en": "So he went back to Judah and said, “I didn`t find her. Besides, the men who lived there said, ‘There hasn`t been any shrine prostitute here.`”"
+      },
+      {
+        "verse": 23,
+        "ko": "유다가 가로되 `그로 그것을 가지게 두라 우리가 부끄러움을 당할까 하노라 내가 이 염소 새끼를 보내었으나 그대가 그를 찾지 못하였느니라'",
+        "en": "Then Judah said, “Let her keep what she has, or we will become a laughingstock. After all, I did send her this young goat, but you didn`t find her.”"
+      },
+      {
+        "verse": 24,
+        "ko": "석달쯤 후에 혹이 유다에게 고하여 가로되 `네 며느리 다말이 행음하였고 그 행음함을 인하여 잉태하였느니라' 유다가 가로되 `그를 끌어 내어 불사르라'",
+        "en": "About three months later Judah was told, “Your daughter-in-law Tamar is guilty of prostitution, and as a result she is now pregnant.” Judah said, “Bring her out and have her burned to death!”"
+      },
+      {
+        "verse": 25,
+        "ko": "여인이 끌려 나갈 때에 보내어 시부에게 이르되 `이 물건 임자로 말미암아 잉태하였나이다 청컨대 보소서, 이 도장과 그 끈과 지팡이가 뉘 것이니이까 ?' 한지라",
+        "en": "As she was being brought out, she sent a message to her father-in-law. “I am pregnant by the man who owns these,” she said. And she added, “See if you recognize whose seal and cord and staff these are.”"
+      },
+      {
+        "verse": 26,
+        "ko": "유다가 그것들을 알아보고 가로되 `그는 나보다 옳도다 내가 그를 내 아들 셀라에게 주지 아니하였음이로다' 하고 다시는 그를 가까이 하지 아니하였더라",
+        "en": "Judah recognized them and said, “She is more righteous than I, since I wouldn`t give her to my son Shelah.” And he did not sleep with her again."
+      },
+      {
+        "verse": 27,
+        "ko": "임산하여 보니 쌍태라",
+        "en": "When the time came for her to give birth, there were twin boys in her womb."
+      },
+      {
+        "verse": 28,
+        "ko": "해산할 때에 손이 나오는지라 산파가 가로되 `이는 먼저 나온자라' 하고 홍사를 가져 그 손에 매었더니",
+        "en": "As she was giving birth, one of them put out his hand; so the midwife took a scarlet thread and tied it on his wrist and said, “This one came out first.”"
+      },
+      {
+        "verse": 29,
+        "ko": "그 손을 도로 들이며 그 형제가 나오는지라 산파가 가로되 `네가 어찌하여 터치고 나오느냐 ?' 한고로 그 이름을 베레스라 불렀고",
+        "en": "But when he drew back his hand, his brother came out, and she said, “So this is how you have broken out!” And he was named Perez."
+      },
+      {
+        "verse": 30,
+        "ko": "그 형제 곧 손에 홍사 있는 자가 뒤에 나오니 그 이름을 세라라 불렀더라",
+        "en": "Then his brother, who had the scarlet thread on his wrist, came out. And he was named Zerah."
+      }
+    ]
+  },
+  {
+    "chapter": 39,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "요셉이 이끌려 애굽에 내려가매 바로의 신하 시위대장 애굽사람 보디발이 그를 그리로 데려간 이스마엘 사람의 손에서 그를 사니라",
+        "en": "Now Joseph had been taken down to Egypt. Potiphar, an Egyptian who was one of Pharaoh`s officials, the captain of the guard, bought him from the Ishmaelites who had taken him there."
+      },
+      {
+        "verse": 2,
+        "ko": "여호와께서 요셉과 함께 하시므로 그가 형통한 자가 되어 그 주인 애굽 사람의 집에 있으니",
+        "en": "The Lord was with Joseph so that he prospered, and he lived in the house of his Egyptian master."
+      },
+      {
+        "verse": 3,
+        "ko": "그 주인이 여호와께서 그와 함께하심을 보며 또 여호와께서 그의 범사에 형통케 하심을 보았더라",
+        "en": "When his master saw that the Lord was with him and that the Lord gave him success in everything he did,"
+      },
+      {
+        "verse": 4,
+        "ko": "요셉이 그 주인에게 은혜를 입어 섬기매 그가 요셉으로 가정 총무를 삼고 자기 소유를 다 그 손에 위임하니",
+        "en": "Joseph found favor in his eyes and became his attendant. Potiphar put him in charge of his household, and he entrusted to his care everything he owned."
+      },
+      {
+        "verse": 5,
+        "ko": "그가 요셉에게 자기 집과 그 모든 소유물을 주관하게 한 때부터 여호와께서 요셉을 위하여 그 애굽 사람의 집에 복을 내리시므로 여호와의 복이 그의 집과 밭에 있는 모든 소유에 미친지라",
+        "en": "From the time he put him in charge of his household and of all that he owned, the Lord blessed the household of the Egyptian because of Joseph. The blessing of the Lord was on everything Potiphar had, both in the house and in the field."
+      },
+      {
+        "verse": 6,
+        "ko": "주인이 그 소유를 다 요셉의 손에 위임하고 자기 식료 외에는 간섭하지 아니하였더라 요셉은 용모가 준수하고 아담하였더라",
+        "en": "So Potiphar left everything he had in Joseph`s care; with Joseph in charge, he did not concern himself with anything except the food he ate. Now Joseph was well-built and handsome,"
+      },
+      {
+        "verse": 7,
+        "ko": "그 후에 그 주인의 처가 요셉에게 눈짓하다가 동침하기를 청하니",
+        "en": "and after a while his master`s wife took notice of Joseph and said, “Come to bed with me!”"
+      },
+      {
+        "verse": 8,
+        "ko": "요셉이 거절하며 자기 주인의 처에게 이르되 `나의 주인이 가중 제반 소유를 간섭지 아니하고 다 내 손에 위임하였으니",
+        "en": "But he refused. “With me in charge,” he told her, “my master does not concern himself with anything in the house; everything he owns he has entrusted to my care."
+      },
+      {
+        "verse": 9,
+        "ko": "이 집에는 나보다 큰 이가 없으며 주인이 아무 것도 내게 금하지 아니하였어도 금한 것은 당신뿐이니 당신은 자기 아내임이라 그런즉 내가 어찌 이 큰 악을 행하여 하나님께 득죄하리이까 ?'",
+        "en": "No one is greater in this house than I am. My master has withheld nothing from me except you, because you are his wife. How then could I do such a wicked thing and sin against God?”"
+      },
+      {
+        "verse": 10,
+        "ko": "여인이 날마다 요셉에게 청하였으나 요셉이 듣지 아니하여 동침하지 아니할 뿐더러 함께 있지도 아니하니라",
+        "en": "And though she spoke to Joseph day after day, he refused to go to bed with her or even be with her."
+      },
+      {
+        "verse": 11,
+        "ko": "그러할 때에 요셉이 시무하러 그 집에 들어갔더니 그 집 사람은 하나도 거기 없었더라",
+        "en": "One day he went into the house to attend to his duties, and none of the household servants was inside."
+      },
+      {
+        "verse": 12,
+        "ko": "그 여인이 그 옷을 잡고 가로되 `나와 동침하자' 요셉이 자기 옷을 그 손에 버리고 도망하여 나가매",
+        "en": "She caught him by his cloak and said, “Come to bed with me!” But he left his cloak in her hand and ran out of the house."
+      },
+      {
+        "verse": 13,
+        "ko": "그가 요셉이 그 옷을 자기 손에 버려두고 도망하여 나감을 보고",
+        "en": "When she saw that he had left his cloak in her hand and had run out of the house,"
+      },
+      {
+        "verse": 14,
+        "ko": "집 사람들을 불러서 그들에게 이르되 `보라, 주인이 히브리 사람을 우리에게 데려다가 우리를 희롱하게 하도다 그가 나를 겁간코자 내게로 들어오기로 내가 크게 소리 질렀더니",
+        "en": "she called her household servants. “Look,” she said to them, “this Hebrew has been brought to us to make sport of us! He came in here to sleep with me, but I screamed."
+      },
+      {
+        "verse": 15,
+        "ko": "그가 나의 소리질러 부름을 듣고 그 옷을 내게 버려두고 도망하여 나갔느니라' 하고",
+        "en": "When he heard me scream for help, he left his cloak beside me and ran out of the house.”"
+      },
+      {
+        "verse": 16,
+        "ko": "그 옷을 곁에 두고 자기 주인이 집으로 돌아오기를 기다려",
+        "en": "She kept his cloak beside her until his master came home."
+      },
+      {
+        "verse": 17,
+        "ko": "이 말로 그에게 고하여 가로되 `당신이 우리에게 데려온 히브리 종이 나를 희롱코자 내게로 들어 왔기로",
+        "en": "Then she told him this story: “That Hebrew slave you brought us came to me to make sport of me."
+      },
+      {
+        "verse": 18,
+        "ko": "내가 소리질러 불렀더니 그가 그 옷을 내게 버려두고 도망하여 나갔나이다'",
+        "en": "But as soon as I screamed for help, he left his cloak beside me and ran out of the house.”"
+      },
+      {
+        "verse": 19,
+        "ko": "주인이 그 아내가 자기에게 고하기를 `당신의 종이 내게 이같이 행하였다' 하는 말을 듣고 심히 노한지라",
+        "en": "When his master heard the story his wife told him, saying, “This is how your slave treated me,” he burned with anger."
+      },
+      {
+        "verse": 20,
+        "ko": "이에 요셉의 주인이 그를 잡아 옥에 넣으니 그 옥은 왕의 죄수를 가두는 곳이었더라 요셉이 옥에 갇혔으나",
+        "en": "Joseph`s master took him and put him in prison, the place where the king`s prisoners were confined. But while Joseph was there in the prison,"
+      },
+      {
+        "verse": 21,
+        "ko": "여호와께서 요셉과 함께 하시고 그에게 인자를 더하사 전옥에게 은혜를 받게 하시매",
+        "en": "the Lord was with him; he showed him kindness and granted him favor in the eyes of the prison warden."
+      },
+      {
+        "verse": 22,
+        "ko": "전옥이 옥중 죄수를 다 요셉의 손에 맡기므로 그 제반 사무를 요셉이 처리하고",
+        "en": "So the warden put Joseph in charge of all those held in the prison, and he was made responsible for all that was done there."
+      },
+      {
+        "verse": 23,
+        "ko": "전옥은 그의 손에 맡긴 것을 무엇이든지 돌아보지 아니하였으니 이는 여호와께서 요셉과 함께 하심이라 여호와께서 그의 범사에 형통케 하셨더라",
+        "en": "The warden paid no attention to anything under Joseph`s care, because the Lord was with Joseph and gave him success in whatever he did."
+      }
+    ]
+  },
+  {
+    "chapter": 40,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "그 후에 애굽 왕의 술 맡은 자와 떡굽는 자가 그 주 애굽 왕에게 범죄한지라",
+        "en": "Some time later, the cupbearer and the baker of the king of Egypt offended their master, the king of Egypt."
+      },
+      {
+        "verse": 2,
+        "ko": "바로가 그 두 관원장 곧 술 맡은 관원장과 떡 굽는 관원장에게 노하여",
+        "en": "Pharaoh was angry with his two officials, the chief cupbearer and the chief baker,"
+      },
+      {
+        "verse": 3,
+        "ko": "그들을 시위대장의 집 안에 있는 옥에 가두니 곧 요셉의 갇힌 곳이라",
+        "en": "and put them in custody in the house of the captain of the guard, in the same prison where Joseph was confined."
+      },
+      {
+        "verse": 4,
+        "ko": "시위대장이 요셉으로 그들에게 수종하게 하매 요셉이 그들을 섬겼더라 그들이 갇힌지 수일이라",
+        "en": "The captain of the guard assigned them to Joseph, and he attended them. After they had been in custody for some time,"
+      },
+      {
+        "verse": 5,
+        "ko": "옥에 갇힌 애굽 왕의 술 맡은 자와 떡 굽는 자 두 사람이 하룻밤에 꿈을 꾸니 각기 몽조가 다르더라",
+        "en": "each of the two men—the cupbearer and the baker of the king of Egypt, who were being held in prison—had a dream the same night, and each dream had a meaning of its own."
+      },
+      {
+        "verse": 6,
+        "ko": "아침에 요셉이 들어가 보니 그들에게 근심 빛이 있는지라",
+        "en": "When Joseph came to them the next morning, he saw that they were dejected."
+      },
+      {
+        "verse": 7,
+        "ko": "요셉이 그 주인의 집에 자기와 함께 갇힌 바로의 관원장에게 묻되 당신들이 오늘 어찌하여 근심 빛이 있나이까?",
+        "en": "So he asked Pharaoh`s officials who were in custody with him in his master`s house, “Why do you look so sad today?”"
+      },
+      {
+        "verse": 8,
+        "ko": "그들이 그에게 이르되 `우리가 꿈을 꾸었으나 이를 해석할 자가 없도다' 요셉이 그들에게 이르되 `해석은 하나님께 있지 아니하나이까 ? 청컨대 내게 고하소서'",
+        "en": "“We both had dreams,” they answered, “but there is no one to interpret them.” Then Joseph said to them, “Do not interpretations belong to God? Tell me your dreams.”"
+      },
+      {
+        "verse": 9,
+        "ko": "술 맡은 관원장이 그 꿈을 요셉에게 말하여 가로되 `내가 꿈에 보니 내 앞에 포도나무가 있는데",
+        "en": "So the chief cupbearer told Joseph his dream. He said to him, “In my dream I saw a vine in front of me,"
+      },
+      {
+        "verse": 10,
+        "ko": "그 나무에 세 가지가 있고 싹이 나서 꽃이 피고 포도송이가 익었고",
+        "en": "and on the vine were three branches. As soon as it budded, it blossomed, and its clusters ripened into grapes."
+      },
+      {
+        "verse": 11,
+        "ko": "내 손에 바로의 잔이 있기로 내가 포도를 따서 그 즙을 바로의 잔에 짜서 그 잔을 바로의 손에 드렸노라'",
+        "en": "Pharaoh`s cup was in my hand, and I took the grapes, squeezed them into Pharaoh`s cup and put the cup in his hand.”"
+      },
+      {
+        "verse": 12,
+        "ko": "요셉이 그에게 이르되 `그 해석이 이러하니 세 가지는 사흘이라",
+        "en": "“This is what it means,” Joseph said to him. “The three branches are three days."
+      },
+      {
+        "verse": 13,
+        "ko": "지금부터 사흘 안에 바로가 당신의 머리를 들고 당신의 전직을 회복하리니 당신이 이왕에 술 맡은 자가 되었을 때에 하던것 같이 바로의 잔을 그 손에 받들게 되리이다",
+        "en": "Within three days Pharaoh will lift up your head and restore you to your position, and you will put Pharaoh`s cup in his hand, just as you used to do when you were his cupbearer."
+      },
+      {
+        "verse": 14,
+        "ko": "당신이 득의하거든 나를 생각하고 내게 은혜를 베풀어서 내 사정을 바로에게 고하여 이 집에서 나를 건져내소서",
+        "en": "But when all goes well with you, remember me and show me kindness; mention me to Pharaoh and get me out of this prison."
+      },
+      {
+        "verse": 15,
+        "ko": "나는 히브리 땅에서 끌려온 자요 여기서도 옥에 갇힐 일은 행치 아니하였나이다'",
+        "en": "I was forcibly carried off from the land of the Hebrews, and even here I have done nothing to deserve being put in a dungeon.”"
+      },
+      {
+        "verse": 16,
+        "ko": "떡 굽는 관원장이 그 해석이 길함을 보고 요셉에게 이르되 `나도 꿈에 보니 흰 떡 세 광주리가 내 머리에 있고",
+        "en": "When the chief baker saw that Joseph had given a favorable interpretation, he said to Joseph, “I too had a dream: On my head were three baskets of bread."
+      },
+      {
+        "verse": 17,
+        "ko": "그 윗광주리에 바로를 위하여 만든 각종 구운 식물이 있는데 새들이 내 머리의 광주리에서 그것을 먹더라'",
+        "en": "In the top basket were all kinds of baked goods for Pharaoh, but the birds were eating them out of the basket on my head.”"
+      },
+      {
+        "verse": 18,
+        "ko": "요셉이 대답하여 가로되 `그 해석은 이러하니 세 광주리는 사흘이라",
+        "en": "“This is what it means,” Joseph said. “The three baskets are three days."
+      },
+      {
+        "verse": 19,
+        "ko": "지금부터 사흘 안에 바로가 당신의 머리를 끊고 당신을 나무에 달리니 새들이 당신의 고기를 뜯어 먹으리이다' 하더니",
+        "en": "Within three days Pharaoh will lift off your head and impale your body on a pole. And the birds will eat away your flesh.”"
+      },
+      {
+        "verse": 20,
+        "ko": "제 삼일은 바로의 탄일이라 바로가 모든 신하를 위하여 잔치할때에 술 맡은 관원장과 떡 굽는 관원장으로 머리를 그 신하 중에 들게 하니라",
+        "en": "Now the third day was Pharaoh`s birthday, and he gave a feast for all his officials. He lifted up the heads of the chief cupbearer and the chief baker in the presence of his officials:"
+      },
+      {
+        "verse": 21,
+        "ko": "바로의 술 맡은 관원장은 전직을 회복하매 그가 잔을 바로의 손에 받들어 드렸고",
+        "en": "He restored the chief cupbearer to his position, so that he once again put the cup into Pharaoh`s hand—"
+      },
+      {
+        "verse": 22,
+        "ko": "떡 굽는 관원장은 매여 달리니 요셉이 그들에게 해석함과 같이 되었으나",
+        "en": "but he impaled the chief baker, just as Joseph had said to them in his interpretation."
+      },
+      {
+        "verse": 23,
+        "ko": "술 맡은 관원장이 요셉을 기억지 않고 잊었더라",
+        "en": "The chief cupbearer, however, did not remember Joseph; he forgot him."
+      }
+    ]
+  },
+  {
+    "chapter": 41,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "만 이년 후에 바로가 꿈을 꾼즉 자기가 하숫가에 섰는데",
+        "en": "When two full years had passed, Pharaoh had a dream: He was standing by the Nile,"
+      },
+      {
+        "verse": 2,
+        "ko": "보니 아름답고 살진 일곱 암소가 하수에서 올라와 갈밭에서 뜯어먹고",
+        "en": "when out of the river there came up seven cows, sleek and fat, and they grazed among the reeds."
+      },
+      {
+        "verse": 3,
+        "ko": "그 뒤에 또 흉악하고 파리한 다른 일곱 암소가 하수에서 올라와 그 소와 함께 하숫가에 섰더니",
+        "en": "After them, seven other cows, ugly and gaunt, came up out of the Nile and stood beside those on the riverbank."
+      },
+      {
+        "verse": 4,
+        "ko": "그 흉악하고 파리한 소가 그 아름답고 살진 일곱 소를 먹은지라 바로가 곧 깨었다가",
+        "en": "And the cows that were ugly and gaunt ate up the seven sleek, fat cows. Then Pharaoh woke up."
+      },
+      {
+        "verse": 5,
+        "ko": "다시 잠이 들어 꿈을 꾸니 한 줄기에 무성하고 충실한 일곱 이삭이 나오고",
+        "en": "He fell asleep again and had a second dream: Seven heads of grain, healthy and good, were growing on a single stalk."
+      },
+      {
+        "verse": 6,
+        "ko": "그 후에 또 세약하고 동풍에 마른 일곱 이삭이 나오더니",
+        "en": "After them, seven other heads of grain sprouted—thin and scorched by the east wind."
+      },
+      {
+        "verse": 7,
+        "ko": "그 세약한 일곱 이삭이 무성하고 충실한 일곱 이삭을 삼킨지라 바로가 깬즉 꿈이라",
+        "en": "The thin heads of grain swallowed up the seven healthy, full heads. Then Pharaoh woke up; it had been a dream."
+      },
+      {
+        "verse": 8,
+        "ko": "아침에 그 마음이 번민하여 보내어 애굽의 술객과 박사를 모두 불러 그들에게 그 꿈을 고하였으나 그것을 바로에게 해석하는 자가 없었더라",
+        "en": "In the morning his mind was troubled, so he sent for all the magicians and wise men of Egypt. Pharaoh told them his dreams, but no one could interpret them for him."
+      },
+      {
+        "verse": 9,
+        "ko": "술 맡은 관원장이 바로에게 고하여 가로되 `내가 오늘날 나의 허물을 추억하나이다",
+        "en": "Then the chief cupbearer said to Pharaoh, “Today I am reminded of my shortcomings."
+      },
+      {
+        "verse": 10,
+        "ko": "바로께서 종들에게 노하사 나와 떡 굽는 관원장을 시위대장의 집에 가두셨을 때에",
+        "en": "Pharaoh was once angry with his servants, and he imprisoned me and the chief baker in the house of the captain of the guard."
+      },
+      {
+        "verse": 11,
+        "ko": "나와 그가 하룻밤에 꿈을 꾼즉 각기 징조가 있는 꿈이라",
+        "en": "Each of us had a dream the same night, and each dream had a meaning of its own."
+      },
+      {
+        "verse": 12,
+        "ko": "그 곳에 시위대장의 종된 히브리 소년이 우리와 함께 있기로 우리가 그에게 고하매 그가 우리의 꿈을 풀되 그 꿈대로 각인에게 해석하더니",
+        "en": "Now a young Hebrew was there with us, a servant of the captain of the guard. We told him our dreams, and he interpreted them for us, giving each man the interpretation of his dream."
+      },
+      {
+        "verse": 13,
+        "ko": "그 해석 한대로 되어 나는 복직하고 그는 매여 달렸나이다'",
+        "en": "And things turned out exactly as he interpreted them to us: I was restored to my position, and the other man was impaled.”"
+      },
+      {
+        "verse": 14,
+        "ko": "이에 바로가 보내어 요셉을 부르매 그들이 급히 그를 옥에서 낸지라 요셉이 곧 수염을 깎고 그 옷을 갈아 입고 바로에게 들어오니",
+        "en": "So Pharaoh sent for Joseph, and he was quickly brought from the dungeon. When he had shaved and changed his clothes, he came before Pharaoh."
+      },
+      {
+        "verse": 15,
+        "ko": "바로가 요셉에게 이르되 `내가 한 꿈을 꾸었으나 그것을 해석하는 자가 없더니 들은즉 너는 꿈을 들으면 능히 푼다더라`",
+        "en": "Pharaoh said to Joseph, “I had a dream, and no one can interpret it. But I have heard it said of you that when you hear a dream you can interpret it.”"
+      },
+      {
+        "verse": 16,
+        "ko": "요셉이 바로에게 대답하여 가로되 `이는 내게 있는 것이 아니라 하나님이 바로에게 평안한 대답을 하시리이다'",
+        "en": "“I cannot do it,” Joseph replied to Pharaoh, “but God will give Pharaoh the answer he desires.”"
+      },
+      {
+        "verse": 17,
+        "ko": "바로가 요셉에게 이르되 `내가 꿈에 하숫가에 서서",
+        "en": "Then Pharaoh said to Joseph, “In my dream I was standing on the bank of the Nile,"
+      },
+      {
+        "verse": 18,
+        "ko": "보니 살지고 아름다운 일곱 암소가 하숫가에 올라와 갈밭에서 뜯어 먹고",
+        "en": "when out of the river there came up seven cows, fat and sleek, and they grazed among the reeds."
+      },
+      {
+        "verse": 19,
+        "ko": "그 뒤에 또 약하고 심히 흉악하고 파리한 일곱 암소가 올라오니 그같이 흉악한 것들은 애굽 땅에서 내가 아직 보지 못한 것이라",
+        "en": "After them, seven other cows came up—scrawny and very ugly and lean. I had never seen such ugly cows in all the land of Egypt."
+      },
+      {
+        "verse": 20,
+        "ko": "그 파리하고 흉악한 소가 처음의 일곱 살진 소를 먹었으며",
+        "en": "The lean, ugly cows ate up the seven fat cows that came up first."
+      },
+      {
+        "verse": 21,
+        "ko": "먹었으나 먹은듯하지 아니하여 여전히 흉악하더라 내가 곧 깨었다가",
+        "en": "But even after they ate them, no one could tell that they had done so; they looked just as ugly as before. Then I woke up."
+      },
+      {
+        "verse": 22,
+        "ko": "다시 꿈에 보니 한 줄기에 무성하고 충실한 일곱 이삭이 나오고",
+        "en": "“In my dream I saw seven heads of grain, full and good, growing on a single stalk."
+      },
+      {
+        "verse": 23,
+        "ko": "그 후에 또 세약하고 동풍에 마른 일곱 이삭이 나더니",
+        "en": "After them, seven other heads sprouted—withered and thin and scorched by the east wind."
+      },
+      {
+        "verse": 24,
+        "ko": "그 세약한 이삭이 좋은 일곱 이삭을 삼키더라 내가 그 꿈을 술객에게 말하였으나 그것을 내게 보이는 자가 없느니라'",
+        "en": "The thin heads of grain swallowed up the seven good heads. I told this to the magicians, but none of them could explain it to me.”"
+      },
+      {
+        "verse": 25,
+        "ko": "요셉이 바로에게 고하되 `바로의 꿈은 하나이라 하나님이 그 하실 일을 바로에게 보이심이니이다",
+        "en": "Then Joseph said to Pharaoh, “The dreams of Pharaoh are one and the same. God has revealed to Pharaoh what he is about to do."
+      },
+      {
+        "verse": 26,
+        "ko": "일곱 좋은 암소는 일곱해요, 일곱 좋은 이삭도 일곱해니, 그 꿈은 하나이라",
+        "en": "The seven good cows are seven years, and the seven good heads of grain are seven years; it is one and the same dream."
+      },
+      {
+        "verse": 27,
+        "ko": "그 후에 올라온 파리하고 흉악한 일곱 소는 칠년이요, 동풍에 말라 속이 빈 일곱 이삭도 일곱해 흉년이니",
+        "en": "The seven lean, ugly cows that came up afterward are seven years, and so are the seven worthless heads of grain scorched by the east wind: They are seven years of famine."
+      },
+      {
+        "verse": 28,
+        "ko": "내가 바로에게 고하기를 하나님이 그 하실 일로 바로에게 보이신다 함이 이것이라",
+        "en": "“It is just as I said to Pharaoh: God has shown Pharaoh what he is about to do."
+      },
+      {
+        "verse": 29,
+        "ko": "온 애굽 땅에 일곱해 큰 풍년이 있겠고",
+        "en": "Seven years of great abundance are coming throughout the land of Egypt,"
+      },
+      {
+        "verse": 30,
+        "ko": "후에 일곱해 흉년이 들므로 애굽 땅에 있던 풍년을 다 잊어버리게 되고 이 땅이 기근으로 멸망되리니",
+        "en": "but seven years of famine will follow them. Then all the abundance in Egypt will be forgotten, and the famine will ravage the land."
+      },
+      {
+        "verse": 31,
+        "ko": "후에 든 그 흉년이 너무 심하므로 이전 풍년을 이 땅에서 기억하지 못하게 되리이다",
+        "en": "The abundance in the land will not be remembered, because the famine that follows it will be so severe."
+      },
+      {
+        "verse": 32,
+        "ko": "바로께서 꿈을 두번 겹쳐 꾸신 것은 하나님이 이 일을 정하셨음이라 속히 행하시리니",
+        "en": "The reason the dream was given to Pharaoh in two forms is that the matter has been firmly decided by God, and God will do it soon."
+      },
+      {
+        "verse": 33,
+        "ko": "이제 바로께서는 명철하고 지혜있는 사람을 택하여 애굽 땅을 치리하게 하시고",
+        "en": "“And now let Pharaoh look for a discerning and wise man and put him in charge of the land of Egypt."
+      },
+      {
+        "verse": 34,
+        "ko": "바로께서는 또 이같이 행하사 국중에 여러 관리를 두어 그 일곱해 풍년에 애굽 땅의 오분의 일을 거두되",
+        "en": "Let Pharaoh appoint commissioners over the land to take a fifth of the harvest of Egypt during the seven years of abundance."
+      },
+      {
+        "verse": 35,
+        "ko": "그 관리로 장차 올 풍년의 모든 곡물을 거두고 그 곡물을 바로의 손에 돌려 양식을 위하여 각 성에 적치하게 하소서",
+        "en": "They should collect all the food of these good years that are coming and store up the grain under the authority of Pharaoh, to be kept in the cities for food."
+      },
+      {
+        "verse": 36,
+        "ko": "이와 같이 그 곡물을 이 땅에 저장하여 애굽 땅에 임할 일곱해 흉년을 예비하시면 땅이 이 흉년을 인하여 멸망치 아니하리이다'",
+        "en": "This food should be held in reserve for the country, to be used during the seven years of famine that will come upon Egypt, so that the country may not be ruined by the famine.”"
+      },
+      {
+        "verse": 37,
+        "ko": "바로와 그 모든 신하가 이 일을 좋게 여긴지라",
+        "en": "The plan seemed good to Pharaoh and to all his officials."
+      },
+      {
+        "verse": 38,
+        "ko": "바로가 그 신하들에게 이르되 `이와 같이 하나님의 신이 감동한 사람을 우리가 어찌 얻을 수 있으리요' 하고",
+        "en": "So Pharaoh asked them, “Can we find anyone like this man, one in whom is the spirit of God?”"
+      },
+      {
+        "verse": 39,
+        "ko": "요셉에게 이르되 `하나님이 이 모든 것을 네게 보이셨으니 너와 같이 명철하고 지혜있는 자가 없도다",
+        "en": "Then Pharaoh said to Joseph, “Since God has made all this known to you, there is no one so discerning and wise as you."
+      },
+      {
+        "verse": 40,
+        "ko": "너는 내 집을 치리하라 내 백성이 다 네 명을 복종하리니 나는 너보다 높음이 보좌 뿐이니라'",
+        "en": "You shall be in charge of my palace, and all my people are to submit to your orders. Only with respect to the throne will I be greater than you.”"
+      },
+      {
+        "verse": 41,
+        "ko": "바로가 또 요셉에게 이르되 `내가 너로 애굽 온 땅을 총리하게 하노라' 하고",
+        "en": "So Pharaoh said to Joseph, “I hereby put you in charge of the whole land of Egypt.”"
+      },
+      {
+        "verse": 42,
+        "ko": "자기의 인장 반지를 빼어 요셉의 손에 끼우고 그에게 세마포 옷을 입히고 금사슬을 목에 걸고",
+        "en": "Then Pharaoh took his signet ring from his finger and put it on Joseph`s finger. He dressed him in robes of fine linen and put a gold chain around his neck."
+      },
+      {
+        "verse": 43,
+        "ko": "자기에게 있는 버금 수레에 그를 태우매 무리가 그 앞에서 소리 지르기를 `엎드리라' 하더라 바로가 그로 애굽 전국을 총리하게 하였더라",
+        "en": "He had him ride in a chariot as his second-in-command, and people shouted before him, “Make way!” Thus he put him in charge of the whole land of Egypt."
+      },
+      {
+        "verse": 44,
+        "ko": "바로가 요셉에게 이르되 `나는 바로라 애굽 온 땅에서 네 허락없이는 수족을 놀릴 자가 없으리라' 하고",
+        "en": "Then Pharaoh said to Joseph, “I am Pharaoh, but without your word no one will lift hand or foot in all Egypt.”"
+      },
+      {
+        "verse": 45,
+        "ko": "그가 요셉의 이름을 사브낫바네아라 하고 또 온 제사장 보디베라의 딸 아스낫을 그에게 주어 아내를 삼게 하니라 요셉이 나가 애굽 온 땅을 순찰하니라",
+        "en": "Pharaoh gave Joseph the name Zaphenath-Paneah and gave him Asenath daughter of Potiphera, priest of On, to be his wife. And Joseph went throughout the land of Egypt."
+      },
+      {
+        "verse": 46,
+        "ko": "요셉이 애굽 왕 바로 앞에 설 때에 삼십세라 그가 바로 앞을 떠나 애굽 온 땅을 순찰하니",
+        "en": "Joseph was thirty years old when he entered the service of Pharaoh king of Egypt. And Joseph went out from Pharaoh`s presence and traveled throughout Egypt."
+      },
+      {
+        "verse": 47,
+        "ko": "일곱해 풍년에 토지 소출이 심히 많은지라",
+        "en": "During the seven years of abundance the land produced plentifully."
+      },
+      {
+        "verse": 48,
+        "ko": "요셉이 애굽 땅에 있는 그 칠년 곡물을 거두어 각 성에 저축하되 각 성주위의 밭의 곡물을 그 성중에 저장하매",
+        "en": "Joseph collected all the food produced in those seven years of abundance in Egypt and stored it in the cities. In each city he put the food grown in the fields surrounding it."
+      },
+      {
+        "verse": 49,
+        "ko": "저장한 곡식이 바다 모래같이 심히 많아 세기를 그쳤으니 그 수가 한이 없음이었더라",
+        "en": "Joseph stored up huge quantities of grain, like the sand of the sea; it was so much that he stopped keeping records because it was beyond measure."
+      },
+      {
+        "verse": 50,
+        "ko": "흉년이 들기 전에 요셉에게 두 아들을 낳되 곧 온 제사장 보디베라의 딸 아스낫이 그에게 낳은지라",
+        "en": "Before the years of famine came, two sons were born to Joseph by Asenath daughter of Potiphera, priest of On."
+      },
+      {
+        "verse": 51,
+        "ko": "요셉이 그 장자의 이름을 므낫세라 하였으니 `하나님이 나로 나의 모든 고난과 나의 아비의 온 집 일을 잊어버리게 하셨다' 함이요",
+        "en": "Joseph named his firstborn Manasseh and said, “It is because God has made me forget all my trouble and all my father`s household.”"
+      },
+      {
+        "verse": 52,
+        "ko": "차자의 이름을 에브라임이라 하였으니 `하나님이 나로 나의 수고한 땅에서 창성하게 하셨다' 함이었더라",
+        "en": "The second son he named Ephraim and said, “It is because God has made me fruitful in the land of my suffering.”"
+      },
+      {
+        "verse": 53,
+        "ko": "애굽 땅에 일곱해 풍년이 그치고",
+        "en": "The seven years of abundance in Egypt came to an end,"
+      },
+      {
+        "verse": 54,
+        "ko": "요셉의 말과 같이 일곱해 흉년이 들기 시작하매 각국에는 기근이 있으나 애굽 온 땅에는 식물이 있더니",
+        "en": "and the seven years of famine began, just as Joseph had said. There was famine in all the other lands, but in the whole land of Egypt there was food."
+      },
+      {
+        "verse": 55,
+        "ko": "애굽 온 땅이 주리매 백성이 바로에게 부르짖어 양식을 구하는지라 바로가 애굽 모든 백성에게 이르되 `요셉에게 가서 그가 너희에게 이르는 대로 하라' 하니라",
+        "en": "When all Egypt began to feel the famine, the people cried to Pharaoh for food. Then Pharaoh told all the Egyptians, “Go to Joseph and do what he tells you.”"
+      },
+      {
+        "verse": 56,
+        "ko": "온 지면에 기근이 있으매 요셉이 모든 창고를 열고 애굽 백성에게 팔새 애굽 땅에 기근이 심하며",
+        "en": "When the famine had spread over the whole country, Joseph opened all the storehouses and sold grain to the Egyptians, for the famine was severe throughout Egypt."
+      },
+      {
+        "verse": 57,
+        "ko": "각국 백성도 양식을 사려고 애굽으로 들어와 요셉에게 이르렀으니 기근이 온 세상에 심함이었더라",
+        "en": "And all the world came to Egypt to buy grain from Joseph, because the famine was severe everywhere."
+      }
+    ]
+  },
+  {
+    "chapter": 42,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "때에 야곱이 애굽에 곡식이 있음을 보고 아들들에게 이르되 `너희는 어찌하여 서로 관망만 하느냐 ?'",
+        "en": "When Jacob learned that there was grain in Egypt, he said to his sons, “Why do you just keep looking at each other?”"
+      },
+      {
+        "verse": 2,
+        "ko": "야곱이 또 이르되 `내가 들은즉 저 애굽에 곡식이 있다 하니 너희는 그리로 가서 거기서 우리를 위하여 사오라 그리하면 우리가 살고 죽지 아니하리라 !' 하매",
+        "en": "He continued, “I have heard that there is grain in Egypt. Go down there and buy some for us, so that we may live and not die.”"
+      },
+      {
+        "verse": 3,
+        "ko": "요셉의 형 십인이 애굽에서 곡식을 사려고 내려 갔으나",
+        "en": "Then ten of Joseph`s brothers went down to buy grain from Egypt."
+      },
+      {
+        "verse": 4,
+        "ko": "야곱이 요셉의 아우 베냐민을 그 형들과 함께 보내지 아니하였으니 이는 그의 말이 `재난이 그에게 미칠까 두렵다' 함이었더라",
+        "en": "But Jacob did not send Benjamin, Joseph`s brother, with the others, because he was afraid that harm might come to him."
+      },
+      {
+        "verse": 5,
+        "ko": "이스라엘의 아들들이 양식 사러간 자 중에 있으니 가나안 땅에 기근이 있음이라",
+        "en": "So Israel`s sons were among those who went to buy grain, for there was famine in the land of Canaan also."
+      },
+      {
+        "verse": 6,
+        "ko": "때에 요셉이 나라의 총리로서 그 땅 모든 백성에게 팔더니 요셉의 형들이 와서 그 앞에서 땅에 엎드려 절하매",
+        "en": "Now Joseph was the governor of the land, the person who sold grain to all its people. So when Joseph`s brothers arrived, they bowed down to him with their faces to the ground."
+      },
+      {
+        "verse": 7,
+        "ko": "요셉이 보고 형들인 줄 아나 모르는 체 하고 엄한 소리로 그들에 말하여 가로되 `너희가 어디서 왔느냐 ?' 그들이 가로되 `곡물을 사려고 가나안에서 왔나이다'",
+        "en": "As soon as Joseph saw his brothers, he recognized them, but he pretended to be a stranger and spoke harshly to them. “Where do you come from?” he asked. “From the land of Canaan,” they replied, “to buy food.”"
+      },
+      {
+        "verse": 8,
+        "ko": "요셉은 그 형들을 아나 그들은 요셉을 알지 못하더라",
+        "en": "Although Joseph recognized his brothers, they did not recognize him."
+      },
+      {
+        "verse": 9,
+        "ko": "요셉이 그들에게 대하여 꾼 꿈을 생각하고 그들에게 이르되 `너희는 정탐들이라 이 나라의 틈을 엿보려고 왔느니라'",
+        "en": "Then he remembered his dreams about them and said to them, “You are spies! You have come to see where our land is unprotected.”"
+      },
+      {
+        "verse": 10,
+        "ko": "그들이 그에게 이르되 `내 주여, 아니니이다 종들은 곡물을 사러 왔나이다",
+        "en": "“No, my lord,” they answered. “Your servants have come to buy food."
+      },
+      {
+        "verse": 11,
+        "ko": "우리는 다 한 사람의 아들로서 독실한 자니 종들은 정탐이 아니니이다'",
+        "en": "We are all the sons of one man. Your servants are honest men, not spies.”"
+      },
+      {
+        "verse": 12,
+        "ko": "요셉이 그들에게 이르되 `아니라 너희가 이 나라의 틈을 엿보러 왔느니라'",
+        "en": "“No!” he said to them. “You have come to see where our land is unprotected.”"
+      },
+      {
+        "verse": 13,
+        "ko": "그들이 가로되 `주의 종 우리들은 십 이형제로서 가나안 땅 한 사람의 아들들이라 말째 아들은 오늘 아버지와 함께 있고 또 하나는 없어졌나이다'",
+        "en": "But they replied, “Your servants were twelve brothers, the sons of one man, who lives in the land of Canaan. The youngest is now with our father, and one is no more.”"
+      },
+      {
+        "verse": 14,
+        "ko": "요셉이 그들에게 이르되 `내가 너희에게 이르기를 너희는 정탐들이라 한 말이 이것이니라",
+        "en": "Joseph said to them, “It is just as I told you: You are spies!"
+      },
+      {
+        "verse": 15,
+        "ko": "너희는 이같이 하여 너희 진실함을 증명할 것이라 바로의 생명으로 맹세하노니 너희 말째 아우가 여기 오지 아니하면 너희가 여기서 나가지 못하리라",
+        "en": "And this is how you will be tested: As surely as Pharaoh lives, you will not leave this place unless your youngest brother comes here."
+      },
+      {
+        "verse": 16,
+        "ko": "너희 중 하나를 보내어 너희 아우를 데려오게 하고 너희는 갇히어 있으라 내가 너희의 말을 시험하여 너희 중에 진실이 있는지 보리라 바로의 생명으로 맹세하노니 그리하지 아니하면 너희는 과연 정탐이니라' 하고",
+        "en": "Send one of your number to get your brother; the rest of you will be kept in prison, so that your words may be tested to see if you are telling the truth. If you are not, then as surely as Pharaoh lives, you are spies!”"
+      },
+      {
+        "verse": 17,
+        "ko": "그들을 다 함께 삼일을 가두었더라",
+        "en": "And he put them all in custody for three days."
+      },
+      {
+        "verse": 18,
+        "ko": "삼일만에 요셉이 그들에게 이르되 `나는 하나님을 경외하노니 너희는 이같이 하여 생명을 보전하라",
+        "en": "On the third day, Joseph said to them, “Do this and you will live, for I fear God:"
+      },
+      {
+        "verse": 19,
+        "ko": "너희가 독실한 자이면 너희 형제 중 한 사람만 그 옥에 갇히게 하고 너희는 곡식을 가지고 가서 너희 집들의 주림을 구하고",
+        "en": "If you are honest men, let one of your brothers stay here in prison, while the rest of you go and take grain back for your starving households."
+      },
+      {
+        "verse": 20,
+        "ko": "너희 말째 아우를 내게로 데리고 오라 그리하면 너희 말이 진실함이 되고 너희가 죽지 아니하리라' 그들이 그대로 하니라",
+        "en": "But you must bring your youngest brother to me, so that your words may be verified and that you may not die.” This they proceeded to do."
+      },
+      {
+        "verse": 21,
+        "ko": "그들이 서로 말하되 `우리가 아우의 일로 인하여 범죄하였도다 그가 우리에게 애걸할때에 그 마음의 괴로움을 보고도 듣지 아니하였으므로 이 괴로움이 우리에게 임하도다'",
+        "en": "They said to one another, “Surely we are being punished because of our brother. We saw how distressed he was when he pleaded with us for his life, but we would not listen; that`s why this distress has come on us.”"
+      },
+      {
+        "verse": 22,
+        "ko": "르우벤이 그들에게 대답하여 가로되 `내가 너희더러 그 아이에게 득죄하지 말라고 하지 아니하였느냐 ? 그래도 너희가 듣지 아니하였느니라 그러므로 그의 피 값을 내게 되었도다' 하니",
+        "en": "Reuben replied, “Didn`t I tell you not to sin against the boy? But you wouldn`t listen! Now we must give an accounting for his blood.”"
+      },
+      {
+        "verse": 23,
+        "ko": "피차간에 통변을 세웠으므로 그들은 요셉이 그 말을 알아 들은 줄을 알지 못하였더라",
+        "en": "They did not realize that Joseph could understand them, since he was using an interpreter."
+      },
+      {
+        "verse": 24,
+        "ko": "요셉이 그들을 떠나 가서 울고 다시 돌아와서 그들과 말하다가 그들 중에서 시므온을 취하여 그들의 목전에서 결박하고",
+        "en": "He turned away from them and began to weep, but then came back and spoke to them again. He had Simeon taken from them and bound before their eyes."
+      },
+      {
+        "verse": 25,
+        "ko": "명하여 곡물을 그 그릇에 채우게 하고 각인의 돈은 그 자루에 도로 넣게 하고 또 길 양식을 그들에게 주게 하니 그대로 행하였더라",
+        "en": "Joseph gave orders to fill their bags with grain, to put each man`s silver back in his sack, and to give them provisions for their journey. After this was done for them,"
+      },
+      {
+        "verse": 26,
+        "ko": "그들이 곡식을 나귀에 싣고 그 곳을 떠났더니",
+        "en": "they loaded their grain on their donkeys and left."
+      },
+      {
+        "verse": 27,
+        "ko": "한 사람이 객점에서 나귀에게 먹이를 주려고 자루를 풀고 본즉 그 돈이 자루 아구에 있는지라",
+        "en": "At the place where they stopped for the night one of them opened his sack to get feed for his donkey, and he saw his silver in the mouth of his sack."
+      },
+      {
+        "verse": 28,
+        "ko": "그가 그 형제에게 고하되 `내 돈을 도로 넣었도다 보라, 자루 속에 있도다' 이에 그들이 혼이 나서 떨며 서로 돌아보며 말하되 `하나님이 어찌하여 우리에게 이 일을 행하셨는고' 하고",
+        "en": "“My silver has been returned,” he said to his brothers. “Here it is in my sack.” Their hearts sank and they turned to each other trembling and said, “What is this that God has done to us?”"
+      },
+      {
+        "verse": 29,
+        "ko": "그들이 가나안 땅에 돌아와 그 아비 야곱에게 이르러 그 만난 일을 자세히 고하여 가로되",
+        "en": "When they came to their father Jacob in the land of Canaan, they told him all that had happened to them. They said,"
+      },
+      {
+        "verse": 30,
+        "ko": "`그 땅의 주, 그 사람이 엄히 우리에게 말씀하고 우리를 그 나라 정탐자로 여기기로",
+        "en": "“The man who is lord over the land spoke harshly to us and treated us as though we were spying on the land."
+      },
+      {
+        "verse": 31,
+        "ko": "우리가 그에게 이르되 우리는 독실한 자요 정탐이 아니니이다",
+        "en": "But we said to him, ‘We are honest men; we are not spies."
+      },
+      {
+        "verse": 32,
+        "ko": "우리는 한 아비의 아들 십 이 형제로서 하나는 없어지고 말째는 오늘 우리 아버지와 함께 가나안 땅에 있나이다 하였더니",
+        "en": "We were twelve brothers, sons of one father. One is no more, and the youngest is now with our father in Canaan.`"
+      },
+      {
+        "verse": 33,
+        "ko": "그 땅의 주 그 사람이 우리에게 이르되 내가 이같이 하여 너희가 독실한 자임을 알리니 너희 형제 중 하나를 내게 두고 양식을 가지고 가서 너희 집들의 주림을 구하고",
+        "en": "“Then the man who is lord over the land said to us, ‘This is how I will know whether you are honest men: Leave one of your brothers here with me, and take food for your starving households and go."
+      },
+      {
+        "verse": 34,
+        "ko": "너희 말째 아우를 내게로 데려오라 그리하면 너희가 정탐이 아니요 독실한 자임을 내가 알고 너희 형제를 너희에게 돌리리니 너희가 이 나라에서 무역하리라 하더이다' 하고",
+        "en": "But bring your youngest brother to me so I will know that you are not spies but honest men. Then I will give your brother back to you, and you can trade in the land.`”"
+      },
+      {
+        "verse": 35,
+        "ko": "각기 자루를 쏟고 본즉 각인의 돈뭉치가 그 자루 속에 있는지라 그들과 그 아비가 돈 뭉치를 보고 다 두려워하더니",
+        "en": "As they were emptying their sacks, there in each man`s sack was his pouch of silver! When they and their father saw the money pouches, they were frightened."
+      },
+      {
+        "verse": 36,
+        "ko": "그 아비 야곱이 그들에게 이르되 `너희가 나로 나의 자식들을 잃게 하도다 요셉도 없어졌고 시므온도 없어졌거늘 베냐민을 또 빼앗아 가고자 하니 이는 다 나를 해롭게 함이로다'",
+        "en": "Their father Jacob said to them, “You have deprived me of my children. Joseph is no more and Simeon is no more, and now you want to take Benjamin. Everything is against me!”"
+      },
+      {
+        "verse": 37,
+        "ko": "르우벤이 아비에게 고하여 가로되 `내가 그를 아버지께로 데리고 오지 아니하거든 나의 두 아들을 죽이소서 그를 내 손에 맡기소서 내가 그를 아버지께로 데리고 돌아오리이다'",
+        "en": "Then Reuben said to his father, “You may put both of my sons to death if I do not bring him back to you. Entrust him to my care, and I will bring him back.”"
+      },
+      {
+        "verse": 38,
+        "ko": "야곱이 가로되 `내 아들은 너희와 함께 내려가지 못하리니 그의 형은 죽고 그만 남았음이라 만일 너희 행하는 길에서 재난이 그 몸에 미치면 너희가 나의 흰 머리로 슬피 음부로 내려가게 함이 되리라'",
+        "en": "But Jacob said, “My son will not go down there with you; his brother is dead and he is the only one left. If harm comes to him on the journey you are taking, you will bring my gray head down to the grave in sorrow.”"
+      }
+    ]
+  },
+  {
+    "chapter": 43,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "그 땅에 기근이 심하고",
+        "en": "Now the famine was still severe in the land."
+      },
+      {
+        "verse": 2,
+        "ko": "그들이 애굽에서 가져온 곡식을 다 먹으매 그 아비가 그들에게 이르되 `다시 가서 우리를 위하여 양식을 조금 사라'",
+        "en": "So when they had eaten all the grain they had brought from Egypt, their father said to them, “Go back and buy us a little more food.”"
+      },
+      {
+        "verse": 3,
+        "ko": "유다가 아비에게 말하여 가로되 `그 사람이 엄히 우리에게 경계하여 가로되 너희 아우가 너희와 함께 하지 아니하면 너희가 내 얼굴을 보지 못하리라 하였으니",
+        "en": "But Judah said to him, “The man warned us solemnly, ‘You will not see my face again unless your brother is with you.`"
+      },
+      {
+        "verse": 4,
+        "ko": "아버지께서 우리 아우를 우리와 함께 보내시면 우리가 내려가서 아버지를 위하여 양식을 사려니와",
+        "en": "If you will send our brother along with us, we will go down and buy food for you."
+      },
+      {
+        "verse": 5,
+        "ko": "아버지께서 만일 그를 보내지 않으시면 우리는 내려가지 아니하리니 그 사람이 우리에게 말하기를 너희 아우가 너희와 함께하지 아니하면 너희가 내 얼굴을 보지 못하리라 하였음이니이다'",
+        "en": "But if you will not send him, we will not go down, because the man said to us, ‘You will not see my face again unless your brother is with you.`”"
+      },
+      {
+        "verse": 6,
+        "ko": "이스라엘이 가로되 `너희가 어찌하여 너희에게 오히려 아우가 있다고 그 사람에게 고하여 나를 해롭게 하였느냐 ?'",
+        "en": "Israel asked, “Why did you bring this trouble on me by telling the man you had another brother?”"
+      },
+      {
+        "verse": 7,
+        "ko": "그들이 가로되 `그 사람이 우리와 우리의 친족에 대하여 자세히 힐문하여 이르기를 너희 아버지가 그저 살았느냐 ? 너희에게 아우가 있느냐 ? 하기로 그 말을 조조이 그에게 대답한 것이라 그가 너희 아우를 데리고 내려오라 할 줄을 우리가 어찌 알았으리이까 ?'",
+        "en": "They replied, “The man questioned us closely about ourselves and our family. ‘Is your father still living?` he asked us. ‘Do you have another brother?` We simply answered his questions. How were we to know he would say, ‘Bring your brother down here`?”"
+      },
+      {
+        "verse": 8,
+        "ko": "유다가 아비 이스라엘에게 이르되 `저 아이를 나와 함께 보내시면 우리가 곧 가리니 그러면 우리와 아버지와 우리 어린 것들이 다 살고 죽지 아니하리이다",
+        "en": "Then Judah said to Israel his father, “Send the boy along with me and we will go at once, so that we and you and our children may live and not die."
+      },
+      {
+        "verse": 9,
+        "ko": "내가 그의 몸을 담보하오리니 아버지께서 내 손에 그를 물으소서 내가 만일 그를 아버지께 데려다가 아버지 앞에 두지 아니하면 내가 영원히 죄를 지리이다",
+        "en": "I myself will guarantee his safety; you can hold me personally responsible for him. If I do not bring him back to you and set him here before you, I will bear the blame before you all my life."
+      },
+      {
+        "verse": 10,
+        "ko": "우리가 지체하지 아니하였더면 벌써 두번 갔다 왔으리이다`",
+        "en": "As it is, if we had not delayed, we could have gone and returned twice.”"
+      },
+      {
+        "verse": 11,
+        "ko": "그들의 아비 이스라엘이 그들에게 이르되 `그러할진대 이렇게 하라 너희는 이 땅의 아름다운 소산을 그릇에 담아가지고 내려가서그 사람에게 예물을 삼을지니 곧 유향 조금과, 꿀 조금과, 향품과, 몰약과, 비자와, 파단행이니라",
+        "en": "Then their father Israel said to them, “If it must be, then do this: Put some of the best products of the land in your bags and take them down to the man as a gift—a little balm and a little honey, some spices and myrrh, some pistachio nuts and almonds."
+      },
+      {
+        "verse": 12,
+        "ko": "너희 손에 돈을 배나 가지고 너희 자루 아구에 도로 넣여 온 그 돈을 다시 가지고 가라 혹 차착이 있었을까 두렵도다",
+        "en": "Take double the amount of silver with you, for you must return the silver that was put back into the mouths of your sacks. Perhaps it was a mistake."
+      },
+      {
+        "verse": 13,
+        "ko": "네 아우도 데리고 떠나 다시 그 사람에게로 가라",
+        "en": "Take your brother also and go back to the man at once."
+      },
+      {
+        "verse": 14,
+        "ko": "전능하신 하나님께서 그 사람 앞에서 너희에게 은혜를 베푸사 그 사람으로 너희 다른 형제와 베냐민을 돌려보내게 하시기를 원하노라 내가 자식을 잃게 되면 잃으리로다 !'",
+        "en": "And may God Almighty grant you mercy before the man so that he will let your other brother and Benjamin come back with you. As for me, if I am bereaved, I am bereaved.”"
+      },
+      {
+        "verse": 15,
+        "ko": "그 사람들이 그 예물을 취하고 갑절 돈을 자기들의 손에 가지고 베냐민을 데리고 애굽에 내려가서 요셉의 앞에 서니라",
+        "en": "So the men took the gifts and double the amount of silver, and Benjamin also. They hurried down to Egypt and presented themselves to Joseph."
+      },
+      {
+        "verse": 16,
+        "ko": "요셉이 베냐민이 그들과 함께 있음을 보고 청지기에게 이르되 `이 사람들을 집으로 인도해 들이고 짐승을 잡고 준비하라 이 사람들이 오정에 나와 함께 먹을 것이니라'",
+        "en": "When Joseph saw Benjamin with them, he said to the steward of his house, “Take these men to my house, slaughter an animal and prepare a meal; they are to eat with me at noon.”"
+      },
+      {
+        "verse": 17,
+        "ko": "그 사람이 요셉의 명대로 하여 그 사람들을 요셉의 집으로 인도하니",
+        "en": "The man did as Joseph told him and took the men to Joseph`s house."
+      },
+      {
+        "verse": 18,
+        "ko": "그 사람들이 요셉의 집으로 인도되매 두려워하여 이르되 `전일 우리 자루에 넣여 있던 돈의 일로 우리가 끌려드도다 이는 우리를 잡아 노예를 삼고 우리의 나귀를 빼앗으려 함이로다' 하고",
+        "en": "Now the men were frightened when they were taken to his house. They thought, “We were brought here because of the silver that was put back into our sacks the first time. He wants to attack us and overpower us and seize us as slaves and take our donkeys.”"
+      },
+      {
+        "verse": 19,
+        "ko": "그들이 요셉의 청지기에게 가까이 나아가 그 집 문앞에서 그에게 고하여",
+        "en": "So they went up to Joseph`s steward and spoke to him at the entrance to the house."
+      },
+      {
+        "verse": 20,
+        "ko": "가로되 `내 주여, 우리가 전일에 내려와서 양식을 사가지고",
+        "en": "“We beg your pardon, our lord,” they said, “we came down here the first time to buy food."
+      },
+      {
+        "verse": 21,
+        "ko": "객점에 이르러 자루를 풀어본즉 각인의 돈이 본수대로 자루 아구에 있기로 우리가 도로 가져 왔고",
+        "en": "But at the place where we stopped for the night we opened our sacks and each of us found his silver—the exact weight—in the mouth of his sack. So we have brought it back with us."
+      },
+      {
+        "verse": 22,
+        "ko": "양식 살 다른 돈도 우리가 가지고 내려왔나이다 우리의 돈을 우리 자루에 넣은 자는 누구인지 우리가 알지 못하나이다'",
+        "en": "We have also brought additional silver with us to buy food. We don`t know who put our silver in our sacks.”"
+      },
+      {
+        "verse": 23,
+        "ko": "그가 이르되 `너희는 안심하라 두려워 말라 ! 너희 하나님 너희 아버지의 하나님이 재물을 너희 자루에 넣어 너희에게 주신 것이니라 너희 돈은 내가 이미 받았느니라' 하고 시므온을 그들에게로 이끌어 내고",
+        "en": "“It`s all right,” he said. “Don`t be afraid. Your God, the God of your father, has given you treasure in your sacks; I received your silver.” Then he brought Simeon out to them."
+      },
+      {
+        "verse": 24,
+        "ko": "그들을 요셉의 집으로 인도하고 물을 주어 발을 씻게 하며 그 나귀에게 먹이를 주더라",
+        "en": "The steward took the men into Joseph`s house, gave them water to wash their feet and provided fodder for their donkeys."
+      },
+      {
+        "verse": 25,
+        "ko": "그들이 여기서 먹겠다 함을 들으므로 예물을 정돈하고 요셉이 오정에 오기를 기다리더니",
+        "en": "They prepared their gifts for Joseph`s arrival at noon, because they had heard that they were to eat there."
+      },
+      {
+        "verse": 26,
+        "ko": "요셉이 집으로 오매 그들이 그 집으로 들어가서 그 예물을 그에게 드리고 땅에 엎드리어 절하니",
+        "en": "When Joseph came home, they presented to him the gifts they had brought into the house, and they bowed down before him to the ground."
+      },
+      {
+        "verse": 27,
+        "ko": "요셉이 그들의 안부를 물으며 가로되 `너희 아버지 너희가 말하던 그 노인이 안녕하시냐 ? 지금까지 생존하셨느냐 ?'",
+        "en": "He asked them how they were, and then he said, “How is your aged father you told me about? Is he still living?”"
+      },
+      {
+        "verse": 28,
+        "ko": "그들이 대답하되 `주의 종 우리 아비가 평안하고 지금까지 생존하였나이다' 하고 머리 숙여 절하더라",
+        "en": "They replied, “Your servant our father is still alive and well.” And they bowed down, prostrating themselves before him."
+      },
+      {
+        "verse": 29,
+        "ko": "요셉이 눈을 들어 자기 어머니의 아들 자기 동생 베냐민을 보고 가로되 너희가 내게 말하던 너희 작은 동생이 이냐 ? 그가 또 가로되 소자여 하나님이 네게 은혜 베푸시기를 원하노라",
+        "en": "As he looked about and saw his brother Benjamin, his own mother`s son, he asked, “Is this your youngest brother, the one you told me about?” And he said, “God be gracious to you, my son.”"
+      },
+      {
+        "verse": 30,
+        "ko": "요셉이 아우를 인하여 마음이 타는듯 하므로 급히 울곳을 찾아 안방으로 들어가서 울고",
+        "en": "Deeply moved at the sight of his brother, Joseph hurried out and looked for a place to weep. He went into his private room and wept there."
+      },
+      {
+        "verse": 31,
+        "ko": "얼굴을 씻고 나와서 그 정을 억제하고 `음식을 차리라' 하매",
+        "en": "After he had washed his face, he came out and, controlling himself, said, “Serve the food.”"
+      },
+      {
+        "verse": 32,
+        "ko": "그들이 요셉에게 따로 하고 그 형제들에게 따로 하고 배식하는 애굽 사람에게도 따로 하니 애굽 사람은 히브리 사람과 같이 먹으면 부정을 입음이었더라",
+        "en": "They served him by himself, the brothers by themselves, and the Egyptians who ate with him by themselves, because Egyptians could not eat with Hebrews, for that is detestable to Egyptians."
+      },
+      {
+        "verse": 33,
+        "ko": "그들이 요셉의 앞에 앉되 그 장유의 차서대로 앉히운바 되니 그들이 서로 이상히 여겼더라",
+        "en": "The men had been seated before him in the order of their ages, from the firstborn to the youngest; and they looked at each other in astonishment."
+      },
+      {
+        "verse": 34,
+        "ko": "요셉이 자기 식물로 그들에게 주되 베냐민에게는 다른 사람보다 오배나 주매 그들이 마시며 요셉과 함께 즐거워하였더라",
+        "en": "When portions were served to them from Joseph`s table, Benjamin`s portion was five times as much as anyone else`s. So they feasted and drank freely with him."
+      }
+    ]
+  },
+  {
+    "chapter": 44,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "요셉이 그 청지기에 명하여 가로되 `양식을 각인의 자루에 실을 수 있을 만큼 채우고 각인의 돈을 그 자루에 넣고",
+        "en": "Now Joseph gave these instructions to the steward of his house: “Fill the men`s sacks with as much food as they can carry, and put each man`s silver in the mouth of his sack."
+      },
+      {
+        "verse": 2,
+        "ko": "또 잔 내 곧 은잔을 그 소년의 자루 아구에 넣고 그 양식값 돈도 함께 넣으라' 하매 그가 요셉의 명령대로 하고",
+        "en": "Then put my cup, the silver one, in the mouth of the youngest one`s sack, along with the silver for his grain.” And he did as Joseph said."
+      },
+      {
+        "verse": 3,
+        "ko": "개동시에 사람들과 그 나귀를 보내니라",
+        "en": "As morning dawned, the men were sent on their way with their donkeys."
+      },
+      {
+        "verse": 4,
+        "ko": "그들이 성에서 나가 멀리 가기 전에 요셉이 청지기에게 이르되 `일어나 그 사람들의 뒤를 따라 미칠 때에 그들에게 이르기를 너희가 어찌하여 악으로 선을 갚느냐?",
+        "en": "They had not gone far from the city when Joseph said to his steward, “Go after those men at once, and when you catch up with them, say to them, ‘Why have you repaid good with evil?"
+      },
+      {
+        "verse": 5,
+        "ko": "이것은 내 주인이 가지고 마시며 늘 점치는데 쓰는것이 아니냐 ? 너희가 이같이 하니 악하도다 하라'",
+        "en": "Isn`t this the cup my master drinks from and also uses for divination? This is a wicked thing you have done.`”"
+      },
+      {
+        "verse": 6,
+        "ko": "청지기가 그들에게 따라 미쳐 그대로 말하니",
+        "en": "When he caught up with them, he repeated these words to them."
+      },
+      {
+        "verse": 7,
+        "ko": "그들이 그에게 대답하되 `우리 주여, 어찌 이렇게 말씀하시나이까 ? 이런 일은 종들이 결단코 아니하나이다",
+        "en": "But they said to him, “Why does my lord say such things? Far be it from your servants to do anything like that!"
+      },
+      {
+        "verse": 8,
+        "ko": "우리 자루에 있던 돈도 우리가 가나안 땅에서부터 당신에게로 가져왔거늘 우리가 어찌 당신 주인의 집에서 은,금을 도적질 하리이까?",
+        "en": "We even brought back to you from the land of Canaan the silver we found inside the mouths of our sacks. So why would we steal silver or gold from your master`s house?"
+      },
+      {
+        "verse": 9,
+        "ko": "종들 중 뉘게서 발견되든지 그는 죽을 것이요 우리는 우리 주의 종이 되리이다'",
+        "en": "If any of your servants is found to have it, he will die; and the rest of us will become my lord`s slaves.”"
+      },
+      {
+        "verse": 10,
+        "ko": "그가 가로되 `그러면 너희 말과 같이 하리라 그것이 뉘게서든지 발견되면 그는 우리 종이 될 것이요 너희에게는 책망이 없으리라'",
+        "en": "“Very well, then,” he said, “let it be as you say. Whoever is found to have it will become my slave; the rest of you will be free from blame.”"
+      },
+      {
+        "verse": 11,
+        "ko": "그들이 각각 급히 자루를 땅에 내려 놓고 각기 푸니",
+        "en": "Each of them quickly lowered his sack to the ground and opened it."
+      },
+      {
+        "verse": 12,
+        "ko": "그가 나이 많은 자에게서부터 시작하여 나이 적은 자에게까지 수탐하매 잔이 베냐민의 자루에서 발견된지라",
+        "en": "Then the steward proceeded to search, beginning with the oldest and ending with the youngest. And the cup was found in Benjamin`s sack."
+      },
+      {
+        "verse": 13,
+        "ko": "그들이 옷을 찢고 각기 짐을 나귀에 싣고 성으로 돌아오니라",
+        "en": "At this, they tore their clothes. Then they all loaded their donkeys and returned to the city."
+      },
+      {
+        "verse": 14,
+        "ko": "유다와 그 형제들이 요셉의 집에 이르니 요셉이 오히려 그 곳에 있는지라 그 앞 땅에 엎드리니",
+        "en": "Joseph was still in the house when Judah and his brothers came in, and they threw themselves to the ground before him."
+      },
+      {
+        "verse": 15,
+        "ko": "요셉이 그들에게 이르되 `너희가 어찌하여 이런 일을 행하였느냐 ? 나 같은 사람이 점 잘 칠 줄을 너희가 알지 못하느냐 ?'",
+        "en": "Joseph said to them, “What is this you have done? Don`t you know that a man like me can find things out by divination?”"
+      },
+      {
+        "verse": 16,
+        "ko": "유다가 가로되 `우리가 내 주께 무슨 말을 하오리이까 ? 무슨 설명을 하오리이까 ? 어떻게 우리의 정직을 나타내리이까 ? 하나님이 종들의 죄악을 적발하셨으니 우리와 이 잔이 발견된 자가 다 내 주의 종이 되겠나이다'",
+        "en": "“What can we say to my lord?” Judah replied. “What can we say? How can we prove our innocence? God has uncovered your servants` guilt. We are now my lord`s slaves—we ourselves and the one who was found to have the cup.”"
+      },
+      {
+        "verse": 17,
+        "ko": "요셉이 가로되 `내가 결코 그리하지 아니하리라 잔이 그 손에서 발견된 자만 나의 종이 되고 너희는 평안히 너희 아버지께로 도로 올라갈 것이니라'",
+        "en": "But Joseph said, “Far be it from me to do such a thing! Only the man who was found to have the cup will become my slave. The rest of you, go back to your father in peace.”"
+      },
+      {
+        "verse": 18,
+        "ko": "유다가 그에게 가까이 가서 가로되 `내 주여, 청컨대 종으로 내 주의 귀에 한 말씀을 고하게 하소서 주의 종에게 노하지 마옵소서 주는 바로와 같으심이니이다",
+        "en": "Then Judah went up to him and said: “Pardon your servant, my lord, let me speak a word to my lord. Do not be angry with your servant, though you are equal to Pharaoh himself."
+      },
+      {
+        "verse": 19,
+        "ko": "이전에 내 주께서 종들에게 물으시되 너희는 아비가 있느냐 ? 아우가 있느냐 ? 하시기에",
+        "en": "My lord asked his servants, ‘Do you have a father or a brother?`"
+      },
+      {
+        "verse": 20,
+        "ko": "우리가 내 주께 고하되 우리에게 아비가 있으니 노인이요 또 그 노년에 얻은 아들 소년이 있으니 그의 형은 죽고 그 어미의 끼친것은 그 뿐이므로 그 아비가 그를 사랑하나이다 하였더니",
+        "en": "And we answered, ‘We have an aged father, and there is a young son born to him in his old age. His brother is dead, and he is the only one of his mother`s sons left, and his father loves him.`"
+      },
+      {
+        "verse": 21,
+        "ko": "주께서 또 종들에게 이르시되 그를 내게로 데리고 내려와서 나로 그를 목도하게 하라 하시기로",
+        "en": "“Then you said to your servants, ‘Bring him down to me so I can see him for myself.`"
+      },
+      {
+        "verse": 22,
+        "ko": "우리가 내 주께 말씀하기를 그 아이는 아비를 떠나지 못할지니 떠나면 아비가 죽겠나이다",
+        "en": "And we said to my lord, ‘The boy cannot leave his father; if he leaves him, his father will die.`"
+      },
+      {
+        "verse": 23,
+        "ko": "주께서 또 주의 종들에게 말씀하시되 너희 말째 아우가 너희와 함께 내려오지 아니하면 너희가 다시 내 얼굴을 보지 못하리라 하시기로",
+        "en": "But you told your servants, ‘Unless your youngest brother comes down with you, you will not see my face again.`"
+      },
+      {
+        "verse": 24,
+        "ko": "우리가 주의 종 우리 아비에게로 도로 올라가서 내 주의 말씀을 그에게 고하였나이다",
+        "en": "When we went back to your servant my father, we told him what my lord had said."
+      },
+      {
+        "verse": 25,
+        "ko": "그 후에 우리 아비가 다시 가서 곡물을 조금 사오라 하시기로",
+        "en": "“Then our father said, ‘Go back and buy a little more food.`"
+      },
+      {
+        "verse": 26,
+        "ko": "우리가 이르되 우리가 내려갈 수 없나이다 우리 말째 아우가 함께 하면 내려가려니와 말째 아우가 우리와 함께함이 아니면 그 사람의 얼굴을 볼 수 없음이니이다",
+        "en": "But we said, ‘We cannot go down. Only if our youngest brother is with us will we go. We cannot see the man`s face unless our youngest brother is with us.`"
+      },
+      {
+        "verse": 27,
+        "ko": "주의 종 우리 아비가 우리에게 이르되 너희도 알거니와 내 아내가 내게 두 아들을 낳았으나",
+        "en": "“Your servant my father said to us, ‘You know that my wife bore me two sons."
+      },
+      {
+        "verse": 28,
+        "ko": "하나는 내게서 나간고로 내가 말하기를 정녕 찢겨 죽었다하고 내가 지금까지 그를 보지 못하거늘",
+        "en": "One of them went away from me, and I said, “He has surely been torn to pieces.” And I have not seen him since."
+      },
+      {
+        "verse": 29,
+        "ko": "너희가 이도 내게서 취하여 가려한즉 만일 재해가 그 몸에 미치면 나의 흰 머리로 슬피 음부로 내려가게 하리라 하니",
+        "en": "If you take this one from me too and harm comes to him, you will bring my gray head down to the grave in misery.`"
+      },
+      {
+        "verse": 30,
+        "ko": "아비의 생명과 아이의 생명이 서로 결탁되었거늘 이제 내가 주의 종 우리 아비에게 돌아갈 때에 아이가 우리와 함께 하지 아니하면",
+        "en": "“So now, if the boy is not with us when I go back to your servant my father, and if my father, whose life is closely bound up with the boy`s life,"
+      },
+      {
+        "verse": 31,
+        "ko": "아비가 아이의 없음을 보고 죽으리니 이같이 되면 종들이 주의 종 우리 아비의 흰 머리로 슬피 음부로 내려가게 함이니이다",
+        "en": "sees that the boy isn`t there, he will die. Your servants will bring the gray head of our father down to the grave in sorrow."
+      },
+      {
+        "verse": 32,
+        "ko": "주의 종이 내 아비에게 아이를 담보하기를 내가 이를 아버지께로 데리고 돌아오지 아니하면 영영히 아버지께 죄를 지리이다 하였사오니",
+        "en": "Your servant guaranteed the boy`s safety to my father. I said, ‘If I do not bring him back to you, I will bear the blame before you, my father, all my life!`"
+      },
+      {
+        "verse": 33,
+        "ko": "청컨대 주의 종으로 아이를 대신하여 있어서 주의 종이 되게 하시고 아이는 형제와 함께 도로 올려 보내소서",
+        "en": "“Now then, please let your servant remain here as my lord`s slave in place of the boy, and let the boy return with his brothers."
+      },
+      {
+        "verse": 34,
+        "ko": "내가 어찌 아이와 함께 하지 아니하고 내 아비에게로 올라 갈 수 있으리이까 ? 두렵건대 재해가 내 아비에게 미침을 보리이다'",
+        "en": "How can I go back to my father if the boy is not with me? No! Do not let me see the misery that would come on my father.”"
+      }
+    ]
+  },
+  {
+    "chapter": 45,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "요셉이 시종하는 자들 앞에서 그 정을 억제하지 못하여 소리질러 모든 사람을 자기에게서 물러가라 하고 그 형제에게 자기를 알리니 때에 그와 함께 한 자가 없었더라",
+        "en": "Then Joseph could no longer control himself before all his attendants, and he cried out, “Have everyone leave my presence!” So there was no one with Joseph when he made himself known to his brothers."
+      },
+      {
+        "verse": 2,
+        "ko": "요셉이 방성대곡하니 애굽 사람에게 들리며 바로의 궁중에 들리더라",
+        "en": "And he wept so loudly that the Egyptians heard him, and Pharaoh`s household heard about it."
+      },
+      {
+        "verse": 3,
+        "ko": "요셉이 그 형들에게 이르되 `나는 요셉이라 내 아버지께서 아직 살아 계시니이까 ?' 형들이 그 앞에서 놀라서 능히 대답하지 못하는지라",
+        "en": "Joseph said to his brothers, “I am Joseph! Is my father still living?” But his brothers were not able to answer him, because they were terrified at his presence."
+      },
+      {
+        "verse": 4,
+        "ko": "요셉이 형들에게 이르되 `내게로 가까이 오소서` 그들이 가까이 가니 가로되 `나는 당신들의 아우 요셉이니 당신들이 애굽에 판 자라",
+        "en": "Then Joseph said to his brothers, “Come close to me.” When they had done so, he said, “I am your brother Joseph, the one you sold into Egypt!"
+      },
+      {
+        "verse": 5,
+        "ko": "당신들이 나를 이곳에 팔았으므로 근심하지 마소서 한탄하지 마소서 ! 하나님이 생명을 구원하시려고 나를 당신들 앞서 보내셨나이다",
+        "en": "And now, do not be distressed and do not be angry with yourselves for selling me here, because it was to save lives that God sent me ahead of you."
+      },
+      {
+        "verse": 6,
+        "ko": "이 땅에 이년 동안 흉년이 들었으나 아직 오년은 기경도 못하고 추수도 못할지라",
+        "en": "For two years now there has been famine in the land, and for the next five years there will be no plowing and reaping."
+      },
+      {
+        "verse": 7,
+        "ko": "하나님이 큰 구원으로 당신들의 생명을 보존하고 당신들의 후손을 세상에 두시려고 나를 당신들 앞서 보내셨나니",
+        "en": "But God sent me ahead of you to preserve for you a remnant on earth and to save your lives by a great deliverance."
+      },
+      {
+        "verse": 8,
+        "ko": "그런즉 나를 이리로 보낸 자는 당신들이 아니요 하나님이시라 하나님이 나로 바로의 아비를 삼으시며 그 온 집의 주를 삼으시며 애굽 온 땅의 치리자를 삼으셨나이다",
+        "en": "“So then, it was not you who sent me here, but God. He made me father to Pharaoh, lord of his entire household and ruler of all Egypt."
+      },
+      {
+        "verse": 9,
+        "ko": "당신들은 속히 아버지께로 올라가서 고하기를 아버지의 아들 요셉의 말에 하나님이 나를 애굽 전국의 주로 세우셨으니 내게로 지체말고 내려오사",
+        "en": "Now hurry back to my father and say to him, ‘This is what your son Joseph says: God has made me lord of all Egypt. Come down to me; don`t delay."
+      },
+      {
+        "verse": 10,
+        "ko": "아버지의 아들들과 아버지의 손자들과 아버지의 양과 소와 모든 소유가 고센 땅에 있어서 나와 가깝게 하소서",
+        "en": "You shall live in the region of Goshen and be near me—you, your children and grandchildren, your flocks and herds, and all you have."
+      },
+      {
+        "verse": 11,
+        "ko": "흉년이 아직 다섯해가 있으니 내가 거기서 아버지를 봉양하리이다 아버지와 아버지의 가속과 아버지의 모든 소속이 결핍할까 하나이다 하더라 하소서",
+        "en": "I will provide for you there, because five years of famine are still to come. Otherwise you and your household and all who belong to you will become destitute.`"
+      },
+      {
+        "verse": 12,
+        "ko": "당신들의 눈과 내 아우 베냐민의 눈이 보는바 당신들에게 이 말을 하는 것은 내 입이라",
+        "en": "“You can see for yourselves, and so can my brother Benjamin, that it is really I who am speaking to you."
+      },
+      {
+        "verse": 13,
+        "ko": "당신들은 나의 애굽에서의 영화와 당신들의 본 모든 것을 다 내 아버지께 고하고 속히 모시고 내려오소서' 하며",
+        "en": "Tell my father about all the honor accorded me in Egypt and about everything you have seen. And bring my father down here quickly.”"
+      },
+      {
+        "verse": 14,
+        "ko": "자기 아우 베냐민의 목을 안고 우니 베냐민도 요셉의 목을 안고 우니라",
+        "en": "Then he threw his arms around his brother Benjamin and wept, and Benjamin embraced him, weeping."
+      },
+      {
+        "verse": 15,
+        "ko": "요셉이 또 형들과 입맞추며 안고 우니 형들이 그제야 요셉과 말하니라",
+        "en": "And he kissed all his brothers and wept over them. Afterward his brothers talked with him."
+      },
+      {
+        "verse": 16,
+        "ko": "요셉의 형들이 왔다는 소문이 바로의 궁에 들리매 바로와 그 신복이 기뻐하고",
+        "en": "When the news reached Pharaoh`s palace that Joseph`s brothers had come, Pharaoh and all his officials were pleased."
+      },
+      {
+        "verse": 17,
+        "ko": "바로가 요셉에게 이르되 `네 형들에게 명하기를 너희는 이렇게 하여 너희 양식을 싣고 가서 가나안 땅에 이르거든",
+        "en": "Pharaoh said to Joseph, “Tell your brothers, ‘Do this: Load your animals and return to the land of Canaan,"
+      },
+      {
+        "verse": 18,
+        "ko": "너희 아비와 너희 가속을 이끌고 내게로 오라 내가 너희에게 애굽 땅 아름다운 것을 주리니 너희가 나라의 기름진 것을 먹으리라",
+        "en": "and bring your father and your families back to me. I will give you the best of the land of Egypt and you can enjoy the fat of the land.`"
+      },
+      {
+        "verse": 19,
+        "ko": "이제 명을 받았으니 이렇게 하라 너희는 애굽 땅에서 수레를 가져다가 너희 자녀와 아내를 태우고 너희 아비를 데려오라",
+        "en": "“You are also directed to tell them, ‘Do this: Take some carts from Egypt for your children and your wives, and get your father and come."
+      },
+      {
+        "verse": 20,
+        "ko": "또 너희의 기구를 아끼지 말라 온 애굽 땅의 좋은 것이 너희 것임이니라 하라`",
+        "en": "Never mind about your belongings, because the best of all Egypt will be yours.`”"
+      },
+      {
+        "verse": 21,
+        "ko": "이스라엘의 아들들이 그대로 할새 요셉이 바로의 명대로 그들에게로 수레를 주고 길 양식을 주며",
+        "en": "So the sons of Israel did this. Joseph gave them carts, as Pharaoh had commanded, and he also gave them provisions for their journey."
+      },
+      {
+        "verse": 22,
+        "ko": "또 그들에게 다 각기 옷 한벌씩 주되 베냐민에게는 은 삼백과 옷 다섯벌을 주고",
+        "en": "To each of them he gave new clothing, but to Benjamin he gave three hundred shekels of silver and five sets of clothes."
+      },
+      {
+        "verse": 23,
+        "ko": "그가 또 이와 같이 그 아비에게 보내되 수나귀 열 필에 애굽의 아름다운 물품을 실리고 암나귀 열필에는 아비에게 길에서 공궤할 곡식과 떡과 양식을 실리고",
+        "en": "And this is what he sent to his father: ten donkeys loaded with the best things of Egypt, and ten female donkeys loaded with grain and bread and other provisions for his journey."
+      },
+      {
+        "verse": 24,
+        "ko": "이에 형들을 돌려 보내며 그들에게 이르되 `당신들은 노중에서 다투지 말라' 하였더라",
+        "en": "Then he sent his brothers away, and as they were leaving he said to them, “Don`t quarrel on the way!”"
+      },
+      {
+        "verse": 25,
+        "ko": "그들이 애굽에서 올라와 가나안 땅으로 들어가서 아비 야곱에게 이르러",
+        "en": "So they went up out of Egypt and came to their father Jacob in the land of Canaan."
+      },
+      {
+        "verse": 26,
+        "ko": "고하여 가로되 `요셉이 지금까지 살아 있어 애굽 땅 총리가 되었더이다' 야곱이 그들을 믿지 아니하므로 기색하더니",
+        "en": "They told him, “Joseph is still alive! In fact, he is ruler of all Egypt.” Jacob was stunned; he did not believe them."
+      },
+      {
+        "verse": 27,
+        "ko": "그들이 또 요셉이 자기들에게 부탁한 모든 말로 그 아비에게 고하매 그 아비 야곱이 요셉의 자기를 태우려고 보낸 수레를 보고야 기운이 소생한지라",
+        "en": "But when they told him everything Joseph had said to them, and when he saw the carts Joseph had sent to carry him back, the spirit of their father Jacob revived."
+      },
+      {
+        "verse": 28,
+        "ko": "이스라엘이 가로되 `족하도다 내 아들 요셉이 지금까지 살았으니 내가 죽기 전에 가서 그를 보리라'",
+        "en": "And Israel said, “I`m convinced! My son Joseph is still alive. I will go and see him before I die.”"
+      }
+    ]
+  },
+  {
+    "chapter": 46,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "이스라엘이 모든 소유를 이끌고 발행하여 브엘세바에 이르러 그 아비 이삭의 하나님께 희생을 드리니",
+        "en": "So Israel set out with all that was his, and when he reached Beersheba, he offered sacrifices to the God of his father Isaac."
+      },
+      {
+        "verse": 2,
+        "ko": "밤에 하나님이 이상중에 이스라엘에게 나타나시고 불러 가라사대 야곱아 ! 야곱아 ! 하시는지라 야곱이 가로되 `내가 여기 있나이다` 하매",
+        "en": "And God spoke to Israel in a vision at night and said, “Jacob! Jacob!” “Here I am,” he replied."
+      },
+      {
+        "verse": 3,
+        "ko": "하나님이 가라사대 나는 하나님이라 네 아비의 하나님이니 애굽으로 내려가기를 두려워 말라 내가 거기서 너로 큰 민족을 이루게 하리라",
+        "en": "“I am God, the God of your father,” he said. “Do not be afraid to go down to Egypt, for I will make you into a great nation there."
+      },
+      {
+        "verse": 4,
+        "ko": "내가 너와 함께 애굽으로 내려가겠고 정녕 너를 인도하여 다시 올라올 것이며 요셉이 그 손으로 네 눈을 감기리라 하셨더라",
+        "en": "I will go down to Egypt with you, and I will surely bring you back again. And Joseph`s own hand will close your eyes.”"
+      },
+      {
+        "verse": 5,
+        "ko": "야곱이 브엘세바에서 발행할새 이스라엘의 아들들이 바로의 태우려고 보낸 수레에 자기들의 아비 야곱과 자기들의 처자들을 태웠고",
+        "en": "Then Jacob left Beersheba, and Israel`s sons took their father Jacob and their children and their wives in the carts that Pharaoh had sent to transport him."
+      },
+      {
+        "verse": 6,
+        "ko": "그 생축과 가나안 땅에서 얻은 재물을 이끌었으며 야곱과 그 자손들이 다 함께 애굽으로 갔더라",
+        "en": "So Jacob and all his offspring went to Egypt, taking with them their livestock and the possessions they had acquired in Canaan."
+      },
+      {
+        "verse": 7,
+        "ko": "이와 같이 야곱이 그 아들들과 손자들과, 딸들과, 손녀들 곧 그 모든 자손을 데리고 애굽으로 갔더라",
+        "en": "Jacob brought with him to Egypt his sons and grandsons and his daughters and granddaughters—all his offspring."
+      },
+      {
+        "verse": 8,
+        "ko": "애굽으로 내려간 이스라엘 가족의 이름이 이러하니 야곱과 그 아들들 곧 야곱의 맏아들 르우벤과",
+        "en": "These are the names of the sons of Israel (Jacob and his descendants) who went to Egypt: Reuben the firstborn of Jacob."
+      },
+      {
+        "verse": 9,
+        "ko": "르우벤의 아들 하녹과, 발루와, 헤스론과, 갈미요",
+        "en": "The sons of Reuben: Hanok, Pallu, Hezron and Karmi."
+      },
+      {
+        "verse": 10,
+        "ko": "시므온의 아들 곧 여무엘과, 야민과, 오핫과, 야긴과, 스할과, 가나안 여인의 소생 사울이요",
+        "en": "The sons of Simeon: Jemuel, Jamin, Ohad, Jakin, Zohar and Shaul the son of a Canaanite woman."
+      },
+      {
+        "verse": 11,
+        "ko": "레위의 아들 곧 게르손과, 그핫과, 므라리요",
+        "en": "The sons of Levi: Gershon, Kohath and Merari."
+      },
+      {
+        "verse": 12,
+        "ko": "유다의 아들 곧 엘과, 오난과, 셀라와, 베레스와, 세라니, 엘과 오난은 가나안 땅에서 죽었고 또 베레스의 아들 곧 헤스론과, 하물이요",
+        "en": "The sons of Judah: Er, Onan, Shelah, Perez and Zerah (but Er and Onan had died in the land of Canaan). The sons of Perez: Hezron and Hamul."
+      },
+      {
+        "verse": 13,
+        "ko": "잇사갈의 아들 곧 돌라와, 부와와, 욥과, 시므론이요",
+        "en": "The sons of Issachar: Tola, Puah, Jashub and Shimron."
+      },
+      {
+        "verse": 14,
+        "ko": "스불론의 아들 곧 세렛과, 엘론과, 얄르엘이니",
+        "en": "The sons of Zebulun: Sered, Elon and Jahleel."
+      },
+      {
+        "verse": 15,
+        "ko": "이들은 레아가 밧단아람에서 야곱에게 낳은 자손들이라 그 딸 디나를 합하여 남자와 여자가 삼십 삼명이며",
+        "en": "These were the sons Leah bore to Jacob in Paddan Aram, besides his daughter Dinah. These sons and daughters of his were thirty-three in all."
+      },
+      {
+        "verse": 16,
+        "ko": "갓의 아들 곧 시뵨과, 학기와, 수니와, 에스본과, 에리와, 아로디와, 아렐리요",
+        "en": "The sons of Gad: Zephon, Haggi, Shuni, Ezbon, Eri, Arodi and Areli."
+      },
+      {
+        "verse": 17,
+        "ko": "아셀의 아들 곧 임나와, 이스와와, 이스위와, 브리아와 그들의 누이 세라며 또 브리아의 아들 곧 헤벨과, 말기엘이니",
+        "en": "The sons of Asher: Imnah, Ishvah, Ishvi and Beriah. Their sister was Serah. The sons of Beriah: Heber and Malkiel."
+      },
+      {
+        "verse": 18,
+        "ko": "이들은 라반이 그 딸 레아에게 준 실바가 야곱에게 낳은 자손들이라 합 십 륙명이요",
+        "en": "These were the children born to Jacob by Zilpah, whom Laban had given to his daughter Leah—sixteen in all."
+      },
+      {
+        "verse": 19,
+        "ko": "야곱의 아내 라헬의 아들 곧 요셉과, 베냐민이요",
+        "en": "The sons of Jacob`s wife Rachel: Joseph and Benjamin."
+      },
+      {
+        "verse": 20,
+        "ko": "애굽 땅에서 온 제사장 보디베라의 딸 아스낫이 요셉에게 낳은 므낫세와 에브라임이요",
+        "en": "In Egypt, Manasseh and Ephraim were born to Joseph by Asenath daughter of Potiphera, priest of On."
+      },
+      {
+        "verse": 21,
+        "ko": "베냐민의 아들 곧 벨라와, 베겔과, 아스벨과, 게라와, 나아만과, 에히와, 로스와, 뭅빔과, 훔빔과, 아릇이니",
+        "en": "The sons of Benjamin: Bela, Beker, Ashbel, Gera, Naaman, Ehi, Rosh, Muppim, Huppim and Ard."
+      },
+      {
+        "verse": 22,
+        "ko": "이들은 라헬이 야곱에게 낳은 자손이라 합 십 사명이요",
+        "en": "These were the sons of Rachel who were born to Jacob—fourteen in all."
+      },
+      {
+        "verse": 23,
+        "ko": "단의 아들 후심이요",
+        "en": "The son of Dan: Hushim."
+      },
+      {
+        "verse": 24,
+        "ko": "납달리의 아들 곧 야스엘과, 구니와, 예셀과, 실렘이라",
+        "en": "The sons of Naphtali: Jahziel, Guni, Jezer and Shillem."
+      },
+      {
+        "verse": 25,
+        "ko": "이들은 라반이 그 딸 라헬에게 준 빌하가 야곱에게 낳은 자손이니 합이 칠명이라",
+        "en": "These were the sons born to Jacob by Bilhah, whom Laban had given to his daughter Rachel—seven in all."
+      },
+      {
+        "verse": 26,
+        "ko": "야곱과 함께 애굽에 이른 자는 야곱의 자부 외에 육십 륙명이니 이는 다 야곱의 몸에서 나온 자며",
+        "en": "All those who went to Egypt with Jacob—those who were his direct descendants, not counting his sons` wives—numbered sixty-six persons."
+      },
+      {
+        "verse": 27,
+        "ko": "애굽에서 요셉에게 낳은 아들이 두명이니 야곱의 집 사람으로 애굽에 이른 자의 도합이 칠십명이었더라",
+        "en": "With the two sons who had been born to Joseph in Egypt, the members of Jacob`s family, which went to Egypt, were seventy in all."
+      },
+      {
+        "verse": 28,
+        "ko": "야곱이 유다를 요셉에게 미리 보내어 자기를 고센으로 인도하게 하고 다 고센 땅에 이르니",
+        "en": "Now Jacob sent Judah ahead of him to Joseph to get directions to Goshen. When they arrived in the region of Goshen,"
+      },
+      {
+        "verse": 29,
+        "ko": "요셉이 수레를 갖추고 고센으로 올라가서 아비 이스라엘을 맞으며 그에게 보이고 그 목을 어긋맞겨 안고 얼마동안 울매",
+        "en": "Joseph had his chariot made ready and went to Goshen to meet his father Israel. As soon as Joseph appeared before him, he threw his arms around his father and wept for a long time."
+      },
+      {
+        "verse": 30,
+        "ko": "이스라엘이 요셉에게 이르되 `네가 지금까지 살아 있고 내가 네 얼굴을 보았으니 지금 죽어도 가하도다'",
+        "en": "Israel said to Joseph, “Now I am ready to die, since I have seen for myself that you are still alive.”"
+      },
+      {
+        "verse": 31,
+        "ko": "요셉이 그 형들과 아비의 권속에게 이르되 내가 올라가서 바로에게 고하여 이르기를 `가나안 땅에 있던 내 형들과 내 아비의 권속이 내게로 왔는데",
+        "en": "Then Joseph said to his brothers and to his father`s household, “I will go up and speak to Pharaoh and will say to him, ‘My brothers and my father`s household, who were living in the land of Canaan, have come to me."
+      },
+      {
+        "verse": 32,
+        "ko": "그들은 목자라 목축으로 업을 삼으므로 그 양과 소와 모든 소유를 이끌고 왔나이다 하리니",
+        "en": "The men are shepherds; they tend livestock, and they have brought along their flocks and herds and everything they own.`"
+      },
+      {
+        "verse": 33,
+        "ko": "바로가 당신들을 불러서 너희의 업이 무엇이냐 ? 묻거든",
+        "en": "When Pharaoh calls you in and asks, ‘What is your occupation?`"
+      },
+      {
+        "verse": 34,
+        "ko": "당신들은 고하기를 주의 종들은 어렸을 때부터 지금까지 목축하는 자이온데 우리와 우리 선조가 다 그러하니이다 하소서 애굽 사람은 다 목축을 가증히 여기나니 당신들이 고센 땅에 거하게 되리이다`",
+        "en": "you should answer, ‘Your servants have tended livestock from our boyhood on, just as our fathers did.` Then you will be allowed to settle in the region of Goshen, for all shepherds are detestable to the Egyptians.”"
+      }
+    ]
+  },
+  {
+    "chapter": 47,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "요셉이 바로에게 가서 고하여 가로되 `나의 아비와 형들과 그들의 양과 소와 모든 소유가 가나안 땅에서 와서 고센 땅에 있나이다' 하고",
+        "en": "Joseph went and told Pharaoh, “My father and brothers, with their flocks and herds and everything they own, have come from the land of Canaan and are now in Goshen.”"
+      },
+      {
+        "verse": 2,
+        "ko": "형들 중 오인을 택하여 바로에게 보이니",
+        "en": "He chose five of his brothers and presented them before Pharaoh."
+      },
+      {
+        "verse": 3,
+        "ko": "바로가 요셉의 형들에게 묻되 `너희 생업이 무엇이냐 ? 그들이 바로에게 대답하되 `종들은 목자이온데 우리와 선조가 다 그러하니이다' 하고",
+        "en": "Pharaoh asked the brothers, “What is your occupation?” “Your servants are shepherds,” they replied to Pharaoh, “just as our fathers were.”"
+      },
+      {
+        "verse": 4,
+        "ko": "그들이 또 바로에게 고하되 `가나안 땅에 기근이 심하여 종들의 떼를 칠 곳이 없기로 종들이 이곳에 우거하러 왔사오니 청컨대 종들로 고센 땅에 거하게 하소서'",
+        "en": "They also said to him, “We have come to live here for a while, because the famine is severe in Canaan and your servants` flocks have no pasture. So now, please let your servants settle in Goshen.”"
+      },
+      {
+        "verse": 5,
+        "ko": "바로가 요셉에게 일러 가로되 `네 아비와 형들이 네게 왔은즉",
+        "en": "Pharaoh said to Joseph, “Your father and your brothers have come to you,"
+      },
+      {
+        "verse": 6,
+        "ko": "애굽 땅이 네 앞에 있으니 땅의 좋은 곳에 네 아비와 형들로 거하게 하되 고센 땅에 그들로 거하게 하고 그들 중에 능한 자가 있는줄 알거든 그들로 나의 짐승을 주관하게 하라'",
+        "en": "and the land of Egypt is before you; settle your father and your brothers in the best part of the land. Let them live in Goshen. And if you know of any among them with special ability, put them in charge of my own livestock.”"
+      },
+      {
+        "verse": 7,
+        "ko": "요셉이 자기 아비 야곱을 인도하여 바로 앞에 서게 하니 야곱이 바로에게 축복하매",
+        "en": "Then Joseph brought his father Jacob in and presented him before Pharaoh. After Jacob blessed Pharaoh,"
+      },
+      {
+        "verse": 8,
+        "ko": "바로가 야곱에게 묻되 `네 연세가 얼마뇨 ?'",
+        "en": "Pharaoh asked him, “How old are you?”"
+      },
+      {
+        "verse": 9,
+        "ko": "야곱이 바로에게 고하되 `내 나그네 길의 세월이 일백 삼십년이니이다 나의 연세가 얼마 못되니 우리 조상의 나그네 길의 세월에 미치지 못하나 험악한 세월을 보내었나이다' 하고",
+        "en": "And Jacob said to Pharaoh, “The years of my pilgrimage are a hundred and thirty. My years have been few and difficult, and they do not equal the years of the pilgrimage of my fathers.”"
+      },
+      {
+        "verse": 10,
+        "ko": "야곱이 바로에게 축복하고 그 앞에서 나오니라",
+        "en": "Then Jacob blessed Pharaoh and went out from his presence."
+      },
+      {
+        "verse": 11,
+        "ko": "요셉이 바로의 명대로 그 아비와 형들에게 거할 곳을 주되 애굽의 좋은 땅 라암세스를 그들에게 주어 기업을 삼게 하고",
+        "en": "So Joseph settled his father and his brothers in Egypt and gave them property in the best part of the land, the district of Rameses, as Pharaoh directed."
+      },
+      {
+        "verse": 12,
+        "ko": "또 그 아비와 형들과 아비의 온 집에 그 식구를 따라 식물을 주어 공궤하였더라",
+        "en": "Joseph also provided his father and his brothers and all his father`s household with food, according to the number of their children."
+      },
+      {
+        "verse": 13,
+        "ko": "기근이 더욱 심하여 사방에 식물이 없고 애굽 땅과 가나안 땅이 기근으로 쇠약하니",
+        "en": "There was no food, however, in the whole region because the famine was severe; both Egypt and Canaan wasted away because of the famine."
+      },
+      {
+        "verse": 14,
+        "ko": "요셉이 곡식을 팔아 애굽 땅과 가나안 땅에 있는 돈을 몰수히 거두고 그 돈을 바로의 궁으로 가져오니",
+        "en": "Joseph collected all the money that was to be found in Egypt and Canaan in payment for the grain they were buying, and he brought it to Pharaoh`s palace."
+      },
+      {
+        "verse": 15,
+        "ko": "애굽 땅과 가나안 땅에 돈이 진한지라 애굽 백성이 다 요셉에게 와서 가로되 `돈이 진하였사오니 우리에게 식물을 주소서 어찌 주 앞에서 죽으리이까 ?'",
+        "en": "When the money of the people of Egypt and Canaan was gone, all Egypt came to Joseph and said, “Give us food. Why should we die before your eyes? Our money is all gone.”"
+      },
+      {
+        "verse": 16,
+        "ko": "요셉이 가로되 `너희의 짐승을 내라 돈이 진하였은즉 내가 너희의 짐승과 바꾸어 주리라'",
+        "en": "“Then bring your livestock,” said Joseph. “I will sell you food in exchange for your livestock, since your money is gone.”"
+      },
+      {
+        "verse": 17,
+        "ko": "그들이 그 짐승을 요셉에게 끌어 오는지라 요셉이 그 말과 양떼와 소떼와 나귀를 받고 그들에게 식물을 주되 곧 그 모든 짐승과 바꾸어서 그 해 동안에 식물로 그들을 기르니라",
+        "en": "So they brought their livestock to Joseph, and he gave them food in exchange for their horses, their sheep and goats, their cattle and donkeys. And he brought them through that year with food in exchange for all their livestock."
+      },
+      {
+        "verse": 18,
+        "ko": "그 해가 다하고 새 해가 되매 무리가 요셉에게 와서 그에게 고하되 우리가 주께 숨기지 아니하나이다 우리의 돈이 다하였고 우리의 짐승떼가 주께로 돌아갔사오니 주께 낼 것이 아무 것도 남지 아니하고 우리의 몸과 전지뿐이라",
+        "en": "When that year was over, they came to him the following year and said, “We cannot hide from our lord the fact that since our money is gone and our livestock belongs to you, there is nothing left for our lord except our bodies and our land."
+      },
+      {
+        "verse": 19,
+        "ko": "우리가 어찌 우리의 전지와 함께 주의 목전에 죽으리이까 ? 우리 몸과 우리 토지를 식물로 사소서 우리가 토지와 함께 바로의 종이 되리니 우리에게 종자를 주시면 우리가 살고 죽지 아니하고 전지도 황폐치 아니하리이다'",
+        "en": "Why should we perish before your eyes—we and our land as well? Buy us and our land in exchange for food, and we with our land will be in bondage to Pharaoh. Give us seed so that we may live and not die, and that the land may not become desolate.”"
+      },
+      {
+        "verse": 20,
+        "ko": "그러므로 요셉이 애굽 전지를 다 사서 바로에게 드리니 애굽 사람이 기근에 몰려서 각기 전지를 팖이라 땅이 바로의 소유가 되니라",
+        "en": "So Joseph bought all the land in Egypt for Pharaoh. The Egyptians, one and all, sold their fields, because the famine was too severe for them. The land became Pharaoh`s,"
+      },
+      {
+        "verse": 21,
+        "ko": "요셉이 애굽 이 끝에서 저 끝까지의 백성을 성읍들에 옮겼으나",
+        "en": "and Joseph reduced the people to servitude, from one end of Egypt to the other."
+      },
+      {
+        "verse": 22,
+        "ko": "제사장의 전지는 사지 아니하였으니 제사장은 바로에게서 녹을 받음이라 바로의 주는 녹을 먹으므로 그 전지를 팔지 않음이었더라",
+        "en": "However, he did not buy the land of the priests, because they received a regular allotment from Pharaoh and had food enough from the allotment Pharaoh gave them. That is why they did not sell their land."
+      },
+      {
+        "verse": 23,
+        "ko": "요셉이 백성에게 이르되 `오늘날 내가 바로를 위하여 너희 몸과 너희 전지를 샀노라 여기 종자가 있으니 너희는 그 땅에 뿌리라",
+        "en": "Joseph said to the people, “Now that I have bought you and your land today for Pharaoh, here is seed for you so you can plant the ground."
+      },
+      {
+        "verse": 24,
+        "ko": "추수의 오분 일을 바로에게 상납하고 사분은 너희가 취하여 전지의 종자도 삼고 너희의 양식도 삼고 너희 집 사람과 어린 아이의 양식도 삼으라'",
+        "en": "But when the crop comes in, give a fifth of it to Pharaoh. The other four-fifths you may keep as seed for the fields and as food for yourselves and your households and your children.”"
+      },
+      {
+        "verse": 25,
+        "ko": "그들이 가로되 `주께서 우리를 살리셨사오니 우리가 주께 은혜를 입고 바로의 종이 되겠나이다'",
+        "en": "“You have saved our lives,” they said. “May we find favor in the eyes of our lord; we will be in bondage to Pharaoh.”"
+      },
+      {
+        "verse": 26,
+        "ko": "요셉이 애굽 토지법을 세우매 그 오분 일이 바로에게 상납되나 제사장의 토지는 바로의 소유가 되지 아니하여 오늘까지 이르니라",
+        "en": "So Joseph established it as a law concerning land in Egypt—still in force today—that a fifth of the produce belongs to Pharaoh. It was only the land of the priests that did not become Pharaoh`s."
+      },
+      {
+        "verse": 27,
+        "ko": "이스라엘 족속이 애굽 고센 땅에 거하며 거기서 산업을 얻고 생육하며 번성하였더라",
+        "en": "Now the Israelites settled in Egypt in the region of Goshen. They acquired property there and were fruitful and increased greatly in number."
+      },
+      {
+        "verse": 28,
+        "ko": "야곱이 애굽 땅에 십 칠년을 거하였으니 그의 수가 일백 사십 칠세라",
+        "en": "Jacob lived in Egypt seventeen years, and the years of his life were a hundred and forty-seven."
+      },
+      {
+        "verse": 29,
+        "ko": "이스라엘의 죽을 기한이 가까우매 그가 그 아들 요셉을 불러 그에게 이르되 `이제 내가 네게 은혜를 입었거든 청하노니 네 손을 내 환도뼈 아래 넣어서 나를 인애와 성심으로 대접하여 애굽에 장사하지 않기를 맹세하고",
+        "en": "When the time drew near for Israel to die, he called for his son Joseph and said to him, “If I have found favor in your eyes, put your hand under my thigh and promise that you will show me kindness and faithfulness. Do not bury me in Egypt,"
+      },
+      {
+        "verse": 30,
+        "ko": "내가 조상들과 함께 눕거든 너는 나를 애굽에서 메어다가 선영에 장사하라' 요셉이 가로되 `내가 아버지의 말씀대로 행하리이다 !'",
+        "en": "but when I rest with my fathers, carry me out of Egypt and bury me where they are buried.” “I will do as you say,” he said."
+      },
+      {
+        "verse": 31,
+        "ko": "야곱이 또 가로되 `내게 맹세하라' 맹세하니 이스라엘이 침상 머리에서 경배하니라",
+        "en": "“Swear to me,” he said. Then Joseph swore to him, and Israel worshiped as he leaned on the top of his staff."
+      }
+    ]
+  },
+  {
+    "chapter": 48,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "이 일 후에 혹이 요셉에게 고하기를 `네 부친이 병들었다' 하므로 그가 곧 두아들 므낫세와 에브라임과 함께 이르니",
+        "en": "Some time later Joseph was told, “Your father is ill.” So he took his two sons Manasseh and Ephraim along with him."
+      },
+      {
+        "verse": 2,
+        "ko": "혹이 야곱에게 고하되 `네 아들 요셉이 네게 왔다' 하매 이스라엘이 힘을 내어 침상에 앉아",
+        "en": "When Jacob was told, “Your son Joseph has come to you,” Israel rallied his strength and sat up on the bed."
+      },
+      {
+        "verse": 3,
+        "ko": "요셉에게 이르되 `이전에 가나안 땅 루스에서 전능한 하나님이 내게 나타나 복을 허락하여",
+        "en": "Jacob said to Joseph, “God Almighty appeared to me at Luz in the land of Canaan, and there he blessed me"
+      },
+      {
+        "verse": 4,
+        "ko": "내게 이르시되 내가 너로 생육하게 하며 번성하게 하여 네게서 많은 백성이 나게 하고 내가 이 땅을 네 후손에게 주어 영원한 기업이 되게 하리라 하셨느니라",
+        "en": "and said to me, ‘I am going to make you fruitful and increase your numbers. I will make you a community of peoples, and I will give this land as an everlasting possession to your descendants after you.`"
+      },
+      {
+        "verse": 5,
+        "ko": "내가 애굽으로 와서 네게 이르기 전에 애굽에서 네게 낳은 두 아들 에브라임과 므낫세는 내 것이라 르우벤과 시므온처럼 내 것이 될 것이요",
+        "en": "“Now then, your two sons born to you in Egypt before I came to you here will be reckoned as mine; Ephraim and Manasseh will be mine, just as Reuben and Simeon are mine."
+      },
+      {
+        "verse": 6,
+        "ko": "이들 후의 네 소생이 네 것이 될 것이며 그 산업은 그 형의 명의하에서 함께 하리라",
+        "en": "Any children born to you after them will be yours; in the territory they inherit they will be reckoned under the names of their brothers."
+      },
+      {
+        "verse": 7,
+        "ko": "내게 관하여는 내가 이전에 내가 밧단에서 올 때에 라헬이 나를 따르는 노중 가나안 땅에서 죽었는데 그곳은 에브랏까지 길이 오히려 격한 곳이라 내가 거기서 그를 에브랏 길에 장사 하였느니라' (에브랏은 곧 베들레헴이라)",
+        "en": "As I was returning from Paddan, to my sorrow Rachel died in the land of Canaan while we were still on the way, a little distance from Ephrath. So I buried her there beside the road to Ephrath” (that is, Bethlehem)."
+      },
+      {
+        "verse": 8,
+        "ko": "이스라엘이 요셉의 아들들을 보고 가로되 `이들은 누구냐 ?`",
+        "en": "When Israel saw the sons of Joseph, he asked, “Who are these?”"
+      },
+      {
+        "verse": 9,
+        "ko": "요셉이 그 아비에게 고하되 `이는 하나님이 여기서 내게 주신 아들들이니이다` 아비가 가로되 `그들을 이끌어 내 앞으로 나아오라 내가 그들에게 축복하리라'",
+        "en": "“They are the sons God has given me here,” Joseph said to his father. Then Israel said, “Bring them to me so I may bless them.”"
+      },
+      {
+        "verse": 10,
+        "ko": "이스라엘의 눈이 나이로 인하여 어두워서 보지 못하더라 요셉이 두 아들을 이끌어 아비 앞으로 나아가니 이스라엘이 그들에게 입맞추고 그들을 안고",
+        "en": "Now Israel`s eyes were failing because of old age, and he could hardly see. So Joseph brought his sons close to him, and his father kissed them and embraced them."
+      },
+      {
+        "verse": 11,
+        "ko": "요셉에게 이르되 `내가 네 얼굴을 보리라고는 뜻하지 못하였더니 하나님이 내게 네 소생까지 보이셨도다'",
+        "en": "Israel said to Joseph, “I never expected to see your face again, and now God has allowed me to see your children too.”"
+      },
+      {
+        "verse": 12,
+        "ko": "요셉이 아비 무릎 사이에서 두 아들을 물리고 땅에 엎드려 절하고",
+        "en": "Then Joseph removed them from Israel`s knees and bowed down with his face to the ground."
+      },
+      {
+        "verse": 13,
+        "ko": "우수로는 에브라임을 이스라엘의 좌수를 향하게 하고 좌수로는 므낫세를 이스라엘의 우수를 향하게 하고 이끌어 그에게 가까이 나아가매",
+        "en": "And Joseph took both of them, Ephraim on his right toward Israel`s left hand and Manasseh on his left toward Israel`s right hand, and brought them close to him."
+      },
+      {
+        "verse": 14,
+        "ko": "이스라엘이 우수를 차자 에브라임의 머리에 얹고 좌수를 펴서 므낫세의 머리에 얹으니 므낫세는 장자라도 팔을 어긋맞겨 얹었더라",
+        "en": "But Israel reached out his right hand and put it on Ephraim`s head, though he was the younger, and crossing his arms, he put his left hand on Manasseh`s head, even though Manasseh was the firstborn."
+      },
+      {
+        "verse": 15,
+        "ko": "그가 요셉을 위하여 축복하여 가로되 `내 조부 아브라함과 아버지 이삭의 섬기던 하나님, 나의 남으로부터 지금까지 나를 기르신 하나님,",
+        "en": "Then he blessed Joseph and said, “May the God before whom my fathers Abraham and Isaac walked faithfully, the God who has been my shepherd all my life to this day,"
+      },
+      {
+        "verse": 16,
+        "ko": "나를 모든 환난에서 건지신 사자께서 이 아이에게 복을 주시오며 이들로 내 이름과 내 조부 아브라함과 아버지 이삭의 이름으로 칭하게 하시오며 이들로 세상에서 번식되게 하시기를 원하나이다'",
+        "en": "the Angel who has delivered me from all harm —may he bless these boys. May they be called by my name and the names of my fathers Abraham and Isaac, and may they increase greatly on the earth.”"
+      },
+      {
+        "verse": 17,
+        "ko": "요셉이 그 아비가 우수를 에브라임의 머리에 얹은 것을 보고 기뻐 아니하여 아비의 손을 들어 에브라임의 머리에서 므낫세의 머리로 옮기고자 하여",
+        "en": "When Joseph saw his father placing his right hand on Ephraim`s head he was displeased; so he took hold of his father`s hand to move it from Ephraim`s head to Manasseh`s head."
+      },
+      {
+        "verse": 18,
+        "ko": "그 아비에게 이르되 `아버지여, 그리 마옵소서 이는 장자니 우수를 그 머리에 얹으소서'",
+        "en": "Joseph said to him, “No, my father, this one is the firstborn; put your right hand on his head.”"
+      },
+      {
+        "verse": 19,
+        "ko": "아비가 허락지 아니하여 가로되 `나도 안다 내 아들아 ! 나도 안다 그도 한 족속이 되며 그도 크게 되려니와 그 아우가 그보다 큰 자가 되고 그 자손이 여러 민족을 이루리라` 하고",
+        "en": "But his father refused and said, “I know, my son, I know. He too will become a people, and he too will become great. Nevertheless, his younger brother will be greater than he, and his descendants will become a group of nations.”"
+      },
+      {
+        "verse": 20,
+        "ko": "그 날에 그들에게 축복하여 가로되 `이스라엘 족속이 너로 축복하기를 하나님이 너로 에브라임 같고 므낫세같게 하시리라 하리라' 하여 에브라임을 므낫세보다 앞세웠더라",
+        "en": "He blessed them that day and said, “In your name will Israel pronounce this blessing: ‘May God make you like Ephraim and Manasseh.`” So he put Ephraim ahead of Manasseh."
+      },
+      {
+        "verse": 21,
+        "ko": "이스라엘이 요셉에게 또 이르되 `나는 죽으나 하나님이 너희와 함께 계시사 너희를 인도하여 너희 조상의 땅으로 돌아가게 하시려니와",
+        "en": "Then Israel said to Joseph, “I am about to die, but God will be with you and take you back to the land of your fathers."
+      },
+      {
+        "verse": 22,
+        "ko": "내가 네게 네 형제보다 일부분을 더 주었나니 이는 내가 내 칼과 활로 아모리 족속의 손에서 빼앗은 것이니라'",
+        "en": "And to you I give one more ridge of land than to your brothers, the ridge I took from the Amorites with my sword and my bow.”"
+      }
+    ]
+  },
+  {
+    "chapter": 49,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "야곱이 그 아들들을 불러 이르되 너희는 모이라 너희의 후일에 당할 일을 내가 너희에게 이르리라",
+        "en": "Then Jacob called for his sons and said: “Gather around so I can tell you what will happen to you in days to come."
+      },
+      {
+        "verse": 2,
+        "ko": "너희는 모여 들으라 야곱의 아들들아 너희 아비 이스라엘에게 들을지어다.",
+        "en": "“Assemble and listen, sons of Jacob; listen to your father Israel."
+      },
+      {
+        "verse": 3,
+        "ko": "르우벤아 너는 내 장자요 나의 능력이요 나의 기력의 시작이라 위광이 초등하고 권능이 탁월하도다마는",
+        "en": "“Reuben, you are my firstborn, my might, the first sign of my strength, excelling in honor, excelling in power."
+      },
+      {
+        "verse": 4,
+        "ko": "물의 끓음 같았은즉 너는 탁월치 못하리니 네가 아비의 침상에 올라 더럽혔음이로다 그가 내 침상에 올랐었도다",
+        "en": "Turbulent as the waters, you will no longer excel, for you went up onto your father`s bed, onto my couch and defiled it."
+      },
+      {
+        "verse": 5,
+        "ko": "시므온과 레위는 형제요 그들의 칼은 잔해하는 기계로다",
+        "en": "“Simeon and Levi are brothers— their swords are weapons of violence."
+      },
+      {
+        "verse": 6,
+        "ko": "내 혼아, 그들의 모의에 상관하지 말지어다 내 영광아 그들의 집회에 참여하지 말지어다 그들이 그 분노대로 사람을 죽이고 그 혈기대로 소의 발목 힘줄을 끊었음이로다",
+        "en": "Let me not enter their council, let me not join their assembly, for they have killed men in their anger and hamstrung oxen as they pleased."
+      },
+      {
+        "verse": 7,
+        "ko": "그 노염이 혹독하니 저주를 받을 것이요 분기가 맹렬하니 저주를 받을 것이라 내가 그들을 야곱중에서 나누며 이스라엘 중에서 흩으리로다",
+        "en": "Cursed be their anger, so fierce, and their fury, so cruel! I will scatter them in Jacob and disperse them in Israel."
+      },
+      {
+        "verse": 8,
+        "ko": "유다야, 너는 네 형제의 찬송이 될지라 ! 네 손이 네 원수의 목을 잡을 것이요 네 아비의 아들들이 네 앞에 절하리로다",
+        "en": "“Judah, your brothers will praise you; your hand will be on the neck of your enemies; your father`s sons will bow down to you."
+      },
+      {
+        "verse": 9,
+        "ko": "유다는 사자 새끼로다 내 아들아 ! 너는 움킨 것을 찢고 올라 갔도다 그의 엎드리고 웅크림이 수사자 같고 암사자 같으니 누가 그를 범할 수 있으랴",
+        "en": "You are a lion`s cub, Judah; you return from the prey, my son. Like a lion he crouches and lies down, like a lioness—who dares to rouse him?"
+      },
+      {
+        "verse": 10,
+        "ko": "홀이 유다를 떠나지 아니하며 치리자의 지팡이가 그 발 사이에서 떠나지 아니하시기를 실로가 오시기까지 미치리니 그에게 모든 백성이 복종하리로다",
+        "en": "The scepter will not depart from Judah, nor the ruler`s staff from between his feet, until he to whom it belongs shall come and the obedience of the nations shall be his."
+      },
+      {
+        "verse": 11,
+        "ko": "그의 나귀를 포도나무에 매며 그 암나귀 새끼를 아름다운 포도나무에 맬 것이며 또 그 옷을 포도주에 빨며 그 복장을 포도즙에 빨리로다",
+        "en": "He will tether his donkey to a vine, his colt to the choicest branch; he will wash his garments in wine, his robes in the blood of grapes."
+      },
+      {
+        "verse": 12,
+        "ko": "그 눈은 포도주로 인하여 붉겠고 그 이는 우유로 인하여 희리로다",
+        "en": "His eyes will be darker than wine, his teeth whiter than milk."
+      },
+      {
+        "verse": 13,
+        "ko": "스불론은 해변에 거하리니 그곳은 배 매는 해변이라 그 지경이 시돈까지리로다",
+        "en": "“Zebulun will live by the seashore and become a haven for ships; his border will extend toward Sidon."
+      },
+      {
+        "verse": 14,
+        "ko": "잇사갈은 양의 우리 사이에 꿇어 앉은 건장한 나귀로다",
+        "en": "“Issachar is a rawboned donkey lying down among the sheep pens."
+      },
+      {
+        "verse": 15,
+        "ko": "그는 쉴 곳을 보고 좋게 여기며 토지를 보고 아름답게 여기고 어깨를 내려 짐을 메고 압제 아래서 섬기리로다",
+        "en": "When he sees how good is his resting place and how pleasant is his land, he will bend his shoulder to the burden and submit to forced labor."
+      },
+      {
+        "verse": 16,
+        "ko": "단은 이스라엘의 한 지파같이 그 백성을 심판하리로다",
+        "en": "“Dan will provide justice for his people as one of the tribes of Israel."
+      },
+      {
+        "verse": 17,
+        "ko": "단은 길의 뱀이요 첩경의 독사리로다 말굽을 물어서 그 탄 자로 뒤로 떨어지게 하리로다",
+        "en": "Dan will be a snake by the roadside, a viper along the path, that bites the horse`s heels so that its rider tumbles backward."
+      },
+      {
+        "verse": 18,
+        "ko": "여호와여 ! 나는 주의 구원을 기다리나이다",
+        "en": "“I look for your deliverance, Lord."
+      },
+      {
+        "verse": 19,
+        "ko": "갓은 군대의 박격을 받으나 도리어 그 뒤를 추격하리로다",
+        "en": "“Gad will be attacked by a band of raiders, but he will attack them at their heels."
+      },
+      {
+        "verse": 20,
+        "ko": "아셀에게서 나는 식물은 기름진 것이라 그가 왕의 진수를 공궤하리로다",
+        "en": "“Asher`s food will be rich; he will provide delicacies fit for a king."
+      },
+      {
+        "verse": 21,
+        "ko": "납달리는 놓인 암사슴이라 아름다운 소리를 발하는도다",
+        "en": "“Naphtali is a doe set free that bears beautiful fawns."
+      },
+      {
+        "verse": 22,
+        "ko": "요셉은 무성한 가지 곧 샘 곁의 무성한 가지라 그 가지가 담을 넘었도다",
+        "en": "“Joseph is a fruitful vine, a fruitful vine near a spring, whose branches climb over a wall."
+      },
+      {
+        "verse": 23,
+        "ko": "활쏘는 자가 그를 학대하며 그를 쏘며 그를 군박하였으나",
+        "en": "With bitterness archers attacked him; they shot at him with hostility."
+      },
+      {
+        "verse": 24,
+        "ko": "요셉의 활이 도리어 견강하며 그의 팔이 힘이 있으니 야곱의 전능자의 손을 힘입음이라 그로부터 이스라엘의 반석인 목자가 나도다",
+        "en": "But his bow remained steady, his strong arms stayed limber, because of the hand of the Mighty One of Jacob, because of the Shepherd, the Rock of Israel,"
+      },
+      {
+        "verse": 25,
+        "ko": "네 아비의 하나님께로 말미암나니 그가 너를 도우실 것이요 전능자로 말미암나니 그가 네게 복을 주실 것이라 위로 하늘의 복과 아래로 원천의 복과 젖먹이는 복과 태의 복이리로다",
+        "en": "because of your father`s God, who helps you, because of the Almighty, who blesses you with blessings of the skies above, blessings of the deep springs below, blessings of the breast and womb."
+      },
+      {
+        "verse": 26,
+        "ko": "네 아비의 축복이 내 부여조의 축복보다 나아서 영원한 산이 한 없음같이 이 축복이 요셉의 머리로 돌아오며 그 형제중 뛰어난 자의 정수리로 돌아오리로다",
+        "en": "Your father`s blessings are greater than the blessings of the ancient mountains, than the bounty of the age-old hills. Let all these rest on the head of Joseph, on the brow of the prince among his brothers."
+      },
+      {
+        "verse": 27,
+        "ko": "베냐민은 물어 뜯는 이리라 아침에는 빼앗은 것을 먹고 저녁에는 움킨 것을 나누리로다",
+        "en": "“Benjamin is a ravenous wolf; in the morning he devours the prey, in the evening he divides the plunder.”"
+      },
+      {
+        "verse": 28,
+        "ko": "이들은 이스라엘의 십 이 지파라 이와 같이 그 아비가 그들에게 말하고 그들에게 축복하였으되 곧 그들 각인의 분량대로 축복하였더라",
+        "en": "All these are the twelve tribes of Israel, and this is what their father said to them when he blessed them, giving each the blessing appropriate to him."
+      },
+      {
+        "verse": 29,
+        "ko": "그가 그들에게 명하여 가로되 `내가 내 열조에게로 돌아가리니 나를 헷 사람 에브론 밭에 있는 굴에 우리 부여조와 함께 장사하라",
+        "en": "Then he gave them these instructions: “I am about to be gathered to my people. Bury me with my fathers in the cave in the field of Ephron the Hittite,"
+      },
+      {
+        "verse": 30,
+        "ko": "이 굴은 가나안 땅 마므레 앞 막벨라 밭에 있는 것이라 아브라함이 헷 사람 에브론에게서 밭과 함께 사서 그 소유 매장지를 삼았으므로",
+        "en": "the cave in the field of Machpelah, near Mamre in Canaan, which Abraham bought along with the field as a burial place from Ephron the Hittite."
+      },
+      {
+        "verse": 31,
+        "ko": "아브라함과 그 아내 사라가 거기 장사되었고 이삭과 그 아내 리브가도 거기 장사되었으며 나도 레아를 그 곳에 장사하였노라",
+        "en": "There Abraham and his wife Sarah were buried, there Isaac and his wife Rebekah were buried, and there I buried Leah."
+      },
+      {
+        "verse": 32,
+        "ko": "이 밭과 거기 있는 굴은 헷 사람에게서 산 것이니라'",
+        "en": "The field and the cave in it were bought from the Hittites.”"
+      },
+      {
+        "verse": 33,
+        "ko": "야곱이 아들에게 명하기를 마치고 그 발을 침상에 거두고 기운이 진하여 그 열조에게로 돌아갔더라",
+        "en": "When Jacob had finished giving instructions to his sons, he drew his feet up into the bed, breathed his last and was gathered to his people."
+      }
+    ]
+  },
+  {
+    "chapter": 50,
+    "verses": [
+      {
+        "verse": 1,
+        "ko": "요셉이 아비 얼굴에 구푸려 울며 입맞추고",
+        "en": "Joseph threw himself on his father and wept over him and kissed him."
+      },
+      {
+        "verse": 2,
+        "ko": "그 수종 의사에게 명하여 향 재료로 아비의 몸에 넣게 하매 의사가 이스라엘에게 그대로 하되",
+        "en": "Then Joseph directed the physicians in his service to embalm his father Israel. So the physicians embalmed him,"
+      },
+      {
+        "verse": 3,
+        "ko": "사십일이 걸렸으니 향 재료를 넣는 데는 이 날수가 걸림이며 애굽 사람들은 칠십일 동안 그를 위하여 곡하였더라",
+        "en": "taking a full forty days, for that was the time required for embalming. And the Egyptians mourned for him seventy days."
+      },
+      {
+        "verse": 4,
+        "ko": "곡하는 기한이 지나매 요셉이 바로의 궁에 말하여 가로되 `내가 너희에게 은혜를 입었으면 청컨대 바로의 귀에 고하기를",
+        "en": "When the days of mourning had passed, Joseph said to Pharaoh`s court, “If I have found favor in your eyes, speak to Pharaoh for me. Tell him,"
+      },
+      {
+        "verse": 5,
+        "ko": "우리 아버지가 나로 맹세하게 하여 이르되 내가 죽거든 가나안 땅에 내가 파서 둔 묘실에 나를 장사하라 하였나니 나로 올라가서 내가 다시 오리이다 하라' 하였더니",
+        "en": "‘My father made me swear an oath and said, “I am about to die; bury me in the tomb I dug for myself in the land of Canaan.” Now let me go up and bury my father; then I will return.`”"
+      },
+      {
+        "verse": 6,
+        "ko": "바로가 가로되 `그가 네게 시킨 맹세대로 올라가서 네 아비를 장사하라'",
+        "en": "Pharaoh said, “Go up and bury your father, as he made you swear to do.”"
+      },
+      {
+        "verse": 7,
+        "ko": "요셉이 자기 아비를 장사하러 올라가니 바로의 모든 신하와 바로 궁의 장로들과 애굽 땅의 모든 장로와",
+        "en": "So Joseph went up to bury his father. All Pharaoh`s officials accompanied him—the dignitaries of his court and all the dignitaries of Egypt—"
+      },
+      {
+        "verse": 8,
+        "ko": "요셉의 온 집과 그 형제들과 그 아비의 집이 그와 함께 올라가고 그들의 어린 아이들과 양떼와 소떼만 고센 땅에 남겼으며",
+        "en": "besides all the members of Joseph`s household and his brothers and those belonging to his father`s household. Only their children and their flocks and herds were left in Goshen."
+      },
+      {
+        "verse": 9,
+        "ko": "병거와 기병이 요셉을 따라 올라가니 그 떼가 심히 컸더라",
+        "en": "Chariots and horsemen also went up with him. It was a very large company."
+      },
+      {
+        "verse": 10,
+        "ko": "그들이 요단강 건너편 아닷 타작마당에 이르러 거기서 크게 호곡하고 애통하며 요셉이 아비를 위하여 칠일 동안 애곡하였더니",
+        "en": "When they reached the threshing floor of Atad, near the Jordan, they lamented loudly and bitterly; and there Joseph observed a seven-day period of mourning for his father."
+      },
+      {
+        "verse": 11,
+        "ko": "그 땅 거민 가나안 백성들이 아닷 마당의 애통을 보고 가로되 `이는 애굽 사람의 큰 애통이라' 하였으므로 그 땅 이름을 아벨미스라임이라 하였으니 곧 요단강 건너편이더라",
+        "en": "When the Canaanites who lived there saw the mourning at the threshing floor of Atad, they said, “The Egyptians are holding a solemn ceremony of mourning.” That is why that place near the Jordan is called Abel Mizraim."
+      },
+      {
+        "verse": 12,
+        "ko": "야곱의 아들들이 부명을 좇아 행하여",
+        "en": "So Jacob`s sons did as he had commanded them:"
+      },
+      {
+        "verse": 13,
+        "ko": "그를 가나안 땅으로 메어다가 마므레 앞 막벨라 밭 굴에 장사하였으니 이는 아브라함이 헷 족속 에브론에게 밭과 함께 사서 소유 매장지를 삼은 곳이더라",
+        "en": "They carried him to the land of Canaan and buried him in the cave in the field of Machpelah, near Mamre, which Abraham had bought along with the field as a burial place from Ephron the Hittite."
+      },
+      {
+        "verse": 14,
+        "ko": "요셉이 아비를 장사한 후에 자기 형제와 호상군과 함께 애굽으로 돌아왔더라",
+        "en": "After burying his father, Joseph returned to Egypt, together with his brothers and all the others who had gone with him to bury his father."
+      },
+      {
+        "verse": 15,
+        "ko": "요셉의 형제들이 그 아비가 죽었음을 보고 말하되 `요셉이 혹시 우리를 미워하여 우리가 그에게 행한 모든 악을 다 갚지나 아니할까 ?' 하고",
+        "en": "When Joseph`s brothers saw that their father was dead, they said, “What if Joseph holds a grudge against us and pays us back for all the wrongs we did to him?”"
+      },
+      {
+        "verse": 16,
+        "ko": "요셉에게 말을 전하여 가로되 `당신의 아버지가 돌아가시기 전에 명하여 이르시기를",
+        "en": "So they sent word to Joseph, saying, “Your father left these instructions before he died:"
+      },
+      {
+        "verse": 17,
+        "ko": "너희는 이같이 요셉에게 이르라 네 형들이 네게 악을 행하였을지라도 이제 바라건대 그 허물과 죄를 용서하라 하셨다 하라 하셨나니 당신의 아버지의 하나님의 종들의 죄를 이제 용서하소서` 하매 요셉의 그 말을 들을 때에 울었더라",
+        "en": "‘This is what you are to say to Joseph: I ask you to forgive your brothers the sins and the wrongs they committed in treating you so badly.` Now please forgive the sins of the servants of the God of your father.” When their message came to him, Joseph wept."
+      },
+      {
+        "verse": 18,
+        "ko": "그 형들이 또 친히 와서 요셉의 앞에 엎드려 가로되 `우리는 당신의 종이니이다'",
+        "en": "His brothers then came and threw themselves down before him. “We are your slaves,” they said."
+      },
+      {
+        "verse": 19,
+        "ko": "요셉이 그들에게 이르되 `두려워 마소서 내가 하나님을 대신하리이까?",
+        "en": "But Joseph said to them, “Don`t be afraid. Am I in the place of God?"
+      },
+      {
+        "verse": 20,
+        "ko": "당신들은 나를 해하려 하였으나 하나님은 그것을 선으로 바꾸사 오늘과 같이 만민의 생명을 구원하게 하시려 하셨나니",
+        "en": "You intended to harm me, but God intended it for good to accomplish what is now being done, the saving of many lives."
+      },
+      {
+        "verse": 21,
+        "ko": "당신들은 두려워 마소서 내가 당신들과 당신들의 자녀를 기르리이다' 하고 그들을 간곡한 말로 위로하였더라",
+        "en": "So then, don`t be afraid. I will provide for you and your children.” And he reassured them and spoke kindly to them."
+      },
+      {
+        "verse": 22,
+        "ko": "요셉이 그 아비의 가족과 함께 애굽에 거하여 일백 십세를 살며",
+        "en": "Joseph stayed in Egypt, along with all his father`s family. He lived a hundred and ten years"
+      },
+      {
+        "verse": 23,
+        "ko": "에브라임의 자손 삼대를 보았으며 므낫세의 아들 마길의 아들들도 요셉의 슬하에서 양육되었더라",
+        "en": "and saw the third generation of Ephraim`s children. Also the children of Makir son of Manasseh were placed at birth on Joseph`s knees."
+      },
+      {
+        "verse": 24,
+        "ko": "요셉이 그 형제에게 이르되 `나는 죽으나 하나님이 너희를 권고하시고 너희를 이 땅에서 인도하여 내사 아브라함과 이삭과 야곱에게 맹세하신 땅에 이르게 하시리라` 하고",
+        "en": "Then Joseph said to his brothers, “I am about to die. But God will surely come to your aid and take you up out of this land to the land he promised on oath to Abraham, Isaac and Jacob.”"
+      },
+      {
+        "verse": 25,
+        "ko": "요셉이 또 이스라엘 자손에게 맹세시켜 이르기를 `하나님이 정녕 너희를 권고하시리니 너희는 여기서 내 해골을 메고 올라가겠다 하라' 하였더라",
+        "en": "And Joseph made the Israelites swear an oath and said, “God will surely come to your aid, and then you must carry my bones up from this place.”"
+      },
+      {
+        "verse": 26,
+        "ko": "요셉이 일백십세에 죽으매 그들이 그의 몸에 향 재료를 넣고 애굽에서 입관하였더라",
+        "en": "So Joseph died at the age of a hundred and ten. And after they embalmed him, he was placed in a coffin in Egypt."
+      }
+    ]
+  }
+];
