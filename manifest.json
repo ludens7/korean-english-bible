@@ -1,0 +1,18 @@
+{
+  "name": "다국어 대조 성경 연구 앱",
+  "short_name": "다국어성경",
+  "description": "한글 개역한글 고정 및 NIV 영어 번역, 히브리어/헬라어 원어 대조 비교 성경 연구 도구",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./bible_logo_icon.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}

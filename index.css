@@ -191,6 +191,29 @@ body {
 .header-actions {
     display: flex;
     gap: 8px;
+    align-items: center;
+}
+
+.install-pwa-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    background: var(--accent);
+    color: #ffffff !important;
+    border: none;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s, opacity 0.2s;
+    box-shadow: 0 4px 12px rgba(var(--accent-rgb), 0.25);
+    white-space: nowrap;
+}
+
+.install-pwa-btn:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
 }
 
 /* Layout Options Bar */
@@ -1183,7 +1206,7 @@ body {
 
 /* Collapsed state */
 .reference-section.collapsed {
-    transform: translateY(215px); /* Header height remains 45px visible */
+    transform: translateY(100%); /* Completely hidden below the screen */
 }
 
 .reference-container {

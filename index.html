@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ko" data-theme="dark">
+<html lang="ko" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-    <title>한영 대조 창세기 성경 - Bilingual Genesis Bible</title>
+    <title>다국어 대조 성경 연구 앱</title>
     
     <!-- SEO Meta Tags -->
     <meta name="description" content="개역한글 성경과 영어 NIV 성경을 좌우 대조 또는 상하 대조로 한 눈에 볼 수 있는 세련되고 직관적인 모바일 웹앱입니다.">
@@ -31,6 +31,10 @@
     <!-- FontAwesome for Premium Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
+    <!-- PWA Settings -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#ffffff">
+    
     <!-- Style Sheet -->
     <link rel="stylesheet" href="index.css">
 </head>
@@ -53,6 +57,10 @@
                 </div>
                 
                 <div class="header-actions">
+                    <button id="install-pwa-btn" class="install-pwa-btn" title="홈 화면에 추가" style="display: none;">
+                        <i class="fa-solid fa-download"></i>
+                        <span>홈에 추가</span>
+                    </button>
                     <button id="theme-toggle" class="icon-btn" title="테마 변경" aria-label="Toggle Dark Mode">
                         <i class="fa-solid fa-moon"></i>
                     </button>
@@ -194,7 +202,7 @@
         </main>
 
         <!-- Theological Commentary & Lexicon Reference Box -->
-        <section id="reference-section" class="reference-section">
+        <section id="reference-section" class="reference-section collapsed">
             <div class="reference-container">
                 <div class="reference-header">
                     <div class="header-title-area">
@@ -241,5 +249,14 @@
     <script src="data/bible_data.js" charset="utf-8"></script>
     <script src="data/commentary_db.js" charset="utf-8"></script>
     <script src="index.js" charset="utf-8"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js')
+                    .then(reg => console.log('Service Worker registered successfully', reg))
+                    .catch(err => console.error('Service Worker registration failed', err));
+            });
+        }
+    </script>
 </body>
 </html>

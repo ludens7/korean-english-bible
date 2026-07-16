@@ -5,7 +5,7 @@ const state = {
     book: localStorage.getItem('bible_book') || '창세기',
     chapter: parseInt(localStorage.getItem('bible_chapter')) || 1,
     layout: localStorage.getItem('bible_layout') || 'side', // 'side' or 'stack'
-    theme: localStorage.getItem('bible_theme') || 'dark', // 'dark' or 'light'
+    theme: localStorage.getItem('bible_theme') || 'light', // Default to light
     fontSize: parseInt(localStorage.getItem('bible_font_size')) || 100, // percentage
     fontFamily: localStorage.getItem('bible_font_family') || 'sans', // 'sans' or 'serif'
     accent: localStorage.getItem('bible_accent') || 'teal', // 'teal', 'indigo', 'gold', 'rose'
@@ -60,7 +60,8 @@ const els = {
     refSection: document.getElementById('reference-section'),
     refCloseBtn: document.getElementById('ref-close-btn'),
     refVerseTitle: document.getElementById('ref-verse-title'),
-    refContent: document.getElementById('reference-content')
+    refContent: document.getElementById('reference-content'),
+    installPwaBtn: document.getElementById('install-pwa-btn')
 };
 
 // Accent color definitions (Muted Sage, Slate, Taupe, Dusty Rose)
@@ -537,6 +538,29 @@ function safeAddListener(element, event, callback) {
 
 // 9. User Event Listeners Setup
 function bindEvents() {
+    // PWA Install Prompt Handler
+    let deferredPrompt;
+    window.addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault();
+        deferredPrompt = e;
+        if (els.installPwaBtn) {
+            els.installPwaBtn.style.display = 'inline-flex';
+        }
+    });
+
+    safeAddListener(els.installPwaBtn, 'click', async () => {
+        if (deferredPrompt) {
+            deferredPrompt.prompt();
+            const { outcome } = await deferredPrompt.userChoice;
+            if (outcome === 'accepted') {
+                deferredPrompt = null;
+                if (els.installPwaBtn) {
+                    els.installPwaBtn.style.display = 'none';
+                }
+            }
+        }
+    });
+
     // Trigger selector modal on header click
     safeAddListener(els.pickerTrigger, 'click', openPickerModal);
     safeAddListener(els.pickerClose, 'click', closePickerModal);
