@@ -718,6 +718,25 @@ function bindEvents() {
         if (els.gestureHint) els.gestureHint.classList.remove('visible');
     });
 
+    // Global click listener to dismiss active highlights & hide commentary on empty space tap
+    document.addEventListener('click', (e) => {
+        const isClickInsideVerse = e.target.closest('.verse-unit');
+        const isClickInsideRef = e.target.closest('.reference-section');
+        const isClickInsideHeader = e.target.closest('.app-header');
+        const isClickInsidePanel = e.target.closest('.settings-panel');
+        const isClickInsideModal = e.target.closest('.picker-modal-content');
+        
+        if (!isClickInsideVerse && !isClickInsideRef && !isClickInsideHeader && !isClickInsidePanel && !isClickInsideModal) {
+            document.querySelectorAll('.verse-unit.active-verse').forEach(unit => {
+                unit.classList.remove('active-verse');
+            });
+            document.querySelectorAll('.word-unit.selected-word').forEach(word => {
+                word.classList.remove('selected-word');
+            });
+            resetCommentaryPanel();
+        }
+    });
+
     setupSwipeGestures();
 }
 
@@ -798,6 +817,7 @@ function getMaxChapters() {
 // 13. Reference Panel Controller (Theological Commentary & Lexicon)
 function resetCommentaryPanel() {
     els.refVerseTitle.textContent = "말씀 참고 및 신학 주석";
+    els.refSection.classList.add('collapsed');
     els.refContent.innerHTML = `
         <div class="empty-state-ref">
             <i class="fa-solid fa-circle-info info-icon"></i>
